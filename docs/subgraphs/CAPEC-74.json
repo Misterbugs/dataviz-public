@@ -1,0 +1,161 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-657: Malicious Automated Software Update via Spoofing</b><br>An attackers uses identify or content spoofing to trick a client into performing<br>an automated software update from a malicious source. A malicious automated<br>software update that leverages spoofing can include content or identity spoofing<br>as well as protocol spoofing. Content or identity spoofing attacks can trigger<br>updates in software by embedding scripted mechanisms within a malicious web<br>page, which masquerades as a legitimate update source. Scripting mechanisms<br>communicate with software components and trigger updates from locations<br>specified by the attackers' server. The result is the client believing there is<br>a legitimate software update available but instead downloading a malicious<br>update from the attacker.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Malicious Automated Software Update via Spoofing",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/657.html",
+      "id": "657"
+    },
+    {
+      "Description": "<b>CAPEC-185: Malicious Software Download</b><br>An attacker uses deceptive methods to cause a user or an automated process to<br>download and install dangerous code that originates from an attacker controlled<br>source. There are several variations to this strategy of attack.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Malicious Software Download",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/185.html",
+      "id": "185"
+    },
+    {
+      "Description": "<b>CAPEC-187: Malicious Automated Software Update via Redirection</b><br>An attacker exploits two layers of weaknesses in server or client software for<br>automated update mechanisms to undermine the integrity of the target code-base.<br>The first weakness involves a failure to properly authenticate a server as a<br>source of update or patch content. This type of weakness typically results from<br>authentication mechanisms which can be defeated, allowing a hostile server to<br>satisfy the criteria that establish a trust relationship. The second weakness is<br>a systemic failure to validate the identity and integrity of code downloaded<br>from a remote location, hence the inability to distinguish malicious code from a<br>legitimate update.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Malicious Automated Software Update via Redirection",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/187.html",
+      "id": "187"
+    },
+    {
+      "Description": "<b>CAPEC-669: Alteration of a Software Update</b><br>An adversary with access to an organization\u2019s software update infrastructure<br>inserts malware into the content of an outgoing update to fielded systems where<br>a wide range of malicious effects are possible. With the same level of access,<br>the adversary can alter a software update to perform specific malicious acts<br>including granting the adversary control over the software\u2019s normal<br>functionality.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Alteration of a Software Update",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/669.html",
+      "id": "669"
+    },
+    {
+      "Description": "<b>CAPEC-696: Load Value Injection</b><br>An adversary exploits a hardware design flaw in a CPU implementation of<br>transient instruction execution in which a faulting or assisted load instruction<br>transiently forwards adversary-controlled data from microarchitectural buffers.<br>By inducing a page fault or microcode assist during victim execution, an<br>adversary can force legitimate victim execution to operate on the<br>adversary-controlled data which is stored in the microarchitectural buffers. The<br>adversary can then use existing code gadgets and side channel analysis to<br>discover victim secrets that have not yet been flushed from microarchitectural<br>state or hijack the system control flow.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Load Value Injection",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/696.html",
+      "id": "696"
+    },
+    {
+      "Description": "<b>CAPEC-614: Rooting SIM Cards</b><br>SIM cards are the de facto trust anchor of mobile devices worldwide. The cards<br>protect the mobile identity of subscribers, associate devices with phone<br>numbers, and increasingly store payment credentials, for example in NFC-enabled<br>phones with mobile wallets. This attack leverages over-the-air (OTA) updates<br>deployed via cryptographically-secured SMS messages to deliver executable code<br>to the SIM. By cracking the DES key, an attacker can send properly signed binary<br>SMS messages to a device, which are treated as Java applets and are executed on<br>the SIM. These applets are allowed to send SMS, change voicemail numbers, and<br>query the phone location, among many other predefined functions. These<br>capabilities alone provide plenty of potential for abuse.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Rooting SIM Cards",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/614.html",
+      "id": "614"
+    },
+    {
+      "Description": "<b>CAPEC-186: Malicious Software Update</b><br>An adversary uses deceptive methods to cause a user or an automated process to<br>download and install dangerous code believed to be a valid update that<br>originates from an adversary controlled source.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Malicious Software Update",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/186.html",
+      "id": "186"
+    },
+    {
+      "Description": "<b>CAPEC-184: Software Integrity Attack</b><br>An attacker initiates a series of events designed to cause a user, program,<br>server, or device to perform actions which undermine the integrity of software<br>code, device data structures, or device firmware, achieving the modification of<br>the target's integrity to achieve an insecure state.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Software Integrity Attack",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/184.html",
+      "id": "184"
+    },
+    {
+      "Description": "<b>CAPEC-140: Bypassing of Intermediate Forms in Multiple-Form Sets</b><br>Some web applications require users to submit information through an ordered<br>sequence of web forms. This is often done if there is a very large amount of<br>information being collected or if information on earlier forms is used to<br>pre-populate fields or determine which additional information the application<br>needs to collect. An attacker who knows the names of the various forms in the<br>sequence may be able to explicitly type in the name of a later form and navigate<br>to it without first going through the previous forms. This can result in<br>incomplete collection of information, incorrect assumptions about the<br>information submitted by the attacker, or other problems that can impair the<br>functioning of the application.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Bypassing of Intermediate Forms in Multiple-Form Sets",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/140.html",
+      "id": "140"
+    },
+    {
+      "Description": "<b>CAPEC-74: Manipulating State</b><br>The adversary modifies state information maintained by the target software or<br>causes a state transition in hardware. If successful, the target will use this<br>tainted state and execute in an unintended manner. State management is an<br>important function within a software application. User state maintained by the<br>application can include usernames, payment information, browsing history as well<br>as application-specific contents such as items in a shopping cart. Manipulating<br>user state can be employed by an adversary to elevate privilege, conduct<br>fraudulent transactions or otherwise modify the flow of the application to<br>derive certain benefits. If there is a hardware logic error in a finite state<br>machine, the adversary can use this to put the system in an undefined state<br>which could cause a denial of service or exposure of secure data.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Manipulating State",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/74.html",
+      "id": "74"
+    },
+    {
+      "Description": "<b>CAPEC-663: Exploitation of Transient Instruction Execution</b><br>An adversary exploits a hardware design flaw in a CPU implementation of<br>transient instruction execution to expose sensitive data and bypass/subvert<br>access control over restricted resources. Typically, the adversary conducts a<br>covert channel attack to target non-discarded microarchitectural changes caused<br>by transient executions such as speculative execution, branch prediction,<br>instruction pipelining, and/or out-of-order execution. The transient execution<br>results in a series of instructions (gadgets) which construct covert channel and<br>access/transfer the secret data.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Exploitation of Transient Instruction Execution",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/663.html",
+      "id": "663"
+    },
+    {
+      "Description": "<b>CAPEC-533: Malicious Manual Software Update</b><br>An attacker introduces malicious code to the victim's system by altering the<br>payload of a software update, allowing for additional compromise or site<br>disruption at the victim location. These manual, or user-assisted attacks, vary<br>from requiring the user to download and run an executable, to as streamlined as<br>tricking the user to click a URL. Attacks which aim at penetrating a specific<br>network infrastructure often rely upon secondary attack methods to achieve the<br>desired impact. Spamming, for example, is a common method employed as an<br>secondary attack vector. Thus the attacker has in their arsenal a choice of<br>initial attack vectors ranging from traditional SMTP/POP/IMAP spamming and its<br>varieties, to web-application mechanisms which commonly implement both chat and<br>rich HTML messaging within the user interface.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Malicious Manual Software Update",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/533.html",
+      "id": "533"
+    }
+  ],
+  "links": [
+    {
+      "source": "657",
+      "target": "186"
+    },
+    {
+      "source": "185",
+      "target": "184"
+    },
+    {
+      "source": "187",
+      "target": "186"
+    },
+    {
+      "source": "669",
+      "target": "184"
+    },
+    {
+      "source": "696",
+      "target": "663"
+    },
+    {
+      "source": "614",
+      "target": "186"
+    },
+    {
+      "source": "186",
+      "target": "184"
+    },
+    {
+      "source": "140",
+      "target": "74"
+    },
+    {
+      "source": "663",
+      "target": "74"
+    },
+    {
+      "source": "663",
+      "target": "184"
+    },
+    {
+      "source": "533",
+      "target": "186"
+    }
+  ]
+}

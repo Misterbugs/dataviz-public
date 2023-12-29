@@ -1,0 +1,17 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-124: Shared Resource Manipulation</b><br>An adversary exploits a resource shared between multiple applications, an<br>application pool or hardware pin multiplexing to affect behavior. Resources may<br>be shared between multiple applications or between multiple threads of a single<br>application. Resource sharing is usually accomplished through mutual access to a<br>single memory location or multiplexed hardware pins. If an adversary can<br>manipulate this shared resource (usually by co-opting one of the applications or<br>threads) the other applications or threads using the shared resource will often<br>continue to trust the validity of the compromised shared resource and use it in<br>their calculations. This can result in invalid trust assumptions, corruption of<br>additional data through the normal operations of the other users of the shared<br>resource, or even cause a crash or compromise of the sharing applications.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Shared Resource Manipulation",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/124.html",
+      "id": "124"
+    }
+  ],
+  "links": []
+}

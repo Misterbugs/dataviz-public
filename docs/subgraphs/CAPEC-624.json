@@ -1,0 +1,31 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-625: Mobile Device Fault Injection</b><br>Fault injection attacks against mobile devices use disruptive signals or events<br>(e.g. electromagnetic pulses, laser pulses, clock glitches, etc.) to cause<br>faulty behavior. When performed in a controlled manner on devices performing<br>cryptographic operations, this faulty behavior can be exploited to derive secret<br>key information. Although this attack usually requires physical control of the<br>mobile device, it is non-destructive, and the device can be used after the<br>attack without any indication that secret keys were compromised.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Mobile Device Fault Injection",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/625.html",
+      "id": "625"
+    },
+    {
+      "Description": "<b>CAPEC-624: Hardware Fault Injection</b><br>The adversary uses disruptive signals or events, or alters the physical<br>environment a device operates in, to cause faulty behavior in electronic<br>devices. This can include electromagnetic pulses, laser pulses, clock glitches,<br>ambient temperature extremes, and more. When performed in a controlled manner on<br>devices performing cryptographic operations, this faulty behavior can be<br>exploited to derive secret key information.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Hardware Fault Injection",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/624.html",
+      "id": "624"
+    }
+  ],
+  "links": [
+    {
+      "source": "625",
+      "target": "624"
+    }
+  ]
+}

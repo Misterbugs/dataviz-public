@@ -1,0 +1,57 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-179: Calling Micro-Services Directly</b><br>An attacker is able to discover and query Micro-services at a web location and<br>thereby expose the Micro-services to further exploitation by gathering<br>information about their implementation and function. Micro-services in web pages<br>allow portions of a page to connect to the server and update content without<br>needing to cause the entire page to update. This allows user activity to change<br>portions of the page more quickly without causing disruptions elsewhere.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Calling Micro-Services Directly",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/179.html",
+      "id": "179"
+    },
+    {
+      "Description": "<b>CAPEC-554: Functionality Bypass</b><br>An adversary attacks a system by bypassing some or all functionality intended to<br>protect it. Often, a system user will think that protection is in place, but the<br>functionality behind those protections has been disabled by the adversary.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Functionality Bypass",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/554.html",
+      "id": "554"
+    },
+    {
+      "Description": "<b>CAPEC-465: Transparent Proxy Abuse</b><br>A transparent proxy serves as an intermediate between the client and the<br>internet at large. It intercepts all requests originating from the client and<br>forwards them to the correct location. The proxy also intercepts all responses<br>to the client and forwards these to the client. All of this is done in a manner<br>transparent to the client.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Transparent Proxy Abuse",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/465.html",
+      "id": "465"
+    },
+    {
+      "Description": "<b>CAPEC-464: Evercookie</b><br>An attacker creates a very persistent cookie that stays present even after the<br>user thinks it has been removed. The cookie is stored on the victim's machine in<br>over ten places. When the victim clears the cookie cache via traditional means<br>inside the browser, that operation removes the cookie from certain places but<br>not others. The malicious code then replicates the cookie from all of the places<br>where it was not deleted to all of the possible storage locations once again. So<br>the victim again has the cookie in all of the original storage locations. In<br>other words, failure to delete the cookie in even one location will result in<br>the cookie's resurrection everywhere. The evercookie will also persist across<br>different browsers because certain stores (e.g., Local Shared Objects) are<br>shared between different browsers.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Evercookie",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/464.html",
+      "id": "464"
+    }
+  ],
+  "links": [
+    {
+      "source": "179",
+      "target": "554"
+    },
+    {
+      "source": "465",
+      "target": "554"
+    },
+    {
+      "source": "464",
+      "target": "554"
+    }
+  ]
+}

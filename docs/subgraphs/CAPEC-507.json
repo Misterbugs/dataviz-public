@@ -1,0 +1,17 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-507: Physical Theft</b><br>An adversary gains physical access to a system or device through theft of the<br>item. Possession of a system or device enables a number of unique attacks to be<br>executed and often provides the adversary with an extended timeframe for which<br>to perform an attack. Most protections put in place to secure sensitive<br>information can be defeated when an adversary has physical access and enough<br>time.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Physical Theft",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/507.html",
+      "id": "507"
+    }
+  ],
+  "links": []
+}

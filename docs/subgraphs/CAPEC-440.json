@@ -1,0 +1,109 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-531: Hardware Component Substitution</b><br>An attacker substitutes out a tested and approved hardware component for a<br>maliciously-altered hardware component. This type of attack is carried out<br>directly on the system, enabling the attacker to then cause disruption or<br>additional compromise.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Hardware Component Substitution",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/531.html",
+      "id": "531"
+    },
+    {
+      "Description": "<b>CAPEC-677: Server Motherboard Compromise</b><br>Malware is inserted in a server motherboard (e.g., in the flash memory) in order<br>to alter server functionality from that intended. The development environment or<br>hardware/software support activity environment is susceptible to an adversary<br>inserting malicious software into hardware components during development or<br>update.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Server Motherboard Compromise",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/677.html",
+      "id": "677"
+    },
+    {
+      "Description": "<b>CAPEC-530: Provide Counterfeit Component</b><br>An attacker provides a counterfeit component during the procurement process of a<br>lower-tier component supplier to a sub-system developer or integrator, which is<br>then built into the system being upgraded or repaired by the victim, allowing<br>the attacker to cause disruption or additional compromise.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Provide Counterfeit Component",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/530.html",
+      "id": "530"
+    },
+    {
+      "Description": "<b>CAPEC-534: Malicious Hardware Update</b><br>An adversary introduces malicious hardware during an update or replacement<br>procedure, allowing for additional compromise or site disruption at the victim<br>location. After deployment, it is not uncommon for upgrades and replacements to<br>occur involving hardware and various replaceable parts. These upgrades and<br>replacements are intended to correct defects, provide additional features, and<br>to replace broken or worn-out parts. However, by forcing or tricking the<br>replacement of a good component with a defective or corrupted component, an<br>adversary can leverage known defects to obtain a desired malicious impact.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Malicious Hardware Update",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/534.html",
+      "id": "534"
+    },
+    {
+      "Description": "<b>CAPEC-402: Bypassing ATA Password Security</b><br>An adversary exploits a weakness in ATA security on a drive to gain access to<br>the information the drive contains without supplying the proper credentials. ATA<br>Security is often employed to protect hard disk information from unauthorized<br>access. The mechanism requires the user to type in a password before the BIOS is<br>allowed access to drive contents. Some implementations of ATA security will<br>accept the ATA command to update the password without the user having<br>authenticated with the BIOS. This occurs because the security mechanism assumes<br>the user has first authenticated via the BIOS prior to sending commands to the<br>drive. Various methods exist for exploiting this flaw, the most common being<br>installing the ATA protected drive into a system lacking ATA security features<br>(a.k.a. hot swapping). Once the drive is installed into the new system the BIOS<br>can be used to reset the drive password.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Bypassing ATA Password Security",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/402.html",
+      "id": "402"
+    },
+    {
+      "Description": "<b>CAPEC-401: Physically Hacking Hardware</b><br>An adversary exploits a weakness in access control to gain access to currently<br>installed hardware and precedes to implement changes or secretly replace a<br>hardware component which undermines the system's integrity for the purpose of<br>carrying out an attack.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Physically Hacking Hardware",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/401.html",
+      "id": "401"
+    },
+    {
+      "Description": "<b>CAPEC-440: Hardware Integrity Attack</b><br>An adversary exploits a weakness in the system maintenance process and causes a<br>change to be made to a technology, product, component, or sub-component or a new<br>one installed during its deployed use at the victim location for the purpose of<br>carrying out an attack.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Hardware Integrity Attack",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/440.html",
+      "id": "440"
+    },
+    {
+      "Description": "<b>CAPEC-535: Malicious Gray Market Hardware</b><br>An attacker maliciously alters hardware components that will be sold on the gray<br>market, allowing for victim disruption and compromise when the victim needs<br>replacement hardware components for systems where the parts are no longer in<br>regular supply from original suppliers, or where the hardware components from<br>the attacker seems to be a great benefit from a cost perspective.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Malicious Gray Market Hardware",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/535.html",
+      "id": "535"
+    }
+  ],
+  "links": [
+    {
+      "source": "531",
+      "target": "534"
+    },
+    {
+      "source": "677",
+      "target": "534"
+    },
+    {
+      "source": "530",
+      "target": "531"
+    },
+    {
+      "source": "534",
+      "target": "440"
+    },
+    {
+      "source": "402",
+      "target": "401"
+    },
+    {
+      "source": "401",
+      "target": "440"
+    },
+    {
+      "source": "535",
+      "target": "531"
+    }
+  ]
+}

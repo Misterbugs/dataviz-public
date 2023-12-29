@@ -1,0 +1,17 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-25: Forced Deadlock</b><br>The adversary triggers and exploits a deadlock condition in the target software<br>to cause a denial of service. A deadlock can occur when two or more competing<br>actions are waiting for each other to finish, and thus neither ever does.<br>Deadlock conditions can be difficult to detect.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Forced Deadlock",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/25.html",
+      "id": "25"
+    }
+  ],
+  "links": []
+}

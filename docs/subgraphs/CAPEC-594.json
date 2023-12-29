@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-596: TCP RST Injection</b><br>An adversary injects one or more TCP RST packets to a target after the target<br>has made a HTTP GET request. The goal of this attack is to have the target<br>and/or destination web server terminate the TCP connection.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "TCP RST Injection",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/596.html",
+      "id": "596"
+    },
+    {
+      "Description": "<b>CAPEC-594: Traffic Injection</b><br>An adversary injects traffic into the target's network connection. The adversary<br>is therefore able to degrade or disrupt the connection, and potentially modify<br>the content. This is not a flooding attack, as the adversary is not focusing on<br>exhausting resources. Instead, the adversary is crafting a specific input to<br>affect the system in a particular way.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Traffic Injection",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/594.html",
+      "id": "594"
+    },
+    {
+      "Description": "<b>CAPEC-595: Connection Reset</b><br>In this attack pattern, an adversary injects a connection reset packet to one or<br>both ends of a target's connection. The attacker is therefore able to have the<br>target and/or the destination server sever the connection without having to<br>directly filter the traffic between them.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Connection Reset",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/595.html",
+      "id": "595"
+    }
+  ],
+  "links": [
+    {
+      "source": "596",
+      "target": "595"
+    },
+    {
+      "source": "595",
+      "target": "594"
+    }
+  ]
+}

@@ -5,6 +5,13 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
         /* Additional CSS styles if needed */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
         .node-label-big {
             font-size: 15px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -21,7 +28,7 @@
             text-anchor: middle; /* Center the text */
         }
         .graph-container {
-            text-align: center; /* Center the contents */
+            align-items: center;
         }
         .button-container button {
             margin-left: 10px;
@@ -40,7 +47,6 @@
             border-radius: 8px;
             pointer-events: none;
         }
-
     </style>
 </head>
 <body>
@@ -50,8 +56,9 @@
             let link; // Declare link globally
 
             function createChart(data) {
-                const width = "90%";
-                const height = 600;
+                // Use window dimensions to calculate width and height
+                const width = window.innerWidth * 0.95; // 95% of window width
+                const height = window.innerHeight * 0.9; // 90% of window height
 
                 // const color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -73,11 +80,11 @@
                     .velocityDecay(0.2)
                     .on("tick", ticked);
 
-                const svg = d3.create("svg")
-                    .attr("width", width)
-                    .attr("height", height)
-                    .attr("viewBox", [0, 0, width, height])
-                    .attr("style", "max-width: 100%; height: auto;");
+                    const svg = d3.create("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+                        .attr("viewBox", [0, 0, width, height])
+                        .attr("style", "max-width: 100%; height: auto; margin: auto; align-content : center"); // Center SVG
 
                 // Define arrow marker
                 svg.append("defs").append("marker")
@@ -248,7 +255,6 @@
                 .then(response => response.json())
                 .then(data => createChart(data))
                 .catch(error => console.error('Error loading data:', error));
-        </script>
         </script>
     </div>
     <div class="button-container">
