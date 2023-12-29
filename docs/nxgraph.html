@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 Force-Directed Graph with Zoom and Labels</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        /* Additional CSS styles if needed */
+        .node-label-big {
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-anchor: middle; /* Center the text */
+        }
+        .node-label-medium {
+            font-size: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-anchor: middle; /* Center the text */
+        }
+        .node-label-small {
+            font-size: 7px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-anchor: middle; /* Center the text */
+        }
+        .graph-container {
+            text-align: center; /* Center the contents */
+        }
+        .button-container button {
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px; /* Space above the button */
+        }
+        .tooltip {
+            position: absolute;
+            text-align: justify;
+            width: auto;
+            height: auto;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="graph-container">
+        <script>
+            let showArrows = false;
+            let link; // Declare link globally
+
+            function createChart(data) {
+                const width = "90%";
+                const height = 600;
+
+                // const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+                const links = data.links.map(d => ({...d}));
+                const nodes = data.nodes.map(d => ({...d}));
+
+                // Set minimum link distance and repulsion strength
+                const minLinkDistance = 100; // Adjust this value as needed
+                const repulsionStrength = -400; // Adjust this value as needed
+
+                // Create a simulation with several forces.
+                const simulation = d3.forceSimulation(nodes)
+                    .force("link", d3.forceLink(links).id(d => d.id).distance(minLinkDistance))
+                    .force("charge", d3.forceManyBody().strength(repulsionStrength))
+                    .force("x", d3.forceX())
+                    .force("y", d3.forceY())
+                    .alphaDecay(0.01) // Lower decay rate, e.g., 0.02
+                    // .alpha(0.1) // Higher initial alpha, e.g., 1
+                    .velocityDecay(0.2)
+                    .on("tick", ticked);
+
+                const svg = d3.create("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .attr("viewBox", [0, 0, width, height])
+                    .attr("style", "max-width: 100%; height: auto;");
+
+                // Define arrow marker
+                svg.append("defs").append("marker")
+                    .attr("id", "arrowhead")
+                    .attr("viewBox", "-0 -5 10 10")
+                    .attr("refX", 13) // Adjust to position the arrowhead
+                    .attr("refY", 0)
+                    .attr("orient", "auto")
+                    .attr("markerWidth", 6)
+                    .attr("markerHeight", 6)
+                    .attr("xoverflow", "visible")
+                .append("svg:path")
+                    .attr("d", "M 0,-5 L 10 ,0 L 0,5")
+                    .attr("fill", "#999")
+                    .style("stroke","none");
+
+
+                // Container for the zoomable elements
+                const g = svg.append("g");
+
+                link = g.append("g")
+                    .attr("stroke", "#999")
+                    .attr("stroke-opacity", 0.6)
+                .selectAll("line")
+                .data(links)
+                .join("line")
+                    .attr("stroke-width", d => 1)
+                    .attr("marker-end", showArrows ? "url(#arrowhead)" : ""); // Set arrow based on showArrows
+
+                const node = g.append("g")
+                    .attr("stroke", "#000000")
+                    .attr("stroke-width", 1.5)
+                .selectAll("circle")
+                .data(nodes)
+                .join("circle")
+                    .attr("r", d => d.size)
+                    .attr("fill", d => d.color)
+                    .on("mouseover", showTooltip)
+                    .on("mouseout", hideTooltip)
+                    .on("dblclick", function(event, d) {
+                        event.stopPropagation(); // Prevent zooming
+                        openNodeUrl(event, d); // Then handle the URL opening
+                    });
+
+                // Append labels for each node
+                const labels = g.append("g")
+                .selectAll("text")
+                .data(nodes)
+                .join("text")
+                    .attr("class", "node-label-medium")
+                    .style("font-size", d => { // hacky, need to figure out why it cannot be done at class level...
+                        switch (d.label_class) {
+                            case "node-label-big": return "15px";
+                            case "node-label-medium": return "10px";
+                            case "node-label-small": return "7px";
+                            default: return "";
+                        }
+                    })
+                    .text(d => d.label);
+
+                node.call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+                // Zoom functionality
+                svg.call(d3.zoom().on("zoom", (event) => {
+                    g.attr("transform", event.transform);
+                }));
+                
+                // Function to show the tooltip
+                function showTooltip(event, d) {
+                    const tooltip = d3.select("body").append("div")
+                        .attr("class", "tooltip")
+                        .style("position", "absolute")
+                        .style("background-color", "white")
+                        .style("border", "solid")
+                        .style("border-width", "1px")
+                        .style("border-radius", "5px")
+                        .style("padding", "10px")
+                        .style("opacity", 0.9);
+
+                    tooltip.html(d.Description)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                }
+
+                // Function to hide the tooltip
+                function hideTooltip() {
+                    d3.select(".tooltip").remove();
+                }
+
+                // Function to open URL in a new tab
+                function openNodeUrl(event, d) {
+                    if (d.url) { // Check if the URL field is present
+                        window.open(d.url, '_blank'); // Open the URL in a new tab
+                    }
+                }
+
+                function toggleArrows() {
+                    showArrows = !showArrows;
+                    link.attr("marker-end", showArrows ? "url(#arrowhead)" : "");
+                }
+
+                function ticked() {
+                    link
+                        .attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", function(d) {
+                            var dx = d.target.x - d.source.x;
+                            var dy = d.target.y - d.source.y;
+                            var dr = Math.sqrt(dx * dx + dy * dy);
+                            var r = d.target.size; // Radius of target node
+                            return d.target.x - (r * dx / dr);
+                        })
+                        .attr("y2", function(d) {
+                            var dx = d.target.x - d.source.x;
+                            var dy = d.target.y - d.source.y;
+                            var dr = Math.sqrt(dx * dx + dy * dy);
+                            var r = d.target.size; // Radius of target node
+                            return d.target.y - (r * dy / dr);
+                        });
+
+                    node
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+
+                    // Update label positions
+                    labels
+                        .attr("x", d => d.x)
+                        .attr("y", d => d.y + d.size + 8); // Position below the node
+                }
+
+                function dragstarted(event) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    event.subject.fx = event.subject.x;
+                    event.subject.fy = event.subject.y;
+                }
+
+                function dragged(event) {
+                    event.subject.fx = event.x;
+                    event.subject.fy = event.y;
+                }
+
+                function dragended(event) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    event.subject.fx = null;
+                    event.subject.fy = null;
+                }
+                document.body.appendChild(svg.node());
+            }
+
+            // Define toggleArrows globally
+            function toggleArrows() {
+                showArrows = !showArrows;
+                link.attr("marker-end", showArrows ? "url(#arrowhead)" : "");
+            }
+
+
+            function getJsonFilenameFromUrl() {
+                const params = new URLSearchParams(window.location.search);
+                return params.get('jsonfile') || 'default.json'; // default.json is a fallback filename
+            }
+
+            // Use the retrieved filename in the fetch request
+            const jsonFilename = getJsonFilenameFromUrl();
+            fetch(jsonFilename)
+                .then(response => response.json())
+                .then(data => createChart(data))
+                .catch(error => console.error('Error loading data:', error));
+        </script>
+        </script>
+    </div>
+    <div class="button-container">
+        <button onclick="toggleArrows()">Toggle Arrows</button>
+    </div>
+</body>
+</html>
