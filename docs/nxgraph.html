@@ -11,30 +11,29 @@
             width: 100%;
             height: 100%;
         }
-        
-        .node-label-big {
-            font-size: 15px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-anchor: middle; /* Center the text */
+
+        .button-container {
+            text-align: center; /* Center the button horizontally */
+            padding: 10px; /* Space around the button */
         }
-        .node-label-medium {
-            font-size: 10px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-anchor: middle; /* Center the text */
-        }
-        .node-label-small {
-            font-size: 7px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-anchor: middle; /* Center the text */
-        }
+
         .graph-container {
+            display: flex;
+            justify-content: center;
             align-items: center;
+            width: 100%;
+            height: calc(100% - 40px); /* Adjust based on actual button container height */
         }
-        .button-container button {
-            margin-left: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px; /* Space above the button */
+
+        .node-label-big, .node-label-medium, .node-label-small {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-anchor: middle; /* Center the text */
         }
+
+        .node-label-big { font-size: 15px; }
+        .node-label-medium { font-size: 10px; }
+        .node-label-small { font-size: 7px; }
+
         .tooltip {
             position: absolute;
             text-align: justify;
@@ -50,6 +49,10 @@
     </style>
 </head>
 <body>
+    <div class="button-container">
+        <button onclick="toggleArrows()">Toggle Arrows</button>
+        <!-- <div id="view-coordinates" style="margin-top: 10px;">View Coordinates: </div> -->
+    </div>
     <div class="graph-container">
         <script>
             let showArrows = false;
@@ -59,7 +62,10 @@
                 // Use window dimensions to calculate width and height
                 const width = window.innerWidth * 0.95; // 95% of window width
                 const height = window.innerHeight * 0.9; // 90% of window height
-
+                
+                    // Adjust the viewBox to center at (0, 0)
+                const viewBoxX = -width / 2;
+                const viewBoxY = -height / 2;
                 // const color = d3.scaleOrdinal(d3.schemeCategory10);
 
                 const links = data.links.map(d => ({...d}));
@@ -68,23 +74,24 @@
                 // Set minimum link distance and repulsion strength
                 const minLinkDistance = 100; // Adjust this value as needed
                 const repulsionStrength = -400; // Adjust this value as needed
-
+                
+                const svg = d3.create("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .attr("viewBox", [viewBoxX, viewBoxY, width, height])
+                    .attr("preserveAspectRatio", "xMidYMid meet")
+                    .attr("style", "max-width: 100%; height: auto; display: block; margin: auto;");
+                
                 // Create a simulation with several forces.
                 const simulation = d3.forceSimulation(nodes)
                     .force("link", d3.forceLink(links).id(d => d.id).distance(minLinkDistance))
                     .force("charge", d3.forceManyBody().strength(repulsionStrength))
-                    .force("x", d3.forceX())
-                    .force("y", d3.forceY())
-                    .alphaDecay(0.01) // Lower decay rate, e.g., 0.02
-                    // .alpha(0.1) // Higher initial alpha, e.g., 1
+                    .force("center", d3.forceCenter(0, 0)) // Add forceCenter here
+                    .force("x", d3.forceX()) // You might not need these anymore
+                    .force("y", d3.forceY()) // You might not need these anymore
+                    .alphaDecay(0.01)
                     .velocityDecay(0.2)
-                    .on("tick", ticked);
-
-                    const svg = d3.create("svg")
-                        .attr("width", width)
-                        .attr("height", height)
-                        .attr("viewBox", [0, 0, width, height])
-                        .attr("style", "max-width: 100%; height: auto; margin: auto; align-content : center"); // Center SVG
+                    .on("tick", ticked);                    
 
                 // Define arrow marker
                 svg.append("defs").append("marker")
@@ -234,7 +241,8 @@
                     event.subject.fx = null;
                     event.subject.fy = null;
                 }
-                document.body.appendChild(svg.node());
+                // document.body.appendChild(svg.node());
+                document.querySelector('.graph-container').appendChild(svg.node());
             }
 
             // Define toggleArrows globally
@@ -256,9 +264,6 @@
                 .then(data => createChart(data))
                 .catch(error => console.error('Error loading data:', error));
         </script>
-    </div>
-    <div class="button-container">
-        <button onclick="toggleArrows()">Toggle Arrows</button>
     </div>
 </body>
 </html>
