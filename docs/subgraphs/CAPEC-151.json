@@ -4,105 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-544: Counterfeit Organizations</b><br>An adversary creates a false front organizations with the appearance of a<br>legitimate supplier in the critical life cycle path that then injects<br>corrupted/malicious information system components into the organizational supply<br>chain.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Counterfeit Organizations",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/544.html",
-      "id": "544"
-    },
-    {
-      "Description": "<b>CAPEC-598: DNS Spoofing</b><br>An adversary sends a malicious (\"NXDOMAIN\" (\"No such domain\") code, or DNS A<br>record) response to a target's route request before a legitimate resolver can.<br>This technique requires an On-path or In-path device that can monitor and<br>respond to the target's DNS requests. This attack differs from BGP Tampering in<br>that it directly responds to requests made by the target instead of polluting<br>the routing the target's infrastructure uses.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "DNS Spoofing",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/598.html",
-      "id": "598"
-    },
-    {
-      "Description": "<b>CAPEC-473: Signature Spoof</b><br>An attacker generates a message or datablock that causes the recipient to<br>believe that the message or datablock was generated and cryptographically signed<br>by an authoritative or reputable source, misleading a victim or victim operating<br>system into performing malicious actions.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Signature Spoof",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/473.html",
-      "id": "473"
-    },
-    {
-      "Description": "<b>CAPEC-697: DHCP Spoofing</b><br>An adversary masquerades as a legitimate Dynamic Host Configuration Protocol<br>(DHCP) server by spoofing DHCP traffic, with the goal of redirecting network<br>traffic or denying service to DHCP.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "DHCP Spoofing",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/697.html",
-      "id": "697"
-    },
-    {
-      "Description": "<b>CAPEC-151: Identity Spoofing</b><br>Identity Spoofing refers to the action of assuming (i.e., taking on) the<br>identity of some other entity (human or non-human) and then using that identity<br>to accomplish a goal. An adversary may craft messages that appear to come from a<br>different principle or use stolen / spoofed authentication credentials.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Identity Spoofing",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/151.html",
-      "id": "151"
-    },
-    {
-      "Description": "<b>CAPEC-477: Signature Spoofing by Mixing Signed and Unsigned Content</b><br>An attacker exploits the underlying complexity of a data structure that allows<br>for both signed and unsigned content, to cause unsigned data to be processed as<br>though it were signed data.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Signature Spoofing by Mixing Signed and Unsigned Content",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/477.html",
-      "id": "477"
-    },
-    {
-      "Description": "<b>CAPEC-195: Principal Spoof</b><br>A Principal Spoof is a form of Identity Spoofing where an adversary pretends to<br>be some other person in an interaction. This is often accomplished by crafting a<br>message (either written, verbal, or visual) that appears to come from a person<br>other than the adversary. Phishing and Pharming attacks often attempt to do this<br>so that their attempts to gather sensitive information appear to come from a<br>legitimate source. A Principal Spoof does not use stolen or spoofed<br>authentication credentials, instead relying on the appearance and content of the<br>message to reflect identity.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Principal Spoof",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/195.html",
-      "id": "195"
-    },
-    {
-      "Description": "<b>CAPEC-543: Counterfeit Websites</b><br>Adversary creates duplicates of legitimate websites. When users visit a<br>counterfeit site, the site can gather information or upload malware.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Counterfeit Websites",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/543.html",
-      "id": "543"
-    },
-    {
-      "Description": "<b>CAPEC-98: Phishing</b><br>Phishing is a social engineering technique where an attacker masquerades as a<br>legitimate entity with which the victim might do business in order to prompt the<br>user to reveal some confidential information (very frequently authentication<br>credentials) that can later be used by an attacker. Phishing is essentially a<br>form of information gathering or \"fishing\" for information.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Phishing",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/98.html",
-      "id": "98"
-    },
-    {
-      "Description": "<b>CAPEC-163: Spear Phishing</b><br>An adversary targets a specific user or group with a Phishing (CAPEC-98) attack<br>tailored to a category of users in order to have maximum relevance and deceptive<br>capability. Spear Phishing is an enhanced version of the Phishing attack<br>targeted to a specific user or group. The quality of the targeted email is<br>usually enhanced by appearing to come from a known or trusted entity. If the<br>email account of some trusted entity has been compromised the message may be<br>digitally signed. The message will contain information specific to the targeted<br>users that will enhance the probability that they will follow the URL to the<br>compromised site. For example, the message may indicate knowledge of the targets<br>employment, residence, interests, or other information that suggests<br>familiarity. As soon as the user follows the instructions in the message, the<br>attack proceeds as a standard Phishing attack.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Spear Phishing",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/163.html",
-      "id": "163"
-    },
-    {
-      "Description": "<b>CAPEC-275: DNS Rebinding</b><br>An adversary serves content whose IP address is resolved by a DNS server that<br>the adversary controls. After initial contact by a web browser (or similar<br>client), the adversary changes the IP address to which its name resolves, to an<br>address within the target organization that is not publicly accessible. This<br>allows the web browser to examine this internal address on behalf of the<br>adversary.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "DNS Rebinding",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/275.html",
-      "id": "275"
-    },
-    {
       "Description": "<b>CAPEC-485: Signature Spoofing by Key Recreation</b><br>An attacker obtains an authoritative or reputable signer's private signature key<br>by exploiting a cryptographic weakness in the signature algorithm or<br>pseudorandom number generation and then uses this key to forge signatures from<br>the original signer to mislead a victim into performing actions that benefit the<br>attacker.",
       "color": "#94ebff",
       "size": 10,
@@ -110,69 +11,6 @@
       "label_class": "node-label-small",
       "url": "https://capec.mitre.org/data/definitions/485.html",
       "id": "485"
-    },
-    {
-      "Description": "<b>CAPEC-474: Signature Spoofing by Key Theft</b><br>An attacker obtains an authoritative or reputable signer's private signature key<br>by theft and then uses this key to forge signatures from the original signer to<br>mislead a victim into performing actions that benefit the attacker.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Signature Spoofing by Key Theft",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/474.html",
-      "id": "474"
-    },
-    {
-      "Description": "<b>CAPEC-459: Creating a Rogue Certification Authority Certificate</b><br>An adversary exploits a weakness resulting from using a hashing algorithm with<br>weak collision resistance to generate certificate signing requests (CSR) that<br>contain collision blocks in their \"to be signed\" parts. The adversary submits<br>one CSR to be signed by a trusted certificate authority then uses the signed<br>blob to make a second certificate appear signed by said certificate authority.<br>Due to the hash collision, both certificates, though different, hash to the same<br>value and so the signed blob works just as well in the second certificate. The<br>net effect is that the adversary's second X.509 certificate, which the<br>Certification Authority has never seen, is now signed and validated by that<br>Certification Authority.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Creating a Rogue Certification Authority Certificate",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/459.html",
-      "id": "459"
-    },
-    {
-      "Description": "<b>CAPEC-633: Token Impersonation</b><br>An adversary exploits a weakness in authentication to create an access token (or<br>equivalent) that impersonates a different entity, and then associates a<br>process/thread to that that impersonated token. This action causes a downstream<br>user to make a decision or take action that is based on the assumed identity,<br>and not the response that blocks the adversary.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Token Impersonation",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/633.html",
-      "id": "633"
-    },
-    {
-      "Description": "<b>CAPEC-475: Signature Spoofing by Improper Validation</b><br>An adversary exploits a cryptographic weakness in the signature verification<br>algorithm implementation to generate a valid signature without knowing the key.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Signature Spoofing by Improper Validation",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/475.html",
-      "id": "475"
-    },
-    {
-      "Description": "<b>CAPEC-89: Pharming</b><br>A pharming attack occurs when the victim is fooled into entering sensitive data<br>into supposedly trusted locations, such as an online bank site or a trading<br>platform. An attacker can impersonate these supposedly trusted sites and have<br>the victim be directed to their site rather than the originally intended one.<br>Pharming does not require script injection or clicking on malicious links for<br>the attack to succeed.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Pharming",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/89.html",
-      "id": "89"
-    },
-    {
-      "Description": "<b>CAPEC-599: Terrestrial Jamming</b><br>In this attack pattern, the adversary transmits disruptive signals in the<br>direction of the target's consumer-level satellite dish (as opposed to the<br>satellite itself). The transmission disruption occurs in a more targeted range.<br>Portable terrestrial jammers have a range of 3-5 kilometers in urban areas and<br>20 kilometers in rural areas. This technique requires a terrestrial jammer that<br>is more powerful than the frequencies sent from the satellite.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Terrestrial Jamming",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/599.html",
-      "id": "599"
-    },
-    {
-      "Description": "<b>CAPEC-194: Fake the Source of Data</b><br>An adversary takes advantage of improper authentication to provide data or<br>services under a falsified identity. The purpose of using the falsified identity<br>may be to prevent traceability of the provided data or to assume the rights<br>granted to another individual. One of the simplest forms of this attack would be<br>the creation of an email message with a modified \"From\" field in order to appear<br>that the message was sent from someone other than the actual sender. The root of<br>the attack (in this case the email system) fails to properly authenticate the<br>source and this results in the reader incorrectly performing the instructed<br>action. Results of the attack vary depending on the details of the attack, but<br>common results include privilege escalation, obfuscation of other attacks, and<br>data corruption/manipulation.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Fake the Source of Data",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/194.html",
-      "id": "194"
     },
     {
       "Description": "<b>CAPEC-164: Mobile Phishing</b><br>An adversary targets mobile phone users with a phishing attack for the purpose<br>of soliciting account passwords or sensitive information from the user. Mobile<br>Phishing is a variation of the Phishing social engineering technique where the<br>attack is initiated via a text or SMS message, rather than email. The user is<br>enticed to provide information or visit a compromised web site via this message.<br>Apart from the manner in which the attack is initiated, the attack proceeds as a<br>standard Phishing attack.",
@@ -184,13 +22,121 @@
       "id": "164"
     },
     {
-      "Description": "<b>CAPEC-476: Signature Spoofing by Misrepresentation</b><br>An attacker exploits a weakness in the parsing or display code of the recipient<br>software to generate a data blob containing a supposedly valid signature, but<br>the signer's identity is falsely represented, which can lead to the attacker<br>manipulating the recipient software or its victim user to perform compromising<br>actions.",
+      "Description": "<b>CAPEC-633: Token Impersonation</b><br>An adversary exploits a weakness in authentication to create an access token (or<br>equivalent) that impersonates a different entity, and then associates a<br>process/thread to that that impersonated token. This action causes a downstream<br>user to make a decision or take action that is based on the assumed identity,<br>and not the response that blocks the adversary.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Signature Spoofing by Misrepresentation",
+      "label": "Token Impersonation",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/476.html",
-      "id": "476"
+      "url": "https://capec.mitre.org/data/definitions/633.html",
+      "id": "633"
+    },
+    {
+      "Description": "<b>CAPEC-459: Creating a Rogue Certification Authority Certificate</b><br>An adversary exploits a weakness resulting from using a hashing algorithm with<br>weak collision resistance to generate certificate signing requests (CSR) that<br>contain collision blocks in their \"to be signed\" parts. The adversary submits<br>one CSR to be signed by a trusted certificate authority then uses the signed<br>blob to make a second certificate appear signed by said certificate authority.<br>Due to the hash collision, both certificates, though different, hash to the same<br>value and so the signed blob works just as well in the second certificate. The<br>net effect is that the adversary's second X.509 certificate, which the<br>Certification Authority has never seen, is now signed and validated by that<br>Certification Authority.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Creating a Rogue Certification Authority Certificate",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/459.html",
+      "id": "459"
+    },
+    {
+      "Description": "<b>CAPEC-544: Counterfeit Organizations</b><br>An adversary creates a false front organizations with the appearance of a<br>legitimate supplier in the critical life cycle path that then injects<br>corrupted/malicious information system components into the organizational supply<br>chain.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Counterfeit Organizations",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/544.html",
+      "id": "544"
+    },
+    {
+      "Description": "<b>CAPEC-163: Spear Phishing</b><br>An adversary targets a specific user or group with a Phishing (CAPEC-98) attack<br>tailored to a category of users in order to have maximum relevance and deceptive<br>capability. Spear Phishing is an enhanced version of the Phishing attack<br>targeted to a specific user or group. The quality of the targeted email is<br>usually enhanced by appearing to come from a known or trusted entity. If the<br>email account of some trusted entity has been compromised the message may be<br>digitally signed. The message will contain information specific to the targeted<br>users that will enhance the probability that they will follow the URL to the<br>compromised site. For example, the message may indicate knowledge of the targets<br>employment, residence, interests, or other information that suggests<br>familiarity. As soon as the user follows the instructions in the message, the<br>attack proceeds as a standard Phishing attack.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Spear Phishing",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/163.html",
+      "id": "163"
+    },
+    {
+      "Description": "<b>CAPEC-98: Phishing</b><br>Phishing is a social engineering technique where an attacker masquerades as a<br>legitimate entity with which the victim might do business in order to prompt the<br>user to reveal some confidential information (very frequently authentication<br>credentials) that can later be used by an attacker. Phishing is essentially a<br>form of information gathering or \"fishing\" for information.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Phishing",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/98.html",
+      "id": "98"
+    },
+    {
+      "Description": "<b>CAPEC-477: Signature Spoofing by Mixing Signed and Unsigned Content</b><br>An attacker exploits the underlying complexity of a data structure that allows<br>for both signed and unsigned content, to cause unsigned data to be processed as<br>though it were signed data.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Signature Spoofing by Mixing Signed and Unsigned Content",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/477.html",
+      "id": "477"
+    },
+    {
+      "Description": "<b>CAPEC-474: Signature Spoofing by Key Theft</b><br>An attacker obtains an authoritative or reputable signer's private signature key<br>by theft and then uses this key to forge signatures from the original signer to<br>mislead a victim into performing actions that benefit the attacker.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Signature Spoofing by Key Theft",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/474.html",
+      "id": "474"
+    },
+    {
+      "Description": "<b>CAPEC-697: DHCP Spoofing</b><br>An adversary masquerades as a legitimate Dynamic Host Configuration Protocol<br>(DHCP) server by spoofing DHCP traffic, with the goal of redirecting network<br>traffic or denying service to DHCP.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "DHCP Spoofing",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/697.html",
+      "id": "697"
+    },
+    {
+      "Description": "<b>CAPEC-599: Terrestrial Jamming</b><br>In this attack pattern, the adversary transmits disruptive signals in the<br>direction of the target's consumer-level satellite dish (as opposed to the<br>satellite itself). The transmission disruption occurs in a more targeted range.<br>Portable terrestrial jammers have a range of 3-5 kilometers in urban areas and<br>20 kilometers in rural areas. This technique requires a terrestrial jammer that<br>is more powerful than the frequencies sent from the satellite.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Terrestrial Jamming",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/599.html",
+      "id": "599"
+    },
+    {
+      "Description": "<b>CAPEC-473: Signature Spoof</b><br>An attacker generates a message or datablock that causes the recipient to<br>believe that the message or datablock was generated and cryptographically signed<br>by an authoritative or reputable source, misleading a victim or victim operating<br>system into performing malicious actions.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Signature Spoof",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/473.html",
+      "id": "473"
+    },
+    {
+      "Description": "<b>CAPEC-194: Fake the Source of Data</b><br>An adversary takes advantage of improper authentication to provide data or<br>services under a falsified identity. The purpose of using the falsified identity<br>may be to prevent traceability of the provided data or to assume the rights<br>granted to another individual. One of the simplest forms of this attack would be<br>the creation of an email message with a modified \"From\" field in order to appear<br>that the message was sent from someone other than the actual sender. The root of<br>the attack (in this case the email system) fails to properly authenticate the<br>source and this results in the reader incorrectly performing the instructed<br>action. Results of the attack vary depending on the details of the attack, but<br>common results include privilege escalation, obfuscation of other attacks, and<br>data corruption/manipulation.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Fake the Source of Data",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/194.html",
+      "id": "194"
+    },
+    {
+      "Description": "<b>CAPEC-195: Principal Spoof</b><br>A Principal Spoof is a form of Identity Spoofing where an adversary pretends to<br>be some other person in an interaction. This is often accomplished by crafting a<br>message (either written, verbal, or visual) that appears to come from a person<br>other than the adversary. Phishing and Pharming attacks often attempt to do this<br>so that their attempts to gather sensitive information appear to come from a<br>legitimate source. A Principal Spoof does not use stolen or spoofed<br>authentication credentials, instead relying on the appearance and content of the<br>message to reflect identity.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Principal Spoof",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/195.html",
+      "id": "195"
+    },
+    {
+      "Description": "<b>CAPEC-656: Voice Phishing</b><br>An adversary targets users with a phishing attack for the purpose of soliciting<br>account passwords or sensitive information from the user. Voice Phishing is a<br>variation of the Phishing social engineering technique where the attack is<br>initiated via a voice call, rather than email. The user is enticed to provide<br>sensitive information by the adversary, who masquerades as a legitimate employee<br>of the alleged organization. Voice Phishing attacks deviate from standard<br>Phishing attacks, in that a user doesn't typically interact with a compromised<br>website to provide sensitive information and instead provides this information<br>verbally. Voice Phishing attacks can also be initiated by either the adversary<br>in the form of a \"cold call\" or by the victim if calling an illegitimate<br>telephone number.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Voice Phishing",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/656.html",
+      "id": "656"
     },
     {
       "Description": "<b>CAPEC-479: Malicious Root Certificate</b><br>An adversary exploits a weakness in authorization and installs a new root<br>certificate on a compromised system. Certificates are commonly used for<br>establishing secure TLS/SSL communications within a web browser. When a user<br>attempts to browse a website that presents a certificate that is not trusted an<br>error message will be displayed to warn the user of the security risk. Depending<br>on the security settings, the browser may not allow the user to establish a<br>connection to the website. Adversaries have used this technique to avoid<br>security warnings prompting users when compromised systems connect over HTTPS to<br>adversary controlled web servers that spoof legitimate websites in order to<br>collect login credentials.",
@@ -202,58 +148,100 @@
       "id": "479"
     },
     {
-      "Description": "<b>CAPEC-656: Voice Phishing</b><br>An adversary targets users with a phishing attack for the purpose of soliciting<br>account passwords or sensitive information from the user. Voice Phishing is a<br>variation of the Phishing social engineering technique where the attack is<br>initiated via a voice call, rather than email. The user is enticed to provide<br>sensitive information by the adversary, who masquerades as a legitimate employee<br>of the alleged organization. Voice Phishing attacks deviate from standard<br>Phishing attacks, in that a user doesn't typically interact with a compromised<br>website to provide sensitive information and instead provides this information<br>verbally. Voice Phishing attacks can also be initiated by either the adversary<br>in the form of a \"cold call\" or by the victim if calling an illegitimate<br>telephone number.",
+      "Description": "<b>CAPEC-275: DNS Rebinding</b><br>An adversary serves content whose IP address is resolved by a DNS server that<br>the adversary controls. After initial contact by a web browser (or similar<br>client), the adversary changes the IP address to which its name resolves, to an<br>address within the target organization that is not publicly accessible. This<br>allows the web browser to examine this internal address on behalf of the<br>adversary.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Voice Phishing",
+      "label": "DNS Rebinding",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/656.html",
-      "id": "656"
+      "url": "https://capec.mitre.org/data/definitions/275.html",
+      "id": "275"
+    },
+    {
+      "Description": "<b>CAPEC-89: Pharming</b><br>A pharming attack occurs when the victim is fooled into entering sensitive data<br>into supposedly trusted locations, such as an online bank site or a trading<br>platform. An attacker can impersonate these supposedly trusted sites and have<br>the victim be directed to their site rather than the originally intended one.<br>Pharming does not require script injection or clicking on malicious links for<br>the attack to succeed.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Pharming",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/89.html",
+      "id": "89"
+    },
+    {
+      "Description": "<b>CAPEC-598: DNS Spoofing</b><br>An adversary sends a malicious (\"NXDOMAIN\" (\"No such domain\") code, or DNS A<br>record) response to a target's route request before a legitimate resolver can.<br>This technique requires an On-path or In-path device that can monitor and<br>respond to the target's DNS requests. This attack differs from BGP Tampering in<br>that it directly responds to requests made by the target instead of polluting<br>the routing the target's infrastructure uses.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "DNS Spoofing",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/598.html",
+      "id": "598"
+    },
+    {
+      "Description": "<b>CAPEC-475: Signature Spoofing by Improper Validation</b><br>An adversary exploits a cryptographic weakness in the signature verification<br>algorithm implementation to generate a valid signature without knowing the key.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Signature Spoofing by Improper Validation",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/475.html",
+      "id": "475"
+    },
+    {
+      "Description": "<b>CAPEC-543: Counterfeit Websites</b><br>Adversary creates duplicates of legitimate websites. When users visit a<br>counterfeit site, the site can gather information or upload malware.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Counterfeit Websites",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/543.html",
+      "id": "543"
+    },
+    {
+      "Description": "<b>CAPEC-151: Identity Spoofing</b><br>Identity Spoofing refers to the action of assuming (i.e., taking on) the<br>identity of some other entity (human or non-human) and then using that identity<br>to accomplish a goal. An adversary may craft messages that appear to come from a<br>different principle or use stolen / spoofed authentication credentials.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Identity Spoofing",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/151.html",
+      "id": "151"
+    },
+    {
+      "Description": "<b>CAPEC-476: Signature Spoofing by Misrepresentation</b><br>An attacker exploits a weakness in the parsing or display code of the recipient<br>software to generate a data blob containing a supposedly valid signature, but<br>the signer's identity is falsely represented, which can lead to the attacker<br>manipulating the recipient software or its victim user to perform compromising<br>actions.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Signature Spoofing by Misrepresentation",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/476.html",
+      "id": "476"
     }
   ],
   "links": [
     {
-      "source": "544",
-      "target": "194"
-    },
-    {
-      "source": "598",
-      "target": "194"
-    },
-    {
-      "source": "473",
-      "target": "151"
-    },
-    {
-      "source": "697",
-      "target": "194"
-    },
-    {
-      "source": "477",
+      "source": "485",
       "target": "473"
     },
     {
-      "source": "195",
-      "target": "151"
+      "source": "164",
+      "target": "98"
     },
     {
-      "source": "543",
+      "source": "633",
       "target": "194"
     },
     {
-      "source": "98",
-      "target": "151"
+      "source": "459",
+      "target": "473"
+    },
+    {
+      "source": "544",
+      "target": "194"
     },
     {
       "source": "163",
       "target": "98"
     },
     {
-      "source": "275",
-      "target": "194"
+      "source": "98",
+      "target": "151"
     },
     {
-      "source": "485",
+      "source": "477",
       "target": "473"
     },
     {
@@ -261,11 +249,43 @@
       "target": "473"
     },
     {
-      "source": "459",
+      "source": "697",
+      "target": "194"
+    },
+    {
+      "source": "599",
+      "target": "195"
+    },
+    {
+      "source": "473",
+      "target": "151"
+    },
+    {
+      "source": "194",
+      "target": "151"
+    },
+    {
+      "source": "195",
+      "target": "151"
+    },
+    {
+      "source": "656",
+      "target": "98"
+    },
+    {
+      "source": "479",
       "target": "473"
     },
     {
-      "source": "633",
+      "source": "275",
+      "target": "194"
+    },
+    {
+      "source": "89",
+      "target": "151"
+    },
+    {
+      "source": "598",
       "target": "194"
     },
     {
@@ -273,32 +293,12 @@
       "target": "473"
     },
     {
-      "source": "89",
-      "target": "151"
-    },
-    {
-      "source": "599",
-      "target": "195"
-    },
-    {
-      "source": "194",
-      "target": "151"
-    },
-    {
-      "source": "164",
-      "target": "98"
+      "source": "543",
+      "target": "194"
     },
     {
       "source": "476",
       "target": "473"
-    },
-    {
-      "source": "479",
-      "target": "473"
-    },
-    {
-      "source": "656",
-      "target": "98"
     }
   ]
 }

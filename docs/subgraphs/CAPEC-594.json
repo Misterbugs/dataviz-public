@@ -13,15 +13,6 @@
       "id": "596"
     },
     {
-      "Description": "<b>CAPEC-594: Traffic Injection</b><br>An adversary injects traffic into the target's network connection. The adversary<br>is therefore able to degrade or disrupt the connection, and potentially modify<br>the content. This is not a flooding attack, as the adversary is not focusing on<br>exhausting resources. Instead, the adversary is crafting a specific input to<br>affect the system in a particular way.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Traffic Injection",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/594.html",
-      "id": "594"
-    },
-    {
       "Description": "<b>CAPEC-595: Connection Reset</b><br>In this attack pattern, an adversary injects a connection reset packet to one or<br>both ends of a target's connection. The attacker is therefore able to have the<br>target and/or the destination server sever the connection without having to<br>directly filter the traffic between them.",
       "color": "#75aaff",
       "size": 18,
@@ -29,6 +20,15 @@
       "label_class": "node-label-medium",
       "url": "https://capec.mitre.org/data/definitions/595.html",
       "id": "595"
+    },
+    {
+      "Description": "<b>CAPEC-594: Traffic Injection</b><br>An adversary injects traffic into the target's network connection. The adversary<br>is therefore able to degrade or disrupt the connection, and potentially modify<br>the content. This is not a flooding attack, as the adversary is not focusing on<br>exhausting resources. Instead, the adversary is crafting a specific input to<br>affect the system in a particular way.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Traffic Injection",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/594.html",
+      "id": "594"
     }
   ],
   "links": [

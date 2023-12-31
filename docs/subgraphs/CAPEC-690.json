@@ -13,15 +13,6 @@
       "id": "691"
     },
     {
-      "Description": "<b>CAPEC-690: Metadata Spoofing</b><br>An adversary alters the metadata of a resource (e.g., file, directory,<br>repository, etc.) to present a malicious resource as legitimate/credible.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Metadata Spoofing",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/690.html",
-      "id": "690"
-    },
-    {
       "Description": "<b>CAPEC-693: StarJacking</b><br>An adversary spoofs software popularity metadata to deceive users into believing<br>that a maliciously provided package is widely used and originates from a trusted<br>source.",
       "color": "#94ebff",
       "size": 10,
@@ -38,6 +29,15 @@
       "label_class": "node-label-small",
       "url": "https://capec.mitre.org/data/definitions/692.html",
       "id": "692"
+    },
+    {
+      "Description": "<b>CAPEC-690: Metadata Spoofing</b><br>An adversary alters the metadata of a resource (e.g., file, directory,<br>repository, etc.) to present a malicious resource as legitimate/credible.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Metadata Spoofing",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/690.html",
+      "id": "690"
     }
   ],
   "links": [

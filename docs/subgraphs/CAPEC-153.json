@@ -4,94 +4,13 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-71: Using Unicode Encoding to Bypass Validation Logic</b><br>An attacker may provide a Unicode string to a system component that is not<br>Unicode aware and use that to circumvent the filter or cause the classifying<br>mechanism to fail to properly understanding the request. That may allow the<br>attacker to slip malicious data past the content filter and/or possibly cause<br>the application to route the request incorrectly.",
+      "Description": "<b>CAPEC-597: Absolute Path Traversal</b><br>An adversary with access to file system resources, either directly or via<br>application logic, will use various file absolute paths and navigation<br>mechanisms such as \"..\" to extend their range of access to inappropriate areas<br>of the file system. The goal of the adversary is to access directories and files<br>that are intended to be restricted from their access.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Using Unicode Encoding to Bypass Validation Logic",
+      "label": "Absolute Path Traversal",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/71.html",
-      "id": "71"
-    },
-    {
-      "Description": "<b>CAPEC-139: Relative Path Traversal</b><br>An attacker exploits a weakness in input validation on the target by supplying a<br>specially constructed path utilizing dot and slash characters for the purpose of<br>obtaining access to arbitrary files or resources. An attacker modifies a known<br>path on the target in order to reach material that is not available through<br>intended channels. These attacks normally involve adding additional path<br>separators (/ or \\) and/or dots (.), or encodings thereof, in various<br>combinations in order to reach parent directories or entirely separate trees of<br>the target's directory structure.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Relative Path Traversal",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/139.html",
-      "id": "139"
-    },
-    {
-      "Description": "<b>CAPEC-92: Forced Integer Overflow</b><br>This attack forces an integer variable to go out of range. The integer variable<br>is often used as an offset such as size of memory allocation or similarly. The<br>attacker would typically control the value of such variable and try to get it<br>out of range. For instance the integer in question is incremented past the<br>maximum possible value, it may wrap to become a very small, or negative number,<br>therefore providing a very incorrect value which can lead to unexpected<br>behavior. At worst the attacker can execute arbitrary code.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Forced Integer Overflow",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/92.html",
-      "id": "92"
-    },
-    {
-      "Description": "<b>CAPEC-153: Input Data Manipulation</b><br>An attacker exploits a weakness in input validation by controlling the format,<br>structure, and composition of data to an input-processing interface. By<br>supplying input of a non-standard or unexpected form an attacker can adversely<br>impact the security of the target.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Input Data Manipulation",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/153.html",
-      "id": "153"
-    },
-    {
-      "Description": "<b>CAPEC-64: Using Slashes and URL Encoding Combined to Bypass Validation Logic</b><br>This attack targets the encoding of the URL combined with the encoding of the<br>slash characters. An attacker can take advantage of the multiple ways of<br>encoding a URL and abuse the interpretation of the URL. A URL may contain<br>special character that need special syntax handling in order to be interpreted.<br>Special characters are represented using a percentage character followed by two<br>digits representing the octet code of the original character (%HEX-CODE). For<br>instance US-ASCII space character would be represented with %20. This is often<br>referred as escaped ending or percent-encoding. Since the server decodes the URL<br>from the requests, it may restrict the access to some URL paths by validating<br>and filtering out the URL requests it received. An attacker will try to craft an<br>URL with a sequence of special characters which once interpreted by the server<br>will be equivalent to a forbidden URL. It can be difficult to protect against<br>this attack since the URL can contain other format of encoding such as UTF-8<br>encoding, Unicode-encoding, etc.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Using Slashes and URL Encoding Combined to Bypass Validation Logic",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/64.html",
-      "id": "64"
-    },
-    {
-      "Description": "<b>CAPEC-128: Integer Attacks</b><br>An attacker takes advantage of the structure of integer variables to cause these<br>variables to assume values that are not expected by an application. For example,<br>adding one to the largest positive integer in a signed integer variable results<br>in a negative number. Negative numbers may be illegal in an application and the<br>application may prevent an attacker from providing them directly, but the<br>application may not consider that adding two positive numbers can create a<br>negative number do to the structure of integer storage formats.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Integer Attacks",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/128.html",
-      "id": "128"
-    },
-    {
-      "Description": "<b>CAPEC-52: Embedding NULL Bytes</b><br>An adversary embeds one or more null bytes in input to the target software. This<br>attack relies on the usage of a null-valued byte as a string terminator in many<br>environments. The goal is for certain components of the target software to stop<br>processing the input when it encounters the null byte(s).",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Embedding NULL Bytes",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/52.html",
-      "id": "52"
-    },
-    {
-      "Description": "<b>CAPEC-79: Using Slashes in Alternate Encoding</b><br>This attack targets the encoding of the Slash characters. An adversary would try<br>to exploit common filtering problems related to the use of the slashes<br>characters to gain access to resources on the target host. Directory-driven<br>systems, such as file systems and databases, typically use the slash character<br>to indicate traversal between directories or other container components. For<br>murky historical reasons, PCs (and, as a result, Microsoft OSs) choose to use a<br>backslash, whereas the UNIX world typically makes use of the forward slash. The<br>schizophrenic result is that many MS-based systems are required to understand<br>both forms of the slash. This gives the adversary many opportunities to discover<br>and abuse a number of common filtering problems. The goal of this pattern is to<br>discover server software that only applies filters to one version, but not the<br>other.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Using Slashes in Alternate Encoding",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/79.html",
-      "id": "79"
-    },
-    {
-      "Description": "<b>CAPEC-3: Using Leading 'Ghost' Character Sequences to Bypass Input Filters</b><br>Some APIs will strip certain leading characters from a string of parameters. An<br>adversary can intentionally introduce leading \"ghost\" characters (extra<br>characters that don't affect the validity of the request at the API layer) that<br>enable the input to pass the filters and therefore process the adversary's<br>input. This occurs when the targeted API will accept input data in several<br>syntactic forms and interpret it in the equivalent semantic way, while the<br>filter does not take into account the full spectrum of the syntactic forms<br>acceptable to the targeted API.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Using Leading 'Ghost' Character Sequences to Bypass Input Filters",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/3.html",
-      "id": "3"
-    },
-    {
-      "Description": "<b>CAPEC-76: Manipulating Web Input to File System Calls</b><br>An attacker manipulates inputs to the target software which the target software<br>passes to file system calls in the OS. The goal is to gain access to, and<br>perhaps modify, areas of the file system that the target software did not intend<br>to be accessible.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Manipulating Web Input to File System Calls",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/76.html",
-      "id": "76"
+      "url": "https://capec.mitre.org/data/definitions/597.html",
+      "id": "597"
     },
     {
       "Description": "<b>CAPEC-120: Double Encoding</b><br>The adversary utilizes a repeating of the encoding process for a set of<br>characters (that is, character encoding a character encoding of a character) to<br>obfuscate the payload of a particular request. This may allow the adversary to<br>bypass filters that attempt to detect illegal characters or strings, such as<br>those that might be used in traversal or injection attacks. Filters may be able<br>to catch illegal encoded strings, but may not catch doubly encoded strings. For<br>example, a dot (.), often used in path traversal attacks and therefore often<br>blocked by filters, could be URL encoded as %2E. However, many filters recognize<br>this encoding and would still block the request. In a double encoding, the % in<br>the above URL encoding would be encoded again as %25, resulting in %252E which<br>some filters might not catch, but which could still be interpreted as a dot (.)<br>by interpreters on the target.",
@@ -103,31 +22,31 @@
       "id": "120"
     },
     {
-      "Description": "<b>CAPEC-597: Absolute Path Traversal</b><br>An adversary with access to file system resources, either directly or via<br>application logic, will use various file absolute paths and navigation<br>mechanisms such as \"..\" to extend their range of access to inappropriate areas<br>of the file system. The goal of the adversary is to access directories and files<br>that are intended to be restricted from their access.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Absolute Path Traversal",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/597.html",
-      "id": "597"
+      "Description": "<b>CAPEC-126: Path Traversal</b><br>An adversary uses path manipulation methods to exploit insufficient input<br>validation of a target to obtain access to data that should be not be<br>retrievable by ordinary well-formed requests. A typical variety of this attack<br>involves specifying a path to a desired file together with dot-dot-slash<br>characters, resulting in the file access API or function traversing out of the<br>intended directory structure and into the root file system. By replacing or<br>modifying the expected path information the access function or API retrieves the<br>file desired by the attacker. These attacks either involve the attacker<br>providing a complete path to a targeted file or using control characters (e.g.<br>path separators (/ or \\) and/or dots (.)) to reach desired directories or files.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Path Traversal",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/126.html",
+      "id": "126"
     },
     {
-      "Description": "<b>CAPEC-80: Using UTF-8 Encoding to Bypass Validation Logic</b><br>This attack is a specific variation on leveraging alternate encodings to bypass<br>validation logic. This attack leverages the possibility to encode potentially<br>harmful input in UTF-8 and submit it to applications not expecting or effective<br>at validating this encoding standard making input filtering difficult. UTF-8<br>(8-bit UCS/Unicode Transformation Format) is a variable-length character<br>encoding for Unicode. Legal UTF-8 characters are one to four bytes long.<br>However, early version of the UTF-8 specification got some entries wrong (in<br>some cases it permitted overlong characters). UTF-8 encoders are supposed to use<br>the \"shortest possible\" encoding, but naive decoders may accept encodings that<br>are longer than necessary. According to the RFC 3629, a particularly subtle form<br>of this attack can be carried out against a parser which performs<br>security-critical validity checks against the UTF-8 encoded form of its input,<br>but interprets certain illegal octet sequences as characters.",
+      "Description": "<b>CAPEC-139: Relative Path Traversal</b><br>An attacker exploits a weakness in input validation on the target by supplying a<br>specially constructed path utilizing dot and slash characters for the purpose of<br>obtaining access to arbitrary files or resources. An attacker modifies a known<br>path on the target in order to reach material that is not available through<br>intended channels. These attacks normally involve adding additional path<br>separators (/ or \\) and/or dots (.), or encodings thereof, in various<br>combinations in order to reach parent directories or entirely separate trees of<br>the target's directory structure.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Using UTF-8 Encoding to Bypass Validation Logic",
+      "label": "Relative Path Traversal",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/80.html",
-      "id": "80"
+      "url": "https://capec.mitre.org/data/definitions/139.html",
+      "id": "139"
     },
     {
-      "Description": "<b>CAPEC-43: Exploiting Multiple Input Interpretation Layers</b><br>An attacker supplies the target software with input data that contains sequences<br>of special characters designed to bypass input validation logic. This exploit<br>relies on the target making multiples passes over the input data and processing<br>a \"layer\" of special characters with each pass. In this manner, the attacker can<br>disguise input that would otherwise be rejected as invalid by concealing it with<br>layers of special/escape characters that are stripped off by subsequent<br>processing steps. The goal is to first discover cases where the input validation<br>layer executes before one or more parsing layers. That is, user input may go<br>through the following logic in an application: <parser1> --> <input validator><br>--> <parser2>. In such cases, the attacker will need to provide input that will<br>pass through the input validator, but after passing through parser2, will be<br>converted into something that the input validator was supposed to stop.",
+      "Description": "<b>CAPEC-71: Using Unicode Encoding to Bypass Validation Logic</b><br>An attacker may provide a Unicode string to a system component that is not<br>Unicode aware and use that to circumvent the filter or cause the classifying<br>mechanism to fail to properly understanding the request. That may allow the<br>attacker to slip malicious data past the content filter and/or possibly cause<br>the application to route the request incorrectly.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Exploiting Multiple Input Interpretation Layers",
+      "label": "Using Unicode Encoding to Bypass Validation Logic",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/43.html",
-      "id": "43"
+      "url": "https://capec.mitre.org/data/definitions/71.html",
+      "id": "71"
     },
     {
       "Description": "<b>CAPEC-267: Leverage Alternate Encoding</b><br>An adversary leverages the possibility to encode potentially harmful input or<br>content used by applications such that the applications are ineffective at<br>validating this encoding standard.",
@@ -148,6 +67,69 @@
       "id": "4"
     },
     {
+      "Description": "<b>CAPEC-3: Using Leading 'Ghost' Character Sequences to Bypass Input Filters</b><br>Some APIs will strip certain leading characters from a string of parameters. An<br>adversary can intentionally introduce leading \"ghost\" characters (extra<br>characters that don't affect the validity of the request at the API layer) that<br>enable the input to pass the filters and therefore process the adversary's<br>input. This occurs when the targeted API will accept input data in several<br>syntactic forms and interpret it in the equivalent semantic way, while the<br>filter does not take into account the full spectrum of the syntactic forms<br>acceptable to the targeted API.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Using Leading 'Ghost' Character Sequences to Bypass Input Filters",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/3.html",
+      "id": "3"
+    },
+    {
+      "Description": "<b>CAPEC-128: Integer Attacks</b><br>An attacker takes advantage of the structure of integer variables to cause these<br>variables to assume values that are not expected by an application. For example,<br>adding one to the largest positive integer in a signed integer variable results<br>in a negative number. Negative numbers may be illegal in an application and the<br>application may prevent an attacker from providing them directly, but the<br>application may not consider that adding two positive numbers can create a<br>negative number do to the structure of integer storage formats.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Integer Attacks",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/128.html",
+      "id": "128"
+    },
+    {
+      "Description": "<b>CAPEC-80: Using UTF-8 Encoding to Bypass Validation Logic</b><br>This attack is a specific variation on leveraging alternate encodings to bypass<br>validation logic. This attack leverages the possibility to encode potentially<br>harmful input in UTF-8 and submit it to applications not expecting or effective<br>at validating this encoding standard making input filtering difficult. UTF-8<br>(8-bit UCS/Unicode Transformation Format) is a variable-length character<br>encoding for Unicode. Legal UTF-8 characters are one to four bytes long.<br>However, early version of the UTF-8 specification got some entries wrong (in<br>some cases it permitted overlong characters). UTF-8 encoders are supposed to use<br>the \"shortest possible\" encoding, but naive decoders may accept encodings that<br>are longer than necessary. According to the RFC 3629, a particularly subtle form<br>of this attack can be carried out against a parser which performs<br>security-critical validity checks against the UTF-8 encoded form of its input,<br>but interprets certain illegal octet sequences as characters.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Using UTF-8 Encoding to Bypass Validation Logic",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/80.html",
+      "id": "80"
+    },
+    {
+      "Description": "<b>CAPEC-76: Manipulating Web Input to File System Calls</b><br>An attacker manipulates inputs to the target software which the target software<br>passes to file system calls in the OS. The goal is to gain access to, and<br>perhaps modify, areas of the file system that the target software did not intend<br>to be accessible.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Manipulating Web Input to File System Calls",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/76.html",
+      "id": "76"
+    },
+    {
+      "Description": "<b>CAPEC-43: Exploiting Multiple Input Interpretation Layers</b><br>An attacker supplies the target software with input data that contains sequences<br>of special characters designed to bypass input validation logic. This exploit<br>relies on the target making multiples passes over the input data and processing<br>a \"layer\" of special characters with each pass. In this manner, the attacker can<br>disguise input that would otherwise be rejected as invalid by concealing it with<br>layers of special/escape characters that are stripped off by subsequent<br>processing steps. The goal is to first discover cases where the input validation<br>layer executes before one or more parsing layers. That is, user input may go<br>through the following logic in an application: <parser1> --> <input validator><br>--> <parser2>. In such cases, the attacker will need to provide input that will<br>pass through the input validator, but after passing through parser2, will be<br>converted into something that the input validator was supposed to stop.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Exploiting Multiple Input Interpretation Layers",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/43.html",
+      "id": "43"
+    },
+    {
+      "Description": "<b>CAPEC-92: Forced Integer Overflow</b><br>This attack forces an integer variable to go out of range. The integer variable<br>is often used as an offset such as size of memory allocation or similarly. The<br>attacker would typically control the value of such variable and try to get it<br>out of range. For instance the integer in question is incremented past the<br>maximum possible value, it may wrap to become a very small, or negative number,<br>therefore providing a very incorrect value which can lead to unexpected<br>behavior. At worst the attacker can execute arbitrary code.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Forced Integer Overflow",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/92.html",
+      "id": "92"
+    },
+    {
+      "Description": "<b>CAPEC-153: Input Data Manipulation</b><br>An attacker exploits a weakness in input validation by controlling the format,<br>structure, and composition of data to an input-processing interface. By<br>supplying input of a non-standard or unexpected form an attacker can adversely<br>impact the security of the target.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Input Data Manipulation",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/153.html",
+      "id": "153"
+    },
+    {
       "Description": "<b>CAPEC-78: Using Escaped Slashes in Alternate Encoding</b><br>This attack targets the use of the backslash in alternate encoding. An adversary<br>can provide a backslash as a leading character and causes a parser to believe<br>that the next character is special. This is called an escape. By using that<br>trick, the adversary tries to exploit alternate ways to encode the same<br>character which leads to filter problems and opens avenues to attack.",
       "color": "#94ebff",
       "size": 10,
@@ -157,13 +139,13 @@
       "id": "78"
     },
     {
-      "Description": "<b>CAPEC-53: Postfix, Null Terminate, and Backslash</b><br>If a string is passed through a filter of some kind, then a terminal NULL may<br>not be valid. Using alternate representation of NULL allows an adversary to<br>embed the NULL mid-string while postfixing the proper data so that the filter is<br>avoided. One example is a filter that looks for a trailing slash character. If a<br>string insertion is possible, but the slash must exist, an alternate encoding of<br>NULL in mid-string may be used.",
+      "Description": "<b>CAPEC-79: Using Slashes in Alternate Encoding</b><br>This attack targets the encoding of the Slash characters. An adversary would try<br>to exploit common filtering problems related to the use of the slashes<br>characters to gain access to resources on the target host. Directory-driven<br>systems, such as file systems and databases, typically use the slash character<br>to indicate traversal between directories or other container components. For<br>murky historical reasons, PCs (and, as a result, Microsoft OSs) choose to use a<br>backslash, whereas the UNIX world typically makes use of the forward slash. The<br>schizophrenic result is that many MS-based systems are required to understand<br>both forms of the slash. This gives the adversary many opportunities to discover<br>and abuse a number of common filtering problems. The goal of this pattern is to<br>discover server software that only applies filters to one version, but not the<br>other.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Postfix, Null Terminate, and Backslash",
+      "label": "Using Slashes in Alternate Encoding",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/53.html",
-      "id": "53"
+      "url": "https://capec.mitre.org/data/definitions/79.html",
+      "id": "79"
     },
     {
       "Description": "<b>CAPEC-72: URL Encoding</b><br>This attack targets the encoding of the URL. An adversary can take advantage of<br>the multiple way of encoding an URL and abuse the interpretation of the URL.",
@@ -175,50 +157,36 @@
       "id": "72"
     },
     {
-      "Description": "<b>CAPEC-126: Path Traversal</b><br>An adversary uses path manipulation methods to exploit insufficient input<br>validation of a target to obtain access to data that should be not be<br>retrievable by ordinary well-formed requests. A typical variety of this attack<br>involves specifying a path to a desired file together with dot-dot-slash<br>characters, resulting in the file access API or function traversing out of the<br>intended directory structure and into the root file system. By replacing or<br>modifying the expected path information the access function or API retrieves the<br>file desired by the attacker. These attacks either involve the attacker<br>providing a complete path to a targeted file or using control characters (e.g.<br>path separators (/ or \\) and/or dots (.)) to reach desired directories or files.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Path Traversal",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/126.html",
-      "id": "126"
+      "Description": "<b>CAPEC-64: Using Slashes and URL Encoding Combined to Bypass Validation Logic</b><br>This attack targets the encoding of the URL combined with the encoding of the<br>slash characters. An attacker can take advantage of the multiple ways of<br>encoding a URL and abuse the interpretation of the URL. A URL may contain<br>special character that need special syntax handling in order to be interpreted.<br>Special characters are represented using a percentage character followed by two<br>digits representing the octet code of the original character (%HEX-CODE). For<br>instance US-ASCII space character would be represented with %20. This is often<br>referred as escaped ending or percent-encoding. Since the server decodes the URL<br>from the requests, it may restrict the access to some URL paths by validating<br>and filtering out the URL requests it received. An attacker will try to craft an<br>URL with a sequence of special characters which once interpreted by the server<br>will be equivalent to a forbidden URL. It can be difficult to protect against<br>this attack since the URL can contain other format of encoding such as UTF-8<br>encoding, Unicode-encoding, etc.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Using Slashes and URL Encoding Combined to Bypass Validation Logic",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/64.html",
+      "id": "64"
+    },
+    {
+      "Description": "<b>CAPEC-52: Embedding NULL Bytes</b><br>An adversary embeds one or more null bytes in input to the target software. This<br>attack relies on the usage of a null-valued byte as a string terminator in many<br>environments. The goal is for certain components of the target software to stop<br>processing the input when it encounters the null byte(s).",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Embedding NULL Bytes",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/52.html",
+      "id": "52"
+    },
+    {
+      "Description": "<b>CAPEC-53: Postfix, Null Terminate, and Backslash</b><br>If a string is passed through a filter of some kind, then a terminal NULL may<br>not be valid. Using alternate representation of NULL allows an adversary to<br>embed the NULL mid-string while postfixing the proper data so that the filter is<br>avoided. One example is a filter that looks for a trailing slash character. If a<br>string insertion is possible, but the slash must exist, an alternate encoding of<br>NULL in mid-string may be used.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Postfix, Null Terminate, and Backslash",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/53.html",
+      "id": "53"
     }
   ],
   "links": [
     {
-      "source": "71",
-      "target": "267"
-    },
-    {
-      "source": "139",
-      "target": "126"
-    },
-    {
-      "source": "92",
-      "target": "128"
-    },
-    {
-      "source": "64",
-      "target": "267"
-    },
-    {
-      "source": "128",
-      "target": "153"
-    },
-    {
-      "source": "52",
-      "target": "267"
-    },
-    {
-      "source": "79",
-      "target": "267"
-    },
-    {
-      "source": "3",
-      "target": "267"
-    },
-    {
-      "source": "76",
+      "source": "597",
       "target": "126"
     },
     {
@@ -226,15 +194,15 @@
       "target": "267"
     },
     {
-      "source": "597",
+      "source": "126",
+      "target": "153"
+    },
+    {
+      "source": "139",
       "target": "126"
     },
     {
-      "source": "80",
-      "target": "267"
-    },
-    {
-      "source": "43",
+      "source": "71",
       "target": "267"
     },
     {
@@ -246,11 +214,35 @@
       "target": "267"
     },
     {
+      "source": "3",
+      "target": "267"
+    },
+    {
+      "source": "128",
+      "target": "153"
+    },
+    {
+      "source": "80",
+      "target": "267"
+    },
+    {
+      "source": "76",
+      "target": "126"
+    },
+    {
+      "source": "43",
+      "target": "267"
+    },
+    {
+      "source": "92",
+      "target": "128"
+    },
+    {
       "source": "78",
       "target": "267"
     },
     {
-      "source": "53",
+      "source": "79",
       "target": "267"
     },
     {
@@ -258,8 +250,16 @@
       "target": "267"
     },
     {
-      "source": "126",
-      "target": "153"
+      "source": "64",
+      "target": "267"
+    },
+    {
+      "source": "52",
+      "target": "267"
+    },
+    {
+      "source": "53",
+      "target": "267"
     }
   ]
 }

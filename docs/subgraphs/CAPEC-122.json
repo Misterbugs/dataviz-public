@@ -4,103 +4,22 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-642: Replace Binaries</b><br>Adversaries know that certain binaries will be regularly executed as part of<br>normal processing. If these binaries are not protected with the appropriate file<br>system permissions, it could be possible to replace them with malware. This<br>malware might be executed at higher system permission levels. A variation of<br>this pattern is to discover self-extracting installation packages that unpack<br>binaries to directories with weak file permissions which it does not clean up<br>appropriately. These binaries can be replaced by malware, which can then be<br>executed.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Replace Binaries",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/642.html",
-      "id": "642"
-    },
-    {
-      "Description": "<b>CAPEC-503: WebView Exposure</b><br>An adversary, through a malicious web page, accesses application specific<br>functionality by leveraging interfaces registered through WebView's<br>addJavascriptInterface API. Once an interface is registered to WebView through<br>addJavascriptInterface, it becomes global and all pages loaded in the WebView<br>can call this interface.",
+      "Description": "<b>CAPEC-180: Exploiting Incorrectly Configured Access Control Security Levels</b><br>An attacker exploits a weakness in the configuration of access controls and is<br>able to bypass the intended protection that these measures guard against and<br>thereby obtain unauthorized access to the system or network. Sensitive<br>functionality should always be protected with access controls. However<br>configuring all but the most trivial access control systems can be very<br>complicated and there are many opportunities for mistakes. If an attacker can<br>learn of incorrectly configured access security settings, they may be able to<br>exploit this in an attack.",
       "color": "#75aaff",
       "size": 18,
-      "label": "WebView Exposure",
+      "label": "Exploiting Incorrectly Configured Access Control Security Levels",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/503.html",
-      "id": "503"
+      "url": "https://capec.mitre.org/data/definitions/180.html",
+      "id": "180"
     },
     {
-      "Description": "<b>CAPEC-58: Restful Privilege Elevation</b><br>An adversary identifies a Rest HTTP (Get, Put, Delete) style permission method<br>allowing them to perform various malicious actions upon server data due to lack<br>of access control mechanisms implemented within the application service<br>accepting HTTP messages.",
+      "Description": "<b>CAPEC-177: Create files with the same name as files protected with a higher classification</b><br>An attacker exploits file location algorithms in an operating system or<br>application by creating a file with the same name as a protected or privileged<br>file. The attacker could manipulate the system if the attacker-created file is<br>trusted by the operating system or an application component that attempts to<br>load the original file. Applications often load or include external files, such<br>as libraries or configuration files. These files should be protected against<br>malicious manipulation. However, if the application only uses the name of the<br>file when locating it, an attacker may be able to create a file with the same<br>name and place it in a directory that the application will search before the<br>directory with the legitimate file is searched. Because the attackers' file is<br>discovered first, it would be used by the target application. This attack can be<br>extremely destructive if the referenced file is executable and/or is granted<br>special privileges based solely on having a particular name.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Restful Privilege Elevation",
+      "label": "Create files with the same name as files protected with a higher classification",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/58.html",
-      "id": "58"
-    },
-    {
-      "Description": "<b>CAPEC-197: Exponential Data Expansion</b><br>An adversary submits data to a target application which contains nested<br>exponential data expansion to produce excessively large output. Many data format<br>languages allow the definition of macro-like structures that can be used to<br>simplify the creation of complex structures. However, this capability can be<br>abused to create excessive demands on a processor's CPU and memory. A small<br>number of nested expansions can result in an exponential growth in demands on<br>memory.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Exponential Data Expansion",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/197.html",
-      "id": "197"
-    },
-    {
-      "Description": "<b>CAPEC-491: Quadratic Data Expansion</b><br>An adversary exploits macro-like substitution to cause a denial of service<br>situation due to excessive memory being allocated to fully expand the data. The<br>result of this denial of service could cause the application to freeze or crash.<br>This involves defining a very large entity and using it multiple times in a<br>single entity substitution. CAPEC-197 is a similar attack pattern, but it is<br>easier to discover and defend against. This attack pattern does not perform<br>multi-level substitution and therefore does not obviously appear to consume<br>extensive resources.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Quadratic Data Expansion",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/491.html",
-      "id": "491"
-    },
-    {
-      "Description": "<b>CAPEC-273: HTTP Response Smuggling</b><br>An adversary manipulates and injects malicious content in the form of secret<br>unauthorized HTTP responses, into a single HTTP response from a vulnerable or<br>compromised back-end HTTP agent (e.g., server). See CanPrecede relationships for<br>possible consequences.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "HTTP Response Smuggling",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/273.html",
-      "id": "273"
-    },
-    {
-      "Description": "<b>CAPEC-278: Web Services Protocol Manipulation</b><br>An adversary manipulates a web service related protocol to cause a web<br>application or service to react differently than intended. This can either be<br>performed through the manipulation of call parameters to include unexpected<br>values, or by changing the called function to one that should normally be<br>restricted or limited. By leveraging this pattern of attack, the adversary is<br>able to gain access to data or resources normally restricted, or to cause the<br>application or service to crash.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Web Services Protocol Manipulation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/278.html",
-      "id": "278"
-    },
-    {
-      "Description": "<b>CAPEC-496: ICMP Fragmentation</b><br>An attacker may execute a ICMP Fragmentation attack against a target with the<br>intention of consuming resources or causing a crash. The attacker crafts a large<br>number of identical fragmented IP packets containing a portion of a fragmented<br>ICMP message. The attacker these sends these messages to a target host which<br>causes the host to become non-responsive. Another vector may be sending a<br>fragmented ICMP message to a target host with incorrect sizes in the header<br>which causes the host to hang.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "ICMP Fragmentation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/496.html",
-      "id": "496"
-    },
-    {
-      "Description": "<b>CAPEC-33: HTTP Request Smuggling</b><br>An adversary abuses the flexibility and discrepancies in the parsing and<br>interpretation of HTTP Request messages using various HTTP headers, request-line<br>and body parameters as well as message sizes (denoted by the end of message<br>signaled by a given HTTP header) by different intermediary HTTP agents (e.g.,<br>load balancer, reverse proxy, web caching proxies, application firewalls, etc.)<br>to secretly send unauthorized and malicious HTTP requests to a back-end HTTP<br>agent (e.g., web server). See CanPrecede relationships for possible<br>consequences.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "HTTP Request Smuggling",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/33.html",
-      "id": "33"
-    },
-    {
-      "Description": "<b>CAPEC-495: UDP Fragmentation</b><br>An attacker may execute a UDP Fragmentation attack against a target server in an<br>attempt to consume resources such as bandwidth and CPU. IP fragmentation occurs<br>when an IP datagram is larger than the MTU of the route the datagram has to<br>traverse. Typically the attacker will use large UDP packets over 1500 bytes of<br>data which forces fragmentation as ethernet MTU is 1500 bytes. This attack is a<br>variation on a typical UDP flood but it enables more network bandwidth to be<br>consumed with fewer packets. Additionally it has the potential to consume server<br>CPU resources and fill memory buffers associated with the processing and<br>reassembling of fragmented packets.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "UDP Fragmentation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/495.html",
-      "id": "495"
-    },
-    {
-      "Description": "<b>CAPEC-650: Upload a Web Shell to a Web Server</b><br>By exploiting insufficient permissions, it is possible to upload a web shell to<br>a web server in such a way that it can be executed remotely. This shell can have<br>various capabilities, thereby acting as a \"gateway\" to the underlying web<br>server. The shell might execute at the higher permission level of the web<br>server, providing the ability the execute malicious code at elevated levels.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Upload a Web Shell to a Web Server",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/650.html",
-      "id": "650"
+      "url": "https://capec.mitre.org/data/definitions/177.html",
+      "id": "177"
     },
     {
       "Description": "<b>CAPEC-201: Serialized Data External Linking</b><br>An adversary creates a serialized data file (e.g. XML, YAML, etc...) that<br>contains an external data reference. Because serialized data parsers may not<br>validate documents with external references, there may be no checks on the<br>nature of the reference in the external data. This can allow an adversary to<br>open arbitrary files or connections, which may further lead to the adversary<br>gaining access to information on the system that they would normally be unable<br>to obtain.",
@@ -121,6 +40,15 @@
       "id": "1"
     },
     {
+      "Description": "<b>CAPEC-650: Upload a Web Shell to a Web Server</b><br>By exploiting insufficient permissions, it is possible to upload a web shell to<br>a web server in such a way that it can be executed remotely. This shell can have<br>various capabilities, thereby acting as a \"gateway\" to the underlying web<br>server. The shell might execute at the higher permission level of the web<br>server, providing the ability the execute malicious code at elevated levels.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Upload a Web Shell to a Web Server",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/650.html",
+      "id": "650"
+    },
+    {
       "Description": "<b>CAPEC-563: Add Malicious File to Shared Webroot</b><br>An adversaries may add malicious content to a website through the open file<br>share and then browse to that content with a web browser to cause the server to<br>execute the content. The malicious content will typically run under the context<br>and permissions of the web server process, often resulting in local system or<br>administrative privileges depending on how the web server is configured.",
       "color": "#94ebff",
       "size": 10,
@@ -128,186 +56,6 @@
       "label_class": "node-label-small",
       "url": "https://capec.mitre.org/data/definitions/563.html",
       "id": "563"
-    },
-    {
-      "Description": "<b>CAPEC-274: HTTP Verb Tampering</b><br>An attacker modifies the HTTP Verb (e.g. GET, PUT, TRACE, etc.) in order to<br>bypass access restrictions. Some web environments allow administrators to<br>restrict access based on the HTTP Verb used with requests. However, attackers<br>can often provide a different HTTP Verb, or even provide a random string as a<br>verb in order to bypass these protections. This allows the attacker to access<br>data that should otherwise be protected.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "HTTP Verb Tampering",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/274.html",
-      "id": "274"
-    },
-    {
-      "Description": "<b>CAPEC-105: HTTP Request Splitting</b><br>An adversary abuses the flexibility and discrepancies in the parsing and<br>interpretation of HTTP Request messages by different intermediary HTTP agents<br>(e.g., load balancer, reverse proxy, web caching proxies, application firewalls,<br>etc.) to split a single HTTP request into multiple unauthorized and malicious<br>HTTP requests to a back-end HTTP agent (e.g., web server). See CanPrecede<br>relationships for possible consequences.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "HTTP Request Splitting",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/105.html",
-      "id": "105"
-    },
-    {
-      "Description": "<b>CAPEC-5: Blue Boxing</b><br>This type of attack against older telephone switches and trunks has been around<br>for decades. A tone is sent by an adversary to impersonate a supervisor signal<br>which has the effect of rerouting or usurping command of the line. While the US<br>infrastructure proper may not contain widespread vulnerabilities to this type of<br>attack, many companies are connected globally through call centers and business<br>process outsourcing. These international systems may be operated in countries<br>which have not upgraded Telco infrastructure and so are vulnerable to Blue<br>boxing. Blue boxing is a result of failure on the part of the system to enforce<br>strong authorization for administrative functions. While the infrastructure is<br>different than standard current applications like web applications, there are<br>historical lessons to be learned to upgrade the access control for<br>administrative functions. This attack pattern is included in CAPEC for<br>historical purposes.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Blue Boxing",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/5.html",
-      "id": "5"
-    },
-    {
-      "Description": "<b>CAPEC-230: Serialized Data with Nested Payloads</b><br>Applications often need to transform data in and out of a data format (e.g., XML<br>and YAML) by using a parser. It may be possible for an adversary to inject data<br>that may have an adverse effect on the parser when it is being processed. Many<br>data format languages allow the definition of macro-like structures that can be<br>used to simplify the creation of complex structures. By nesting these<br>structures, causing the data to be repeatedly substituted, an adversary can<br>cause the parser to consume more resources while processing, causing excessive<br>memory consumption and CPU utilization.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Serialized Data with Nested Payloads",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/230.html",
-      "id": "230"
-    },
-    {
-      "Description": "<b>CAPEC-276: Inter-component Protocol Manipulation</b><br>Inter-component protocols are used to communicate between different software and<br>hardware modules within a single computer. Common examples are: interrupt<br>signals and data pipes. Subverting the protocol can allow an adversary to<br>impersonate others, discover sensitive information, control the outcome of a<br>session, or perform other attacks. This type of attack targets invalid<br>assumptions that may be inherent in implementers of the protocol, incorrect<br>implementations of the protocol, or vulnerabilities in the protocol itself.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Inter-component Protocol Manipulation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/276.html",
-      "id": "276"
-    },
-    {
-      "Description": "<b>CAPEC-180: Exploiting Incorrectly Configured Access Control Security Levels</b><br>An attacker exploits a weakness in the configuration of access controls and is<br>able to bypass the intended protection that these measures guard against and<br>thereby obtain unauthorized access to the system or network. Sensitive<br>functionality should always be protected with access controls. However<br>configuring all but the most trivial access control systems can be very<br>complicated and there are many opportunities for mistakes. If an attacker can<br>learn of incorrectly configured access security settings, they may be able to<br>exploit this in an attack.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Exploiting Incorrectly Configured Access Control Security Levels",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/180.html",
-      "id": "180"
-    },
-    {
-      "Description": "<b>CAPEC-665: Exploitation of Thunderbolt Protection Flaws</b><br>An adversary leverages a firmware weakness within the Thunderbolt protocol, on a<br>computing device to manipulate Thunderbolt controller firmware in order to<br>exploit vulnerabilities in the implementation of authorization and verification<br>schemes within Thunderbolt protection mechanisms. Upon gaining physical access<br>to a target device, the adversary conducts high-level firmware manipulation of<br>the victim Thunderbolt controller SPI (Serial Peripheral Interface) flash,<br>through the use of a SPI Programing device and an external Thunderbolt device,<br>typically as the target device is booting up. If successful, this allows the<br>adversary to modify memory, subvert authentication mechanisms, spoof identities<br>and content, and extract data and memory from the target device. Currently 7<br>major vulnerabilities exist within Thunderbolt protocol with 9 attack vectors as<br>noted in the Execution Flow.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Exploitation of Thunderbolt Protection Flaws",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/665.html",
-      "id": "665"
-    },
-    {
-      "Description": "<b>CAPEC-177: Create files with the same name as files protected with a higher classification</b><br>An attacker exploits file location algorithms in an operating system or<br>application by creating a file with the same name as a protected or privileged<br>file. The attacker could manipulate the system if the attacker-created file is<br>trusted by the operating system or an application component that attempts to<br>load the original file. Applications often load or include external files, such<br>as libraries or configuration files. These files should be protected against<br>malicious manipulation. However, if the application only uses the name of the<br>file when locating it, an attacker may be able to create a file with the same<br>name and place it in a directory that the application will search before the<br>directory with the legitimate file is searched. Because the attackers' file is<br>discovered first, it would be used by the target application. This attack can be<br>extremely destructive if the referenced file is executable and/or is granted<br>special privileges based solely on having a particular name.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Create files with the same name as files protected with a higher classification",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/177.html",
-      "id": "177"
-    },
-    {
-      "Description": "<b>CAPEC-229: Serialized Data Parameter Blowup</b><br>This attack exploits certain serialized data parsers (e.g., XML, YAML, etc.)<br>which manage data in an inefficient manner. The attacker crafts an serialized<br>data file with multiple configuration parameters in the same dataset. In a<br>vulnerable parser, this results in a denial of service condition where CPU<br>resources are exhausted because of the parsing algorithm. The weakness being<br>exploited is tied to parser implementation and not language specific.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Serialized Data Parameter Blowup",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/229.html",
-      "id": "229"
-    },
-    {
-      "Description": "<b>CAPEC-680: Exploitation of Improperly Controlled Registers</b><br>An adversary exploits missing or incorrectly configured access control within<br>registers to read/write data that is not meant to be obtained or modified by a<br>user.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Exploitation of Improperly Controlled Registers",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/680.html",
-      "id": "680"
-    },
-    {
-      "Description": "<b>CAPEC-114: Authentication Abuse</b><br>An attacker obtains unauthorized access to an application, service or device<br>either through knowledge of the inherent weaknesses of an authentication<br>mechanism, or by exploiting a flaw in the authentication scheme's<br>implementation. In such an attack an authentication mechanism is functioning but<br>a carefully controlled sequence of events causes the mechanism to grant access<br>to the attacker.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Authentication Abuse",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/114.html",
-      "id": "114"
-    },
-    {
-      "Description": "<b>CAPEC-221: Data Serialization External Entities Blowup</b><br>This attack takes advantage of the entity replacement property of certain data<br>serialization languages (e.g., XML, YAML, etc.) where the value of the<br>replacement is a URI. A well-crafted file could have the entity refer to a URI<br>that consumes a large amount of resources to create a denial of service<br>condition. This can cause the system to either freeze, crash, or execute<br>arbitrary code depending on the URI.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Data Serialization External Entities Blowup",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/221.html",
-      "id": "221"
-    },
-    {
-      "Description": "<b>CAPEC-34: HTTP Response Splitting</b><br>An adversary manipulates and injects malicious content, in the form of secret<br>unauthorized HTTP responses, into a single HTTP response from a vulnerable or<br>compromised back-end HTTP agent (e.g., web server) or into an already spoofed<br>HTTP response from an adversary controlled domain/site. See CanPrecede<br>relationships for possible consequences.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "HTTP Response Splitting",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/34.html",
-      "id": "34"
-    },
-    {
-      "Description": "<b>CAPEC-90: Reflection Attack in Authentication Protocol</b><br>An adversary can abuse an authentication protocol susceptible to reflection<br>attack in order to defeat it. Doing so allows the adversary illegitimate access<br>to the target system, without possessing the requisite credentials. Reflection<br>attacks are of great concern to authentication protocols that rely on a<br>challenge-handshake or similar mechanism. An adversary can impersonate a<br>legitimate user and can gain illegitimate access to the system by successfully<br>mounting a reflection attack during authentication.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Reflection Attack in Authentication Protocol",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/90.html",
-      "id": "90"
-    },
-    {
-      "Description": "<b>CAPEC-220: Client-Server Protocol Manipulation</b><br>An adversary takes advantage of weaknesses in the protocol by which a client and<br>server are communicating to perform unexpected actions. Communication protocols<br>are necessary to transfer messages between client and server applications.<br>Moreover, different protocols may be used for different types of interactions.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Client-Server Protocol Manipulation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/220.html",
-      "id": "220"
-    },
-    {
-      "Description": "<b>CAPEC-562: Modify Shared File</b><br>An adversary manipulates the files in a shared location by adding malicious<br>programs, scripts, or exploit code to valid content. Once a user opens the<br>shared content, the tainted content is executed.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Modify Shared File",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/562.html",
-      "id": "562"
-    },
-    {
-      "Description": "<b>CAPEC-492: Regular Expression Exponential Blowup</b><br>An adversary may execute an attack on a program that uses a poor Regular<br>Expression(Regex) implementation by choosing input that results in an extreme<br>situation for the Regex. A typical extreme situation operates at exponential<br>time compared to the input size. This is due to most implementations using a<br>Nondeterministic Finite Automaton(NFA) state machine to be built by the Regex<br>algorithm since NFA allows backtracking and thus more complex regular<br>expressions.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Regular Expression Exponential Blowup",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/492.html",
-      "id": "492"
-    },
-    {
-      "Description": "<b>CAPEC-681: Exploitation of Improperly Controlled Hardware Security Identifiers</b><br>An adversary takes advantage of missing or incorrectly configured security<br>identifiers (e.g., tokens), which are used for access control within a<br>System-on-Chip (SoC), to read/write data or execute a given action.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Exploitation of Improperly Controlled Hardware Security Identifiers",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/681.html",
-      "id": "681"
-    },
-    {
-      "Description": "<b>CAPEC-702: Exploiting Incorrect Chaining or Granularity of Hardware Debug Components</b><br>An adversary exploits incorrect chaining or granularity of hardware debug<br>components in order to gain unauthorized access to debug functionality on a<br>chip. This happens when authorization is not checked on a per function basis and<br>is assumed for a chain or group of debug functionality.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Exploiting Incorrect Chaining or Granularity of Hardware Debug Components",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/702.html",
-      "id": "702"
-    },
-    {
-      "Description": "<b>CAPEC-277: Data Interchange Protocol Manipulation</b><br>Data Interchange Protocols are used to transmit structured data between<br>entities. These protocols are often specific to a particular domain (B2B:<br>purchase orders, invoices, transport logistics and waybills, medical records).<br>They are often, but not always, XML-based. Subverting the protocol can allow an<br>adversary to impersonate others, discover sensitive information, control the<br>outcome of a session, or perform other attacks. This type of attack targets<br>invalid assumptions that may be inherent in implementers of the protocol,<br>incorrect implementations of the protocol, or vulnerabilities in the protocol<br>itself.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Data Interchange Protocol Manipulation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/277.html",
-      "id": "277"
     },
     {
       "Description": "<b>CAPEC-263: Force Use of Corrupted Files</b><br>This describes an attack where an application is forced to use a file that an<br>attacker has corrupted. The result is often a denial of service caused by the<br>application being unable to process the corrupted file, but other results,<br>including the disabling of filters or access controls (if the application fails<br>in an unsafe way rather than failing by locking down) or buffer overflows are<br>possible.",
@@ -319,24 +67,6 @@
       "id": "263"
     },
     {
-      "Description": "<b>CAPEC-17: Using Malicious Files</b><br>An attack of this type exploits a system's configuration that allows an<br>adversary to either directly access an executable file, for example through<br>shell access; or in a possible worst case allows an adversary to upload a file<br>and then execute it. Web servers, ftp servers, and message oriented middleware<br>systems which have many integration points are particularly vulnerable, because<br>both the programmers and the administrators must be in synch regarding the<br>interfaces and the correct privileges for each interface.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Using Malicious Files",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/17.html",
-      "id": "17"
-    },
-    {
-      "Description": "<b>CAPEC-130: Excessive Allocation</b><br>An adversary causes the target to allocate excessive resources to servicing the<br>attackers' request, thereby reducing the resources available for legitimate<br>services and degrading or denying services. Usually, this attack focuses on<br>memory allocation, but any finite resource on the target could be the attacked,<br>including bandwidth, processing cycles, or other resources. This attack does not<br>attempt to force this allocation through a large number of requests (that would<br>be Resource Depletion through Flooding) but instead uses one or a small number<br>of requests that are carefully formatted to force the target to allocate<br>excessive resources to service this request(s). Often this attack takes<br>advantage of a bug in the target to cause the target to allocate resources<br>vastly beyond what would be needed for a normal request.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Excessive Allocation",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/130.html",
-      "id": "130"
-    },
-    {
       "Description": "<b>CAPEC-122: Privilege Abuse</b><br>An adversary is able to exploit features of the target that should be reserved<br>for privileged users or administrators but are exposed to use by lower or<br>non-privileged accounts. Access to sensitive information and functionality must<br>be controlled to ensure that only authorized users are able to access these<br>resources.",
       "color": "#2176ff",
       "size": 30,
@@ -346,31 +76,31 @@
       "id": "122"
     },
     {
-      "Description": "<b>CAPEC-231: Oversized Serialized Data Payloads</b><br>An adversary injects oversized serialized data payloads into a parser during<br>data processing to produce adverse effects upon the parser such as exhausting<br>system resources and arbitrary code execution.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Oversized Serialized Data Payloads",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/231.html",
-      "id": "231"
-    },
-    {
-      "Description": "<b>CAPEC-279: SOAP Manipulation</b><br>Simple Object Access Protocol (SOAP) is used as a communication protocol between<br>a client and server to invoke web services on the server. It is an XML-based<br>protocol, and therefore suffers from many of the same shortcomings as other<br>XML-based protocols. Adversaries can make use of these shortcomings and<br>manipulate the content of SOAP paramters, leading to undesirable behavior on the<br>server and allowing the adversary to carry out a number of further attacks.",
+      "Description": "<b>CAPEC-642: Replace Binaries</b><br>Adversaries know that certain binaries will be regularly executed as part of<br>normal processing. If these binaries are not protected with the appropriate file<br>system permissions, it could be possible to replace them with malware. This<br>malware might be executed at higher system permission levels. A variation of<br>this pattern is to discover self-extracting installation packages that unpack<br>binaries to directories with weak file permissions which it does not clean up<br>appropriately. These binaries can be replaced by malware, which can then be<br>executed.",
       "color": "#94ebff",
       "size": 10,
-      "label": "SOAP Manipulation",
+      "label": "Replace Binaries",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/279.html",
-      "id": "279"
+      "url": "https://capec.mitre.org/data/definitions/642.html",
+      "id": "642"
     },
     {
-      "Description": "<b>CAPEC-493: SOAP Array Blowup</b><br>An adversary may execute an attack on a web service that uses SOAP messages in<br>communication. By sending a very large SOAP array declaration to the web<br>service, the attacker forces the web service to allocate space for the array<br>elements before they are parsed by the XML parser. The attacker message is<br>typically small in size containing a large array declaration of say 1,000,000<br>elements and a couple of array elements. This attack targets exhaustion of the<br>memory resources of the web service.",
+      "Description": "<b>CAPEC-503: WebView Exposure</b><br>An adversary, through a malicious web page, accesses application specific<br>functionality by leveraging interfaces registered through WebView's<br>addJavascriptInterface API. Once an interface is registered to WebView through<br>addJavascriptInterface, it becomes global and all pages loaded in the WebView<br>can call this interface.",
       "color": "#75aaff",
       "size": 18,
-      "label": "SOAP Array Blowup",
+      "label": "WebView Exposure",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/493.html",
-      "id": "493"
+      "url": "https://capec.mitre.org/data/definitions/503.html",
+      "id": "503"
+    },
+    {
+      "Description": "<b>CAPEC-17: Using Malicious Files</b><br>An attack of this type exploits a system's configuration that allows an<br>adversary to either directly access an executable file, for example through<br>shell access; or in a possible worst case allows an adversary to upload a file<br>and then execute it. Web servers, ftp servers, and message oriented middleware<br>systems which have many integration points are particularly vulnerable, because<br>both the programmers and the administrators must be in synch regarding the<br>interfaces and the correct privileges for each interface.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Using Malicious Files",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/17.html",
+      "id": "17"
     },
     {
       "Description": "<b>CAPEC-679: Exploitation of Improperly Configured or Implemented Memory Protections</b><br>An adversary takes advantage of missing or incorrectly configured access control<br>within memory to read/write data or inject malicious code into said memory.",
@@ -382,25 +112,80 @@
       "id": "679"
     },
     {
-      "Description": "<b>CAPEC-272: Protocol Manipulation</b><br>An adversary subverts a communications protocol to perform an attack. This type<br>of attack can allow an adversary to impersonate others, discover sensitive<br>information, control the outcome of a session, or perform other attacks. This<br>type of attack targets invalid assumptions that may be inherent in implementers<br>of the protocol, incorrect implementations of the protocol, or vulnerabilities<br>in the protocol itself.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Protocol Manipulation",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/272.html",
-      "id": "272"
+      "Description": "<b>CAPEC-681: Exploitation of Improperly Controlled Hardware Security Identifiers</b><br>An adversary takes advantage of missing or incorrectly configured security<br>identifiers (e.g., tokens), which are used for access control within a<br>System-on-Chip (SoC), to read/write data or execute a given action.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Exploitation of Improperly Controlled Hardware Security Identifiers",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/681.html",
+      "id": "681"
     },
     {
-      "Description": "<b>CAPEC-494: TCP Fragmentation</b><br>An adversary may execute a TCP Fragmentation attack against a target with the<br>intention of avoiding filtering rules of network controls, by attempting to<br>fragment the TCP packet such that the headers flag field is pushed into the<br>second fragment which typically is not filtered.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "TCP Fragmentation",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/494.html",
-      "id": "494"
+      "Description": "<b>CAPEC-680: Exploitation of Improperly Controlled Registers</b><br>An adversary exploits missing or incorrectly configured access control within<br>registers to read/write data that is not meant to be obtained or modified by a<br>user.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Exploitation of Improperly Controlled Registers",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/680.html",
+      "id": "680"
+    },
+    {
+      "Description": "<b>CAPEC-702: Exploiting Incorrect Chaining or Granularity of Hardware Debug Components</b><br>An adversary exploits incorrect chaining or granularity of hardware debug<br>components in order to gain unauthorized access to debug functionality on a<br>chip. This happens when authorization is not checked on a per function basis and<br>is assumed for a chain or group of debug functionality.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Exploiting Incorrect Chaining or Granularity of Hardware Debug Components",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/702.html",
+      "id": "702"
+    },
+    {
+      "Description": "<b>CAPEC-562: Modify Shared File</b><br>An adversary manipulates the files in a shared location by adding malicious<br>programs, scripts, or exploit code to valid content. Once a user opens the<br>shared content, the tainted content is executed.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Modify Shared File",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/562.html",
+      "id": "562"
+    },
+    {
+      "Description": "<b>CAPEC-58: Restful Privilege Elevation</b><br>An adversary identifies a Rest HTTP (Get, Put, Delete) style permission method<br>allowing them to perform various malicious actions upon server data due to lack<br>of access control mechanisms implemented within the application service<br>accepting HTTP messages.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Restful Privilege Elevation",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/58.html",
+      "id": "58"
     }
   ],
   "links": [
+    {
+      "source": "180",
+      "target": "122"
+    },
+    {
+      "source": "177",
+      "target": "17"
+    },
+    {
+      "source": "201",
+      "target": "122"
+    },
+    {
+      "source": "1",
+      "target": "122"
+    },
+    {
+      "source": "650",
+      "target": "17"
+    },
+    {
+      "source": "563",
+      "target": "17"
+    },
+    {
+      "source": "263",
+      "target": "17"
+    },
     {
       "source": "642",
       "target": "17"
@@ -410,136 +195,16 @@
       "target": "122"
     },
     {
-      "source": "58",
+      "source": "17",
+      "target": "122"
+    },
+    {
+      "source": "679",
       "target": "1"
     },
     {
-      "source": "58",
+      "source": "679",
       "target": "180"
-    },
-    {
-      "source": "197",
-      "target": "230"
-    },
-    {
-      "source": "491",
-      "target": "230"
-    },
-    {
-      "source": "273",
-      "target": "220"
-    },
-    {
-      "source": "278",
-      "target": "272"
-    },
-    {
-      "source": "496",
-      "target": "130"
-    },
-    {
-      "source": "33",
-      "target": "220"
-    },
-    {
-      "source": "495",
-      "target": "130"
-    },
-    {
-      "source": "650",
-      "target": "17"
-    },
-    {
-      "source": "201",
-      "target": "122"
-    },
-    {
-      "source": "201",
-      "target": "278"
-    },
-    {
-      "source": "1",
-      "target": "122"
-    },
-    {
-      "source": "563",
-      "target": "17"
-    },
-    {
-      "source": "274",
-      "target": "220"
-    },
-    {
-      "source": "105",
-      "target": "220"
-    },
-    {
-      "source": "5",
-      "target": "220"
-    },
-    {
-      "source": "230",
-      "target": "130"
-    },
-    {
-      "source": "276",
-      "target": "272"
-    },
-    {
-      "source": "180",
-      "target": "122"
-    },
-    {
-      "source": "665",
-      "target": "276"
-    },
-    {
-      "source": "177",
-      "target": "17"
-    },
-    {
-      "source": "229",
-      "target": "231"
-    },
-    {
-      "source": "680",
-      "target": "1"
-    },
-    {
-      "source": "680",
-      "target": "180"
-    },
-    {
-      "source": "221",
-      "target": "231"
-    },
-    {
-      "source": "221",
-      "target": "278"
-    },
-    {
-      "source": "34",
-      "target": "220"
-    },
-    {
-      "source": "90",
-      "target": "272"
-    },
-    {
-      "source": "90",
-      "target": "114"
-    },
-    {
-      "source": "220",
-      "target": "272"
-    },
-    {
-      "source": "562",
-      "target": "17"
-    },
-    {
-      "source": "492",
-      "target": "130"
     },
     {
       "source": "681",
@@ -547,6 +212,14 @@
     },
     {
       "source": "681",
+      "target": "180"
+    },
+    {
+      "source": "680",
+      "target": "1"
+    },
+    {
+      "source": "680",
       "target": "180"
     },
     {
@@ -554,40 +227,16 @@
       "target": "180"
     },
     {
-      "source": "277",
-      "target": "272"
-    },
-    {
-      "source": "263",
+      "source": "562",
       "target": "17"
     },
     {
-      "source": "17",
-      "target": "122"
-    },
-    {
-      "source": "231",
-      "target": "130"
-    },
-    {
-      "source": "279",
-      "target": "278"
-    },
-    {
-      "source": "493",
-      "target": "130"
-    },
-    {
-      "source": "679",
+      "source": "58",
       "target": "1"
     },
     {
-      "source": "679",
+      "source": "58",
       "target": "180"
-    },
-    {
-      "source": "494",
-      "target": "130"
     }
   ]
 }

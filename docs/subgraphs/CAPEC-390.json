@@ -4,42 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-398: Magnetic Strip Card Brute Force Attacks</b><br>An adversary analyzes the data on two or more magnetic strip cards and is able<br>to generate new cards containing valid sequences that allow unauthorized access<br>and/or impersonation of individuals.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Magnetic Strip Card Brute Force Attacks",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/398.html",
-      "id": "398"
-    },
-    {
-      "Description": "<b>CAPEC-626: Smudge Attack</b><br>Attacks that reveal the password/passcode pattern on a touchscreen device by<br>detecting oil smudges left behind by the user\u2019s fingers.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Smudge Attack",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/626.html",
-      "id": "626"
-    },
-    {
-      "Description": "<b>CAPEC-395: Bypassing Electronic Locks and Access Controls</b><br>An attacker exploits security assumptions to bypass electronic locks or other<br>forms of access controls. Most attacks against electronic access controls follow<br>similar methods but utilize different tools. Some electronic locks utilize<br>magnetic strip cards, others employ RFID tags embedded within a card or badge,<br>or may involve more sophisticated protections such as voice-print, thumb-print,<br>or retinal biometrics. Magnetic Strip and RFID technologies are the most<br>widespread because they are cost effective to deploy and more easily integrated<br>with other electronic security measures. These technologies share common<br>weaknesses that an attacker can exploit to gain access to a facility protected<br>by the mechanisms via copying legitimate cards or badges, or generating new<br>cards using reverse-engineered algorithms.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Bypassing Electronic Locks and Access Controls",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/395.html",
-      "id": "395"
-    },
-    {
-      "Description": "<b>CAPEC-397: Cloning Magnetic Strip Cards</b><br>An attacker duplicates the data on a Magnetic strip card (i.e. 'swipe card' or<br>'magstripe') to gain unauthorized access to a physical location or a person's<br>private information. Magstripe cards encode data on a band of iron-based<br>magnetic particles arrayed in a stripe along a rectangular card. Most magstripe<br>card data formats conform to ISO standards 7810, 7811, 7813, 8583, and 4909. The<br>primary advantage of magstripe technology is ease of encoding and portability,<br>but this also renders magnetic strip cards susceptible to unauthorized<br>duplication. If magstripe cards are used for access control, all an attacker<br>need do is obtain a valid card long enough to make a copy of the card and then<br>return the card to its location (i.e. a co-worker's desk). Magstripe<br>reader/writers are widely available as well as software for analyzing data<br>encoded on the cards. By swiping a valid card, it becomes trivial to make any<br>number of duplicates that function as the original.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Cloning Magnetic Strip Cards",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/397.html",
-      "id": "397"
-    },
-    {
       "Description": "<b>CAPEC-392: Lock Bumping</b><br>An attacker uses a bump key to force a lock on a building or facility and gain<br>entry. Lock Bumping is the use of a special type of key that can be tapped or<br>bumped to cause the pins within the lock to fall into temporary alignment,<br>allowing the lock to be opened. Lock bumping allows an attacker to open a lock<br>without having the correct key. A standard lock is secured by a set of internal<br>pins that prevent the device from turning. Spring loaded driver pins push down<br>on the key pins. When the correct key is inserted, the ridges on the key push<br>the key pins up and against the driver pins, causing correct alignment which<br>allows the lock cylinder to rotate. A bump key is a specially constructed key<br>that exploits this design. When the bump key is struck or firmly tapped, its<br>teeth transfer the force of the tap into the key pins, causing the lock to<br>momentarily shift into proper alignment for the mechanism to be opened.",
       "color": "#94ebff",
       "size": 10,
@@ -47,15 +11,6 @@
       "label_class": "node-label-small",
       "url": "https://capec.mitre.org/data/definitions/392.html",
       "id": "392"
-    },
-    {
-      "Description": "<b>CAPEC-399: Cloning RFID Cards or Chips</b><br>An attacker analyzes data returned by an RFID chip and uses this information to<br>duplicate a RFID signal that responds identically to the target chip. In some<br>cases RFID chips are used for building access control, employee identification,<br>or as markers on products being delivered along a supply chain. Some<br>organizations also embed RFID tags inside computer assets to trigger alarms if<br>they are removed from particular rooms, zones, or buildings. Similar to Magnetic<br>strip cards, RFID cards are susceptible to duplication (cloning) and reuse.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Cloning RFID Cards or Chips",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/399.html",
-      "id": "399"
     },
     {
       "Description": "<b>CAPEC-394: Using a Snap Gun Lock to Force a Lock</b><br>An attacker uses a Snap Gun, also known as a Pick Gun, to force the lock on a<br>building or facility. A Pick Gun is a special type of lock picking instrument<br>that works on similar principles as lock bumping. A snap gun is a hand-held<br>device with an attached metal pick. The metal pick strikes the pins within the<br>lock, transferring motion from the key pins to the driver pins and forcing the<br>lock into momentary alignment. A standard lock is secured by a set of internal<br>pins that prevent the device from turning. Spring loaded driver pins push down<br>on the key pins. When the correct key is inserted, the ridges on the key push<br>the key pins up and against the driver pins, causing correct alignment which<br>allows the lock cylinder to rotate. A Snap Gun exploits this design by using a<br>metal pin to strike all of the key pins at once, forcing the driver pins to<br>shift into an unlocked position. Unlike bump keys or lock picks, a Snap Gun may<br>damage the lock more easily, leaving evidence that the lock has been tampered<br>with.",
@@ -76,13 +31,22 @@
       "id": "393"
     },
     {
-      "Description": "<b>CAPEC-400: RFID Chip Deactivation or Destruction</b><br>An attacker uses methods to deactivate a passive RFID tag for the purpose of<br>rendering the tag, badge, card, or object containing the tag unresponsive. RFID<br>tags are used primarily for access control, inventory, or anti-theft devices.<br>The purpose of attacking the RFID chip is to disable or damage the chip without<br>causing damage to the object housing it.",
+      "Description": "<b>CAPEC-397: Cloning Magnetic Strip Cards</b><br>An attacker duplicates the data on a Magnetic strip card (i.e. 'swipe card' or<br>'magstripe') to gain unauthorized access to a physical location or a person's<br>private information. Magstripe cards encode data on a band of iron-based<br>magnetic particles arrayed in a stripe along a rectangular card. Most magstripe<br>card data formats conform to ISO standards 7810, 7811, 7813, 8583, and 4909. The<br>primary advantage of magstripe technology is ease of encoding and portability,<br>but this also renders magnetic strip cards susceptible to unauthorized<br>duplication. If magstripe cards are used for access control, all an attacker<br>need do is obtain a valid card long enough to make a copy of the card and then<br>return the card to its location (i.e. a co-worker's desk). Magstripe<br>reader/writers are widely available as well as software for analyzing data<br>encoded on the cards. By swiping a valid card, it becomes trivial to make any<br>number of duplicates that function as the original.",
       "color": "#94ebff",
       "size": 10,
-      "label": "RFID Chip Deactivation or Destruction",
+      "label": "Cloning Magnetic Strip Cards",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/400.html",
-      "id": "400"
+      "url": "https://capec.mitre.org/data/definitions/397.html",
+      "id": "397"
+    },
+    {
+      "Description": "<b>CAPEC-391: Bypassing Physical Locks</b><br>An attacker uses techniques and methods to bypass physical security measures of<br>a building or facility. Physical locks may range from traditional lock and key<br>mechanisms, cable locks used to secure laptops or servers, locks on server<br>cases, or other such devices. Techniques such as lock bumping, lock forcing via<br>snap guns, or lock picking can be employed to bypass those locks and gain access<br>to the facilities or devices they protect, although stealth, evidence of<br>tampering, and the integrity of the lock following an attack, are considerations<br>that may determine the method employed. Physical locks are limited by the<br>complexity of the locking mechanism. While some locks may offer protections such<br>as shock resistant foam to prevent bumping or lock forcing methods, many<br>commonly employed locks offer no such countermeasures.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Bypassing Physical Locks",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/391.html",
+      "id": "391"
     },
     {
       "Description": "<b>CAPEC-390: Bypassing Physical Security</b><br>Facilities often used layered models for physical security such as traditional<br>locks, Electronic-based card entry systems, coupled with physical alarms.<br>Hardware security mechanisms range from the use of computer case and cable locks<br>as well as RFID tags for tracking computer assets. This layered approach makes<br>it difficult for random physical security breaches to go unnoticed, but is less<br>effective at stopping deliberate and carefully planned break-ins. Avoiding<br>detection begins with evading building security and surveillance and methods for<br>bypassing the electronic or physical locks which secure entry points.",
@@ -94,39 +58,55 @@
       "id": "390"
     },
     {
-      "Description": "<b>CAPEC-391: Bypassing Physical Locks</b><br>An attacker uses techniques and methods to bypass physical security measures of<br>a building or facility. Physical locks may range from traditional lock and key<br>mechanisms, cable locks used to secure laptops or servers, locks on server<br>cases, or other such devices. Techniques such as lock bumping, lock forcing via<br>snap guns, or lock picking can be employed to bypass those locks and gain access<br>to the facilities or devices they protect, although stealth, evidence of<br>tampering, and the integrity of the lock following an attack, are considerations<br>that may determine the method employed. Physical locks are limited by the<br>complexity of the locking mechanism. While some locks may offer protections such<br>as shock resistant foam to prevent bumping or lock forcing methods, many<br>commonly employed locks offer no such countermeasures.",
+      "Description": "<b>CAPEC-399: Cloning RFID Cards or Chips</b><br>An attacker analyzes data returned by an RFID chip and uses this information to<br>duplicate a RFID signal that responds identically to the target chip. In some<br>cases RFID chips are used for building access control, employee identification,<br>or as markers on products being delivered along a supply chain. Some<br>organizations also embed RFID tags inside computer assets to trigger alarms if<br>they are removed from particular rooms, zones, or buildings. Similar to Magnetic<br>strip cards, RFID cards are susceptible to duplication (cloning) and reuse.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Cloning RFID Cards or Chips",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/399.html",
+      "id": "399"
+    },
+    {
+      "Description": "<b>CAPEC-398: Magnetic Strip Card Brute Force Attacks</b><br>An adversary analyzes the data on two or more magnetic strip cards and is able<br>to generate new cards containing valid sequences that allow unauthorized access<br>and/or impersonation of individuals.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Magnetic Strip Card Brute Force Attacks",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/398.html",
+      "id": "398"
+    },
+    {
+      "Description": "<b>CAPEC-400: RFID Chip Deactivation or Destruction</b><br>An attacker uses methods to deactivate a passive RFID tag for the purpose of<br>rendering the tag, badge, card, or object containing the tag unresponsive. RFID<br>tags are used primarily for access control, inventory, or anti-theft devices.<br>The purpose of attacking the RFID chip is to disable or damage the chip without<br>causing damage to the object housing it.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "RFID Chip Deactivation or Destruction",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/400.html",
+      "id": "400"
+    },
+    {
+      "Description": "<b>CAPEC-395: Bypassing Electronic Locks and Access Controls</b><br>An attacker exploits security assumptions to bypass electronic locks or other<br>forms of access controls. Most attacks against electronic access controls follow<br>similar methods but utilize different tools. Some electronic locks utilize<br>magnetic strip cards, others employ RFID tags embedded within a card or badge,<br>or may involve more sophisticated protections such as voice-print, thumb-print,<br>or retinal biometrics. Magnetic Strip and RFID technologies are the most<br>widespread because they are cost effective to deploy and more easily integrated<br>with other electronic security measures. These technologies share common<br>weaknesses that an attacker can exploit to gain access to a facility protected<br>by the mechanisms via copying legitimate cards or badges, or generating new<br>cards using reverse-engineered algorithms.",
       "color": "#75aaff",
       "size": 18,
-      "label": "Bypassing Physical Locks",
+      "label": "Bypassing Electronic Locks and Access Controls",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/391.html",
-      "id": "391"
+      "url": "https://capec.mitre.org/data/definitions/395.html",
+      "id": "395"
+    },
+    {
+      "Description": "<b>CAPEC-626: Smudge Attack</b><br>Attacks that reveal the password/passcode pattern on a touchscreen device by<br>detecting oil smudges left behind by the user\u2019s fingers.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Smudge Attack",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/626.html",
+      "id": "626"
     }
   ],
   "links": [
     {
-      "source": "398",
-      "target": "395"
-    },
-    {
-      "source": "626",
-      "target": "395"
-    },
-    {
-      "source": "395",
-      "target": "390"
-    },
-    {
-      "source": "397",
-      "target": "395"
-    },
-    {
       "source": "392",
       "target": "391"
-    },
-    {
-      "source": "399",
-      "target": "395"
     },
     {
       "source": "394",
@@ -137,12 +117,32 @@
       "target": "391"
     },
     {
-      "source": "400",
+      "source": "397",
       "target": "395"
     },
     {
       "source": "391",
       "target": "390"
+    },
+    {
+      "source": "399",
+      "target": "395"
+    },
+    {
+      "source": "398",
+      "target": "395"
+    },
+    {
+      "source": "400",
+      "target": "395"
+    },
+    {
+      "source": "395",
+      "target": "390"
+    },
+    {
+      "source": "626",
+      "target": "395"
     }
   ]
 }

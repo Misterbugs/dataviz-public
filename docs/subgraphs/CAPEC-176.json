@@ -4,22 +4,40 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-536: Data Injected During Configuration</b><br>An attacker with access to data files and processes on a victim's system injects<br>malicious data into critical operational data during configuration or<br>recalibration, causing the victim's system to perform in a suboptimal manner<br>that benefits the adversary.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Data Injected During Configuration",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/536.html",
-      "id": "536"
-    },
-    {
-      "Description": "<b>CAPEC-478: Modification of Windows Service Configuration</b><br>An adversary exploits a weakness in access control to modify the execution<br>parameters of a Windows service. The goal of this attack is to execute a<br>malicious binary in place of an existing service.",
+      "Description": "<b>CAPEC-146: XML Schema Poisoning</b><br>An adversary corrupts or modifies the content of XML schema information passed<br>between a client and server for the purpose of undermining the security of the<br>target. XML Schemas provide the structure and content definitions for XML<br>documents. Schema poisoning is the ability to manipulate a schema either by<br>replacing or modifying it to compromise the programs that process documents that<br>use this schema.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Modification of Windows Service Configuration",
+      "label": "XML Schema Poisoning",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/478.html",
-      "id": "478"
+      "url": "https://capec.mitre.org/data/definitions/146.html",
+      "id": "146"
+    },
+    {
+      "Description": "<b>CAPEC-578: Disable Security Software</b><br>An adversary exploits a weakness in access control to disable security tools so<br>that detection does not occur. This can take the form of killing processes,<br>deleting registry keys so that tools do not start at run time, deleting log<br>files, or other methods.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Disable Security Software",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/578.html",
+      "id": "578"
+    },
+    {
+      "Description": "<b>CAPEC-271: Schema Poisoning</b><br>An adversary corrupts or modifies the content of a schema for the purpose of<br>undermining the security of the target. Schemas provide the structure and<br>content definitions for resources used by an application. By replacing or<br>modifying a schema, the adversary can affect how the application handles or<br>interprets a resource, often leading to possible denial of service, entering<br>into an unexpected state, or recording incomplete data.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Schema Poisoning",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/271.html",
+      "id": "271"
+    },
+    {
+      "Description": "<b>CAPEC-270: Modification of Registry Run Keys</b><br>An adversary adds a new entry to the \"run keys\" in the Windows registry so that<br>an application of their choosing is executed when a user logs in. In this way,<br>the adversary can get their executable to operate and run on the target system<br>with the authorized user's level of permissions. This attack is a good way for<br>an adversary to run persistent spyware on a user's machine, such as a keylogger.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Modification of Registry Run Keys",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/270.html",
+      "id": "270"
     },
     {
       "Description": "<b>CAPEC-51: Poison Web Service Registry</b><br>SOA and Web Services often use a registry to perform look up, get schema<br>information, and metadata about services. A poisoned registry can redirect<br>(think phishing for servers) the service requester to a malicious service<br>provider, provide incorrect information in schema or metadata, and delete<br>information about service provider interfaces.",
@@ -40,42 +58,6 @@
       "id": "203"
     },
     {
-      "Description": "<b>CAPEC-578: Disable Security Software</b><br>An adversary exploits a weakness in access control to disable security tools so<br>that detection does not occur. This can take the form of killing processes,<br>deleting registry keys so that tools do not start at run time, deleting log<br>files, or other methods.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Disable Security Software",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/578.html",
-      "id": "578"
-    },
-    {
-      "Description": "<b>CAPEC-75: Manipulating Writeable Configuration Files</b><br>Generally these are manually edited files that are not in the preview of the<br>system administrators, any ability on the attackers' behalf to modify these<br>files, for example in a CVS repository, gives unauthorized access directly to<br>the application, the same as authorized users.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Manipulating Writeable Configuration Files",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/75.html",
-      "id": "75"
-    },
-    {
-      "Description": "<b>CAPEC-270: Modification of Registry Run Keys</b><br>An adversary adds a new entry to the \"run keys\" in the Windows registry so that<br>an application of their choosing is executed when a user logs in. In this way,<br>the adversary can get their executable to operate and run on the target system<br>with the authorized user's level of permissions. This attack is a good way for<br>an adversary to run persistent spyware on a user's machine, such as a keylogger.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Modification of Registry Run Keys",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/270.html",
-      "id": "270"
-    },
-    {
-      "Description": "<b>CAPEC-146: XML Schema Poisoning</b><br>An adversary corrupts or modifies the content of XML schema information passed<br>between a client and server for the purpose of undermining the security of the<br>target. XML Schemas provide the structure and content definitions for XML<br>documents. Schema poisoning is the ability to manipulate a schema either by<br>replacing or modifying it to compromise the programs that process documents that<br>use this schema.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "XML Schema Poisoning",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/146.html",
-      "id": "146"
-    },
-    {
       "Description": "<b>CAPEC-176: Configuration/Environment Manipulation</b><br>An attacker manipulates files or settings external to a target application which<br>affect the behavior of that application. For example, many applications use<br>external configuration files and libraries - modification of these entities or<br>otherwise affecting the application's ability to use them would constitute a<br>configuration/environment manipulation attack.",
       "color": "#2176ff",
       "size": 30,
@@ -85,22 +67,48 @@
       "id": "176"
     },
     {
-      "Description": "<b>CAPEC-271: Schema Poisoning</b><br>An adversary corrupts or modifies the content of a schema for the purpose of<br>undermining the security of the target. Schemas provide the structure and<br>content definitions for resources used by an application. By replacing or<br>modifying a schema, the adversary can affect how the application handles or<br>interprets a resource, often leading to possible denial of service, entering<br>into an unexpected state, or recording incomplete data.",
+      "Description": "<b>CAPEC-478: Modification of Windows Service Configuration</b><br>An adversary exploits a weakness in access control to modify the execution<br>parameters of a Windows service. The goal of this attack is to execute a<br>malicious binary in place of an existing service.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Modification of Windows Service Configuration",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/478.html",
+      "id": "478"
+    },
+    {
+      "Description": "<b>CAPEC-536: Data Injected During Configuration</b><br>An attacker with access to data files and processes on a victim's system injects<br>malicious data into critical operational data during configuration or<br>recalibration, causing the victim's system to perform in a suboptimal manner<br>that benefits the adversary.",
       "color": "#75aaff",
       "size": 18,
-      "label": "Schema Poisoning",
+      "label": "Data Injected During Configuration",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/271.html",
-      "id": "271"
+      "url": "https://capec.mitre.org/data/definitions/536.html",
+      "id": "536"
+    },
+    {
+      "Description": "<b>CAPEC-75: Manipulating Writeable Configuration Files</b><br>Generally these are manually edited files that are not in the preview of the<br>system administrators, any ability on the attackers' behalf to modify these<br>files, for example in a CVS repository, gives unauthorized access directly to<br>the application, the same as authorized users.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Manipulating Writeable Configuration Files",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/75.html",
+      "id": "75"
     }
   ],
   "links": [
     {
-      "source": "536",
+      "source": "146",
+      "target": "271"
+    },
+    {
+      "source": "578",
       "target": "176"
     },
     {
-      "source": "478",
+      "source": "271",
+      "target": "176"
+    },
+    {
+      "source": "270",
       "target": "203"
     },
     {
@@ -112,23 +120,15 @@
       "target": "176"
     },
     {
-      "source": "578",
+      "source": "478",
+      "target": "203"
+    },
+    {
+      "source": "536",
       "target": "176"
     },
     {
       "source": "75",
-      "target": "176"
-    },
-    {
-      "source": "270",
-      "target": "203"
-    },
-    {
-      "source": "146",
-      "target": "271"
-    },
-    {
-      "source": "271",
       "target": "176"
     }
   ]

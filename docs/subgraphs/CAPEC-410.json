@@ -4,15 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-424: Influence Perception of Consensus or Social Proof</b><br>The adversary influences the target's actions by leveraging the inherent human<br>nature to assume behavior of others is appropriate. In situations of<br>uncertainty, people tend to behave in ways they see others behaving. The<br>adversary convinces the target of adopting behavior or actions that is<br>advantageous to the adversary.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Influence Perception of Consensus or Social Proof",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/424.html",
-      "id": "424"
-    },
-    {
       "Description": "<b>CAPEC-410: Information Elicitation</b><br>An adversary engages an individual using any combination of social engineering<br>methods for the purpose of extracting information. Accurate contextual and<br>environmental queues, such as knowing important information about the target<br>company or individual can greatly increase the success of the attack and the<br>quality of information gathered. Authentic mimicry combined with detailed<br>knowledge increases the success of elicitation attacks.",
       "color": "#2176ff",
       "size": 30,
@@ -20,105 +11,6 @@
       "label_class": "node-label-big",
       "url": "https://capec.mitre.org/data/definitions/410.html",
       "id": "410"
-    },
-    {
-      "Description": "<b>CAPEC-421: Influence Perception of Authority</b><br>An adversary uses a social engineering technique to convey a sense of authority<br>that motivates the target to reveal specific information or take specific<br>action. There are various techniques for producing a sense of authority during<br>ordinary modes of communication. One common method is impersonation. By<br>impersonating someone with a position of power within an organization, an<br>adversary may motivate the target individual to reveal some piece of sensitive<br>information or perform an action that benefits the adversary.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Influence Perception of Authority",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/421.html",
-      "id": "421"
-    },
-    {
-      "Description": "<b>CAPEC-414: Pretexting via Delivery Person</b><br>An adversary engages in pretexting behavior, assuming the role of a delivery<br>person, to solicit information from target persons, or manipulate the target<br>into performing an action that serves the adversary's interests. Impersonating a<br>delivery person is an effective attack and an easy attack since not much acting<br>is involved. Usually the hardest part is looking the part and having all of the<br>proper credentials, papers and \"deliveries\" in order to be able to pull it off.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Pretexting via Delivery Person",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/414.html",
-      "id": "414"
-    },
-    {
-      "Description": "<b>CAPEC-429: Target Influence via Eye Cues</b><br>The adversary gains information via non-verbal means from the target through eye<br>movements.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Target Influence via Eye Cues",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/429.html",
-      "id": "429"
-    },
-    {
-      "Description": "<b>CAPEC-427: Influence via Psychological Principles</b><br>The adversary shapes the target's actions or behavior by focusing on the ways<br>human interact and learn, leveraging such elements as cognitive and social<br>psychology. In a variety of ways, a target can be influenced to behave or<br>perform an action through capitalizing on what scholarship and research has<br>learned about how and why humans react to specific scenarios and cues.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Influence via Psychological Principles",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/427.html",
-      "id": "427"
-    },
-    {
-      "Description": "<b>CAPEC-417: Influence Perception</b><br>The adversary uses social engineering to exploit the target's perception of the<br>relationship between the adversary and themselves. This goal is to persuade the<br>target to unknowingly perform an action or divulge information that is<br>advantageous to the adversary.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Influence Perception",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/417.html",
-      "id": "417"
-    },
-    {
-      "Description": "<b>CAPEC-433: Target Influence via The Human Buffer Overflow</b><br>An attacker utilizes a technique to insinuate commands to the subconscious mind<br>of the target via communication patterns. The human buffer overflow methodology<br>does not rely on over-stimulating the mind of the target, but rather embedding<br>messages within communication that the mind of the listener assembles at a<br>subconscious level. The human buffer-overflow method is similar to subconscious<br>programming to the extent that messages are embedded within the message.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Target Influence via The Human Buffer Overflow",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/433.html",
-      "id": "433"
-    },
-    {
-      "Description": "<b>CAPEC-426: Influence via Incentives</b><br>The adversary incites a behavior from the target by manipulating something of<br>influence. This is commonly associated with financial, social, or ideological<br>incentivization. Examples include monetary fraud, peer pressure, and preying on<br>the target's morals or ethics. The most effective incentive against one target<br>might not be as effective against another, therefore the adversary must gather<br>information about the target's vulnerability to particular incentives.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Influence via Incentives",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/426.html",
-      "id": "426"
-    },
-    {
-      "Description": "<b>CAPEC-413: Pretexting via Tech Support</b><br>An adversary engages in pretexting behavior, assuming the role of a tech support<br>worker, to solicit information from target persons, or manipulate the target<br>into performing an action that serves the adversary's interests. An adversary<br>who uses social engineering to impersonate a tech support worker can have<br>devastating effects on a network. This is an effective attack vector, because it<br>can give an adversary physical access to network computers. It only takes a<br>matter of seconds for someone to compromise a computer with physical access. One<br>of the best technological tools at the disposal of a social engineer, posing as<br>a technical support person, is a USB thumb drive. These are small, easy to<br>conceal, and can be loaded with different payloads depending on what task needs<br>to be done. However, this form of attack does not require physical access as it<br>can also be effectively carried out via phone or email.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Pretexting via Tech Support",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/413.html",
-      "id": "413"
-    },
-    {
-      "Description": "<b>CAPEC-435: Target Influence via Instant Rapport</b><br>",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Target Influence via Instant Rapport",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/435.html",
-      "id": "435"
-    },
-    {
-      "Description": "<b>CAPEC-425: Target Influence via Framing</b><br>An adversary uses framing techniques to contextualize a conversation so that the<br>target is more likely to be influenced by the adversary's point of view. Framing<br>is information and experiences in life that alter the way we react to decisions<br>we must make. This type of persuasive technique exploits the way people are<br>conditioned to perceive data and its significance, while avoiding negative or<br>avoidance responses from the target. Rather than a specific technique framing is<br>a methodology of conversation that slowly encourages the target to adopt to the<br>adversary's perspective. One technique of framing is to avoid the use of the<br>word \"No\" and to contextualize responses in a manner that is positive. When<br>performed skillfully the target is much more likely to volunteer information or<br>perform actions favorable to the adversary.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Target Influence via Framing",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/425.html",
-      "id": "425"
-    },
-    {
-      "Description": "<b>CAPEC-423: Influence Perception of Liking</b><br>The adversary influences the target's actions by building a relationship where<br>the target has a liking to the adversary. People are more likely to be<br>influenced by people of whom they are fond, so the adversary attempts to<br>ingratiate themself with the target via actions, appearance, or a combination<br>thereof.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Influence Perception of Liking",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/423.html",
-      "id": "423"
     },
     {
       "Description": "<b>CAPEC-412: Pretexting via Customer Service</b><br>An adversary engages in pretexting behavior, assuming the role of someone who<br>works for Customer Service, to solicit information from target persons, or<br>manipulate the target into performing an action that serves the adversary's<br>interests. One example of a scenario such as this would be to call an<br>individual, articulate your false affiliation with a credit card company, and<br>then attempt to get the individual to verify their credit card number.",
@@ -130,40 +22,13 @@
       "id": "412"
     },
     {
-      "Description": "<b>CAPEC-418: Influence Perception of Reciprocation</b><br>An adversary uses a social engineering techniques to produce a sense of<br>obligation in the target to perform a certain action or concede some sensitive<br>or key piece of information. Obligation has to do with actions one feels they<br>need to take due to some sort of social, legal, or moral requirement, duty,<br>contract, or promise. There are various techniques for fostering a sense of<br>obligation to reciprocate or concede during ordinary modes of communication. One<br>method is to compliment the target, and follow up the compliment with a<br>question. If performed correctly the target may volunteer a key piece of<br>information, sometimes involuntarily.",
+      "Description": "<b>CAPEC-415: Pretexting via Phone</b><br>An adversary engages in pretexting behavior, assuming some sort of trusted role,<br>and contacting the targeted individual or organization via phone to solicit<br>information from target persons, or manipulate the target into performing an<br>action that serves the adversary's interests. This is the most common social<br>engineering attack. Some of the most commonly effective approaches are to<br>impersonate a fellow employee, impersonate a computer technician or to target<br>help desk personnel.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Influence Perception of Reciprocation",
+      "label": "Pretexting via Phone",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/418.html",
-      "id": "418"
-    },
-    {
-      "Description": "<b>CAPEC-416: Manipulate Human Behavior</b><br>An adversary exploits inherent human psychological predisposition to influence a<br>targeted individual or group to solicit information or manipulate the target<br>into performing an action that serves the adversary's interests. Many<br>interpersonal social engineering techniques do not involve outright deception,<br>although they can; many are subtle ways of manipulating a target to remove<br>barriers, make the target feel comfortable, and produce an exchange in which the<br>target is either more likely to share information directly, or let key<br>information slip out unintentionally. A skilled adversary uses these techniques<br>when appropriate to produce the desired outcome. Manipulation techniques vary<br>from the overt, such as pretending to be a supervisor to a help desk, to the<br>subtle, such as making the target feel comfortable with the adversary's speech<br>and thought patterns.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Manipulate Human Behavior",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/416.html",
-      "id": "416"
-    },
-    {
-      "Description": "<b>CAPEC-420: Influence Perception of Scarcity</b><br>The adversary leverages a perception of scarcity to persuade the target to<br>perform an action or divulge information that is advantageous to the adversary.<br>By conveying a perception of scarcity, or a situation of limited supply, the<br>adversary aims to create a sense of urgency in the context of a target's<br>decision-making process.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Influence Perception of Scarcity",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/420.html",
-      "id": "420"
-    },
-    {
-      "Description": "<b>CAPEC-407: Pretexting</b><br>An adversary engages in pretexting behavior to solicit information from target<br>persons, or manipulate the target into performing some action that serves the<br>adversary's interests. During a pretexting attack, the adversary creates an<br>invented scenario, assuming an identity or role to persuade a targeted victim to<br>release information or perform some action. It is more than just creating a lie;<br>in some cases it can be creating a whole new identity and then using that<br>identity to manipulate the receipt of information.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Pretexting",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/407.html",
-      "id": "407"
+      "url": "https://capec.mitre.org/data/definitions/415.html",
+      "id": "415"
     },
     {
       "Description": "<b>CAPEC-383: Harvesting Information via API Event Monitoring</b><br>An adversary hosts an event within an application framework and then monitors<br>the data exchanged during the course of the event for the purpose of harvesting<br>any important data leaked during the transactions. One example could be<br>harvesting lists of usernames or userIDs for the purpose of sending spam<br>messages to those users. One example of this type of attack involves the<br>adversary creating an event within the sub-application. Assume the adversary<br>hosts a \"virtual sale\" of rare items. As other users enter the event, the<br>attacker records via AiTM (CAPEC-94) proxy the user_ids and usernames of<br>everyone who attends. The adversary would then be able to spam those users<br>within the application using an automated script.",
@@ -175,130 +40,57 @@
       "id": "383"
     },
     {
-      "Description": "<b>CAPEC-422: Influence Perception of Commitment and Consistency</b><br>An adversary uses social engineering to convince the target to do minor tasks as<br>opposed to larger actions. After complying with a request, individuals are more<br>likely to agree to subsequent requests that are similar in type and required<br>effort.",
+      "Description": "<b>CAPEC-414: Pretexting via Delivery Person</b><br>An adversary engages in pretexting behavior, assuming the role of a delivery<br>person, to solicit information from target persons, or manipulate the target<br>into performing an action that serves the adversary's interests. Impersonating a<br>delivery person is an effective attack and an easy attack since not much acting<br>is involved. Usually the hardest part is looking the part and having all of the<br>proper credentials, papers and \"deliveries\" in order to be able to pull it off.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Influence Perception of Commitment and Consistency",
+      "label": "Pretexting via Delivery Person",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/422.html",
-      "id": "422"
+      "url": "https://capec.mitre.org/data/definitions/414.html",
+      "id": "414"
     },
     {
-      "Description": "<b>CAPEC-434: Target Influence via Interview and Interrogation</b><br>",
+      "Description": "<b>CAPEC-413: Pretexting via Tech Support</b><br>An adversary engages in pretexting behavior, assuming the role of a tech support<br>worker, to solicit information from target persons, or manipulate the target<br>into performing an action that serves the adversary's interests. An adversary<br>who uses social engineering to impersonate a tech support worker can have<br>devastating effects on a network. This is an effective attack vector, because it<br>can give an adversary physical access to network computers. It only takes a<br>matter of seconds for someone to compromise a computer with physical access. One<br>of the best technological tools at the disposal of a social engineer, posing as<br>a technical support person, is a USB thumb drive. These are small, easy to<br>conceal, and can be loaded with different payloads depending on what task needs<br>to be done. However, this form of attack does not require physical access as it<br>can also be effectively carried out via phone or email.",
       "color": "#94ebff",
       "size": 10,
-      "label": "Target Influence via Interview and Interrogation",
+      "label": "Pretexting via Tech Support",
       "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/434.html",
-      "id": "434"
+      "url": "https://capec.mitre.org/data/definitions/413.html",
+      "id": "413"
     },
     {
-      "Description": "<b>CAPEC-415: Pretexting via Phone</b><br>An adversary engages in pretexting behavior, assuming some sort of trusted role,<br>and contacting the targeted individual or organization via phone to solicit<br>information from target persons, or manipulate the target into performing an<br>action that serves the adversary's interests. This is the most common social<br>engineering attack. Some of the most commonly effective approaches are to<br>impersonate a fellow employee, impersonate a computer technician or to target<br>help desk personnel.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Pretexting via Phone",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/415.html",
-      "id": "415"
-    },
-    {
-      "Description": "<b>CAPEC-428: Influence via Modes of Thinking</b><br>The adversary tailors their communication to the language and thought patterns<br>of the target thereby weakening barriers or reluctance to communication. This<br>method is a way of building rapport with a target by matching their speech<br>patterns and the primary ways or dominant senses with which they make<br>abstractions. This technique can be used to make the target more receptive to<br>sharing information because the adversary has adapted their communication forms<br>to match those of the target. When skillfully employed, the target is likely to<br>be unaware that they are being manipulated.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "Influence via Modes of Thinking",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/428.html",
-      "id": "428"
+      "Description": "<b>CAPEC-407: Pretexting</b><br>An adversary engages in pretexting behavior to solicit information from target<br>persons, or manipulate the target into performing some action that serves the<br>adversary's interests. During a pretexting attack, the adversary creates an<br>invented scenario, assuming an identity or role to persuade a targeted victim to<br>release information or perform some action. It is more than just creating a lie;<br>in some cases it can be creating a whole new identity and then using that<br>identity to manipulate the receipt of information.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Pretexting",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/407.html",
+      "id": "407"
     }
   ],
   "links": [
     {
-      "source": "424",
-      "target": "417"
-    },
-    {
-      "source": "421",
-      "target": "417"
-    },
-    {
-      "source": "414",
-      "target": "407"
-    },
-    {
-      "source": "429",
-      "target": "427"
-    },
-    {
-      "source": "427",
-      "target": "416"
-    },
-    {
-      "source": "417",
-      "target": "416"
-    },
-    {
-      "source": "433",
-      "target": "427"
-    },
-    {
-      "source": "426",
-      "target": "416"
-    },
-    {
-      "source": "413",
-      "target": "407"
-    },
-    {
-      "source": "435",
-      "target": "427"
-    },
-    {
-      "source": "425",
-      "target": "416"
-    },
-    {
-      "source": "423",
-      "target": "417"
-    },
-    {
       "source": "412",
       "target": "407"
-    },
-    {
-      "source": "418",
-      "target": "417"
-    },
-    {
-      "source": "420",
-      "target": "417"
-    },
-    {
-      "source": "407",
-      "target": "416"
-    },
-    {
-      "source": "407",
-      "target": "410"
-    },
-    {
-      "source": "383",
-      "target": "407"
-    },
-    {
-      "source": "422",
-      "target": "417"
-    },
-    {
-      "source": "434",
-      "target": "427"
     },
     {
       "source": "415",
       "target": "407"
     },
     {
-      "source": "428",
-      "target": "427"
+      "source": "383",
+      "target": "407"
+    },
+    {
+      "source": "414",
+      "target": "407"
+    },
+    {
+      "source": "413",
+      "target": "407"
+    },
+    {
+      "source": "407",
+      "target": "410"
     }
   ]
 }
