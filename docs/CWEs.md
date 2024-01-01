@@ -1,5 +1,5 @@
 ## List of Pillar CWEs with class CWEs
-### [CWE-284 Improper Access Control](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-284.json)
+### [CWE-284 Improper Access Control](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-284.json)
 - [CWE-287 Improper Authentication](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-287.json)
 - [CWE-287 Improper Authentication](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-287.json)
 - [CWE-285 Improper Authorization](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-285.json)
@@ -14,7 +14,7 @@
 - [CWE-862 Missing Authorization](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-862.json)
 - [CWE-346 Origin Validation Error](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-346.json)
 
-### [CWE-710 Improper Adherence to Coding Standards](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-710.json)
+### [CWE-710 Improper Adherence to Coding Standards](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-710.json)
 - [CWE-1120 Excessive Code Complexity](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1120.json)
 - [CWE-1093 Excessively Complex Data Representation](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1093.json)
 - [CWE-573 Improper Following of Specification by Caller](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-573.json)
@@ -28,13 +28,13 @@
 - [CWE-1177 Use of Prohibited Code](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1177.json)
 - [CWE-657 Violation of Secure Design Principles](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-657.json)
 
-### [CWE-703 Improper Check or Handling of Exceptional Conditions](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-703.json)
+### [CWE-703 Improper Check or Handling of Exceptional Conditions](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-703.json)
 - [CWE-754 Improper Check for Unusual or Exceptional Conditions](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-754.json)
 - [CWE-755 Improper Handling of Exceptional Conditions](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-755.json)
 - [CWE-1384 Improper Handling of Physical or Environmental Conditions](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1384.json)
 - [CWE-228 Improper Handling of Syntactically Invalid Structure](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-228.json)
 
-### [CWE-664 Improper Control of a Resource Through its Lifetime](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-664.json)
+### [CWE-664 Improper Control of a Resource Through its Lifetime](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-664.json)
 - [CWE-1229 Creation of Emergent Resource](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1229.json)
 - [CWE-668 Exposure of Resource to Wrong Sphere](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-668.json)
 - [CWE-673 External Influence of Sphere Definition](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-673.json)
@@ -52,11 +52,11 @@
 - [CWE-400 Uncontrolled Resource Consumption](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-400.json)
 - [CWE-706 Use of Incorrectly-Resolved Name or Reference](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-706.json)
 
-### [CWE-435 Improper Interaction Between Multiple Correctly-Behaving Entities](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-435.json)
+### [CWE-435 Improper Interaction Between Multiple Correctly-Behaving Entities](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-435.json)
 - [CWE-1038 Insecure Automated Optimizations](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1038.json)
 - [CWE-436 Interpretation Conflict](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-436.json)
 
-### [CWE-707 Improper Neutralization](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-707.json)
+### [CWE-707 Improper Neutralization](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-707.json)
 - [CWE-172 Encoding Error](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-172.json)
 - [CWE-116 Improper Encoding or Escaping of Output](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-116.json)
 - [CWE-228 Improper Handling of Syntactically Invalid Structure](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-228.json)
@@ -64,14 +64,14 @@
 - [CWE-138 Improper Neutralization of Special Elements](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-138.json)
 - [CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-74.json)
 
-### [CWE-682 Incorrect Calculation](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-682.json)
+### [CWE-682 Incorrect Calculation](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-682.json)
 
-### [CWE-697 Incorrect Comparison](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-697.json)
+### [CWE-697 Incorrect Comparison](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-697.json)
 - [CWE-1039 Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1039.json)
 - [CWE-1023 Incomplete Comparison with Missing Factors](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1023.json)
 - [CWE-185 Incorrect Regular Expression](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-185.json)
 
-### [CWE-691 Insufficient Control Flow Management](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-691.json)
+### [CWE-691 Insufficient Control Flow Management](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-691.json)
 - [CWE-670 Always-Incorrect Control Flow Implementation](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-670.json)
 - [CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-362.json)
 - [CWE-834 Excessive Iteration](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-834.json)
@@ -80,7 +80,7 @@
 - [CWE-696 Incorrect Behavior Order](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-696.json)
 - [CWE-705 Incorrect Control Flow Scoping](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-705.json)
 
-### [CWE-693 Protection Mechanism Failure](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=subgraphs/CWE-693.json)
+### [CWE-693 Protection Mechanism Failure](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-693.json)
 - [CWE-1039 Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-1039.json)
 - [CWE-602 Client-Side Enforcement of Server-Side Security](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-602.json)
 - [CWE-424 Improper Protection of Alternate Path](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-424.json)
