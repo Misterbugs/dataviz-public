@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CWE-75: Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)</b><br>The product does not adequately filter user-controlled input for special elements with control implications.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)",
+      "label_class": "node-label-medium",
+      "url": "https://cwe.mitre.org/data/definitions/75.html",
+      "id": "75"
+    },
+    {
+      "Description": "<b>CWE-76: Improper Neutralization of Equivalent Special Elements</b><br>The product correctly neutralizes certain special elements, but it improperly neutralizes equivalent special elements.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Neutralization of Equivalent Special Elements",
+      "label_class": "node-label-small",
+      "url": "https://cwe.mitre.org/data/definitions/76.html",
+      "id": "76"
+    }
+  ],
+  "links": [
+    {
+      "width": 1,
+      "source": "76",
+      "target": "75"
+    }
+  ]
+}

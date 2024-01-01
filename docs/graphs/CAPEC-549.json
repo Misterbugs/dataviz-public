@@ -1,0 +1,135 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-558: Replace Trusted Executable</b><br>An adversary exploits weaknesses in privilege management or access control to<br>replace a trusted executable with a malicious version and enable the execution<br>of malware when that trusted executable is called.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Replace Trusted Executable",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/558.html",
+      "id": "558"
+    },
+    {
+      "Description": "<b>CAPEC-579: Replace Winlogon Helper DLL</b><br>Winlogon is a part of Windows that performs logon actions. In Windows systems<br>prior to Windows Vista, a registry key can be modified that causes Winlogon to<br>load a DLL on startup. Adversaries may take advantage of this feature to load<br>adversarial code at startup.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Replace Winlogon Helper DLL",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/579.html",
+      "id": "579"
+    },
+    {
+      "Description": "<b>CAPEC-550: Install New Service</b><br>When an operating system starts, it also starts programs called services or<br>daemons. Adversaries may install a new service which will be executed at startup<br>(on a Windows system, by modifying the registry). The service name may be<br>disguised by using a name from a related operating system or benign software.<br>Services are usually run with elevated privileges.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Install New Service",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/550.html",
+      "id": "550"
+    },
+    {
+      "Description": "<b>CAPEC-552: Install Rootkit </b><br>An adversary exploits a weakness in authentication to install malware that<br>alters the functionality and information provide by targeted operating system<br>API calls. Often referred to as rootkits, it is often used to hide the presence<br>of programs, files, network connections, services, drivers, and other system<br>components.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Install Rootkit ",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/552.html",
+      "id": "552"
+    },
+    {
+      "Description": "<b>CAPEC-542: Targeted Malware</b><br>An adversary develops targeted malware that takes advantage of a known<br>vulnerability in an organizational information technology environment. The<br>malware crafted for these attacks is based specifically on information gathered<br>about the technology environment. Successfully executing the malware enables an<br>adversary to achieve a wide variety of negative technical impacts.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Targeted Malware",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/542.html",
+      "id": "542"
+    },
+    {
+      "Description": "<b>CAPEC-556: Replace File Extension Handlers</b><br>When a file is opened, its file handler is checked to determine which program<br>opens the file. File handlers are configuration properties of many operating<br>systems. Applications can modify the file handler for a given file extension to<br>call an arbitrary program when a file with the given extension is opened.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Replace File Extension Handlers",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/556.html",
+      "id": "556"
+    },
+    {
+      "Description": "<b>CAPEC-698: Install Malicious Extension</b><br>An adversary directly installs or tricks a user into installing a malicious<br>extension into existing trusted software, with the goal of achieving a variety<br>of negative technical impacts.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Install Malicious Extension",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/698.html",
+      "id": "698"
+    },
+    {
+      "Description": "<b>CAPEC-549: Local Execution of Code</b><br>An adversary installs and executes malicious code on the target system in an<br>effort to achieve a negative technical impact. Examples include rootkits,<br>ransomware, spyware, adware, and others.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Local Execution of Code",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/549.html",
+      "id": "549"
+    },
+    {
+      "Description": "<b>CAPEC-564: Run Software at Logon</b><br>Operating system allows logon scripts to be run whenever a specific user or<br>users logon to a system. If adversaries can access these scripts, they may<br>insert additional code into the logon script. This code can allow them to<br>maintain persistence or move laterally within an enclave because it is executed<br>every time the affected user or users logon to a computer. Modifying logon<br>scripts can effectively bypass workstation and enclave firewalls. Depending on<br>the access configuration of the logon scripts, either local credentials or a<br>remote administrative account may be necessary.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Run Software at Logon",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/564.html",
+      "id": "564"
+    },
+    {
+      "Description": "<b>CAPEC-551: Modify Existing Service</b><br>When an operating system starts, it also starts programs called services or<br>daemons. Modifying existing services may break existing services or may enable<br>services that are disabled/not commonly used.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Modify Existing Service",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/551.html",
+      "id": "551"
+    }
+  ],
+  "links": [
+    {
+      "source": "558",
+      "target": "542"
+    },
+    {
+      "source": "579",
+      "target": "542"
+    },
+    {
+      "source": "550",
+      "target": "542"
+    },
+    {
+      "source": "552",
+      "target": "542"
+    },
+    {
+      "source": "542",
+      "target": "549"
+    },
+    {
+      "source": "556",
+      "target": "542"
+    },
+    {
+      "source": "698",
+      "target": "542"
+    },
+    {
+      "source": "564",
+      "target": "542"
+    },
+    {
+      "source": "551",
+      "target": "542"
+    }
+  ]
+}

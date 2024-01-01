@@ -1,0 +1,109 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-111: JSON Hijacking (aka JavaScript Hijacking)</b><br>An attacker targets a system that uses JavaScript Object Notation (JSON) as a<br>transport mechanism between the client and the server (common in Web 2.0 systems<br>using AJAX) to steal possibly confidential information transmitted from the<br>server back to the client inside the JSON object by taking advantage of the<br>loophole in the browser's Same Origin Policy that does not prohibit JavaScript<br>from one website to be included and executed in the context of another website.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "JSON Hijacking (aka JavaScript Hijacking)",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/111.html",
+      "id": "111"
+    },
+    {
+      "Description": "<b>CAPEC-50: Password Recovery Exploitation</b><br>An attacker may take advantage of the application feature to help users recover<br>their forgotten passwords in order to gain access into the system with the same<br>privileges as the original user. Generally password recovery schemes tend to be<br>weak and insecure.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Password Recovery Exploitation",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/50.html",
+      "id": "50"
+    },
+    {
+      "Description": "<b>CAPEC-48: Passing Local Filenames to Functions That Expect a URL</b><br>This attack relies on client side code to access local files and resources<br>instead of URLs. When the client browser is expecting a URL string, but instead<br>receives a request for a local file, that execution is likely to occur in the<br>browser process space with the browser's authority to local files. The attacker<br>can send the results of this request to the local files out to a site that they<br>control. This attack may be used to steal sensitive authentication data (either<br>local or remote), or to gain system profile information to launch further<br>attacks.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Passing Local Filenames to Functions That Expect a URL",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/48.html",
+      "id": "48"
+    },
+    {
+      "Description": "<b>CAPEC-2: Inducing Account Lockout</b><br>An attacker leverages the security functionality of the system aimed at<br>thwarting potential attacks to launch a denial of service attack against a<br>legitimate system user. Many systems, for instance, implement a password<br>throttling mechanism that locks an account after a certain number of incorrect<br>log in attempts. An attacker can leverage this throttling mechanism to lock a<br>legitimate user out of their own account. The weakness that is being leveraged<br>by an attacker is the very security feature that has been put in place to<br>counteract attacks.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Inducing Account Lockout",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/2.html",
+      "id": "2"
+    },
+    {
+      "Description": "<b>CAPEC-682: Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities</b><br>An adversary may exploit vulnerable code (i.e., firmware or ROM) that is<br>unpatchable. Unpatchable devices exist due to manufacturers intentionally or<br>inadvertently designing devices incapable of updating their software.<br>Additionally, with updatable devices, the manufacturer may decide not to support<br>the device and stop making updates to their software.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/682.html",
+      "id": "682"
+    },
+    {
+      "Description": "<b>CAPEC-620: Drop Encryption Level</b><br>An attacker forces the encryption level to be lowered, thus enabling a<br>successful attack against the encrypted data.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Drop Encryption Level",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/620.html",
+      "id": "620"
+    },
+    {
+      "Description": "<b>CAPEC-212: Functionality Misuse</b><br>An adversary leverages a legitimate capability of an application in such a way<br>as to achieve a negative technical impact. The system functionality is not<br>altered or modified but used in a way that was not intended. This is often<br>accomplished through the overuse of a specific functionality or by leveraging<br>functionality with design flaws that enables the adversary to gain access to<br>unauthorized, sensitive data.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Functionality Misuse",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/212.html",
+      "id": "212"
+    },
+    {
+      "Description": "<b>CAPEC-606: Weakening of Cellular Encryption</b><br>An attacker, with control of a Cellular Rogue Base Station or through<br>cooperation with a Malicious Mobile Network Operator can force the mobile device<br>(e.g., the retransmission device) to use no encryption (A5/0 mode) or to use<br>easily breakable encryption (A5/1 or A5/2 mode).",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "Weakening of Cellular Encryption",
+      "label_class": "node-label-small",
+      "url": "https://capec.mitre.org/data/definitions/606.html",
+      "id": "606"
+    }
+  ],
+  "links": [
+    {
+      "source": "111",
+      "target": "212"
+    },
+    {
+      "source": "50",
+      "target": "212"
+    },
+    {
+      "source": "48",
+      "target": "212"
+    },
+    {
+      "source": "2",
+      "target": "212"
+    },
+    {
+      "source": "682",
+      "target": "212"
+    },
+    {
+      "source": "620",
+      "target": "212"
+    },
+    {
+      "source": "606",
+      "target": "620"
+    }
+  ]
+}

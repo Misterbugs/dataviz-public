@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Description": "<b>CAPEC-217: Exploiting Incorrectly Configured SSL/TLS</b><br>An adversary takes advantage of incorrectly configured SSL/TLS communications<br>that enables access to data intended to be encrypted. The adversary may also use<br>this type of attack to inject commands or other traffic into the encrypted<br>stream to cause compromise of either the client or server.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Exploiting Incorrectly Configured SSL/TLS",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/217.html",
+      "id": "217"
+    },
+    {
+      "Description": "<b>CAPEC-12: Choosing Message Identifier</b><br>This pattern of attack is defined by the selection of messages distributed via<br>multicast or public information channels that are intended for another client by<br>determining the parameter value assigned to that client. This attack allows the<br>adversary to gain access to potentially privileged information, and to possibly<br>perpetrate other attacks through the distribution means by impersonation. If the<br>channel/message being manipulated is an input rather than output mechanism for<br>the system, (such as a command bus), this style of attack could be used to<br>change the adversary's identifier to more a privileged one.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Choosing Message Identifier",
+      "label_class": "node-label-medium",
+      "url": "https://capec.mitre.org/data/definitions/12.html",
+      "id": "12"
+    },
+    {
+      "Description": "<b>CAPEC-216: Communication Channel Manipulation</b><br>An adversary manipulates a setting or parameter on communications channel in<br>order to compromise its security. This can result in information exposure,<br>insertion/removal of information from the communications stream, and/or<br>potentially system compromise.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Communication Channel Manipulation",
+      "label_class": "node-label-big",
+      "url": "https://capec.mitre.org/data/definitions/216.html",
+      "id": "216"
+    }
+  ],
+  "links": [
+    {
+      "source": "217",
+      "target": "216"
+    },
+    {
+      "source": "12",
+      "target": "216"
+    }
+  ]
+}
