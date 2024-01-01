@@ -46,17 +46,26 @@
             border-radius: 8px;
             pointer-events: none;
         }
+
+        .highlighted {
+            stroke: #00ff6e; /* Green stroke for highlighted nodes */
+            stroke-width: 6px; /* Make the stroke wider to make it more visible */
+        }
     </style>
 </head>
 <body>
     <div class="button-container">
         <button onclick="toggleArrows()">Toggle Arrows</button>
         <!-- <div id="view-coordinates" style="margin-top: 10px;">View Coordinates: </div> -->
+        <input type="text" id="searchBox" placeholder="Search node..." onkeyup="searchNodeOnEnter(event)">
+        <button onclick="searchNode()">Search</button>
+        <button onclick="clearHighlights()">Clear Highlights</button>
     </div>
     <div class="graph-container">
         <script>
             let showArrows = false;
             let link; // Declare link globally
+            let globalNodeSelection;
 
             function createChart(data) {
                 // Use window dimensions to calculate width and height
@@ -243,6 +252,7 @@
                 }
                 // document.body.appendChild(svg.node());
                 document.querySelector('.graph-container').appendChild(svg.node());
+                return node;
             }
 
             // Define toggleArrows globally
@@ -276,12 +286,40 @@
 
         // Call the function to update the title
         updatePageTitle();
+        
+        function searchNode() {
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            globalNodeSelection.each(function(d) {
+                if (d.label.toLowerCase().includes(searchTerm)) {
+                    d3.select(this).classed("highlighted", true);
+                } else {
+                    d3.select(this).classed("highlighted", false);
+                }
+            });
+        }
+
+        function resetHighlights() {
+            globalNodeSelection.classed("highlighted", false); // Reset all highlights
+        }
+
+        function searchNodeOnEnter(event) {
+            // Check if the Enter key was pressed
+            if (event.key === "Enter") {
+                searchNode();
+            }
+        }
+        
+        function clearHighlights() {
+            globalNodeSelection.classed("highlighted", false);
+        }
 
         // Use the sanitized filename in the fetch request, with the 'graphs' subdirectory
         const jsonFilename = "graphs/" + getJsonFilenameFromUrl();
         fetch(jsonFilename)
             .then(response => response.json())
-            .then(data => createChart(data))
+            .then(data => {
+                globalNodeSelection = createChart(data);
+            })
             .catch(error => console.error('Error loading data:', error));
 
         </script>
