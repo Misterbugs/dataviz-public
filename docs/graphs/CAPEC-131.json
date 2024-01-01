@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-131: Resource Leak Exposure</b><br>An adversary utilizes a resource leak on the target to deplete the quantity of<br>the resource available to service legitimate requests.",
+      "Description": "<b>CAPEC-131: Resource Leak Exposure</b><br>An adversary utilizes a resource leak on the target to deplete the quantity of the resource available to service legitimate requests.",
       "color": "#2176ff",
       "size": 30,
       "label": "Resource Leak Exposure",

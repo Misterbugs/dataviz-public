@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-495: UDP Fragmentation</b><br>An attacker may execute a UDP Fragmentation attack against a target server in an<br>attempt to consume resources such as bandwidth and CPU. IP fragmentation occurs<br>when an IP datagram is larger than the MTU of the route the datagram has to<br>traverse. Typically the attacker will use large UDP packets over 1500 bytes of<br>data which forces fragmentation as ethernet MTU is 1500 bytes. This attack is a<br>variation on a typical UDP flood but it enables more network bandwidth to be<br>consumed with fewer packets. Additionally it has the potential to consume server<br>CPU resources and fill memory buffers associated with the processing and<br>reassembling of fragmented packets.",
+      "Description": "<b>CAPEC-495: UDP Fragmentation</b><br>An attacker may execute a UDP Fragmentation attack against a target server in an attempt to consume resources such as bandwidth and CPU. IP fragmentation occurs when an IP datagram is larger than the MTU of the route the datagram has to traverse. Typically the attacker will use large UDP packets over 1500 bytes of data which forces fragmentation as ethernet MTU is 1500 bytes. This attack is a variation on a typical UDP flood but it enables more network bandwidth to be consumed with fewer packets. Additionally it has the potential to consume server CPU resources and fill memory buffers associated with the processing and reassembling of fragmented packets.",
       "color": "#75aaff",
       "size": 18,
       "label": "UDP Fragmentation",
@@ -13,7 +13,7 @@
       "id": "495"
     },
     {
-      "Description": "<b>CAPEC-493: SOAP Array Blowup</b><br>An adversary may execute an attack on a web service that uses SOAP messages in<br>communication. By sending a very large SOAP array declaration to the web<br>service, the attacker forces the web service to allocate space for the array<br>elements before they are parsed by the XML parser. The attacker message is<br>typically small in size containing a large array declaration of say 1,000,000<br>elements and a couple of array elements. This attack targets exhaustion of the<br>memory resources of the web service.",
+      "Description": "<b>CAPEC-493: SOAP Array Blowup</b><br>An adversary may execute an attack on a web service that uses SOAP messages in communication. By sending a very large SOAP array declaration to the web service, the attacker forces the web service to allocate space for the array elements before they are parsed by the XML parser. The attacker message is typically small in size containing a large array declaration of say 1,000,000 elements and a couple of array elements. This attack targets exhaustion of the memory resources of the web service.",
       "color": "#75aaff",
       "size": 18,
       "label": "SOAP Array Blowup",
@@ -22,7 +22,7 @@
       "id": "493"
     },
     {
-      "Description": "<b>CAPEC-492: Regular Expression Exponential Blowup</b><br>An adversary may execute an attack on a program that uses a poor Regular<br>Expression(Regex) implementation by choosing input that results in an extreme<br>situation for the Regex. A typical extreme situation operates at exponential<br>time compared to the input size. This is due to most implementations using a<br>Nondeterministic Finite Automaton(NFA) state machine to be built by the Regex<br>algorithm since NFA allows backtracking and thus more complex regular<br>expressions.",
+      "Description": "<b>CAPEC-492: Regular Expression Exponential Blowup</b><br>An adversary may execute an attack on a program that uses a poor Regular Expression(Regex) implementation by choosing input that results in an extreme situation for the Regex. A typical extreme situation operates at exponential time compared to the input size. This is due to most implementations using a Nondeterministic Finite Automaton(NFA) state machine to be built by the Regex algorithm since NFA allows backtracking and thus more complex regular expressions.",
       "color": "#75aaff",
       "size": 18,
       "label": "Regular Expression Exponential Blowup",
@@ -31,7 +31,7 @@
       "id": "492"
     },
     {
-      "Description": "<b>CAPEC-491: Quadratic Data Expansion</b><br>An adversary exploits macro-like substitution to cause a denial of service<br>situation due to excessive memory being allocated to fully expand the data. The<br>result of this denial of service could cause the application to freeze or crash.<br>This involves defining a very large entity and using it multiple times in a<br>single entity substitution. CAPEC-197 is a similar attack pattern, but it is<br>easier to discover and defend against. This attack pattern does not perform<br>multi-level substitution and therefore does not obviously appear to consume<br>extensive resources.",
+      "Description": "<b>CAPEC-491: Quadratic Data Expansion</b><br>An adversary exploits macro-like substitution to cause a denial of service situation due to excessive memory being allocated to fully expand the data. The result of this denial of service could cause the application to freeze or crash. This involves defining a very large entity and using it multiple times in a single entity substitution. CAPEC-197 is a similar attack pattern, but it is easier to discover and defend against. This attack pattern does not perform multi-level substitution and therefore does not obviously appear to consume extensive resources.",
       "color": "#94ebff",
       "size": 10,
       "label": "Quadratic Data Expansion",
@@ -40,7 +40,7 @@
       "id": "491"
     },
     {
-      "Description": "<b>CAPEC-494: TCP Fragmentation</b><br>An adversary may execute a TCP Fragmentation attack against a target with the<br>intention of avoiding filtering rules of network controls, by attempting to<br>fragment the TCP packet such that the headers flag field is pushed into the<br>second fragment which typically is not filtered.",
+      "Description": "<b>CAPEC-494: TCP Fragmentation</b><br>An adversary may execute a TCP Fragmentation attack against a target with the intention of avoiding filtering rules of network controls, by attempting to fragment the TCP packet such that the headers flag field is pushed into the second fragment which typically is not filtered.",
       "color": "#75aaff",
       "size": 18,
       "label": "TCP Fragmentation",
@@ -49,7 +49,7 @@
       "id": "494"
     },
     {
-      "Description": "<b>CAPEC-496: ICMP Fragmentation</b><br>An attacker may execute a ICMP Fragmentation attack against a target with the<br>intention of consuming resources or causing a crash. The attacker crafts a large<br>number of identical fragmented IP packets containing a portion of a fragmented<br>ICMP message. The attacker these sends these messages to a target host which<br>causes the host to become non-responsive. Another vector may be sending a<br>fragmented ICMP message to a target host with incorrect sizes in the header<br>which causes the host to hang.",
+      "Description": "<b>CAPEC-496: ICMP Fragmentation</b><br>An attacker may execute a ICMP Fragmentation attack against a target with the intention of consuming resources or causing a crash. The attacker crafts a large number of identical fragmented IP packets containing a portion of a fragmented ICMP message. The attacker these sends these messages to a target host which causes the host to become non-responsive. Another vector may be sending a fragmented ICMP message to a target host with incorrect sizes in the header which causes the host to hang.",
       "color": "#75aaff",
       "size": 18,
       "label": "ICMP Fragmentation",
@@ -58,7 +58,7 @@
       "id": "496"
     },
     {
-      "Description": "<b>CAPEC-221: Data Serialization External Entities Blowup</b><br>This attack takes advantage of the entity replacement property of certain data<br>serialization languages (e.g., XML, YAML, etc.) where the value of the<br>replacement is a URI. A well-crafted file could have the entity refer to a URI<br>that consumes a large amount of resources to create a denial of service<br>condition. This can cause the system to either freeze, crash, or execute<br>arbitrary code depending on the URI.",
+      "Description": "<b>CAPEC-221: Data Serialization External Entities Blowup</b><br>This attack takes advantage of the entity replacement property of certain data serialization languages (e.g., XML, YAML, etc.) where the value of the replacement is a URI. A well-crafted file could have the entity refer to a URI that consumes a large amount of resources to create a denial of service condition. This can cause the system to either freeze, crash, or execute arbitrary code depending on the URI.",
       "color": "#94ebff",
       "size": 10,
       "label": "Data Serialization External Entities Blowup",
@@ -67,7 +67,7 @@
       "id": "221"
     },
     {
-      "Description": "<b>CAPEC-230: Serialized Data with Nested Payloads</b><br>Applications often need to transform data in and out of a data format (e.g., XML<br>and YAML) by using a parser. It may be possible for an adversary to inject data<br>that may have an adverse effect on the parser when it is being processed. Many<br>data format languages allow the definition of macro-like structures that can be<br>used to simplify the creation of complex structures. By nesting these<br>structures, causing the data to be repeatedly substituted, an adversary can<br>cause the parser to consume more resources while processing, causing excessive<br>memory consumption and CPU utilization.",
+      "Description": "<b>CAPEC-230: Serialized Data with Nested Payloads</b><br>Applications often need to transform data in and out of a data format (e.g., XML and YAML) by using a parser. It may be possible for an adversary to inject data that may have an adverse effect on the parser when it is being processed. Many data format languages allow the definition of macro-like structures that can be used to simplify the creation of complex structures. By nesting these structures, causing the data to be repeatedly substituted, an adversary can cause the parser to consume more resources while processing, causing excessive memory consumption and CPU utilization.",
       "color": "#75aaff",
       "size": 18,
       "label": "Serialized Data with Nested Payloads",
@@ -76,7 +76,7 @@
       "id": "230"
     },
     {
-      "Description": "<b>CAPEC-197: Exponential Data Expansion</b><br>An adversary submits data to a target application which contains nested<br>exponential data expansion to produce excessively large output. Many data format<br>languages allow the definition of macro-like structures that can be used to<br>simplify the creation of complex structures. However, this capability can be<br>abused to create excessive demands on a processor's CPU and memory. A small<br>number of nested expansions can result in an exponential growth in demands on<br>memory.",
+      "Description": "<b>CAPEC-197: Exponential Data Expansion</b><br>An adversary submits data to a target application which contains nested exponential data expansion to produce excessively large output. Many data format languages allow the definition of macro-like structures that can be used to simplify the creation of complex structures. However, this capability can be abused to create excessive demands on a processor's CPU and memory. A small number of nested expansions can result in an exponential growth in demands on memory.",
       "color": "#94ebff",
       "size": 10,
       "label": "Exponential Data Expansion",
@@ -85,7 +85,7 @@
       "id": "197"
     },
     {
-      "Description": "<b>CAPEC-130: Excessive Allocation</b><br>An adversary causes the target to allocate excessive resources to servicing the<br>attackers' request, thereby reducing the resources available for legitimate<br>services and degrading or denying services. Usually, this attack focuses on<br>memory allocation, but any finite resource on the target could be the attacked,<br>including bandwidth, processing cycles, or other resources. This attack does not<br>attempt to force this allocation through a large number of requests (that would<br>be Resource Depletion through Flooding) but instead uses one or a small number<br>of requests that are carefully formatted to force the target to allocate<br>excessive resources to service this request(s). Often this attack takes<br>advantage of a bug in the target to cause the target to allocate resources<br>vastly beyond what would be needed for a normal request.",
+      "Description": "<b>CAPEC-130: Excessive Allocation</b><br>An adversary causes the target to allocate excessive resources to servicing the attackers' request, thereby reducing the resources available for legitimate services and degrading or denying services. Usually, this attack focuses on memory allocation, but any finite resource on the target could be the attacked, including bandwidth, processing cycles, or other resources. This attack does not attempt to force this allocation through a large number of requests (that would be Resource Depletion through Flooding) but instead uses one or a small number of requests that are carefully formatted to force the target to allocate excessive resources to service this request(s). Often this attack takes advantage of a bug in the target to cause the target to allocate resources vastly beyond what would be needed for a normal request.",
       "color": "#2176ff",
       "size": 30,
       "label": "Excessive Allocation",
@@ -94,7 +94,7 @@
       "id": "130"
     },
     {
-      "Description": "<b>CAPEC-229: Serialized Data Parameter Blowup</b><br>This attack exploits certain serialized data parsers (e.g., XML, YAML, etc.)<br>which manage data in an inefficient manner. The attacker crafts an serialized<br>data file with multiple configuration parameters in the same dataset. In a<br>vulnerable parser, this results in a denial of service condition where CPU<br>resources are exhausted because of the parsing algorithm. The weakness being<br>exploited is tied to parser implementation and not language specific.",
+      "Description": "<b>CAPEC-229: Serialized Data Parameter Blowup</b><br>This attack exploits certain serialized data parsers (e.g., XML, YAML, etc.) which manage data in an inefficient manner. The attacker crafts an serialized data file with multiple configuration parameters in the same dataset. In a vulnerable parser, this results in a denial of service condition where CPU resources are exhausted because of the parsing algorithm. The weakness being exploited is tied to parser implementation and not language specific.",
       "color": "#94ebff",
       "size": 10,
       "label": "Serialized Data Parameter Blowup",
@@ -103,7 +103,7 @@
       "id": "229"
     },
     {
-      "Description": "<b>CAPEC-231: Oversized Serialized Data Payloads</b><br>An adversary injects oversized serialized data payloads into a parser during<br>data processing to produce adverse effects upon the parser such as exhausting<br>system resources and arbitrary code execution.",
+      "Description": "<b>CAPEC-231: Oversized Serialized Data Payloads</b><br>An adversary injects oversized serialized data payloads into a parser during data processing to produce adverse effects upon the parser such as exhausting system resources and arbitrary code execution.",
       "color": "#75aaff",
       "size": 18,
       "label": "Oversized Serialized Data Payloads",

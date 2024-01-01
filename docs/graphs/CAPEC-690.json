@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-693: StarJacking</b><br>An adversary spoofs software popularity metadata to deceive users into believing<br>that a maliciously provided package is widely used and originates from a trusted<br>source.",
+      "Description": "<b>CAPEC-693: StarJacking</b><br>An adversary spoofs software popularity metadata to deceive users into believing that a maliciously provided package is widely used and originates from a trusted source.",
       "color": "#94ebff",
       "size": 10,
       "label": "StarJacking",
@@ -13,7 +13,7 @@
       "id": "693"
     },
     {
-      "Description": "<b>CAPEC-690: Metadata Spoofing</b><br>An adversary alters the metadata of a resource (e.g., file, directory,<br>repository, etc.) to present a malicious resource as legitimate/credible.",
+      "Description": "<b>CAPEC-690: Metadata Spoofing</b><br>An adversary alters the metadata of a resource (e.g., file, directory, repository, etc.) to present a malicious resource as legitimate/credible.",
       "color": "#2176ff",
       "size": 30,
       "label": "Metadata Spoofing",
@@ -22,7 +22,7 @@
       "id": "690"
     },
     {
-      "Description": "<b>CAPEC-691: Spoof Open-Source Software Metadata</b><br>An adversary spoofs open-source software metadata in an attempt to masquerade<br>malicious software as popular, maintained, and trusted.",
+      "Description": "<b>CAPEC-691: Spoof Open-Source Software Metadata</b><br>An adversary spoofs open-source software metadata in an attempt to masquerade malicious software as popular, maintained, and trusted.",
       "color": "#75aaff",
       "size": 18,
       "label": "Spoof Open-Source Software Metadata",
@@ -31,7 +31,7 @@
       "id": "691"
     },
     {
-      "Description": "<b>CAPEC-692: Spoof Version Control System Commit Metadata</b><br>An adversary spoofs metadata pertaining to a Version Control System (VCS) (e.g.,<br>Git) repository's commits to deceive users into believing that the maliciously<br>provided software is frequently maintained and originates from a trusted source.",
+      "Description": "<b>CAPEC-692: Spoof Version Control System Commit Metadata</b><br>An adversary spoofs metadata pertaining to a Version Control System (VCS) (e.g., Git) repository's commits to deceive users into believing that the maliciously provided software is frequently maintained and originates from a trusted source.",
       "color": "#94ebff",
       "size": 10,
       "label": "Spoof Version Control System Commit Metadata",

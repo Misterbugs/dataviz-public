@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-565: Password Spraying</b><br>In a Password Spraying attack, an adversary tries a small list (e.g. 3-5) of<br>common or expected passwords, often matching the target's complexity policy,<br>against a known list of user accounts to gain valid credentials. The adversary<br>tries a particular password for each user account, before moving onto the next<br>password in the list. This approach assists the adversary in remaining<br>undetected by avoiding rapid or frequent account lockouts. The adversary may<br>then reattempt the process with additional passwords, once enough time has<br>passed to prevent inducing a lockout.",
+      "Description": "<b>CAPEC-565: Password Spraying</b><br>In a Password Spraying attack, an adversary tries a small list (e.g. 3-5) of common or expected passwords, often matching the target's complexity policy, against a known list of user accounts to gain valid credentials. The adversary tries a particular password for each user account, before moving onto the next password in the list. This approach assists the adversary in remaining undetected by avoiding rapid or frequent account lockouts. The adversary may then reattempt the process with additional passwords, once enough time has passed to prevent inducing a lockout.",
       "color": "#94ebff",
       "size": 10,
       "label": "Password Spraying",
@@ -13,7 +13,7 @@
       "id": "565"
     },
     {
-      "Description": "<b>CAPEC-16: Dictionary-based Password Attack</b><br>An attacker tries each of the words in a dictionary as passwords to gain access<br>to the system via some user's account. If the password chosen by the user was a<br>word within the dictionary, this attack will be successful (in the absence of<br>other mitigations). This is a specific instance of the password brute forcing<br>attack pattern. Dictionary Attacks differ from similar attacks such as Password<br>Spraying (CAPEC-565) and Credential Stuffing (CAPEC-600), since they leverage<br>unknown username/password combinations and don't care about inducing account<br>lockouts.",
+      "Description": "<b>CAPEC-16: Dictionary-based Password Attack</b><br>An attacker tries each of the words in a dictionary as passwords to gain access to the system via some user's account. If the password chosen by the user was a word within the dictionary, this attack will be successful (in the absence of other mitigations). This is a specific instance of the password brute forcing attack pattern. \n Dictionary Attacks differ from similar attacks such as Password Spraying (CAPEC-565) and Credential Stuffing (CAPEC-600), since they leverage unknown username/password combinations and don't care about inducing account lockouts.",
       "color": "#94ebff",
       "size": 10,
       "label": "Dictionary-based Password Attack",
@@ -22,7 +22,7 @@
       "id": "16"
     },
     {
-      "Description": "<b>CAPEC-112: Brute Force</b><br>In this attack, some asset (information, functionality, identity, etc.) is<br>protected by a finite secret value. The attacker attempts to gain access to this<br>asset by using trial-and-error to exhaustively explore all the possible secret<br>values in the hope of finding the secret (or a value that is functionally<br>equivalent) that will unlock the asset.",
+      "Description": "<b>CAPEC-112: Brute Force</b><br>In this attack, some asset (information, functionality, identity, etc.) is protected by a finite secret value. The attacker attempts to gain access to this asset by using trial-and-error to exhaustively explore all the possible secret values in the hope of finding the secret (or a value that is functionally equivalent) that will unlock the asset.",
       "color": "#2176ff",
       "size": 30,
       "label": "Brute Force",
@@ -31,7 +31,7 @@
       "id": "112"
     },
     {
-      "Description": "<b>CAPEC-55: Rainbow Table Password Cracking</b><br>An attacker gets access to the database table where hashes of passwords are<br>stored. They then use a rainbow table of pre-computed hash chains to attempt to<br>look up the original password. Once the original password corresponding to the<br>hash is obtained, the attacker uses the original password to gain access to the<br>system.",
+      "Description": "<b>CAPEC-55: Rainbow Table Password Cracking</b><br>An attacker gets access to the database table where hashes of passwords are stored. They then use a rainbow table of pre-computed hash chains to attempt to look up the original password. Once the original password corresponding to the hash is obtained, the attacker uses the original password to gain access to the system.",
       "color": "#94ebff",
       "size": 10,
       "label": "Rainbow Table Password Cracking",
@@ -40,7 +40,7 @@
       "id": "55"
     },
     {
-      "Description": "<b>CAPEC-70: Try Common or Default Usernames and Passwords</b><br>An adversary may try certain common or default usernames and passwords to gain<br>access into the system and perform unauthorized actions. An adversary may try an<br>intelligent brute force using empty passwords, known vendor default credentials,<br>as well as a dictionary of common usernames and passwords. Many vendor products<br>come preconfigured with default (and thus well-known) usernames and passwords<br>that should be deleted prior to usage in a production environment. It is a<br>common mistake to forget to remove these default login credentials. Another<br>problem is that users would pick very simple (common) passwords (e.g. \"secret\"<br>or \"password\") that make it easier for the attacker to gain access to the system<br>compared to using a brute force attack or even a dictionary attack using a full<br>dictionary.",
+      "Description": "<b>CAPEC-70: Try Common or Default Usernames and Passwords</b><br>An adversary may try certain common or default usernames and passwords to gain access into the system and perform unauthorized actions. An adversary may try an intelligent brute force using empty passwords, known vendor default credentials, as well as a dictionary of common usernames and passwords. Many vendor products come preconfigured with default (and thus well-known) usernames and passwords that should be deleted prior to usage in a production environment. It is a common mistake to forget to remove these default login credentials. Another problem is that users would pick very simple (common) passwords (e.g. \"secret\" or \"password\") that make it easier for the attacker to gain access to the system compared to using a brute force attack or even a dictionary attack using a full dictionary.",
       "color": "#94ebff",
       "size": 10,
       "label": "Try Common or Default Usernames and Passwords",
@@ -49,7 +49,7 @@
       "id": "70"
     },
     {
-      "Description": "<b>CAPEC-49: Password Brute Forcing</b><br>An adversary tries every possible value for a password until they succeed. A<br>brute force attack, if feasible computationally, will always be successful<br>because it will essentially go through all possible passwords given the alphabet<br>used (lower case letters, upper case letters, numbers, symbols, etc.) and the<br>maximum length of the password.",
+      "Description": "<b>CAPEC-49: Password Brute Forcing</b><br>An adversary tries every possible value for a password until they succeed. A brute force attack, if feasible computationally, will always be successful because it will essentially go through all possible passwords given the alphabet used (lower case letters, upper case letters, numbers, symbols, etc.) and the maximum length of the password.",
       "color": "#75aaff",
       "size": 18,
       "label": "Password Brute Forcing",
@@ -58,7 +58,7 @@
       "id": "49"
     },
     {
-      "Description": "<b>CAPEC-20: Encryption Brute Forcing</b><br>An attacker, armed with the cipher text and the encryption algorithm used,<br>performs an exhaustive (brute force) search on the key space to determine the<br>key that decrypts the cipher text to obtain the plaintext.",
+      "Description": "<b>CAPEC-20: Encryption Brute Forcing</b><br>An attacker, armed with the cipher text and the encryption algorithm used, performs an exhaustive (brute force) search on the key space to determine the key that decrypts the cipher text to obtain the plaintext.",
       "color": "#75aaff",
       "size": 18,
       "label": "Encryption Brute Forcing",

@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-90: Reflection Attack in Authentication Protocol</b><br>An adversary can abuse an authentication protocol susceptible to reflection<br>attack in order to defeat it. Doing so allows the adversary illegitimate access<br>to the target system, without possessing the requisite credentials. Reflection<br>attacks are of great concern to authentication protocols that rely on a<br>challenge-handshake or similar mechanism. An adversary can impersonate a<br>legitimate user and can gain illegitimate access to the system by successfully<br>mounting a reflection attack during authentication.",
+      "Description": "<b>CAPEC-90: Reflection Attack in Authentication Protocol</b><br>An adversary can abuse an authentication protocol susceptible to reflection attack in order to defeat it. Doing so allows the adversary illegitimate access to the target system, without possessing the requisite credentials. Reflection attacks are of great concern to authentication protocols that rely on a challenge-handshake or similar mechanism. An adversary can impersonate a legitimate user and can gain illegitimate access to the system by successfully mounting a reflection attack during authentication.",
       "color": "#75aaff",
       "size": 18,
       "label": "Reflection Attack in Authentication Protocol",
@@ -13,7 +13,7 @@
       "id": "90"
     },
     {
-      "Description": "<b>CAPEC-114: Authentication Abuse</b><br>An attacker obtains unauthorized access to an application, service or device<br>either through knowledge of the inherent weaknesses of an authentication<br>mechanism, or by exploiting a flaw in the authentication scheme's<br>implementation. In such an attack an authentication mechanism is functioning but<br>a carefully controlled sequence of events causes the mechanism to grant access<br>to the attacker.",
+      "Description": "<b>CAPEC-114: Authentication Abuse</b><br>An attacker obtains unauthorized access to an application, service or device either through knowledge of the inherent weaknesses of an authentication mechanism, or by exploiting a flaw in the authentication scheme's implementation. In such an attack an authentication mechanism is functioning but a carefully controlled sequence of events causes the mechanism to grant access to the attacker.",
       "color": "#2176ff",
       "size": 30,
       "label": "Authentication Abuse",

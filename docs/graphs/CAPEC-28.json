@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-28: Fuzzing</b><br>In this attack pattern, the adversary leverages fuzzing to try to identify<br>weaknesses in the system. Fuzzing is a software security and functionality<br>testing method that feeds randomly constructed input to the system and looks for<br>an indication that a failure in response to that input has occurred. Fuzzing<br>treats the system as a black box and is totally free from any preconceptions or<br>assumptions about the system. Fuzzing can help an attacker discover certain<br>assumptions made about user input in the system. Fuzzing gives an attacker a<br>quick way of potentially uncovering some of these assumptions despite not<br>necessarily knowing anything about the internals of the system. These<br>assumptions can then be turned against the system by specially crafting user<br>input that may allow an attacker to achieve their goals.",
+      "Description": "<b>CAPEC-28: Fuzzing</b><br>In this attack pattern, the adversary leverages fuzzing to try to identify weaknesses in the system. Fuzzing is a software security and functionality testing method that feeds randomly constructed input to the system and looks for an indication that a failure in response to that input has occurred. Fuzzing treats the system as a black box and is totally free from any preconceptions or assumptions about the system. Fuzzing can help an attacker discover certain assumptions made about user input in the system. Fuzzing gives an attacker a quick way of potentially uncovering some of these assumptions despite not necessarily knowing anything about the internals of the system. These assumptions can then be turned against the system by specially crafting user input that may allow an attacker to achieve their goals.",
       "color": "#2176ff",
       "size": 30,
       "label": "Fuzzing",
@@ -13,7 +13,7 @@
       "id": "28"
     },
     {
-      "Description": "<b>CAPEC-215: Fuzzing for application mapping</b><br>An attacker sends random, malformed, or otherwise unexpected messages to a<br>target application and observes the application's log or error messages<br>returned. The attacker does not initially know how a target will respond to<br>individual messages but by attempting a large number of message variants they<br>may find a variant that trigger's desired behavior. In this attack, the purpose<br>of the fuzzing is to observe the application's log and error messages, although<br>fuzzing a target can also sometimes cause the target to enter an unstable state,<br>causing a crash.",
+      "Description": "<b>CAPEC-215: Fuzzing for application mapping</b><br>An attacker sends random, malformed, or otherwise unexpected messages to a target application and observes the application's log or error messages returned. The attacker does not initially know how a target will respond to individual messages but by attempting a large number of message variants they may find a variant that trigger's desired behavior. In this attack, the purpose of the fuzzing is to observe the application's log and error messages, although fuzzing a target can also sometimes cause the target to enter an unstable state, causing a crash.",
       "color": "#94ebff",
       "size": 10,
       "label": "Fuzzing for application mapping",

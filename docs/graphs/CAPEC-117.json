@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-158: Sniffing Network Traffic</b><br>In this attack pattern, the adversary monitors network traffic between nodes of<br>a public or multicast network in an attempt to capture sensitive information at<br>the protocol level. Network sniffing applications can reveal TCP/IP, DNS,<br>Ethernet, and other low-level network communication information. The adversary<br>takes a passive role in this attack pattern and simply observes and analyzes the<br>traffic. The adversary may precipitate or indirectly influence the content of<br>the observed transaction, but is never the intended recipient of the target<br>information.",
+      "Description": "<b>CAPEC-158: Sniffing Network Traffic</b><br>In this attack pattern, the adversary monitors network traffic between nodes of a public or multicast network in an attempt to capture sensitive information at the protocol level. Network sniffing applications can reveal TCP/IP, DNS, Ethernet, and other low-level network communication information. The adversary takes a passive role in this attack pattern and simply observes and analyzes the traffic. The adversary may precipitate or indirectly influence the content of the observed transaction, but is never the intended recipient of the target information.",
       "color": "#94ebff",
       "size": 10,
       "label": "Sniffing Network Traffic",
@@ -13,7 +13,7 @@
       "id": "158"
     },
     {
-      "Description": "<b>CAPEC-157: Sniffing Attacks</b><br>In this attack pattern, the adversary intercepts information transmitted between<br>two third parties. The adversary must be able to observe, read, and/or hear the<br>communication traffic, but not necessarily block the communication or change its<br>content. Any transmission medium can theoretically be sniffed if the adversary<br>can examine the contents between the sender and recipient. Sniffing Attacks are<br>similar to Adversary-In-The-Middle attacks (CAPEC-94), but are entirely passive.<br>AiTM attacks are predominantly active and often alter the content of the<br>communications themselves.",
+      "Description": "<b>CAPEC-157: Sniffing Attacks</b><br>In this attack pattern, the adversary intercepts information transmitted between two third parties. The adversary must be able to observe, read, and/or hear the communication traffic, but not necessarily block the communication or change its content. Any transmission medium can theoretically be sniffed if the adversary can examine the contents between the sender and recipient. Sniffing Attacks are similar to Adversary-In-The-Middle attacks (CAPEC-94), but are entirely passive. AiTM attacks are predominantly active and often alter the content of the communications themselves.",
       "color": "#75aaff",
       "size": 18,
       "label": "Sniffing Attacks",
@@ -22,7 +22,7 @@
       "id": "157"
     },
     {
-      "Description": "<b>CAPEC-609: Cellular Traffic Intercept</b><br>Cellular traffic for voice and data from mobile devices and retransmission<br>devices can be intercepted via numerous methods. Malicious actors can deploy<br>their own cellular tower equipment and intercept cellular traffic<br>surreptitiously. Additionally, government agencies of adversaries and malicious<br>actors can intercept cellular traffic via the telecommunications backbone over<br>which mobile traffic is transmitted.",
+      "Description": "<b>CAPEC-609: Cellular Traffic Intercept</b><br>Cellular traffic for voice and data from mobile devices and retransmission devices can be intercepted via numerous methods. Malicious actors can deploy their own cellular tower equipment and intercept cellular traffic surreptitiously. Additionally, government agencies of adversaries and malicious actors can intercept cellular traffic via the telecommunications backbone over which mobile traffic is transmitted.",
       "color": "#94ebff",
       "size": 10,
       "label": "Cellular Traffic Intercept",
@@ -31,7 +31,7 @@
       "id": "609"
     },
     {
-      "Description": "<b>CAPEC-65: Sniff Application Code</b><br>An adversary passively sniffs network communications and captures application<br>code bound for an authorized client. Once obtained, they can use it as-is, or<br>through reverse-engineering glean sensitive information or exploit the trust<br>relationship between the client and server. Such code may belong to a dynamic<br>update to the client, a patch being applied to a client component or any such<br>interaction where the client is authorized to communicate with the server.",
+      "Description": "<b>CAPEC-65: Sniff Application Code</b><br>An adversary passively sniffs network communications and captures application code bound for an authorized client. Once obtained, they can use it as-is, or through reverse-engineering glean sensitive information or exploit the trust relationship between the client and server. Such code may belong to a dynamic update to the client, a patch being applied to a client component or any such interaction where the client is authorized to communicate with the server.",
       "color": "#94ebff",
       "size": 10,
       "label": "Sniff Application Code",
@@ -40,7 +40,7 @@
       "id": "65"
     },
     {
-      "Description": "<b>CAPEC-117: Interception</b><br>An adversary monitors data streams to or from the target for information<br>gathering purposes. This attack may be undertaken to solely gather sensitive<br>information or to support a further attack against the target. This attack<br>pattern can involve sniffing network traffic as well as other types of data<br>streams (e.g. radio). The adversary can attempt to initiate the establishment of<br>a data stream or passively observe the communications as they unfold. In all<br>variants of this attack, the adversary is not the intended recipient of the data<br>stream. In contrast to other means of gathering information (e.g., targeting<br>data leaks), the adversary must actively position themself so as to observe<br>explicit data channels (e.g. network traffic) and read the content. However,<br>this attack differs from a Adversary-In-the-Middle (CAPEC-94) attack, as the<br>adversary does not alter the content of the communications nor forward data to<br>the intended recipient.",
+      "Description": "<b>CAPEC-117: Interception</b><br>An adversary monitors data streams to or from the target for information gathering purposes. This attack may be undertaken to solely gather sensitive information or to support a further attack against the target. This attack pattern can involve sniffing network traffic as well as other types of data streams (e.g. radio). The adversary can attempt to initiate the establishment of a data stream or passively observe the communications as they unfold. In all variants of this attack, the adversary is not the intended recipient of the data stream. In contrast to other means of gathering information (e.g., targeting data leaks), the adversary must actively position themself so as to observe explicit data channels (e.g. network traffic) and read the content. However, this attack differs from a Adversary-In-the-Middle (CAPEC-94) attack, as the adversary does not alter the content of the communications nor forward data to the intended recipient.",
       "color": "#2176ff",
       "size": 30,
       "label": "Interception",
@@ -49,7 +49,7 @@
       "id": "117"
     },
     {
-      "Description": "<b>CAPEC-499: Android Intent Intercept</b><br>An adversary, through a previously installed malicious application, intercepts<br>messages from a trusted Android-based application in an attempt to achieve a<br>variety of different objectives including denial of service, information<br>disclosure, and data injection. An implicit intent sent from a trusted<br>application can be received by any application that has declared an appropriate<br>intent filter. If the intent is not protected by a permission that the malicious<br>application lacks, then the attacker can gain access to the data contained<br>within the intent. Further, the intent can be either blocked from reaching the<br>intended destination, or modified and potentially forwarded along.",
+      "Description": "<b>CAPEC-499: Android Intent Intercept</b><br>An adversary, through a previously installed malicious application, intercepts messages from a trusted Android-based application in an attempt to achieve a variety of different objectives including denial of service, information disclosure, and data injection. An implicit intent sent from a trusted application can be received by any application that has declared an appropriate intent filter. If the intent is not protected by a permission that the malicious application lacks, then the attacker can gain access to the data contained within the intent. Further, the intent can be either blocked from reaching the intended destination, or modified and potentially forwarded along.",
       "color": "#75aaff",
       "size": 18,
       "label": "Android Intent Intercept",
@@ -58,7 +58,7 @@
       "id": "499"
     },
     {
-      "Description": "<b>CAPEC-57: Utilizing REST's Trust in the System Resource to Obtain Sensitive Data</b><br>This attack utilizes a REST(REpresentational State Transfer)-style applications'<br>trust in the system resources and environment to obtain sensitive data once SSL<br>is terminated.",
+      "Description": "<b>CAPEC-57: Utilizing REST's Trust in the System Resource to Obtain Sensitive Data</b><br>This attack utilizes a REST(REpresentational State Transfer)-style applications' trust in the system resources and environment to obtain sensitive data once SSL is terminated.",
       "color": "#94ebff",
       "size": 10,
       "label": "Utilizing REST's Trust in the System Resource to Obtain Sensitive Data",
@@ -67,7 +67,7 @@
       "id": "57"
     },
     {
-      "Description": "<b>CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies</b><br>This attack relies on the use of HTTP Cookies to store credentials, state<br>information and other critical data on client systems. There are several<br>different forms of this attack. The first form of this attack involves accessing<br>HTTP Cookies to mine for potentially sensitive data contained therein. The<br>second form involves intercepting this data as it is transmitted from client to<br>server. This intercepted information is then used by the adversary to<br>impersonate the remote user/session. The third form is when the cookie's content<br>is modified by the adversary before it is sent back to the server. Here the<br>adversary seeks to convince the target server to operate on this falsified<br>information.",
+      "Description": "<b>CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies</b><br>This attack relies on the use of HTTP Cookies to store credentials, state information and other critical data on client systems. There are several different forms of this attack. The first form of this attack involves accessing HTTP Cookies to mine for potentially sensitive data contained therein. The second form involves intercepting this data as it is transmitted from client to server. This intercepted information is then used by the adversary to impersonate the remote user/session. The third form is when the cookie's content is modified by the adversary before it is sent back to the server. Here the adversary seeks to convince the target server to operate on this falsified information.",
       "color": "#94ebff",
       "size": 10,
       "label": "Accessing/Intercepting/Modifying HTTP Cookies",
@@ -76,7 +76,7 @@
       "id": "31"
     },
     {
-      "Description": "<b>CAPEC-634: Probe Audio and Video Peripherals</b><br>The adversary exploits the target system's audio and video functionalities<br>through malware or scheduled tasks. The goal is to capture sensitive information<br>about the target for financial, personal, political, or other gains which is<br>accomplished by collecting communication data between two parties via the use of<br>peripheral devices (e.g. microphones and webcams) or applications with audio and<br>video capabilities (e.g. Skype) on a system.",
+      "Description": "<b>CAPEC-634: Probe Audio and Video Peripherals</b><br>The adversary exploits the target system's audio and video functionalities through malware or scheduled tasks. The goal is to capture sensitive information about the target for financial, personal, political, or other gains which is accomplished by collecting communication data between two parties via the use of peripheral devices (e.g. microphones and webcams) or applications with audio and video capabilities (e.g. Skype) on a system.",
       "color": "#94ebff",
       "size": 10,
       "label": "Probe Audio and Video Peripherals",
@@ -85,7 +85,7 @@
       "id": "634"
     },
     {
-      "Description": "<b>CAPEC-508: Shoulder Surfing</b><br>In a shoulder surfing attack, an adversary observes an unaware individual's<br>keystrokes, screen content, or conversations with the goal of obtaining<br>sensitive information. One motive for this attack is to obtain sensitive<br>information about the target for financial, personal, political, or other gains.<br>From an insider threat perspective, an additional motive could be to obtain<br>system/application credentials or cryptographic keys. Shoulder surfing attacks<br>are accomplished by observing the content \"over the victim's shoulder\", as<br>implied by the name of this attack.",
+      "Description": "<b>CAPEC-508: Shoulder Surfing</b><br>In a shoulder surfing attack, an adversary observes an unaware individual's keystrokes, screen content, or conversations with the goal of obtaining sensitive information. One motive for this attack is to obtain sensitive information about the target for financial, personal, political, or other gains. From an insider threat perspective, an additional motive could be to obtain system/application credentials or cryptographic keys. Shoulder surfing attacks are accomplished by observing the content \"over the victim's shoulder\", as implied by the name of this attack.",
       "color": "#94ebff",
       "size": 10,
       "label": "Shoulder Surfing",
@@ -94,7 +94,7 @@
       "id": "508"
     },
     {
-      "Description": "<b>CAPEC-651: Eavesdropping</b><br>An adversary intercepts a form of communication (e.g. text, audio, video) by way<br>of software (e.g., microphone and audio recording application), hardware (e.g.,<br>recording equipment), or physical means (e.g., physical proximity). The goal of<br>eavesdropping is typically to gain unauthorized access to sensitive information<br>about the target for financial, personal, political, or other gains.<br>Eavesdropping is different from a sniffing attack as it does not take place on a<br>network-based communication channel (e.g., IP traffic). Instead, it entails<br>listening in on the raw audio source of a conversation between two or more<br>parties.",
+      "Description": "<b>CAPEC-651: Eavesdropping</b><br>An adversary intercepts a form of communication (e.g. text, audio, video) by way of software (e.g., microphone and audio recording application), hardware (e.g., recording equipment), or physical means (e.g., physical proximity). The goal of eavesdropping is typically to gain unauthorized access to sensitive information about the target for financial, personal, political, or other gains. Eavesdropping is different from a sniffing attack as it does not take place on a network-based communication channel (e.g., IP traffic). Instead, it entails listening in on the raw audio source of a conversation between two or more parties.",
       "color": "#75aaff",
       "size": 18,
       "label": "Eavesdropping",
@@ -103,7 +103,7 @@
       "id": "651"
     },
     {
-      "Description": "<b>CAPEC-699: Eavesdropping on a Monitor</b><br>An Adversary can eavesdrop on the content of an external monitor through the air<br>without modifying any cable or installing software, just capturing this signal<br>emitted by the cable or video port, with this the attacker will be able to<br>impact the confidentiality of the data without being detected by traditional<br>security tools",
+      "Description": "<b>CAPEC-699: Eavesdropping on a Monitor</b><br>An Adversary can eavesdrop on the content of an external monitor through the air without modifying any cable or installing software, just capturing this signal emitted by the cable or video port, with this the attacker will be able to impact the confidentiality of the data without being detected by traditional security tools",
       "color": "#2176ff",
       "size": 30,
       "label": "Eavesdropping on a Monitor",
@@ -112,7 +112,7 @@
       "id": "699"
     },
     {
-      "Description": "<b>CAPEC-501: Android Activity Hijack</b><br>An adversary intercepts an implicit intent sent to launch a Android-based<br>trusted activity and instead launches a counterfeit activity in its place. The<br>malicious activity is then used to mimic the trusted activity's user interface<br>and prompt the target to enter sensitive data as if they were interacting with<br>the trusted activity.",
+      "Description": "<b>CAPEC-501: Android Activity Hijack</b><br>An adversary intercepts an implicit intent sent to launch a Android-based trusted activity and instead launches a counterfeit activity in its place. The malicious activity is then used to mimic the trusted activity's user interface and prompt the target to enter sensitive data as if they were interacting with the trusted activity.",
       "color": "#94ebff",
       "size": 10,
       "label": "Android Activity Hijack",

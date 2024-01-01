@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-441: Malicious Logic Insertion</b><br>An adversary installs or adds malicious logic (also known as malware) into a<br>seemingly benign component of a fielded system. This logic is often hidden from<br>the user of the system and works behind the scenes to achieve negative impacts.<br>With the proliferation of mass digital storage and inexpensive multimedia<br>devices, Bluetooth and 802.11 support, new attack vectors for spreading malware<br>are emerging for things we once thought of as innocuous greeting cards, picture<br>frames, or digital projectors. This pattern of attack focuses on systems already<br>fielded and used in operation as opposed to systems and their components that<br>are still under development and part of the supply chain.",
+      "Description": "<b>CAPEC-441: Malicious Logic Insertion</b><br>An adversary installs or adds malicious logic (also known as malware) into a seemingly benign component of a fielded system. This logic is often hidden from the user of the system and works behind the scenes to achieve negative impacts. With the proliferation of mass digital storage and inexpensive multimedia devices, Bluetooth and 802.11 support, new attack vectors for spreading malware are emerging for things we once thought of as innocuous greeting cards, picture frames, or digital projectors. This pattern of attack focuses on systems already fielded and used in operation as opposed to systems and their components that are still under development and part of the supply chain.",
       "color": "#2176ff",
       "size": 30,
       "label": "Malicious Logic Insertion",
@@ -13,7 +13,7 @@
       "id": "441"
     },
     {
-      "Description": "<b>CAPEC-442: Infected Software</b><br>An adversary adds malicious logic, often in the form of a computer virus, to<br>otherwise benign software. This logic is often hidden from the user of the<br>software and works behind the scenes to achieve negative impacts. Many times,<br>the malicious logic is inserted into empty space between legitimate code, and is<br>then called when the software is executed. This pattern of attack focuses on<br>software already fielded and used in operation as opposed to software that is<br>still under development and part of the supply chain.",
+      "Description": "<b>CAPEC-442: Infected Software</b><br>An adversary adds malicious logic, often in the form of a computer virus, to otherwise benign software. This logic is often hidden from the user of the software and works behind the scenes to achieve negative impacts. Many times, the malicious logic is inserted into empty space between legitimate code, and is then called when the software is executed. This pattern of attack focuses on software already fielded and used in operation as opposed to software that is still under development and part of the supply chain.",
       "color": "#75aaff",
       "size": 18,
       "label": "Infected Software",
@@ -22,7 +22,7 @@
       "id": "442"
     },
     {
-      "Description": "<b>CAPEC-457: USB Memory Attacks</b><br>An adversary loads malicious code onto a USB memory stick in order to infect any<br>system which the device is plugged in to. USB drives present a significant<br>security risk for business and government agencies. Given the ability to<br>integrate wireless functionality into a USB stick, it is possible to design<br>malware that not only steals confidential data, but sniffs the network, or<br>monitor keystrokes, and then exfiltrates the stolen data off-site via a Wireless<br>connection. Also, viruses can be transmitted via the USB interface without the<br>specific use of a memory stick. The attacks from USB devices are often of such<br>sophistication that experts conclude they are not the work of single<br>individuals, but suggest state sponsorship. These attacks can be performed by an<br>adversary with direct access to a target system or can be executed via means<br>such as USB Drop Attacks.",
+      "Description": "<b>CAPEC-457: USB Memory Attacks</b><br>An adversary loads malicious code onto a USB memory stick in order to infect any system which the device is plugged in to. USB drives present a significant security risk for business and government agencies. Given the ability to integrate wireless functionality into a USB stick, it is possible to design malware that not only steals confidential data, but sniffs the network, or monitor keystrokes, and then exfiltrates the stolen data off-site via a Wireless connection. Also, viruses can be transmitted via the USB interface without the specific use of a memory stick. The attacks from USB devices are often of such sophistication that experts conclude they are not the work of single individuals, but suggest state sponsorship. These attacks can be performed by an adversary with direct access to a target system or can be executed via means such as USB Drop Attacks.",
       "color": "#94ebff",
       "size": 10,
       "label": "USB Memory Attacks",
@@ -31,7 +31,7 @@
       "id": "457"
     },
     {
-      "Description": "<b>CAPEC-458: Flash Memory Attacks</b><br>An adversary inserts malicious logic into a product or technology via flashing<br>the on-board memory with a code-base that contains malicious logic. Various<br>attacks exist against the integrity of flash memory, the most direct being<br>rootkits coded into the BIOS or chipset of a device.",
+      "Description": "<b>CAPEC-458: Flash Memory Attacks</b><br>An adversary inserts malicious logic into a product or technology via flashing the on-board memory with a code-base that contains malicious logic. Various attacks exist against the integrity of flash memory, the most direct being rootkits coded into the BIOS or chipset of a device.",
       "color": "#94ebff",
       "size": 10,
       "label": "Flash Memory Attacks",
@@ -40,7 +40,7 @@
       "id": "458"
     },
     {
-      "Description": "<b>CAPEC-638: Altered Component Firmware</b><br>An adversary exploits systems features and/or improperly protected firmware of<br>hardware components, such as Hard Disk Drives (HDD), with the goal of executing<br>malicious code from within the component's Master Boot Record (MBR). Conducting<br>this type of attack entails the adversary infecting the target with firmware<br>altering malware, using known tools, and a payload. Once this malware is<br>executed, the MBR is modified to include instructions to execute the payload at<br>desired intervals and when the system is booted up. A successful attack will<br>obtain persistence within the victim system even if the operating system is<br>reinstalled and/or if the component is formatted or has its data erased.",
+      "Description": "<b>CAPEC-638: Altered Component Firmware</b><br>An adversary exploits systems features and/or improperly protected firmware of hardware components, such as Hard Disk Drives (HDD), with the goal of executing malicious code from within the component's Master Boot Record (MBR). Conducting this type of attack entails the adversary infecting the target with firmware altering malware, using known tools, and a payload. Once this malware is executed, the MBR is modified to include instructions to execute the payload at desired intervals and when the system is booted up. A successful attack will obtain persistence within the victim system even if the operating system is reinstalled and/or if the component is formatted or has its data erased.",
       "color": "#94ebff",
       "size": 10,
       "label": "Altered Component Firmware",
@@ -49,7 +49,7 @@
       "id": "638"
     },
     {
-      "Description": "<b>CAPEC-456: Infected Memory</b><br>An adversary inserts malicious logic into memory enabling them to achieve a<br>negative impact. This logic is often hidden from the user of the system and<br>works behind the scenes to achieve negative impacts. This pattern of attack<br>focuses on systems already fielded and used in operation as opposed to systems<br>that are still under development and part of the supply chain.",
+      "Description": "<b>CAPEC-456: Infected Memory</b><br>An adversary inserts malicious logic into memory enabling them to achieve a negative impact. This logic is often hidden from the user of the system and works behind the scenes to achieve negative impacts. This pattern of attack focuses on systems already fielded and used in operation as opposed to systems that are still under development and part of the supply chain.",
       "color": "#75aaff",
       "size": 18,
       "label": "Infected Memory",
@@ -58,7 +58,7 @@
       "id": "456"
     },
     {
-      "Description": "<b>CAPEC-452: Infected Hardware</b><br>An adversary inserts malicious logic into hardware, typically in the form of a<br>computer virus or rootkit. This logic is often hidden from the user of the<br>hardware and works behind the scenes to achieve negative impacts. This pattern<br>of attack focuses on hardware already fielded and used in operation as opposed<br>to hardware that is still under development and part of the supply chain.",
+      "Description": "<b>CAPEC-452: Infected Hardware</b><br>An adversary inserts malicious logic into hardware, typically in the form of a computer virus or rootkit. This logic is often hidden from the user of the hardware and works behind the scenes to achieve negative impacts. This pattern of attack focuses on hardware already fielded and used in operation as opposed to hardware that is still under development and part of the supply chain.",
       "color": "#75aaff",
       "size": 18,
       "label": "Infected Hardware",
@@ -67,7 +67,7 @@
       "id": "452"
     },
     {
-      "Description": "<b>CAPEC-448: Embed Virus into DLL</b><br>An adversary tampers with a DLL and embeds a computer virus into gaps between<br>legitimate machine instructions. These gaps may be the result of compiler<br>optimizations that pad memory blocks for performance gains. The embedded virus<br>then attempts to infect any machine which interfaces with the product, and<br>possibly steal private data or eavesdrop.",
+      "Description": "<b>CAPEC-448: Embed Virus into DLL</b><br>An adversary tampers with a DLL and embeds a computer virus into gaps between legitimate machine instructions. These gaps may be the result of compiler optimizations that pad memory blocks for performance gains. The embedded virus then attempts to infect any machine which interfaces with the product, and possibly steal private data or eavesdrop.",
       "color": "#94ebff",
       "size": 10,
       "label": "Embed Virus into DLL",

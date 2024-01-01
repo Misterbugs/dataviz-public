@@ -4,7 +4,7 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-523: Malicious Software Implanted</b><br>An attacker implants malicious software into the system in the supply chain<br>distribution channel, with purpose of causing malicious disruption or allowing<br>for additional compromise when the system is deployed.",
+      "Description": "<b>CAPEC-523: Malicious Software Implanted</b><br>An attacker implants malicious software into the system in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
       "color": "#75aaff",
       "size": 18,
       "label": "Malicious Software Implanted",
@@ -13,7 +13,7 @@
       "id": "523"
     },
     {
-      "Description": "<b>CAPEC-524: Rogue Integration Procedures</b><br>An attacker alters or establishes rogue processes in an integration facility in<br>order to insert maliciously altered components into the system. The attacker<br>would then supply the malicious components. This would allow for malicious<br>disruption or additional compromise when the system is deployed.",
+      "Description": "<b>CAPEC-524: Rogue Integration Procedures</b><br>An attacker alters or establishes rogue processes in an integration facility in order to insert maliciously altered components into the system. The attacker would then supply the malicious components. This would allow for malicious disruption or additional compromise when the system is deployed.",
       "color": "#75aaff",
       "size": 18,
       "label": "Rogue Integration Procedures",
@@ -22,7 +22,7 @@
       "id": "524"
     },
     {
-      "Description": "<b>CAPEC-439: Manipulation During Distribution</b><br>An attacker undermines the integrity of a product, software, or technology at<br>some stage of the distribution channel. The core threat of modification or<br>manipulation during distribution arise from the many stages of distribution, as<br>a product may traverse multiple suppliers and integrators as the final asset is<br>delivered. Components and services provided from a manufacturer to a supplier<br>may be tampered with during integration or packaging.",
+      "Description": "<b>CAPEC-439: Manipulation During Distribution</b><br>An attacker undermines the integrity of a product, software, or technology at some stage of the distribution channel. The core threat of modification or manipulation during distribution arise from the many stages of distribution, as a product may traverse multiple suppliers and integrators as the final asset is delivered. Components and services provided from a manufacturer to a supplier may be tampered with during integration or packaging.",
       "color": "#2176ff",
       "size": 30,
       "label": "Manipulation During Distribution",
@@ -31,7 +31,7 @@
       "id": "439"
     },
     {
-      "Description": "<b>CAPEC-522: Malicious Hardware Component Replacement</b><br>An adversary replaces legitimate hardware in the system with faulty counterfeit<br>or tampered hardware in the supply chain distribution channel, with purpose of<br>causing malicious disruption or allowing for additional compromise when the<br>system is deployed.",
+      "Description": "<b>CAPEC-522: Malicious Hardware Component Replacement</b><br>An adversary replaces legitimate hardware in the system with faulty counterfeit or tampered hardware in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
       "color": "#75aaff",
       "size": 18,
       "label": "Malicious Hardware Component Replacement",
