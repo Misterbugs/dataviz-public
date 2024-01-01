@@ -1,7 +1,7 @@
 ## CAPECs
-- [Complete CAPEC graph](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CAPEC-FULL.json) : contains every CAPECs, with edges between CAPECs that are related (`ChildOf` relationship)
+- [Complete CAPEC graph](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=CAPEC-FULL.json) : contains every CAPECs, with edges between CAPECs that are related (`ChildOf` relationship)
 - [Subgraphs per META CAPEC](CAPECs.md)
 
 ## CWEs
-- [Complete CWE graph](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=graphs/CWE-FULL.json) : contains every CWEs, with edges between CWEs that are related (`ChildOf` relationship)
+- [Complete CWE graph](https://misterbugs.github.io/dataviz-public/nxgraph.html?jsonfile=CWE-FULL.json) : contains every CWEs, with edges between CWEs that are related (`ChildOf` relationship)
 - [Subgraphs per Pillar and Class CWEs](CWEs.md)

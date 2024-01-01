@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>D3 Force-Directed Graph with Zoom and Labels</title>
+    <title>Graph Visualizer</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
         /* Additional CSS styles if needed */
@@ -252,17 +252,38 @@
             }
 
 
-            function getJsonFilenameFromUrl() {
-                const params = new URLSearchParams(window.location.search);
-                return params.get('jsonfile') || 'default.json'; // default.json is a fallback filename
-            }
+            function sanitizeInput(input) {
+            // Implement sanitization logic
+            const sanitizedInput = input.replace(/[^a-z0-9-_.]/gi, '');
+            return sanitizedInput;
+        }
 
-            // Use the retrieved filename in the fetch request
-            const jsonFilename = getJsonFilenameFromUrl();
-            fetch(jsonFilename)
-                .then(response => response.json())
-                .then(data => createChart(data))
-                .catch(error => console.error('Error loading data:', error));
+        function updatePageTitle() {
+            const jsonFileName = getJsonFilenameFromUrl();
+            if (jsonFileName) {
+                document.title = jsonFileName + " - Graph Visualizer";
+            }
+        }
+
+        function getJsonFilenameFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            let jsonFileName = params.get('jsonfile');
+            if (jsonFileName) {
+                return sanitizeInput(jsonFileName);
+            }
+            return 'default.json'; // Default filename if no parameter is provided or after sanitization
+        }
+
+        // Call the function to update the title
+        updatePageTitle();
+
+        // Use the sanitized filename in the fetch request, with the 'graphs' subdirectory
+        const jsonFilename = "graphs/" + getJsonFilenameFromUrl();
+        fetch(jsonFilename)
+            .then(response => response.json())
+            .then(data => createChart(data))
+            .catch(error => console.error('Error loading data:', error));
+
         </script>
     </div>
 </body>
