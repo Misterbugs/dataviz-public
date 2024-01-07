@@ -4,29 +4,13 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-777: Regular Expression without Anchors</b><br>The product uses a regular expression to perform neutralization, but the regular expression is not anchored and may allow malicious or malformed data to slip through.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Regular Expression without Anchors",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/777.html",
-      "id": "777"
-    },
-    {
-      "Description": "<b>CWE-625: Permissive Regular Expression</b><br>The product uses a regular expression that does not sufficiently restrict the set of allowed values.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Permissive Regular Expression",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/625.html",
-      "id": "625"
-    },
-    {
       "Description": "<b>CWE-185: Incorrect Regular Expression</b><br>The product specifies a regular expression in a way that causes data to be improperly matched or compared.",
       "color": "#ff6200",
       "size": 18,
       "label": "Incorrect Regular Expression",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/185.html",
       "id": "185"
     },
@@ -36,11 +20,40 @@
       "size": 10,
       "label": "Overly Restrictive Regular Expression",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/186.html",
       "id": "186"
+    },
+    {
+      "Description": "<b>CWE-777: Regular Expression without Anchors</b><br>The product uses a regular expression to perform neutralization, but the regular expression is not anchored and may allow malicious or malformed data to slip through.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Regular Expression without Anchors",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/777.html",
+      "id": "777"
+    },
+    {
+      "Description": "<b>CWE-625: Permissive Regular Expression</b><br>The product uses a regular expression that does not sufficiently restrict the set of allowed values.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Permissive Regular Expression",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/625.html",
+      "id": "625"
     }
   ],
   "links": [
+    {
+      "width": 1,
+      "source": "186",
+      "target": "185"
+    },
     {
       "width": 1,
       "source": "777",
@@ -49,11 +62,6 @@
     {
       "width": 1,
       "source": "625",
-      "target": "185"
-    },
-    {
-      "width": 1,
-      "source": "186",
       "target": "185"
     }
   ]

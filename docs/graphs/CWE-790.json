@@ -4,13 +4,48 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-795: Only Filtering Special Elements at a Specified Location</b><br>The product receives data from an upstream component, but only accounts for special elements at a specified location, thereby missing remaining special elements that may exist before sending it to a downstream component.",
+      "Description": "<b>CWE-791: Incomplete Filtering of Special Elements</b><br>The product receives data from an upstream component, but does not completely filter special elements before sending it to a downstream component.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Only Filtering Special Elements at a Specified Location",
+      "label": "Incomplete Filtering of Special Elements",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/795.html",
-      "id": "795"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/791.html",
+      "id": "791"
+    },
+    {
+      "Description": "<b>CWE-793: Only Filtering One Instance of a Special Element</b><br>The product receives data from an upstream component, but only filters a single instance of a special element before sending it to a downstream component.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Only Filtering One Instance of a Special Element",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/793.html",
+      "id": "793"
+    },
+    {
+      "Description": "<b>CWE-796: Only Filtering Special Elements Relative to a Marker</b><br>The product receives data from an upstream component, but only accounts for special elements positioned relative to a marker (e.g. \"at the beginning/end of a string; the second argument\"), thereby missing remaining special elements that may exist before sending it to a downstream component.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Only Filtering Special Elements Relative to a Marker",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/796.html",
+      "id": "796"
+    },
+    {
+      "Description": "<b>CWE-792: Incomplete Filtering of One or More Instances of Special Elements</b><br>The product receives data from an upstream component, but does not completely filter one or more instances of special elements before sending it to a downstream component.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Incomplete Filtering of One or More Instances of Special Elements",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/792.html",
+      "id": "792"
     },
     {
       "Description": "<b>CWE-794: Incomplete Filtering of Multiple Instances of Special Elements</b><br>The product receives data from an upstream component, but does not filter all instances of a special element before sending it to a downstream component.",
@@ -18,6 +53,8 @@
       "size": 10,
       "label": "Incomplete Filtering of Multiple Instances of Special Elements",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/794.html",
       "id": "794"
     },
@@ -27,17 +64,10 @@
       "size": 10,
       "label": "Only Filtering Special Elements at an Absolute Position",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/797.html",
       "id": "797"
-    },
-    {
-      "Description": "<b>CWE-792: Incomplete Filtering of One or More Instances of Special Elements</b><br>The product receives data from an upstream component, but does not completely filter one or more instances of special elements before sending it to a downstream component.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Incomplete Filtering of One or More Instances of Special Elements",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/792.html",
-      "id": "792"
     },
     {
       "Description": "<b>CWE-790: Improper Filtering of Special Elements</b><br>The product receives data from an upstream component, but does not filter or incorrectly filters special elements before sending it to a downstream component.",
@@ -45,41 +75,42 @@
       "size": 18,
       "label": "Improper Filtering of Special Elements",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/790.html",
       "id": "790"
     },
     {
-      "Description": "<b>CWE-796: Only Filtering Special Elements Relative to a Marker</b><br>The product receives data from an upstream component, but only accounts for special elements positioned relative to a marker (e.g. \"at the beginning/end of a string; the second argument\"), thereby missing remaining special elements that may exist before sending it to a downstream component.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Only Filtering Special Elements Relative to a Marker",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/796.html",
-      "id": "796"
-    },
-    {
-      "Description": "<b>CWE-793: Only Filtering One Instance of a Special Element</b><br>The product receives data from an upstream component, but only filters a single instance of a special element before sending it to a downstream component.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Only Filtering One Instance of a Special Element",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/793.html",
-      "id": "793"
-    },
-    {
-      "Description": "<b>CWE-791: Incomplete Filtering of Special Elements</b><br>The product receives data from an upstream component, but does not completely filter special elements before sending it to a downstream component.",
+      "Description": "<b>CWE-795: Only Filtering Special Elements at a Specified Location</b><br>The product receives data from an upstream component, but only accounts for special elements at a specified location, thereby missing remaining special elements that may exist before sending it to a downstream component.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Incomplete Filtering of Special Elements",
+      "label": "Only Filtering Special Elements at a Specified Location",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/791.html",
-      "id": "791"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/795.html",
+      "id": "795"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "795",
+      "source": "791",
+      "target": "790"
+    },
+    {
+      "width": 1,
+      "source": "793",
+      "target": "792"
+    },
+    {
+      "width": 1,
+      "source": "796",
+      "target": "795"
+    },
+    {
+      "width": 1,
+      "source": "792",
       "target": "791"
     },
     {
@@ -94,23 +125,8 @@
     },
     {
       "width": 1,
-      "source": "792",
+      "source": "795",
       "target": "791"
-    },
-    {
-      "width": 1,
-      "source": "796",
-      "target": "795"
-    },
-    {
-      "width": 1,
-      "source": "793",
-      "target": "792"
-    },
-    {
-      "width": 1,
-      "source": "791",
-      "target": "790"
     }
   ]
 }

@@ -4,31 +4,15 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-462: Duplicate Key in Associative List (Alist)</b><br>Duplicate keys in associative lists can lead to non-unique keys being mistaken for an error.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Duplicate Key in Associative List (Alist)",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/462.html",
-      "id": "462"
-    },
-    {
       "Description": "<b>CWE-102: Struts: Duplicate Validation Forms</b><br>The product uses multiple validation forms with the same name, which might cause the Struts Validator to validate a form that the programmer does not expect.",
       "color": "#e8e66b",
       "size": 10,
       "label": "Struts: Duplicate Validation Forms",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/102.html",
       "id": "102"
-    },
-    {
-      "Description": "<b>CWE-694: Use of Multiple Resources with Duplicate Identifier</b><br>The product uses multiple resources that can have the same identifier, in a context in which unique identifiers are required.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Multiple Resources with Duplicate Identifier",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/694.html",
-      "id": "694"
     },
     {
       "Description": "<b>CWE-621: Variable Extraction Error</b><br>The product uses external input to determine the names of variables into which information is extracted, without verifying that the names of the specified variables are valid. This could cause the program to overwrite unintended variables.",
@@ -36,6 +20,8 @@
       "size": 10,
       "label": "Variable Extraction Error",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/621.html",
       "id": "621"
     },
@@ -45,6 +31,8 @@
       "size": 10,
       "label": "Improper Restriction of Names for Files and Other Resources",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/641.html",
       "id": "641"
     },
@@ -54,17 +42,10 @@
       "size": 10,
       "label": "Dynamic Variable Evaluation",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/627.html",
       "id": "627"
-    },
-    {
-      "Description": "<b>CWE-914: Improper Control of Dynamically-Identified Variables</b><br>The product does not properly restrict reading from or writing to dynamically-identified variables.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Control of Dynamically-Identified Variables",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/914.html",
-      "id": "914"
     },
     {
       "Description": "<b>CWE-99: Improper Control of Resource Identifiers ('Resource Injection')</b><br>The product receives input from an upstream component, but it does not restrict or incorrectly restricts the input before it is used as an identifier for a resource that may be outside the intended sphere of control.",
@@ -72,25 +53,50 @@
       "size": 18,
       "label": "Improper Control of Resource Identifiers ('Resource Injection')",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/99.html",
       "id": "99"
+    },
+    {
+      "Description": "<b>CWE-462: Duplicate Key in Associative List (Alist)</b><br>Duplicate keys in associative lists can lead to non-unique keys being mistaken for an error.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Duplicate Key in Associative List (Alist)",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/462.html",
+      "id": "462"
+    },
+    {
+      "Description": "<b>CWE-694: Use of Multiple Resources with Duplicate Identifier</b><br>The product uses multiple resources that can have the same identifier, in a context in which unique identifiers are required.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Multiple Resources with Duplicate Identifier",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/694.html",
+      "id": "694"
+    },
+    {
+      "Description": "<b>CWE-914: Improper Control of Dynamically-Identified Variables</b><br>The product does not properly restrict reading from or writing to dynamically-identified variables.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Control of Dynamically-Identified Variables",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/914.html",
+      "id": "914"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "462",
-      "target": "694"
-    },
-    {
-      "width": 1,
       "source": "102",
       "target": "694"
-    },
-    {
-      "width": 1,
-      "source": "694",
-      "target": "99"
     },
     {
       "width": 1,
@@ -106,6 +112,16 @@
       "width": 1,
       "source": "627",
       "target": "914"
+    },
+    {
+      "width": 1,
+      "source": "462",
+      "target": "694"
+    },
+    {
+      "width": 1,
+      "source": "694",
+      "target": "99"
     },
     {
       "width": 1,

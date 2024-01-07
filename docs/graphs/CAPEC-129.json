@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Pointer Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/129.html",
       "id": "129"
     }

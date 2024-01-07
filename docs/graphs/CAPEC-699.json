@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Eavesdropping on a Monitor",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/699.html",
       "id": "699"
     }

@@ -4,22 +4,15 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-565: Reliance on Cookies without Validation and Integrity Checking</b><br>The product relies on the existence or values of cookies when performing security-critical operations, but it does not properly ensure that the setting is valid for the associated user.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Reliance on Cookies without Validation and Integrity Checking",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/565.html",
-      "id": "565"
-    },
-    {
-      "Description": "<b>CWE-114: Process Control</b><br>Executing commands or loading libraries from an untrusted source or in an untrusted environment can cause an application to execute malicious commands (and payloads) on behalf of an attacker.",
+      "Description": "<b>CWE-642: External Control of Critical State Data</b><br>The product stores security-critical state information about its users, or the product itself, in a location that is accessible to unauthorized actors.",
       "color": "#ff6200",
       "size": 18,
-      "label": "Process Control",
+      "label": "External Control of Critical State Data",
       "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/114.html",
-      "id": "114"
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/642.html",
+      "id": "642"
     },
     {
       "Description": "<b>CWE-426: Untrusted Search Path</b><br>The product searches for critical resources using an externally-supplied search path that can point to resources that are not under the product's direct control.",
@@ -27,17 +20,21 @@
       "size": 10,
       "label": "Untrusted Search Path",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/426.html",
       "id": "426"
     },
     {
-      "Description": "<b>CWE-15: External Control of System or Configuration Setting</b><br>One or more system settings or configuration elements can be externally controlled by a user.",
+      "Description": "<b>CWE-565: Reliance on Cookies without Validation and Integrity Checking</b><br>The product relies on the existence or values of cookies when performing security-critical operations, but it does not properly ensure that the setting is valid for the associated user.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "External Control of System or Configuration Setting",
+      "label": "Reliance on Cookies without Validation and Integrity Checking",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/15.html",
-      "id": "15"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/565.html",
+      "id": "565"
     },
     {
       "Description": "<b>CWE-784: Reliance on Cookies without Validation and Integrity Checking in a Security Decision</b><br>The product uses a protection mechanism that relies on the existence or values of a cookie, but it does not properly ensure that the cookie is valid for the associated user.",
@@ -45,8 +42,32 @@
       "size": 10,
       "label": "Reliance on Cookies without Validation and Integrity Checking in a Security Decision",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/784.html",
       "id": "784"
+    },
+    {
+      "Description": "<b>CWE-15: External Control of System or Configuration Setting</b><br>One or more system settings or configuration elements can be externally controlled by a user.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "External Control of System or Configuration Setting",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/15.html",
+      "id": "15"
+    },
+    {
+      "Description": "<b>CWE-114: Process Control</b><br>Executing commands or loading libraries from an untrusted source or in an untrusted environment can cause an application to execute malicious commands (and payloads) on behalf of an attacker.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Process Control",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/114.html",
+      "id": "114"
     },
     {
       "Description": "<b>CWE-472: External Control of Assumed-Immutable Web Parameter</b><br>The web application does not sufficiently verify inputs that are assumed to be immutable but are actually externally controllable, such as hidden form fields.",
@@ -54,6 +75,8 @@
       "size": 10,
       "label": "External Control of Assumed-Immutable Web Parameter",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/472.html",
       "id": "472"
     },
@@ -63,20 +86,18 @@
       "size": 10,
       "label": "External Control of File Name or Path",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/73.html",
       "id": "73"
-    },
-    {
-      "Description": "<b>CWE-642: External Control of Critical State Data</b><br>The product stores security-critical state information about its users, or the product itself, in a location that is accessible to unauthorized actors.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "External Control of Critical State Data",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/642.html",
-      "id": "642"
     }
   ],
   "links": [
+    {
+      "width": 1,
+      "source": "426",
+      "target": "642"
+    },
     {
       "width": 1,
       "source": "565",
@@ -84,13 +105,8 @@
     },
     {
       "width": 1,
-      "source": "114",
-      "target": "73"
-    },
-    {
-      "width": 1,
-      "source": "426",
-      "target": "642"
+      "source": "784",
+      "target": "565"
     },
     {
       "width": 1,
@@ -99,8 +115,8 @@
     },
     {
       "width": 1,
-      "source": "784",
-      "target": "565"
+      "source": "114",
+      "target": "73"
     },
     {
       "width": 1,

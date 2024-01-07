@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Forced Deadlock",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/25.html",
       "id": "25"
     }

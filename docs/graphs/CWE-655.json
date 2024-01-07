@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Insufficient Psychological Acceptability",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/655.html",
       "id": "655"
     }

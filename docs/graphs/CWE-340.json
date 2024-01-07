@@ -9,6 +9,8 @@
       "size": 10,
       "label": "Predictable Value Range from Previous Values",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/343.html",
       "id": "343"
     },
@@ -18,6 +20,8 @@
       "size": 10,
       "label": "Predictable from Observable State",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/341.html",
       "id": "341"
     },
@@ -27,6 +31,8 @@
       "size": 10,
       "label": "Predictable Exact Value from Previous Values",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/342.html",
       "id": "342"
     },
@@ -36,6 +42,8 @@
       "size": 18,
       "label": "Generation of Predictable Numbers or Identifiers",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/340.html",
       "id": "340"
     }

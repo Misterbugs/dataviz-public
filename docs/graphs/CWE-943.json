@@ -4,40 +4,26 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-90: Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')</b><br>The product constructs all or part of an LDAP query using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended LDAP query when it is sent to a downstream component.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/90.html",
-      "id": "90"
-    },
-    {
       "Description": "<b>CWE-943: Improper Neutralization of Special Elements in Data Query Logic</b><br>The product generates a query intended to access or manipulate data in a data store such as a database, but it does not neutralize or incorrectly neutralizes special elements that can modify the intended logic of the query.",
       "color": "#ff6200",
       "size": 18,
       "label": "Improper Neutralization of Special Elements in Data Query Logic",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/943.html",
       "id": "943"
     },
     {
-      "Description": "<b>CWE-652: Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')</b><br>The product uses external input to dynamically construct an XQuery expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
+      "Description": "<b>CWE-90: Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')</b><br>The product constructs all or part of an LDAP query using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended LDAP query when it is sent to a downstream component.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')",
+      "label": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/652.html",
-      "id": "652"
-    },
-    {
-      "Description": "<b>CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</b><br>The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/89.html",
-      "id": "89"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/90.html",
+      "id": "90"
     },
     {
       "Description": "<b>CWE-564: SQL Injection: Hibernate</b><br>Using Hibernate to execute a dynamic SQL statement built with user-controlled input can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.",
@@ -45,8 +31,21 @@
       "size": 10,
       "label": "SQL Injection: Hibernate",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/564.html",
       "id": "564"
+    },
+    {
+      "Description": "<b>CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</b><br>The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/89.html",
+      "id": "89"
     },
     {
       "Description": "<b>CWE-643: Improper Neutralization of Data within XPath Expressions ('XPath Injection')</b><br>The product uses external input to dynamically construct an XPath expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
@@ -54,8 +53,21 @@
       "size": 10,
       "label": "Improper Neutralization of Data within XPath Expressions ('XPath Injection')",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/643.html",
       "id": "643"
+    },
+    {
+      "Description": "<b>CWE-652: Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')</b><br>The product uses external input to dynamically construct an XQuery expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/652.html",
+      "id": "652"
     }
   ],
   "links": [
@@ -66,8 +78,8 @@
     },
     {
       "width": 1,
-      "source": "652",
-      "target": "943"
+      "source": "564",
+      "target": "89"
     },
     {
       "width": 1,
@@ -76,12 +88,12 @@
     },
     {
       "width": 1,
-      "source": "564",
-      "target": "89"
+      "source": "643",
+      "target": "943"
     },
     {
       "width": 1,
-      "source": "643",
+      "source": "652",
       "target": "943"
     }
   ]

@@ -4,22 +4,26 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-273: Improper Check for Dropped Privileges</b><br>The product attempts to drop privileges but does not check or incorrectly checks to see if the drop succeeded.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Check for Dropped Privileges",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/273.html",
-      "id": "273"
-    },
-    {
       "Description": "<b>CWE-271: Privilege Dropping / Lowering Errors</b><br>The product does not drop privileges before passing control of a resource to an actor that does not have those privileges.",
       "color": "#ff6200",
       "size": 18,
       "label": "Privilege Dropping / Lowering Errors",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/271.html",
       "id": "271"
+    },
+    {
+      "Description": "<b>CWE-273: Improper Check for Dropped Privileges</b><br>The product attempts to drop privileges but does not check or incorrectly checks to see if the drop succeeded.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Check for Dropped Privileges",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/273.html",
+      "id": "273"
     },
     {
       "Description": "<b>CWE-272: Least Privilege Violation</b><br>The elevated privilege level required to perform operations such as chroot() should be dropped immediately after the operation is performed.",
@@ -27,6 +31,8 @@
       "size": 10,
       "label": "Least Privilege Violation",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/272.html",
       "id": "272"
     }

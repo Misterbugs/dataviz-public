@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1039.html",
       "id": "1039"
     }

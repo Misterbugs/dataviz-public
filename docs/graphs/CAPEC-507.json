@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Physical Theft",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/507.html",
       "id": "507"
     }

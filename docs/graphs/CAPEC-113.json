@@ -4,11 +4,35 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CAPEC-133: Try All Common Switches</b><br>An attacker attempts to invoke all common switches and options in the target application for the purpose of discovering weaknesses in the target. For example, in some applications, adding a --debug switch causes debugging information to be displayed, which can sometimes reveal sensitive processing or configuration information to an attacker. This attack differs from other forms of API abuse in that the attacker is indiscriminately attempting to invoke options in the hope that one of them will work rather than specifically targeting a known option. Nonetheless, even if the attacker is familiar with the published options of a targeted application this attack method may still be fruitful as it might discover unpublicized functionality.",
+      "color": "#75aaff",
+      "size": 18,
+      "label": "Try All Common Switches",
+      "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
+      "url": "https://capec.mitre.org/data/definitions/133.html",
+      "id": "133"
+    },
+    {
+      "Description": "<b>CAPEC-113: Interface Manipulation</b><br>An adversary manipulates the use or processing of an interface (e.g. Application Programming Interface (API) or System-on-Chip (SoC)) resulting in an adverse impact upon the security of the system implementing the interface. This can allow the adversary to bypass access control and/or execute functionality not intended by the interface implementation, possibly compromising the system which integrates the interface. Interface manipulation can take on a number of forms including forcing the unexpected use of an interface or the use of an interface in an unintended way.",
+      "color": "#2176ff",
+      "size": 30,
+      "label": "Interface Manipulation",
+      "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
+      "url": "https://capec.mitre.org/data/definitions/113.html",
+      "id": "113"
+    },
+    {
       "Description": "<b>CAPEC-36: Using Unpublished Interfaces or Functionality</b><br>An adversary searches for and invokes interfaces or functionality that the target system designers did not intend to be publicly available. If interfaces fail to authenticate requests, the attacker may be able to invoke functionality they are not authorized for.",
       "color": "#75aaff",
       "size": 18,
       "label": "Using Unpublished Interfaces or Functionality",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/36.html",
       "id": "36"
     },
@@ -18,17 +42,10 @@
       "size": 18,
       "label": "Exploit Script-Based APIs",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/160.html",
       "id": "160"
-    },
-    {
-      "Description": "<b>CAPEC-113: Interface Manipulation</b><br>An adversary manipulates the use or processing of an interface (e.g. Application Programming Interface (API) or System-on-Chip (SoC)) resulting in an adverse impact upon the security of the system implementing the interface. This can allow the adversary to bypass access control and/or execute functionality not intended by the interface implementation, possibly compromising the system which integrates the interface. Interface manipulation can take on a number of forms including forcing the unexpected use of an interface or the use of an interface in an unintended way.",
-      "color": "#2176ff",
-      "size": 30,
-      "label": "Interface Manipulation",
-      "label_class": "node-label-big",
-      "url": "https://capec.mitre.org/data/definitions/113.html",
-      "id": "113"
     },
     {
       "Description": "<b>CAPEC-121: Exploit Non-Production Interfaces</b><br>An adversary exploits a sample, demonstration, test, or debug interface that is unintentionally enabled on a production system, with the goal of gleaning information or leveraging functionality that would otherwise be unavailable.",
@@ -36,6 +53,8 @@
       "size": 18,
       "label": "Exploit Non-Production Interfaces",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/121.html",
       "id": "121"
     },
@@ -45,20 +64,17 @@
       "size": 10,
       "label": "Root/Jailbreak Detection Evasion via Debugging",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/661.html",
       "id": "661"
-    },
-    {
-      "Description": "<b>CAPEC-133: Try All Common Switches</b><br>An attacker attempts to invoke all common switches and options in the target application for the purpose of discovering weaknesses in the target. For example, in some applications, adding a --debug switch causes debugging information to be displayed, which can sometimes reveal sensitive processing or configuration information to an attacker. This attack differs from other forms of API abuse in that the attacker is indiscriminately attempting to invoke options in the hope that one of them will work rather than specifically targeting a known option. Nonetheless, even if the attacker is familiar with the published options of a targeted application this attack method may still be fruitful as it might discover unpublicized functionality.",
-      "color": "#75aaff",
-      "size": 18,
-      "label": "Try All Common Switches",
-      "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/133.html",
-      "id": "133"
     }
   ],
   "links": [
+    {
+      "source": "133",
+      "target": "113"
+    },
     {
       "source": "36",
       "target": "113"
@@ -74,10 +90,6 @@
     {
       "source": "661",
       "target": "121"
-    },
-    {
-      "source": "133",
-      "target": "113"
     }
   ]
 }

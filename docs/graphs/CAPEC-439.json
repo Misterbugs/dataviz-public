@@ -4,13 +4,15 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-523: Malicious Software Implanted</b><br>An attacker implants malicious software into the system in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
+      "Description": "<b>CAPEC-522: Malicious Hardware Component Replacement</b><br>An adversary replaces legitimate hardware in the system with faulty counterfeit or tampered hardware in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
       "color": "#75aaff",
       "size": 18,
-      "label": "Malicious Software Implanted",
+      "label": "Malicious Hardware Component Replacement",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/523.html",
-      "id": "523"
+      "type": "CAPEC",
+      "abstraction": "Standard",
+      "url": "https://capec.mitre.org/data/definitions/522.html",
+      "id": "522"
     },
     {
       "Description": "<b>CAPEC-524: Rogue Integration Procedures</b><br>An attacker alters or establishes rogue processes in an integration facility in order to insert maliciously altered components into the system. The attacker would then supply the malicious components. This would allow for malicious disruption or additional compromise when the system is deployed.",
@@ -18,6 +20,8 @@
       "size": 18,
       "label": "Rogue Integration Procedures",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/524.html",
       "id": "524"
     },
@@ -27,22 +31,26 @@
       "size": 30,
       "label": "Manipulation During Distribution",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/439.html",
       "id": "439"
     },
     {
-      "Description": "<b>CAPEC-522: Malicious Hardware Component Replacement</b><br>An adversary replaces legitimate hardware in the system with faulty counterfeit or tampered hardware in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
+      "Description": "<b>CAPEC-523: Malicious Software Implanted</b><br>An attacker implants malicious software into the system in the supply chain distribution channel, with purpose of causing malicious disruption or allowing for additional compromise when the system is deployed.",
       "color": "#75aaff",
       "size": 18,
-      "label": "Malicious Hardware Component Replacement",
+      "label": "Malicious Software Implanted",
       "label_class": "node-label-medium",
-      "url": "https://capec.mitre.org/data/definitions/522.html",
-      "id": "522"
+      "type": "CAPEC",
+      "abstraction": "Standard",
+      "url": "https://capec.mitre.org/data/definitions/523.html",
+      "id": "523"
     }
   ],
   "links": [
     {
-      "source": "523",
+      "source": "522",
       "target": "439"
     },
     {
@@ -50,7 +58,7 @@
       "target": "439"
     },
     {
-      "source": "522",
+      "source": "523",
       "target": "439"
     }
   ]

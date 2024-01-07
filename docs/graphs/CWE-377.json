@@ -9,17 +9,10 @@
       "size": 10,
       "label": "Creation of Temporary File With Insecure Permissions",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/378.html",
       "id": "378"
-    },
-    {
-      "Description": "<b>CWE-377: Insecure Temporary File</b><br>Creating and using insecure temporary files can leave application and system data vulnerable to attack.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Insecure Temporary File",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/377.html",
-      "id": "377"
     },
     {
       "Description": "<b>CWE-379: Creation of Temporary File in Directory with Insecure Permissions</b><br>The product creates a temporary file in a directory whose permissions allow unintended actors to determine the file's existence or otherwise access that file.",
@@ -27,8 +20,21 @@
       "size": 10,
       "label": "Creation of Temporary File in Directory with Insecure Permissions",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/379.html",
       "id": "379"
+    },
+    {
+      "Description": "<b>CWE-377: Insecure Temporary File</b><br>Creating and using insecure temporary files can leave application and system data vulnerable to attack.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Insecure Temporary File",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/377.html",
+      "id": "377"
     }
   ],
   "links": [

@@ -9,6 +9,8 @@
       "size": 18,
       "label": "DEPRECATED: Containment Errors (Container Errors)",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/216.html",
       "id": "216"
     }

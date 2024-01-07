@@ -4,20 +4,13 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CAPEC-693: StarJacking</b><br>An adversary spoofs software popularity metadata to deceive users into believing that a maliciously provided package is widely used and originates from a trusted source.",
-      "color": "#94ebff",
-      "size": 10,
-      "label": "StarJacking",
-      "label_class": "node-label-small",
-      "url": "https://capec.mitre.org/data/definitions/693.html",
-      "id": "693"
-    },
-    {
       "Description": "<b>CAPEC-690: Metadata Spoofing</b><br>An adversary alters the metadata of a resource (e.g., file, directory, repository, etc.) to present a malicious resource as legitimate/credible.",
       "color": "#2176ff",
       "size": 30,
       "label": "Metadata Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/690.html",
       "id": "690"
     },
@@ -27,6 +20,8 @@
       "size": 18,
       "label": "Spoof Open-Source Software Metadata",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/691.html",
       "id": "691"
     },
@@ -36,21 +31,34 @@
       "size": 10,
       "label": "Spoof Version Control System Commit Metadata",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/692.html",
       "id": "692"
+    },
+    {
+      "Description": "<b>CAPEC-693: StarJacking</b><br>An adversary spoofs software popularity metadata to deceive users into believing that a maliciously provided package is widely used and originates from a trusted source.",
+      "color": "#94ebff",
+      "size": 10,
+      "label": "StarJacking",
+      "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
+      "url": "https://capec.mitre.org/data/definitions/693.html",
+      "id": "693"
     }
   ],
   "links": [
-    {
-      "source": "693",
-      "target": "691"
-    },
     {
       "source": "691",
       "target": "690"
     },
     {
       "source": "692",
+      "target": "691"
+    },
+    {
+      "source": "693",
       "target": "691"
     }
   ]

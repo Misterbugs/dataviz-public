@@ -4,94 +4,15 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-550: Server-generated Error Message Containing Sensitive Information</b><br>Certain conditions, such as network failure, will cause a server error message to be displayed.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Server-generated Error Message Containing Sensitive Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/550.html",
-      "id": "550"
-    },
-    {
-      "Description": "<b>CWE-12: ASP.NET Misconfiguration: Missing Custom Error Page</b><br>An ASP .NET application must enable custom error pages in order to prevent attackers from mining information from the framework's built-in responses.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "ASP.NET Misconfiguration: Missing Custom Error Page",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/12.html",
-      "id": "12"
-    },
-    {
-      "Description": "<b>CWE-455: Non-exit on Failed Initialization</b><br>The product does not exit or otherwise modify its operation when security-relevant errors occur during initialization, such as when a configuration file has a format error or a hardware security module (HSM) cannot be activated, which can cause the product to execute in a less secure fashion than intended by the administrator.",
+      "Description": "<b>CWE-210: Self-generated Error Message Containing Sensitive Information</b><br>The product identifies an error condition and creates its own diagnostic or error messages that contain sensitive information.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Non-exit on Failed Initialization",
+      "label": "Self-generated Error Message Containing Sensitive Information",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/455.html",
-      "id": "455"
-    },
-    {
-      "Description": "<b>CWE-544: Missing Standardized Error Handling Mechanism</b><br>The product does not use a standardized method for handling errors throughout the code, which might introduce inconsistent error handling and resultant weaknesses.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Missing Standardized Error Handling Mechanism",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/544.html",
-      "id": "544"
-    },
-    {
-      "Description": "<b>CWE-390: Detection of Error Condition Without Action</b><br>The product detects a specific error, but takes no actions to handle the error.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Detection of Error Condition Without Action",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/390.html",
-      "id": "390"
-    },
-    {
-      "Description": "<b>CWE-537: Java Runtime Error Message Containing Sensitive Information</b><br>In many cases, an attacker can leverage the conditions that cause unhandled exception errors in order to gain unauthorized access to the system.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Java Runtime Error Message Containing Sensitive Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/537.html",
-      "id": "537"
-    },
-    {
-      "Description": "<b>CWE-755: Improper Handling of Exceptional Conditions</b><br>The product does not handle or incorrectly handles an exceptional condition.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Improper Handling of Exceptional Conditions",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/755.html",
-      "id": "755"
-    },
-    {
-      "Description": "<b>CWE-248: Uncaught Exception</b><br>An exception is thrown from a function, but it is not caught.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Uncaught Exception",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/248.html",
-      "id": "248"
-    },
-    {
-      "Description": "<b>CWE-600: Uncaught Exception in Servlet </b><br>The Servlet does not catch all exceptions, which may reveal sensitive debugging information.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Uncaught Exception in Servlet ",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/600.html",
-      "id": "600"
-    },
-    {
-      "Description": "<b>CWE-209: Generation of Error Message Containing Sensitive Information</b><br>The product generates an error message that includes sensitive information about its environment, users, or associated data.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Generation of Error Message Containing Sensitive Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/209.html",
-      "id": "209"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/210.html",
+      "id": "210"
     },
     {
       "Description": "<b>CWE-535: Exposure of Information Through Shell Error Message</b><br>A command shell error message indicates that there exists an unhandled exception in the web application code. In many cases, an attacker can leverage the conditions that cause these errors in order to gain unauthorized access to the system.",
@@ -99,35 +20,10 @@
       "size": 10,
       "label": "Exposure of Information Through Shell Error Message",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/535.html",
       "id": "535"
-    },
-    {
-      "Description": "<b>CWE-211: Externally-Generated Error Message Containing Sensitive Information</b><br>The product performs an operation that triggers an external diagnostic or error message that is not directly generated or controlled by the product, such as an error generated by the programming language interpreter that a software application uses. The error can contain sensitive system information.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Externally-Generated Error Message Containing Sensitive Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/211.html",
-      "id": "211"
-    },
-    {
-      "Description": "<b>CWE-392: Missing Report of Error Condition</b><br>The product encounters an error but does not provide a status code or return value to indicate that an error has occurred.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Missing Report of Error Condition",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/392.html",
-      "id": "392"
-    },
-    {
-      "Description": "<b>CWE-396: Declaration of Catch for Generic Exception</b><br>Catching overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Declaration of Catch for Generic Exception",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/396.html",
-      "id": "396"
     },
     {
       "Description": "<b>CWE-536: Servlet Runtime Error Message Containing Sensitive Information</b><br>A servlet error message indicates that there exists an unhandled exception in your web application code and may provide useful information to an attacker.",
@@ -135,35 +31,21 @@
       "size": 10,
       "label": "Servlet Runtime Error Message Containing Sensitive Information",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/536.html",
       "id": "536"
     },
     {
-      "Description": "<b>CWE-7: J2EE Misconfiguration: Missing Custom Error Page</b><br>The default error page of a web application should not display sensitive information about the product.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "J2EE Misconfiguration: Missing Custom Error Page",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/7.html",
-      "id": "7"
-    },
-    {
-      "Description": "<b>CWE-280: Improper Handling of Insufficient Permissions or Privileges </b><br>The product does not handle or incorrectly handles when it has insufficient privileges to access resources or functionality as specified by their permissions. This may cause it to follow unexpected code paths that may leave the product in an invalid state.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Handling of Insufficient Permissions or Privileges ",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/280.html",
-      "id": "280"
-    },
-    {
-      "Description": "<b>CWE-756: Missing Custom Error Page</b><br>The product does not return custom error pages to the user, possibly exposing sensitive information.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Missing Custom Error Page",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/756.html",
-      "id": "756"
+      "Description": "<b>CWE-755: Improper Handling of Exceptional Conditions</b><br>The product does not handle or incorrectly handles an exceptional condition.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Improper Handling of Exceptional Conditions",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/755.html",
+      "id": "755"
     },
     {
       "Description": "<b>CWE-395: Use of NullPointerException Catch to Detect NULL Pointer Dereference</b><br>Catching NullPointerException should not be used as an alternative to programmatic checks to prevent dereferencing a null pointer.",
@@ -171,35 +53,10 @@
       "size": 10,
       "label": "Use of NullPointerException Catch to Detect NULL Pointer Dereference",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/395.html",
       "id": "395"
-    },
-    {
-      "Description": "<b>CWE-274: Improper Handling of Insufficient Privileges</b><br>The product does not handle or incorrectly handles when it has insufficient privileges to perform an operation, leading to resultant weaknesses.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Handling of Insufficient Privileges",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/274.html",
-      "id": "274"
-    },
-    {
-      "Description": "<b>CWE-460: Improper Cleanup on Thrown Exception</b><br>The product does not clean up its state or incorrectly cleans up its state when an exception is thrown, leading to unexpected state or control flow.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Cleanup on Thrown Exception",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/460.html",
-      "id": "460"
-    },
-    {
-      "Description": "<b>CWE-210: Self-generated Error Message Containing Sensitive Information</b><br>The product identifies an error condition and creates its own diagnostic or error messages that contain sensitive information.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Self-generated Error Message Containing Sensitive Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/210.html",
-      "id": "210"
     },
     {
       "Description": "<b>CWE-636: Not Failing Securely ('Failing Open')</b><br>When the product encounters an error condition or failure, its design requires it to fall back to a state that is less secure than other options that are available, such as selecting the weakest encryption algorithm or using the most permissive access control restrictions.",
@@ -207,55 +64,204 @@
       "size": 18,
       "label": "Not Failing Securely ('Failing Open')",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/636.html",
       "id": "636"
+    },
+    {
+      "Description": "<b>CWE-396: Declaration of Catch for Generic Exception</b><br>Catching overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Declaration of Catch for Generic Exception",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/396.html",
+      "id": "396"
+    },
+    {
+      "Description": "<b>CWE-280: Improper Handling of Insufficient Permissions or Privileges </b><br>The product does not handle or incorrectly handles when it has insufficient privileges to access resources or functionality as specified by their permissions. This may cause it to follow unexpected code paths that may leave the product in an invalid state.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Handling of Insufficient Permissions or Privileges ",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/280.html",
+      "id": "280"
+    },
+    {
+      "Description": "<b>CWE-392: Missing Report of Error Condition</b><br>The product encounters an error but does not provide a status code or return value to indicate that an error has occurred.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Missing Report of Error Condition",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/392.html",
+      "id": "392"
+    },
+    {
+      "Description": "<b>CWE-460: Improper Cleanup on Thrown Exception</b><br>The product does not clean up its state or incorrectly cleans up its state when an exception is thrown, leading to unexpected state or control flow.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Cleanup on Thrown Exception",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/460.html",
+      "id": "460"
+    },
+    {
+      "Description": "<b>CWE-600: Uncaught Exception in Servlet </b><br>The Servlet does not catch all exceptions, which may reveal sensitive debugging information.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Uncaught Exception in Servlet ",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/600.html",
+      "id": "600"
+    },
+    {
+      "Description": "<b>CWE-390: Detection of Error Condition Without Action</b><br>The product detects a specific error, but takes no actions to handle the error.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Detection of Error Condition Without Action",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/390.html",
+      "id": "390"
+    },
+    {
+      "Description": "<b>CWE-544: Missing Standardized Error Handling Mechanism</b><br>The product does not use a standardized method for handling errors throughout the code, which might introduce inconsistent error handling and resultant weaknesses.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Missing Standardized Error Handling Mechanism",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/544.html",
+      "id": "544"
+    },
+    {
+      "Description": "<b>CWE-211: Externally-Generated Error Message Containing Sensitive Information</b><br>The product performs an operation that triggers an external diagnostic or error message that is not directly generated or controlled by the product, such as an error generated by the programming language interpreter that a software application uses. The error can contain sensitive system information.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Externally-Generated Error Message Containing Sensitive Information",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/211.html",
+      "id": "211"
+    },
+    {
+      "Description": "<b>CWE-7: J2EE Misconfiguration: Missing Custom Error Page</b><br>The default error page of a web application should not display sensitive information about the product.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "J2EE Misconfiguration: Missing Custom Error Page",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/7.html",
+      "id": "7"
+    },
+    {
+      "Description": "<b>CWE-455: Non-exit on Failed Initialization</b><br>The product does not exit or otherwise modify its operation when security-relevant errors occur during initialization, such as when a configuration file has a format error or a hardware security module (HSM) cannot be activated, which can cause the product to execute in a less secure fashion than intended by the administrator.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Non-exit on Failed Initialization",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/455.html",
+      "id": "455"
+    },
+    {
+      "Description": "<b>CWE-12: ASP.NET Misconfiguration: Missing Custom Error Page</b><br>An ASP .NET application must enable custom error pages in order to prevent attackers from mining information from the framework's built-in responses.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "ASP.NET Misconfiguration: Missing Custom Error Page",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/12.html",
+      "id": "12"
+    },
+    {
+      "Description": "<b>CWE-756: Missing Custom Error Page</b><br>The product does not return custom error pages to the user, possibly exposing sensitive information.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Missing Custom Error Page",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/756.html",
+      "id": "756"
+    },
+    {
+      "Description": "<b>CWE-209: Generation of Error Message Containing Sensitive Information</b><br>The product generates an error message that includes sensitive information about its environment, users, or associated data.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Generation of Error Message Containing Sensitive Information",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/209.html",
+      "id": "209"
+    },
+    {
+      "Description": "<b>CWE-274: Improper Handling of Insufficient Privileges</b><br>The product does not handle or incorrectly handles when it has insufficient privileges to perform an operation, leading to resultant weaknesses.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Handling of Insufficient Privileges",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/274.html",
+      "id": "274"
+    },
+    {
+      "Description": "<b>CWE-248: Uncaught Exception</b><br>An exception is thrown from a function, but it is not caught.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Uncaught Exception",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/248.html",
+      "id": "248"
+    },
+    {
+      "Description": "<b>CWE-537: Java Runtime Error Message Containing Sensitive Information</b><br>In many cases, an attacker can leverage the conditions that cause unhandled exception errors in order to gain unauthorized access to the system.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Java Runtime Error Message Containing Sensitive Information",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/537.html",
+      "id": "537"
+    },
+    {
+      "Description": "<b>CWE-550: Server-generated Error Message Containing Sensitive Information</b><br>Certain conditions, such as network failure, will cause a server error message to be displayed.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Server-generated Error Message Containing Sensitive Information",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/550.html",
+      "id": "550"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "550",
+      "source": "210",
       "target": "209"
-    },
-    {
-      "width": 1,
-      "source": "12",
-      "target": "756"
-    },
-    {
-      "width": 1,
-      "source": "455",
-      "target": "636"
-    },
-    {
-      "width": 1,
-      "source": "544",
-      "target": "755"
-    },
-    {
-      "width": 1,
-      "source": "390",
-      "target": "755"
-    },
-    {
-      "width": 1,
-      "source": "537",
-      "target": "211"
-    },
-    {
-      "width": 1,
-      "source": "248",
-      "target": "755"
-    },
-    {
-      "width": 1,
-      "source": "600",
-      "target": "248"
-    },
-    {
-      "width": 1,
-      "source": "209",
-      "target": "755"
     },
     {
       "width": 1,
@@ -264,12 +270,17 @@
     },
     {
       "width": 1,
-      "source": "211",
-      "target": "209"
+      "source": "536",
+      "target": "211"
     },
     {
       "width": 1,
-      "source": "392",
+      "source": "395",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "636",
       "target": "755"
     },
     {
@@ -279,32 +290,12 @@
     },
     {
       "width": 1,
-      "source": "536",
-      "target": "211"
-    },
-    {
-      "width": 1,
-      "source": "7",
-      "target": "756"
-    },
-    {
-      "width": 1,
       "source": "280",
       "target": "755"
     },
     {
       "width": 1,
-      "source": "756",
-      "target": "755"
-    },
-    {
-      "width": 1,
-      "source": "395",
-      "target": "755"
-    },
-    {
-      "width": 1,
-      "source": "274",
+      "source": "392",
       "target": "755"
     },
     {
@@ -314,13 +305,68 @@
     },
     {
       "width": 1,
-      "source": "210",
+      "source": "600",
+      "target": "248"
+    },
+    {
+      "width": 1,
+      "source": "390",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "544",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "211",
       "target": "209"
     },
     {
       "width": 1,
-      "source": "636",
+      "source": "7",
+      "target": "756"
+    },
+    {
+      "width": 1,
+      "source": "455",
+      "target": "636"
+    },
+    {
+      "width": 1,
+      "source": "12",
+      "target": "756"
+    },
+    {
+      "width": 1,
+      "source": "756",
       "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "209",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "274",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "248",
+      "target": "755"
+    },
+    {
+      "width": 1,
+      "source": "537",
+      "target": "211"
+    },
+    {
+      "width": 1,
+      "source": "550",
+      "target": "209"
     }
   ]
 }

@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Shared Resource Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/124.html",
       "id": "124"
     }

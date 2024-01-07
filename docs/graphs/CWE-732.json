@@ -9,8 +9,32 @@
       "size": 10,
       "label": "Insecure Preserved Inherited Permissions",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/278.html",
       "id": "278"
+    },
+    {
+      "Description": "<b>CWE-279: Incorrect Execution-Assigned Permissions</b><br>While it is executing, the product sets the permissions of an object in a way that violates the intended permissions that have been specified by the user.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Incorrect Execution-Assigned Permissions",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/279.html",
+      "id": "279"
+    },
+    {
+      "Description": "<b>CWE-276: Incorrect Default Permissions</b><br>During installation, installed file permissions are set to allow anyone to modify those files.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Incorrect Default Permissions",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/276.html",
+      "id": "276"
     },
     {
       "Description": "<b>CWE-732: Incorrect Permission Assignment for Critical Resource</b><br>The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.",
@@ -18,17 +42,10 @@
       "size": 18,
       "label": "Incorrect Permission Assignment for Critical Resource",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/732.html",
       "id": "732"
-    },
-    {
-      "Description": "<b>CWE-277: Insecure Inherited Permissions</b><br>A product defines a set of insecure permissions that are inherited by objects that are created by the program.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Insecure Inherited Permissions",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/277.html",
-      "id": "277"
     },
     {
       "Description": "<b>CWE-1004: Sensitive Cookie Without 'HttpOnly' Flag</b><br>The product uses a cookie to store sensitive information, but the cookie is not marked with the HttpOnly flag.",
@@ -36,8 +53,21 @@
       "size": 10,
       "label": "Sensitive Cookie Without 'HttpOnly' Flag",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/1004.html",
       "id": "1004"
+    },
+    {
+      "Description": "<b>CWE-277: Insecure Inherited Permissions</b><br>A product defines a set of insecure permissions that are inherited by objects that are created by the program.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Insecure Inherited Permissions",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/277.html",
+      "id": "277"
     },
     {
       "Description": "<b>CWE-281: Improper Preservation of Permissions</b><br>The product does not preserve permissions or incorrectly preserves permissions when copying, restoring, or sharing objects, which can cause them to have less restrictive permissions than intended.",
@@ -45,6 +75,8 @@
       "size": 10,
       "label": "Improper Preservation of Permissions",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/281.html",
       "id": "281"
     },
@@ -54,26 +86,10 @@
       "size": 10,
       "label": "Critical Data Element Declared Public",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/766.html",
       "id": "766"
-    },
-    {
-      "Description": "<b>CWE-276: Incorrect Default Permissions</b><br>During installation, installed file permissions are set to allow anyone to modify those files.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Incorrect Default Permissions",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/276.html",
-      "id": "276"
-    },
-    {
-      "Description": "<b>CWE-279: Incorrect Execution-Assigned Permissions</b><br>While it is executing, the product sets the permissions of an object in a way that violates the intended permissions that have been specified by the user.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Incorrect Execution-Assigned Permissions",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/279.html",
-      "id": "279"
     }
   ],
   "links": [
@@ -84,12 +100,22 @@
     },
     {
       "width": 1,
-      "source": "277",
+      "source": "279",
+      "target": "732"
+    },
+    {
+      "width": 1,
+      "source": "276",
       "target": "732"
     },
     {
       "width": 1,
       "source": "1004",
+      "target": "732"
+    },
+    {
+      "width": 1,
+      "source": "277",
       "target": "732"
     },
     {
@@ -100,16 +126,6 @@
     {
       "width": 1,
       "source": "766",
-      "target": "732"
-    },
-    {
-      "width": 1,
-      "source": "276",
-      "target": "732"
-    },
-    {
-      "width": 1,
-      "source": "279",
       "target": "732"
     }
   ]

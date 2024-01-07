@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Contaminate Resource",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/548.html",
       "id": "548"
     }

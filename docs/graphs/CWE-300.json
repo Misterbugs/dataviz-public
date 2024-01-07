@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Channel Accessible by Non-Endpoint",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/300.html",
       "id": "300"
     }

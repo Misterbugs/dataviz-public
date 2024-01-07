@@ -4,11 +4,24 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CWE-346: Origin Validation Error</b><br>The product does not properly verify that the source of data or communication is valid.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Origin Validation Error",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/346.html",
+      "id": "346"
+    },
+    {
       "Description": "<b>CWE-1385: Missing Origin Validation in WebSockets</b><br>The product uses a WebSocket, but it does not properly verify that the source of data or communication is valid.",
       "color": "#e8e66b",
       "size": 10,
       "label": "Missing Origin Validation in WebSockets",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/1385.html",
       "id": "1385"
     },
@@ -18,6 +31,8 @@
       "size": 10,
       "label": "Improper Verification of Intent by Broadcast Receiver",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/925.html",
       "id": "925"
     },
@@ -27,17 +42,10 @@
       "size": 10,
       "label": "Improper Verification of Source of a Communication Channel",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/940.html",
       "id": "940"
-    },
-    {
-      "Description": "<b>CWE-346: Origin Validation Error</b><br>The product does not properly verify that the source of data or communication is valid.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Origin Validation Error",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/346.html",
-      "id": "346"
     }
   ],
   "links": [

@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Uncontrolled Recursion",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/674.html",
       "id": "674"
     },
@@ -18,6 +20,8 @@
       "size": 10,
       "label": "Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/776.html",
       "id": "776"
     }

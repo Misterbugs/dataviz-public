@@ -4,11 +4,24 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CWE-1271: Uninitialized Value on Reset for Registers Holding Security Settings</b><br>Security-critical logic is not set to a known value on reset.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Uninitialized Value on Reset for Registers Holding Security Settings",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1271.html",
+      "id": "1271"
+    },
+    {
       "Description": "<b>CWE-909: Missing Initialization of Resource</b><br>The product does not initialize a critical resource.",
       "color": "#ff6200",
       "size": 18,
       "label": "Missing Initialization of Resource",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/909.html",
       "id": "909"
     },
@@ -18,28 +31,21 @@
       "size": 10,
       "label": "Missing Initialization of a Variable",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/456.html",
       "id": "456"
-    },
-    {
-      "Description": "<b>CWE-1271: Uninitialized Value on Reset for Registers Holding Security Settings</b><br>Security-critical logic is not set to a known value on reset.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Uninitialized Value on Reset for Registers Holding Security Settings",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1271.html",
-      "id": "1271"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "456",
+      "source": "1271",
       "target": "909"
     },
     {
       "width": 1,
-      "source": "1271",
+      "source": "456",
       "target": "909"
     }
   ]

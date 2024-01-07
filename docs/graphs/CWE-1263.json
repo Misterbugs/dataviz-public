@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Improper Physical Access Control",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1263.html",
       "id": "1263"
     },
@@ -18,6 +20,8 @@
       "size": 10,
       "label": "Sensitive Non-Volatile Information Not Protected During Debug",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1243.html",
       "id": "1243"
     }

@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Accessing Functionality Not Properly Constrained by ACLs",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/1.html",
       "id": "1"
     },
@@ -18,6 +20,8 @@
       "size": 30,
       "label": "Privilege Abuse",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/122.html",
       "id": "122"
     },
@@ -27,6 +31,8 @@
       "size": 10,
       "label": "Buffer Overflow via Environment Variables",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/10.html",
       "id": "10"
     },
@@ -36,6 +42,8 @@
       "size": 18,
       "label": "Overflow Buffers",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/100.html",
       "id": "100"
     },
@@ -45,6 +53,8 @@
       "size": 30,
       "label": "Buffer Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/123.html",
       "id": "123"
     },
@@ -54,6 +64,8 @@
       "size": 10,
       "label": "Server Side Include (SSI) Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/101.html",
       "id": "101"
     },
@@ -63,6 +75,8 @@
       "size": 18,
       "label": "Remote Code Inclusion",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/253.html",
       "id": "253"
     },
@@ -72,6 +86,8 @@
       "size": 10,
       "label": "Session Sidejacking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/102.html",
       "id": "102"
     },
@@ -81,6 +97,8 @@
       "size": 18,
       "label": "Session Hijacking",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/593.html",
       "id": "593"
     },
@@ -90,6 +108,8 @@
       "size": 18,
       "label": "Clickjacking",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/103.html",
       "id": "103"
     },
@@ -99,6 +119,8 @@
       "size": 30,
       "label": "Action Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/173.html",
       "id": "173"
     },
@@ -108,6 +130,8 @@
       "size": 18,
       "label": "Cross Zone Scripting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/104.html",
       "id": "104"
     },
@@ -117,6 +141,8 @@
       "size": 30,
       "label": "Privilege Escalation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/233.html",
       "id": "233"
     },
@@ -126,6 +152,8 @@
       "size": 10,
       "label": "HTTP Request Splitting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/105.html",
       "id": "105"
     },
@@ -135,6 +163,8 @@
       "size": 18,
       "label": "Client-Server Protocol Manipulation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/220.html",
       "id": "220"
     },
@@ -144,6 +174,8 @@
       "size": 10,
       "label": "Cross Site Tracing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/107.html",
       "id": "107"
     },
@@ -153,6 +185,8 @@
       "size": 10,
       "label": "Command Line Execution through SQL Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/108.html",
       "id": "108"
     },
@@ -162,6 +196,8 @@
       "size": 18,
       "label": "SQL Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/66.html",
       "id": "66"
     },
@@ -171,6 +207,8 @@
       "size": 10,
       "label": "Object Relational Mapping Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/109.html",
       "id": "109"
     },
@@ -180,6 +218,8 @@
       "size": 10,
       "label": "Cause Web Server Misclassification",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/11.html",
       "id": "11"
     },
@@ -189,6 +229,8 @@
       "size": 18,
       "label": "Alternative Execution Due to Deceptive Filenames",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/635.html",
       "id": "635"
     },
@@ -198,6 +240,8 @@
       "size": 10,
       "label": "SQL Injection through SOAP Parameter Tampering",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/110.html",
       "id": "110"
     },
@@ -207,6 +251,8 @@
       "size": 18,
       "label": "JSON Hijacking (aka JavaScript Hijacking)",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/111.html",
       "id": "111"
     },
@@ -216,6 +262,8 @@
       "size": 30,
       "label": "Functionality Misuse",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/212.html",
       "id": "212"
     },
@@ -225,6 +273,8 @@
       "size": 30,
       "label": "Brute Force",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/112.html",
       "id": "112"
     },
@@ -234,6 +284,8 @@
       "size": 30,
       "label": "Interface Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/113.html",
       "id": "113"
     },
@@ -243,6 +295,8 @@
       "size": 30,
       "label": "Authentication Abuse",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/114.html",
       "id": "114"
     },
@@ -252,6 +306,8 @@
       "size": 30,
       "label": "Authentication Bypass",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/115.html",
       "id": "115"
     },
@@ -261,6 +317,8 @@
       "size": 30,
       "label": "Excavation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/116.html",
       "id": "116"
     },
@@ -270,6 +328,8 @@
       "size": 30,
       "label": "Interception",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/117.html",
       "id": "117"
     },
@@ -279,6 +339,8 @@
       "size": 18,
       "label": "Choosing Message Identifier",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/12.html",
       "id": "12"
     },
@@ -288,6 +350,8 @@
       "size": 30,
       "label": "Communication Channel Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/216.html",
       "id": "216"
     },
@@ -297,6 +361,8 @@
       "size": 10,
       "label": "Double Encoding",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/120.html",
       "id": "120"
     },
@@ -306,6 +372,8 @@
       "size": 18,
       "label": "Leverage Alternate Encoding",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/267.html",
       "id": "267"
     },
@@ -315,6 +383,8 @@
       "size": 18,
       "label": "Exploit Non-Production Interfaces",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/121.html",
       "id": "121"
     },
@@ -324,6 +394,8 @@
       "size": 30,
       "label": "Shared Resource Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/124.html",
       "id": "124"
     },
@@ -333,6 +405,8 @@
       "size": 30,
       "label": "Flooding",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/125.html",
       "id": "125"
     },
@@ -342,6 +416,8 @@
       "size": 18,
       "label": "Path Traversal",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/126.html",
       "id": "126"
     },
@@ -351,6 +427,8 @@
       "size": 30,
       "label": "Input Data Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/153.html",
       "id": "153"
     },
@@ -360,6 +438,8 @@
       "size": 10,
       "label": "Directory Indexing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/127.html",
       "id": "127"
     },
@@ -369,6 +449,8 @@
       "size": 18,
       "label": "Query System for Information",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/54.html",
       "id": "54"
     },
@@ -378,6 +460,8 @@
       "size": 18,
       "label": "Integer Attacks",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/128.html",
       "id": "128"
     },
@@ -387,6 +471,8 @@
       "size": 30,
       "label": "Pointer Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/129.html",
       "id": "129"
     },
@@ -396,6 +482,8 @@
       "size": 10,
       "label": "Subverting Environment Variable Values",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/13.html",
       "id": "13"
     },
@@ -405,6 +493,8 @@
       "size": 18,
       "label": "Manipulating User-Controlled Variables",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/77.html",
       "id": "77"
     },
@@ -414,6 +504,8 @@
       "size": 30,
       "label": "Excessive Allocation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/130.html",
       "id": "130"
     },
@@ -423,6 +515,8 @@
       "size": 30,
       "label": "Resource Leak Exposure",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/131.html",
       "id": "131"
     },
@@ -432,6 +526,8 @@
       "size": 10,
       "label": "Symlink Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/132.html",
       "id": "132"
     },
@@ -441,6 +537,8 @@
       "size": 18,
       "label": "Redirect Access to Libraries",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/159.html",
       "id": "159"
     },
@@ -450,6 +548,8 @@
       "size": 18,
       "label": "Try All Common Switches",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/133.html",
       "id": "133"
     },
@@ -459,6 +559,8 @@
       "size": 18,
       "label": "Email Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/134.html",
       "id": "134"
     },
@@ -468,6 +570,8 @@
       "size": 30,
       "label": "Parameter Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/137.html",
       "id": "137"
     },
@@ -477,6 +581,8 @@
       "size": 18,
       "label": "Format String Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/135.html",
       "id": "135"
     },
@@ -486,6 +592,8 @@
       "size": 18,
       "label": "LDAP Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/136.html",
       "id": "136"
     },
@@ -495,6 +603,8 @@
       "size": 30,
       "label": "Command Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/248.html",
       "id": "248"
     },
@@ -504,6 +614,8 @@
       "size": 18,
       "label": "Reflection Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/138.html",
       "id": "138"
     },
@@ -513,6 +625,8 @@
       "size": 10,
       "label": "Relative Path Traversal",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/139.html",
       "id": "139"
     },
@@ -522,6 +636,8 @@
       "size": 10,
       "label": "Client-side Injection-induced Buffer Overflow",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/14.html",
       "id": "14"
     },
@@ -531,6 +647,8 @@
       "size": 18,
       "label": "Bypassing of Intermediate Forms in Multiple-Form Sets",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/140.html",
       "id": "140"
     },
@@ -540,6 +658,8 @@
       "size": 30,
       "label": "Manipulating State",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/74.html",
       "id": "74"
     },
@@ -549,6 +669,8 @@
       "size": 18,
       "label": "Cache Poisoning",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/141.html",
       "id": "141"
     },
@@ -558,6 +680,8 @@
       "size": 30,
       "label": "Infrastructure Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/161.html",
       "id": "161"
     },
@@ -567,6 +691,8 @@
       "size": 10,
       "label": "DNS Cache Poisoning",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/142.html",
       "id": "142"
     },
@@ -576,6 +702,8 @@
       "size": 10,
       "label": "Detect Unpublicized Web Pages",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/143.html",
       "id": "143"
     },
@@ -585,6 +713,8 @@
       "size": 18,
       "label": "Collect Data from Common Resource Locations",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/150.html",
       "id": "150"
     },
@@ -594,6 +724,8 @@
       "size": 10,
       "label": "Detect Unpublicized Web Services",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/144.html",
       "id": "144"
     },
@@ -603,6 +735,8 @@
       "size": 10,
       "label": "Checksum Spoofing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/145.html",
       "id": "145"
     },
@@ -612,6 +746,8 @@
       "size": 30,
       "label": "Content Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/148.html",
       "id": "148"
     },
@@ -621,6 +757,8 @@
       "size": 10,
       "label": "XML Schema Poisoning",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/146.html",
       "id": "146"
     },
@@ -630,6 +768,8 @@
       "size": 18,
       "label": "Schema Poisoning",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/271.html",
       "id": "271"
     },
@@ -639,6 +779,8 @@
       "size": 10,
       "label": "XML Ping of the Death",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/147.html",
       "id": "147"
     },
@@ -648,6 +790,8 @@
       "size": 18,
       "label": "XML Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/528.html",
       "id": "528"
     },
@@ -657,6 +801,8 @@
       "size": 10,
       "label": "Explore for Predictable Temporary File Names",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/149.html",
       "id": "149"
     },
@@ -666,6 +812,8 @@
       "size": 18,
       "label": "File Discovery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/497.html",
       "id": "497"
     },
@@ -675,6 +823,8 @@
       "size": 18,
       "label": "Command Delimiters",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/15.html",
       "id": "15"
     },
@@ -684,6 +834,8 @@
       "size": 30,
       "label": "Identity Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/151.html",
       "id": "151"
     },
@@ -693,6 +845,8 @@
       "size": 30,
       "label": "Resource Location Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/154.html",
       "id": "154"
     },
@@ -702,6 +856,8 @@
       "size": 10,
       "label": "Screen Temporary Files for Sensitive Information",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/155.html",
       "id": "155"
     },
@@ -711,6 +867,8 @@
       "size": 18,
       "label": "Sniffing Attacks",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/157.html",
       "id": "157"
     },
@@ -720,6 +878,8 @@
       "size": 10,
       "label": "Sniffing Network Traffic",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/158.html",
       "id": "158"
     },
@@ -729,6 +889,8 @@
       "size": 10,
       "label": "Dictionary-based Password Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/16.html",
       "id": "16"
     },
@@ -738,6 +900,8 @@
       "size": 18,
       "label": "Password Brute Forcing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/49.html",
       "id": "49"
     },
@@ -747,6 +911,8 @@
       "size": 18,
       "label": "Exploit Script-Based APIs",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/160.html",
       "id": "160"
     },
@@ -756,6 +922,8 @@
       "size": 10,
       "label": "Manipulating Hidden Fields",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/162.html",
       "id": "162"
     },
@@ -765,6 +933,8 @@
       "size": 10,
       "label": "Spear Phishing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/163.html",
       "id": "163"
     },
@@ -774,6 +944,8 @@
       "size": 18,
       "label": "Phishing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/98.html",
       "id": "98"
     },
@@ -783,6 +955,8 @@
       "size": 10,
       "label": "Mobile Phishing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/164.html",
       "id": "164"
     },
@@ -792,6 +966,8 @@
       "size": 30,
       "label": "File Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/165.html",
       "id": "165"
     },
@@ -801,6 +977,8 @@
       "size": 18,
       "label": "Force the System to Reset Values",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/166.html",
       "id": "166"
     },
@@ -810,6 +988,8 @@
       "size": 18,
       "label": "White Box Reverse Engineering",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/167.html",
       "id": "167"
     },
@@ -819,6 +999,8 @@
       "size": 30,
       "label": "Reverse Engineering",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/188.html",
       "id": "188"
     },
@@ -828,6 +1010,8 @@
       "size": 10,
       "label": "Windows ::DATA Alternate Data Stream",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/168.html",
       "id": "168"
     },
@@ -837,6 +1021,8 @@
       "size": 18,
       "label": "Hiding Malicious Data or Code within Files",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/636.html",
       "id": "636"
     },
@@ -846,6 +1032,8 @@
       "size": 30,
       "label": "Footprinting",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/169.html",
       "id": "169"
     },
@@ -855,6 +1043,8 @@
       "size": 18,
       "label": "Using Malicious Files",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/17.html",
       "id": "17"
     },
@@ -864,6 +1054,8 @@
       "size": 10,
       "label": "Web Application Fingerprinting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/170.html",
       "id": "170"
     },
@@ -873,6 +1065,8 @@
       "size": 18,
       "label": "Application Fingerprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/541.html",
       "id": "541"
     },
@@ -882,6 +1076,8 @@
       "size": 10,
       "label": "Flash Parameter Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/174.html",
       "id": "174"
     },
@@ -891,6 +1087,8 @@
       "size": 18,
       "label": "Flash Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/182.html",
       "id": "182"
     },
@@ -900,6 +1098,8 @@
       "size": 30,
       "label": "Code Inclusion",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/175.html",
       "id": "175"
     },
@@ -909,6 +1109,8 @@
       "size": 30,
       "label": "Configuration/Environment Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/176.html",
       "id": "176"
     },
@@ -918,6 +1120,8 @@
       "size": 10,
       "label": "Create files with the same name as files protected with a higher classification",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/177.html",
       "id": "177"
     },
@@ -927,6 +1131,8 @@
       "size": 10,
       "label": "Cross-Site Flashing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/178.html",
       "id": "178"
     },
@@ -936,6 +1142,8 @@
       "size": 18,
       "label": "Calling Micro-Services Directly",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/179.html",
       "id": "179"
     },
@@ -945,6 +1153,8 @@
       "size": 30,
       "label": "Functionality Bypass",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/554.html",
       "id": "554"
     },
@@ -954,6 +1164,8 @@
       "size": 10,
       "label": "XSS Targeting Non-Script Elements",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/18.html",
       "id": "18"
     },
@@ -963,6 +1175,8 @@
       "size": 10,
       "label": "Reflected XSS",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/591.html",
       "id": "591"
     },
@@ -972,6 +1186,8 @@
       "size": 10,
       "label": "Stored XSS",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/592.html",
       "id": "592"
     },
@@ -981,6 +1197,8 @@
       "size": 10,
       "label": "DOM-Based XSS",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/588.html",
       "id": "588"
     },
@@ -990,6 +1208,8 @@
       "size": 18,
       "label": "Exploiting Incorrectly Configured Access Control Security Levels",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/180.html",
       "id": "180"
     },
@@ -999,6 +1219,8 @@
       "size": 10,
       "label": "Flash File Overlay",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/181.html",
       "id": "181"
     },
@@ -1008,6 +1230,8 @@
       "size": 18,
       "label": "IMAP/SMTP Command Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/183.html",
       "id": "183"
     },
@@ -1017,6 +1241,8 @@
       "size": 30,
       "label": "Software Integrity Attack",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/184.html",
       "id": "184"
     },
@@ -1026,6 +1252,8 @@
       "size": 18,
       "label": "Malicious Software Download",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/185.html",
       "id": "185"
     },
@@ -1035,6 +1263,8 @@
       "size": 18,
       "label": "Malicious Software Update",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/186.html",
       "id": "186"
     },
@@ -1044,6 +1274,8 @@
       "size": 10,
       "label": "Malicious Automated Software Update via Redirection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/187.html",
       "id": "187"
     },
@@ -1053,6 +1285,8 @@
       "size": 18,
       "label": "Black Box Reverse Engineering",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/189.html",
       "id": "189"
     },
@@ -1062,6 +1296,8 @@
       "size": 18,
       "label": "Embedding Scripts within Scripts",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/19.html",
       "id": "19"
     },
@@ -1071,6 +1307,8 @@
       "size": 30,
       "label": "Code Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/242.html",
       "id": "242"
     },
@@ -1080,6 +1318,8 @@
       "size": 10,
       "label": "Reverse Engineer an Executable to Expose Assumed Hidden Functionality",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/190.html",
       "id": "190"
     },
@@ -1089,6 +1329,8 @@
       "size": 10,
       "label": "Read Sensitive Constants Within an Executable",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/191.html",
       "id": "191"
     },
@@ -1098,6 +1340,8 @@
       "size": 30,
       "label": "Protocol Analysis",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/192.html",
       "id": "192"
     },
@@ -1107,6 +1351,8 @@
       "size": 10,
       "label": "PHP Remote File Inclusion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/193.html",
       "id": "193"
     },
@@ -1116,6 +1362,8 @@
       "size": 18,
       "label": "Fake the Source of Data",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/194.html",
       "id": "194"
     },
@@ -1125,6 +1373,8 @@
       "size": 18,
       "label": "Principal Spoof",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/195.html",
       "id": "195"
     },
@@ -1134,6 +1384,8 @@
       "size": 18,
       "label": "Session Credential Falsification through Forging",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/196.html",
       "id": "196"
     },
@@ -1143,6 +1395,8 @@
       "size": 30,
       "label": "Exploitation of Trusted Identifiers",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/21.html",
       "id": "21"
     },
@@ -1152,6 +1406,8 @@
       "size": 10,
       "label": "Exponential Data Expansion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/197.html",
       "id": "197"
     },
@@ -1161,6 +1417,8 @@
       "size": 18,
       "label": "Serialized Data with Nested Payloads",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/230.html",
       "id": "230"
     },
@@ -1170,6 +1428,8 @@
       "size": 10,
       "label": "XSS Targeting Error Pages",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/198.html",
       "id": "198"
     },
@@ -1179,6 +1439,8 @@
       "size": 10,
       "label": "XSS Using Alternate Syntax",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/199.html",
       "id": "199"
     },
@@ -1188,6 +1450,8 @@
       "size": 18,
       "label": "Inducing Account Lockout",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/2.html",
       "id": "2"
     },
@@ -1197,6 +1461,8 @@
       "size": 18,
       "label": "Encryption Brute Forcing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/20.html",
       "id": "20"
     },
@@ -1206,6 +1472,8 @@
       "size": 10,
       "label": "Removal of filters: Input filters, output filters, data masking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/200.html",
       "id": "200"
     },
@@ -1215,6 +1483,8 @@
       "size": 18,
       "label": "Removing Important Client Functionality",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/207.html",
       "id": "207"
     },
@@ -1224,6 +1494,8 @@
       "size": 10,
       "label": "Serialized Data External Linking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/201.html",
       "id": "201"
     },
@@ -1233,6 +1505,8 @@
       "size": 18,
       "label": "Web Services Protocol Manipulation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/278.html",
       "id": "278"
     },
@@ -1242,6 +1516,8 @@
       "size": 18,
       "label": "Create Malicious Client",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/202.html",
       "id": "202"
     },
@@ -1251,6 +1527,8 @@
       "size": 30,
       "label": "Exploiting Trust in Client",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/22.html",
       "id": "22"
     },
@@ -1260,6 +1538,8 @@
       "size": 18,
       "label": "Manipulate Registry Information",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/203.html",
       "id": "203"
     },
@@ -1269,6 +1549,8 @@
       "size": 10,
       "label": "Lifting Sensitive Data Embedded in Cache",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/204.html",
       "id": "204"
     },
@@ -1278,6 +1560,8 @@
       "size": 10,
       "label": "Signing Malicious Code",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/206.html",
       "id": "206"
     },
@@ -1287,6 +1571,8 @@
       "size": 18,
       "label": "Development Alteration",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/444.html",
       "id": "444"
     },
@@ -1296,6 +1582,8 @@
       "size": 10,
       "label": "Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/208.html",
       "id": "208"
     },
@@ -1305,6 +1593,8 @@
       "size": 10,
       "label": "XSS Using MIME Type Mismatch",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/209.html",
       "id": "209"
     },
@@ -1314,6 +1604,8 @@
       "size": 10,
       "label": "Fuzzing for application mapping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/215.html",
       "id": "215"
     },
@@ -1323,6 +1615,8 @@
       "size": 30,
       "label": "Fuzzing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/28.html",
       "id": "28"
     },
@@ -1332,6 +1626,8 @@
       "size": 18,
       "label": "Exploiting Incorrectly Configured SSL/TLS",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/217.html",
       "id": "217"
     },
@@ -1341,6 +1637,8 @@
       "size": 10,
       "label": "Spoofing of UDDI/ebXML Messages",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/218.html",
       "id": "218"
     },
@@ -1350,6 +1648,8 @@
       "size": 18,
       "label": "XML Routing Detour Attacks",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/219.html",
       "id": "219"
     },
@@ -1359,6 +1659,8 @@
       "size": 30,
       "label": "Adversary in the Middle (AiTM)",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/94.html",
       "id": "94"
     },
@@ -1368,6 +1670,8 @@
       "size": 30,
       "label": "Protocol Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/272.html",
       "id": "272"
     },
@@ -1377,6 +1681,8 @@
       "size": 10,
       "label": "Data Serialization External Entities Blowup",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/221.html",
       "id": "221"
     },
@@ -1386,6 +1692,8 @@
       "size": 18,
       "label": "Oversized Serialized Data Payloads",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/231.html",
       "id": "231"
     },
@@ -1395,6 +1703,8 @@
       "size": 10,
       "label": "iFrame Overlay",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/222.html",
       "id": "222"
     },
@@ -1404,6 +1714,8 @@
       "size": 30,
       "label": "Fingerprinting",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/224.html",
       "id": "224"
     },
@@ -1413,6 +1725,8 @@
       "size": 10,
       "label": "Session Credential Falsification through Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/226.html",
       "id": "226"
     },
@@ -1422,6 +1736,8 @@
       "size": 30,
       "label": "Sustained Client Engagement",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/227.html",
       "id": "227"
     },
@@ -1431,6 +1747,8 @@
       "size": 10,
       "label": "DTD Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/228.html",
       "id": "228"
     },
@@ -1440,6 +1758,8 @@
       "size": 18,
       "label": "XML Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/250.html",
       "id": "250"
     },
@@ -1449,6 +1769,8 @@
       "size": 10,
       "label": "Serialized Data Parameter Blowup",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/229.html",
       "id": "229"
     },
@@ -1458,6 +1780,8 @@
       "size": 18,
       "label": "File Content Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/23.html",
       "id": "23"
     },
@@ -1467,6 +1791,8 @@
       "size": 18,
       "label": "Hijacking a privileged process",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/234.html",
       "id": "234"
     },
@@ -1476,6 +1802,8 @@
       "size": 10,
       "label": "Escaping a Sandbox by Calling Code in Another Language",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/237.html",
       "id": "237"
     },
@@ -1485,6 +1813,8 @@
       "size": 18,
       "label": "Escaping Virtualization",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/480.html",
       "id": "480"
     },
@@ -1494,6 +1824,8 @@
       "size": 10,
       "label": "Filter Failure through Buffer Overflow",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/24.html",
       "id": "24"
     },
@@ -1503,6 +1835,8 @@
       "size": 30,
       "label": "Resource Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/240.html",
       "id": "240"
     },
@@ -1512,6 +1846,8 @@
       "size": 10,
       "label": "XSS Targeting HTML Attributes",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/243.html",
       "id": "243"
     },
@@ -1521,6 +1857,8 @@
       "size": 10,
       "label": "XSS Targeting URI Placeholders",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/244.html",
       "id": "244"
     },
@@ -1530,6 +1868,8 @@
       "size": 10,
       "label": "XSS Using Doubled Characters",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/245.html",
       "id": "245"
     },
@@ -1539,6 +1879,8 @@
       "size": 10,
       "label": "XSS Using Invalid Characters",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/247.html",
       "id": "247"
     },
@@ -1548,6 +1890,8 @@
       "size": 30,
       "label": "Forced Deadlock",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/25.html",
       "id": "25"
     },
@@ -1557,6 +1901,8 @@
       "size": 18,
       "label": "Local Code Inclusion",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/251.html",
       "id": "251"
     },
@@ -1566,6 +1912,8 @@
       "size": 10,
       "label": "PHP Local File Inclusion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/252.html",
       "id": "252"
     },
@@ -1575,6 +1923,8 @@
       "size": 10,
       "label": "SOAP Array Overflow",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/256.html",
       "id": "256"
     },
@@ -1584,6 +1934,8 @@
       "size": 30,
       "label": "Leveraging Race Conditions",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/26.html",
       "id": "26"
     },
@@ -1593,6 +1945,8 @@
       "size": 10,
       "label": "Fuzzing for garnering other adjacent user/sensitive data",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/261.html",
       "id": "261"
     },
@@ -1602,6 +1956,8 @@
       "size": 10,
       "label": "Force Use of Corrupted Files",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/263.html",
       "id": "263"
     },
@@ -1611,6 +1967,8 @@
       "size": 18,
       "label": "Audit Log Manipulation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/268.html",
       "id": "268"
     },
@@ -1620,6 +1978,8 @@
       "size": 10,
       "label": "Leveraging Race Conditions via Symbolic Links",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/27.html",
       "id": "27"
     },
@@ -1629,6 +1989,8 @@
       "size": 18,
       "label": "Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/29.html",
       "id": "29"
     },
@@ -1638,6 +2000,8 @@
       "size": 10,
       "label": "Modification of Registry Run Keys",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/270.html",
       "id": "270"
     },
@@ -1647,6 +2011,8 @@
       "size": 10,
       "label": "HTTP Response Smuggling",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/273.html",
       "id": "273"
     },
@@ -1656,6 +2022,8 @@
       "size": 10,
       "label": "HTTP Verb Tampering",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/274.html",
       "id": "274"
     },
@@ -1665,6 +2033,8 @@
       "size": 10,
       "label": "DNS Rebinding",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/275.html",
       "id": "275"
     },
@@ -1674,6 +2044,8 @@
       "size": 18,
       "label": "Inter-component Protocol Manipulation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/276.html",
       "id": "276"
     },
@@ -1683,6 +2055,8 @@
       "size": 18,
       "label": "Data Interchange Protocol Manipulation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/277.html",
       "id": "277"
     },
@@ -1692,6 +2066,8 @@
       "size": 10,
       "label": "SOAP Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/279.html",
       "id": "279"
     },
@@ -1701,6 +2077,8 @@
       "size": 10,
       "label": "ICMP Echo Request Ping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/285.html",
       "id": "285"
     },
@@ -1710,6 +2088,8 @@
       "size": 18,
       "label": "Host Discovery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/292.html",
       "id": "292"
     },
@@ -1719,6 +2099,8 @@
       "size": 10,
       "label": "TCP SYN Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/287.html",
       "id": "287"
     },
@@ -1728,6 +2110,8 @@
       "size": 18,
       "label": "Port Scanning",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/300.html",
       "id": "300"
     },
@@ -1737,6 +2121,8 @@
       "size": 10,
       "label": "Enumerate Mail Exchange (MX) Records",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/290.html",
       "id": "290"
     },
@@ -1746,6 +2132,8 @@
       "size": 18,
       "label": "Network Topology Mapping",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/309.html",
       "id": "309"
     },
@@ -1755,6 +2143,8 @@
       "size": 10,
       "label": "DNS Zone Transfers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/291.html",
       "id": "291"
     },
@@ -1764,6 +2154,8 @@
       "size": 10,
       "label": "Traceroute Route Enumeration",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/293.html",
       "id": "293"
     },
@@ -1773,6 +2165,8 @@
       "size": 10,
       "label": "ICMP Address Mask Request",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/294.html",
       "id": "294"
     },
@@ -1782,6 +2176,8 @@
       "size": 10,
       "label": "Timestamp Request",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/295.html",
       "id": "295"
     },
@@ -1791,6 +2187,8 @@
       "size": 10,
       "label": "ICMP Information Request",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/296.html",
       "id": "296"
     },
@@ -1800,6 +2198,8 @@
       "size": 10,
       "label": "TCP ACK Ping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/297.html",
       "id": "297"
     },
@@ -1809,6 +2209,8 @@
       "size": 10,
       "label": "UDP Ping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/298.html",
       "id": "298"
     },
@@ -1818,6 +2220,8 @@
       "size": 10,
       "label": "TCP SYN Ping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/299.html",
       "id": "299"
     },
@@ -1827,6 +2231,8 @@
       "size": 10,
       "label": "Using Leading 'Ghost' Character Sequences to Bypass Input Filters",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/3.html",
       "id": "3"
     },
@@ -1836,6 +2242,8 @@
       "size": 18,
       "label": "Hijacking a Privileged Thread of Execution",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/30.html",
       "id": "30"
     },
@@ -1845,6 +2253,8 @@
       "size": 10,
       "label": "TCP Connect Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/301.html",
       "id": "301"
     },
@@ -1854,6 +2264,8 @@
       "size": 10,
       "label": "TCP FIN Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/302.html",
       "id": "302"
     },
@@ -1863,6 +2275,8 @@
       "size": 10,
       "label": "TCP Xmas Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/303.html",
       "id": "303"
     },
@@ -1872,6 +2286,8 @@
       "size": 10,
       "label": "TCP Null Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/304.html",
       "id": "304"
     },
@@ -1881,6 +2297,8 @@
       "size": 10,
       "label": "TCP ACK Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/305.html",
       "id": "305"
     },
@@ -1890,6 +2308,8 @@
       "size": 10,
       "label": "TCP Window Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/306.html",
       "id": "306"
     },
@@ -1899,6 +2319,8 @@
       "size": 10,
       "label": "TCP RPC Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/307.html",
       "id": "307"
     },
@@ -1908,6 +2330,8 @@
       "size": 10,
       "label": "UDP Scan",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/308.html",
       "id": "308"
     },
@@ -1917,6 +2341,8 @@
       "size": 10,
       "label": "Accessing/Intercepting/Modifying HTTP Cookies",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/31.html",
       "id": "31"
     },
@@ -1926,6 +2352,8 @@
       "size": 18,
       "label": "Manipulating Opaque Client-based Data Tokens",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/39.html",
       "id": "39"
     },
@@ -1935,6 +2363,8 @@
       "size": 10,
       "label": "Scanning for Vulnerable Software",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/310.html",
       "id": "310"
     },
@@ -1944,6 +2374,8 @@
       "size": 18,
       "label": "Active OS Fingerprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/312.html",
       "id": "312"
     },
@@ -1953,6 +2385,8 @@
       "size": 18,
       "label": "Passive OS Fingerprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/313.html",
       "id": "313"
     },
@@ -1962,6 +2396,8 @@
       "size": 10,
       "label": "IP ID Sequencing Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/317.html",
       "id": "317"
     },
@@ -1971,6 +2407,8 @@
       "size": 10,
       "label": "IP 'ID' Echoed Byte-Order Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/318.html",
       "id": "318"
     },
@@ -1980,6 +2418,8 @@
       "size": 10,
       "label": "IP (DF) 'Don't Fragment Bit' Echoing Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/319.html",
       "id": "319"
     },
@@ -1989,6 +2429,8 @@
       "size": 10,
       "label": "XSS Through HTTP Query Strings",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/32.html",
       "id": "32"
     },
@@ -1998,6 +2440,8 @@
       "size": 10,
       "label": "TCP Timestamp Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/320.html",
       "id": "320"
     },
@@ -2007,6 +2451,8 @@
       "size": 10,
       "label": "TCP Sequence Number Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/321.html",
       "id": "321"
     },
@@ -2016,6 +2462,8 @@
       "size": 10,
       "label": "TCP (ISN) Greatest Common Divisor Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/322.html",
       "id": "322"
     },
@@ -2025,6 +2473,8 @@
       "size": 10,
       "label": "TCP (ISN) Counter Rate Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/323.html",
       "id": "323"
     },
@@ -2034,6 +2484,8 @@
       "size": 10,
       "label": "TCP (ISN) Sequence Predictability Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/324.html",
       "id": "324"
     },
@@ -2043,6 +2495,8 @@
       "size": 10,
       "label": "TCP Congestion Control Flag (ECN) Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/325.html",
       "id": "325"
     },
@@ -2052,6 +2506,8 @@
       "size": 10,
       "label": "TCP Initial Window Size Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/326.html",
       "id": "326"
     },
@@ -2061,6 +2517,8 @@
       "size": 10,
       "label": "TCP Options Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/327.html",
       "id": "327"
     },
@@ -2070,6 +2528,8 @@
       "size": 10,
       "label": "TCP 'RST' Flag Checksum Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/328.html",
       "id": "328"
     },
@@ -2079,6 +2539,8 @@
       "size": 10,
       "label": "ICMP Error Message Quoting Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/329.html",
       "id": "329"
     },
@@ -2088,6 +2550,8 @@
       "size": 10,
       "label": "HTTP Request Smuggling",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/33.html",
       "id": "33"
     },
@@ -2097,6 +2561,8 @@
       "size": 10,
       "label": "ICMP Error Message Echoing Integrity Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/330.html",
       "id": "330"
     },
@@ -2106,6 +2572,8 @@
       "size": 10,
       "label": "ICMP IP Total Length Field Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/331.html",
       "id": "331"
     },
@@ -2115,6 +2583,8 @@
       "size": 10,
       "label": "ICMP IP 'ID' Field Error Message Probe",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/332.html",
       "id": "332"
     },
@@ -2124,6 +2594,8 @@
       "size": 10,
       "label": "HTTP Response Splitting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/34.html",
       "id": "34"
     },
@@ -2133,6 +2605,8 @@
       "size": 10,
       "label": "Leverage Executable Code in Non-Executable Files",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/35.html",
       "id": "35"
     },
@@ -2142,6 +2616,8 @@
       "size": 18,
       "label": "Using Unpublished Interfaces or Functionality",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/36.html",
       "id": "36"
     },
@@ -2151,6 +2627,8 @@
       "size": 10,
       "label": "Retrieve Embedded Sensitive Data",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/37.html",
       "id": "37"
     },
@@ -2160,6 +2638,8 @@
       "size": 10,
       "label": "Leveraging/Manipulating Configuration File Search Paths",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/38.html",
       "id": "38"
     },
@@ -2169,6 +2649,8 @@
       "size": 10,
       "label": "Harvesting Information via API Event Monitoring",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/383.html",
       "id": "383"
     },
@@ -2178,6 +2660,8 @@
       "size": 18,
       "label": "Pretexting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/407.html",
       "id": "407"
     },
@@ -2187,6 +2671,8 @@
       "size": 18,
       "label": "Application API Message Manipulation via Man-in-the-Middle",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/384.html",
       "id": "384"
     },
@@ -2196,6 +2682,8 @@
       "size": 10,
       "label": "Transaction or Event Tampering via Application API Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/385.html",
       "id": "385"
     },
@@ -2205,6 +2693,8 @@
       "size": 18,
       "label": "Application API Navigation Remapping",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/386.html",
       "id": "386"
     },
@@ -2214,6 +2704,8 @@
       "size": 10,
       "label": "Navigation Remapping To Propagate Malicious Content",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/387.html",
       "id": "387"
     },
@@ -2223,6 +2715,8 @@
       "size": 10,
       "label": "Application API Button Hijacking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/388.html",
       "id": "388"
     },
@@ -2232,6 +2726,8 @@
       "size": 10,
       "label": "Content Spoofing Via Application API Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/389.html",
       "id": "389"
     },
@@ -2241,6 +2737,8 @@
       "size": 30,
       "label": "Bypassing Physical Security",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/390.html",
       "id": "390"
     },
@@ -2250,6 +2748,8 @@
       "size": 18,
       "label": "Bypassing Physical Locks",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/391.html",
       "id": "391"
     },
@@ -2259,6 +2759,8 @@
       "size": 10,
       "label": "Lock Bumping",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/392.html",
       "id": "392"
     },
@@ -2268,6 +2770,8 @@
       "size": 10,
       "label": "Lock Picking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/393.html",
       "id": "393"
     },
@@ -2277,6 +2781,8 @@
       "size": 10,
       "label": "Using a Snap Gun Lock to Force a Lock",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/394.html",
       "id": "394"
     },
@@ -2286,6 +2792,8 @@
       "size": 18,
       "label": "Bypassing Electronic Locks and Access Controls",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/395.html",
       "id": "395"
     },
@@ -2295,6 +2803,8 @@
       "size": 10,
       "label": "Cloning Magnetic Strip Cards",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/397.html",
       "id": "397"
     },
@@ -2304,6 +2814,8 @@
       "size": 10,
       "label": "Magnetic Strip Card Brute Force Attacks",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/398.html",
       "id": "398"
     },
@@ -2313,6 +2825,8 @@
       "size": 10,
       "label": "Cloning RFID Cards or Chips",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/399.html",
       "id": "399"
     },
@@ -2322,6 +2836,8 @@
       "size": 10,
       "label": "Using Alternative IP Address Encodings",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/4.html",
       "id": "4"
     },
@@ -2331,6 +2847,8 @@
       "size": 18,
       "label": "Manipulating Writeable Terminal Devices",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/40.html",
       "id": "40"
     },
@@ -2340,6 +2858,8 @@
       "size": 10,
       "label": "RFID Chip Deactivation or Destruction",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/400.html",
       "id": "400"
     },
@@ -2349,6 +2869,8 @@
       "size": 18,
       "label": "Physically Hacking Hardware",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/401.html",
       "id": "401"
     },
@@ -2358,6 +2880,8 @@
       "size": 30,
       "label": "Hardware Integrity Attack",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/440.html",
       "id": "440"
     },
@@ -2367,6 +2891,8 @@
       "size": 10,
       "label": "Bypassing ATA Password Security",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/402.html",
       "id": "402"
     },
@@ -2376,6 +2902,8 @@
       "size": 10,
       "label": "Dumpster Diving",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/406.html",
       "id": "406"
     },
@@ -2385,6 +2913,8 @@
       "size": 30,
       "label": "Manipulate Human Behavior",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/416.html",
       "id": "416"
     },
@@ -2394,6 +2924,8 @@
       "size": 30,
       "label": "Information Elicitation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/410.html",
       "id": "410"
     },
@@ -2403,6 +2935,8 @@
       "size": 10,
       "label": "Using Meta-characters in E-mail Headers to Inject Malicious Payloads",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/41.html",
       "id": "41"
     },
@@ -2412,6 +2946,8 @@
       "size": 10,
       "label": "Pretexting via Customer Service",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/412.html",
       "id": "412"
     },
@@ -2421,6 +2957,8 @@
       "size": 10,
       "label": "Pretexting via Tech Support",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/413.html",
       "id": "413"
     },
@@ -2430,6 +2968,8 @@
       "size": 10,
       "label": "Pretexting via Delivery Person",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/414.html",
       "id": "414"
     },
@@ -2439,6 +2979,8 @@
       "size": 10,
       "label": "Pretexting via Phone",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/415.html",
       "id": "415"
     },
@@ -2448,6 +2990,8 @@
       "size": 18,
       "label": "Influence Perception",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/417.html",
       "id": "417"
     },
@@ -2457,6 +3001,8 @@
       "size": 10,
       "label": "Influence Perception of Reciprocation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/418.html",
       "id": "418"
     },
@@ -2466,6 +3012,8 @@
       "size": 10,
       "label": "MIME Conversion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/42.html",
       "id": "42"
     },
@@ -2475,6 +3023,8 @@
       "size": 10,
       "label": "Influence Perception of Scarcity",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/420.html",
       "id": "420"
     },
@@ -2484,6 +3034,8 @@
       "size": 10,
       "label": "Influence Perception of Authority",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/421.html",
       "id": "421"
     },
@@ -2493,6 +3045,8 @@
       "size": 10,
       "label": "Influence Perception of Commitment and Consistency",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/422.html",
       "id": "422"
     },
@@ -2502,6 +3056,8 @@
       "size": 10,
       "label": "Influence Perception of Liking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/423.html",
       "id": "423"
     },
@@ -2511,6 +3067,8 @@
       "size": 10,
       "label": "Influence Perception of Consensus or Social Proof",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/424.html",
       "id": "424"
     },
@@ -2520,6 +3078,8 @@
       "size": 18,
       "label": "Target Influence via Framing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/425.html",
       "id": "425"
     },
@@ -2529,6 +3089,8 @@
       "size": 18,
       "label": "Influence via Incentives",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/426.html",
       "id": "426"
     },
@@ -2538,6 +3100,8 @@
       "size": 18,
       "label": "Influence via Psychological Principles",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/427.html",
       "id": "427"
     },
@@ -2547,6 +3111,8 @@
       "size": 10,
       "label": "Influence via Modes of Thinking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/428.html",
       "id": "428"
     },
@@ -2556,6 +3122,8 @@
       "size": 10,
       "label": "Target Influence via Eye Cues",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/429.html",
       "id": "429"
     },
@@ -2565,6 +3133,8 @@
       "size": 10,
       "label": "Exploiting Multiple Input Interpretation Layers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/43.html",
       "id": "43"
     },
@@ -2574,6 +3144,8 @@
       "size": 10,
       "label": "Target Influence via The Human Buffer Overflow",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/433.html",
       "id": "433"
     },
@@ -2583,6 +3155,8 @@
       "size": 10,
       "label": "Target Influence via Interview and Interrogation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/434.html",
       "id": "434"
     },
@@ -2592,6 +3166,8 @@
       "size": 10,
       "label": "Target Influence via Instant Rapport",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/435.html",
       "id": "435"
     },
@@ -2601,6 +3177,8 @@
       "size": 30,
       "label": "Modification During Manufacture",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/438.html",
       "id": "438"
     },
@@ -2610,6 +3188,8 @@
       "size": 30,
       "label": "Manipulation During Distribution",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/439.html",
       "id": "439"
     },
@@ -2619,6 +3199,8 @@
       "size": 10,
       "label": "Overflow Binary Resource File",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/44.html",
       "id": "44"
     },
@@ -2628,6 +3210,8 @@
       "size": 30,
       "label": "Malicious Logic Insertion",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/441.html",
       "id": "441"
     },
@@ -2637,6 +3221,8 @@
       "size": 18,
       "label": "Infected Software",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/442.html",
       "id": "442"
     },
@@ -2646,6 +3232,8 @@
       "size": 10,
       "label": "Malicious Logic Inserted Into Product by Authorized Developer",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/443.html",
       "id": "443"
     },
@@ -2655,6 +3243,8 @@
       "size": 10,
       "label": "Malicious Logic Insertion into Product Software via Configuration Management Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/445.html",
       "id": "445"
     },
@@ -2664,6 +3254,8 @@
       "size": 10,
       "label": "Malicious Logic Insertion into Product via Inclusion of Third-Party Component",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/446.html",
       "id": "446"
     },
@@ -2673,6 +3265,8 @@
       "size": 18,
       "label": "Design Alteration",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/447.html",
       "id": "447"
     },
@@ -2682,6 +3276,8 @@
       "size": 10,
       "label": "Embed Virus into DLL",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/448.html",
       "id": "448"
     },
@@ -2691,6 +3287,8 @@
       "size": 10,
       "label": "Buffer Overflow via Symbolic Links",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/45.html",
       "id": "45"
     },
@@ -2700,6 +3298,8 @@
       "size": 18,
       "label": "Infected Hardware",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/452.html",
       "id": "452"
     },
@@ -2709,6 +3309,8 @@
       "size": 18,
       "label": "Infected Memory",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/456.html",
       "id": "456"
     },
@@ -2718,6 +3320,8 @@
       "size": 10,
       "label": "USB Memory Attacks",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/457.html",
       "id": "457"
     },
@@ -2727,6 +3331,8 @@
       "size": 10,
       "label": "Flash Memory Attacks",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/458.html",
       "id": "458"
     },
@@ -2736,6 +3342,8 @@
       "size": 10,
       "label": "Creating a Rogue Certification Authority Certificate",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/459.html",
       "id": "459"
     },
@@ -2745,6 +3353,8 @@
       "size": 18,
       "label": "Signature Spoof",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/473.html",
       "id": "473"
     },
@@ -2754,6 +3364,8 @@
       "size": 10,
       "label": "Overflow Variables and Tags",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/46.html",
       "id": "46"
     },
@@ -2763,6 +3375,8 @@
       "size": 10,
       "label": "HTTP Parameter Pollution (HPP)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/460.html",
       "id": "460"
     },
@@ -2772,6 +3386,8 @@
       "size": 18,
       "label": "Web Services API Signature Forgery Leveraging Hash Function Extension Weakness",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/461.html",
       "id": "461"
     },
@@ -2781,6 +3397,8 @@
       "size": 10,
       "label": "Cross-Domain Search Timing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/462.html",
       "id": "462"
     },
@@ -2790,6 +3408,8 @@
       "size": 10,
       "label": "Padding Oracle Crypto Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/463.html",
       "id": "463"
     },
@@ -2799,6 +3419,8 @@
       "size": 18,
       "label": "Cryptanalysis",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/97.html",
       "id": "97"
     },
@@ -2808,6 +3430,8 @@
       "size": 18,
       "label": "Evercookie",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/464.html",
       "id": "464"
     },
@@ -2817,6 +3441,8 @@
       "size": 18,
       "label": "Transparent Proxy Abuse",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/465.html",
       "id": "465"
     },
@@ -2826,6 +3452,8 @@
       "size": 18,
       "label": "Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/466.html",
       "id": "466"
     },
@@ -2835,6 +3463,8 @@
       "size": 10,
       "label": "Cross Site Identification",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/467.html",
       "id": "467"
     },
@@ -2844,6 +3474,8 @@
       "size": 18,
       "label": "Cross Site Request Forgery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/62.html",
       "id": "62"
     },
@@ -2853,6 +3485,8 @@
       "size": 18,
       "label": "Generic Cross-Browser Cross-Domain Theft",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/468.html",
       "id": "468"
     },
@@ -2862,6 +3496,8 @@
       "size": 18,
       "label": "HTTP DoS",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/469.html",
       "id": "469"
     },
@@ -2871,6 +3507,8 @@
       "size": 10,
       "label": "Buffer Overflow via Parameter Expansion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/47.html",
       "id": "47"
     },
@@ -2880,6 +3518,8 @@
       "size": 10,
       "label": "Expanding Control over the Operating System from the Database",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/470.html",
       "id": "470"
     },
@@ -2889,6 +3529,8 @@
       "size": 10,
       "label": "Search Order Hijacking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/471.html",
       "id": "471"
     },
@@ -2898,6 +3540,8 @@
       "size": 10,
       "label": "Browser Fingerprinting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/472.html",
       "id": "472"
     },
@@ -2907,6 +3551,8 @@
       "size": 10,
       "label": "Signature Spoofing by Key Theft",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/474.html",
       "id": "474"
     },
@@ -2916,6 +3562,8 @@
       "size": 10,
       "label": "Signature Spoofing by Improper Validation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/475.html",
       "id": "475"
     },
@@ -2925,6 +3573,8 @@
       "size": 10,
       "label": "Signature Spoofing by Misrepresentation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/476.html",
       "id": "476"
     },
@@ -2934,6 +3584,8 @@
       "size": 10,
       "label": "Signature Spoofing by Mixing Signed and Unsigned Content",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/477.html",
       "id": "477"
     },
@@ -2943,6 +3595,8 @@
       "size": 10,
       "label": "Modification of Windows Service Configuration",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/478.html",
       "id": "478"
     },
@@ -2952,6 +3606,8 @@
       "size": 10,
       "label": "Malicious Root Certificate",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/479.html",
       "id": "479"
     },
@@ -2961,6 +3617,8 @@
       "size": 18,
       "label": "Passing Local Filenames to Functions That Expect a URL",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/48.html",
       "id": "48"
     },
@@ -2970,6 +3628,8 @@
       "size": 18,
       "label": "Contradictory Destinations in Traffic Routing Schemes",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/481.html",
       "id": "481"
     },
@@ -2979,6 +3639,8 @@
       "size": 18,
       "label": "TCP Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/482.html",
       "id": "482"
     },
@@ -2988,6 +3650,8 @@
       "size": 10,
       "label": "Signature Spoofing by Key Recreation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/485.html",
       "id": "485"
     },
@@ -2997,6 +3661,8 @@
       "size": 18,
       "label": "UDP Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/486.html",
       "id": "486"
     },
@@ -3006,6 +3672,8 @@
       "size": 18,
       "label": "ICMP Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/487.html",
       "id": "487"
     },
@@ -3015,6 +3683,8 @@
       "size": 18,
       "label": "HTTP Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/488.html",
       "id": "488"
     },
@@ -3024,6 +3694,8 @@
       "size": 18,
       "label": "SSL Flood",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/489.html",
       "id": "489"
     },
@@ -3033,6 +3705,8 @@
       "size": 18,
       "label": "Amplification",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/490.html",
       "id": "490"
     },
@@ -3042,6 +3716,8 @@
       "size": 10,
       "label": "Quadratic Data Expansion",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/491.html",
       "id": "491"
     },
@@ -3051,6 +3727,8 @@
       "size": 18,
       "label": "Regular Expression Exponential Blowup",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/492.html",
       "id": "492"
     },
@@ -3060,6 +3738,8 @@
       "size": 18,
       "label": "SOAP Array Blowup",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/493.html",
       "id": "493"
     },
@@ -3069,6 +3749,8 @@
       "size": 18,
       "label": "TCP Fragmentation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/494.html",
       "id": "494"
     },
@@ -3078,6 +3760,8 @@
       "size": 18,
       "label": "UDP Fragmentation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/495.html",
       "id": "495"
     },
@@ -3087,6 +3771,8 @@
       "size": 18,
       "label": "ICMP Fragmentation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/496.html",
       "id": "496"
     },
@@ -3096,6 +3782,8 @@
       "size": 10,
       "label": "Probe iOS Screenshots",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/498.html",
       "id": "498"
     },
@@ -3105,6 +3793,8 @@
       "size": 18,
       "label": "Pull Data from System Resources",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/545.html",
       "id": "545"
     },
@@ -3114,6 +3804,8 @@
       "size": 18,
       "label": "Android Intent Intercept",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/499.html",
       "id": "499"
     },
@@ -3123,6 +3815,8 @@
       "size": 10,
       "label": "Blue Boxing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/5.html",
       "id": "5"
     },
@@ -3132,6 +3826,8 @@
       "size": 18,
       "label": "Password Recovery Exploitation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/50.html",
       "id": "50"
     },
@@ -3141,6 +3837,8 @@
       "size": 10,
       "label": "WebView Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/500.html",
       "id": "500"
     },
@@ -3150,6 +3848,8 @@
       "size": 10,
       "label": "Android Activity Hijack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/501.html",
       "id": "501"
     },
@@ -3159,6 +3859,8 @@
       "size": 18,
       "label": "Intent Spoof",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/502.html",
       "id": "502"
     },
@@ -3168,6 +3870,8 @@
       "size": 18,
       "label": "WebView Exposure",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/503.html",
       "id": "503"
     },
@@ -3177,6 +3881,8 @@
       "size": 18,
       "label": "Task Impersonation",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/504.html",
       "id": "504"
     },
@@ -3186,6 +3892,8 @@
       "size": 10,
       "label": "Scheme Squatting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/505.html",
       "id": "505"
     },
@@ -3195,6 +3903,8 @@
       "size": 18,
       "label": "Establish Rogue Location",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/616.html",
       "id": "616"
     },
@@ -3204,6 +3914,8 @@
       "size": 18,
       "label": "Tapjacking",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/506.html",
       "id": "506"
     },
@@ -3213,6 +3925,8 @@
       "size": 30,
       "label": "Physical Theft",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/507.html",
       "id": "507"
     },
@@ -3222,6 +3936,8 @@
       "size": 10,
       "label": "Shoulder Surfing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/508.html",
       "id": "508"
     },
@@ -3231,6 +3947,8 @@
       "size": 18,
       "label": "Eavesdropping",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/651.html",
       "id": "651"
     },
@@ -3240,6 +3958,8 @@
       "size": 10,
       "label": "Kerberoasting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/509.html",
       "id": "509"
     },
@@ -3249,6 +3969,8 @@
       "size": 18,
       "label": "Use of Known Kerberos Credentials",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/652.html",
       "id": "652"
     },
@@ -3258,6 +3980,8 @@
       "size": 10,
       "label": "Poison Web Service Registry",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/51.html",
       "id": "51"
     },
@@ -3267,6 +3991,8 @@
       "size": 18,
       "label": "SaaS User Request Forgery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/510.html",
       "id": "510"
     },
@@ -3276,6 +4002,8 @@
       "size": 10,
       "label": "Infiltration of Software Development Environment",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/511.html",
       "id": "511"
     },
@@ -3285,6 +4013,8 @@
       "size": 10,
       "label": "Hardware Component Substitution During Baselining",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/516.html",
       "id": "516"
     },
@@ -3294,6 +4024,8 @@
       "size": 10,
       "label": "Documentation Alteration to Circumvent Dial-down",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/517.html",
       "id": "517"
     },
@@ -3303,6 +4035,8 @@
       "size": 10,
       "label": "Documentation Alteration to Produce Under-performing Systems",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/518.html",
       "id": "518"
     },
@@ -3312,6 +4046,8 @@
       "size": 10,
       "label": "Documentation Alteration to Cause Errors in System Design",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/519.html",
       "id": "519"
     },
@@ -3321,6 +4057,8 @@
       "size": 10,
       "label": "Embedding NULL Bytes",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/52.html",
       "id": "52"
     },
@@ -3330,6 +4068,8 @@
       "size": 10,
       "label": "Counterfeit Hardware Component Inserted During Product Assembly",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/520.html",
       "id": "520"
     },
@@ -3339,6 +4079,8 @@
       "size": 10,
       "label": "Hardware Design Specifications Are Altered",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/521.html",
       "id": "521"
     },
@@ -3348,6 +4090,8 @@
       "size": 18,
       "label": "Malicious Hardware Component Replacement",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/522.html",
       "id": "522"
     },
@@ -3357,6 +4101,8 @@
       "size": 18,
       "label": "Malicious Software Implanted",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/523.html",
       "id": "523"
     },
@@ -3366,6 +4112,8 @@
       "size": 18,
       "label": "Rogue Integration Procedures",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/524.html",
       "id": "524"
     },
@@ -3375,6 +4123,8 @@
       "size": 18,
       "label": "Malware-Directed Internal Reconnaissance",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/529.html",
       "id": "529"
     },
@@ -3384,6 +4134,8 @@
       "size": 10,
       "label": "Postfix, Null Terminate, and Backslash",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/53.html",
       "id": "53"
     },
@@ -3393,6 +4145,8 @@
       "size": 10,
       "label": "Provide Counterfeit Component",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/530.html",
       "id": "530"
     },
@@ -3402,6 +4156,8 @@
       "size": 10,
       "label": "Hardware Component Substitution",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/531.html",
       "id": "531"
     },
@@ -3411,6 +4167,8 @@
       "size": 18,
       "label": "Malicious Hardware Update",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/534.html",
       "id": "534"
     },
@@ -3420,6 +4178,8 @@
       "size": 10,
       "label": "Altered Installed BIOS",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/532.html",
       "id": "532"
     },
@@ -3429,6 +4189,8 @@
       "size": 10,
       "label": "Malicious Manual Software Update",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/533.html",
       "id": "533"
     },
@@ -3438,6 +4200,8 @@
       "size": 10,
       "label": "Malicious Gray Market Hardware",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/535.html",
       "id": "535"
     },
@@ -3447,6 +4211,8 @@
       "size": 18,
       "label": "Data Injected During Configuration",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/536.html",
       "id": "536"
     },
@@ -3456,6 +4222,8 @@
       "size": 10,
       "label": "Infiltration of Hardware Development Environment",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/537.html",
       "id": "537"
     },
@@ -3465,6 +4233,8 @@
       "size": 10,
       "label": "Open-Source Library Manipulation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/538.html",
       "id": "538"
     },
@@ -3474,6 +4244,8 @@
       "size": 10,
       "label": "ASIC With Malicious Functionality",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/539.html",
       "id": "539"
     },
@@ -3483,6 +4255,8 @@
       "size": 18,
       "label": "Overread Buffers",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/540.html",
       "id": "540"
     },
@@ -3492,6 +4266,8 @@
       "size": 18,
       "label": "Targeted Malware",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/542.html",
       "id": "542"
     },
@@ -3501,6 +4277,8 @@
       "size": 30,
       "label": "Local Execution of Code",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/549.html",
       "id": "549"
     },
@@ -3510,6 +4288,8 @@
       "size": 10,
       "label": "Counterfeit Websites",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/543.html",
       "id": "543"
     },
@@ -3519,6 +4299,8 @@
       "size": 10,
       "label": "Counterfeit Organizations",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/544.html",
       "id": "544"
     },
@@ -3528,6 +4310,8 @@
       "size": 10,
       "label": "Incomplete Data Deletion in a Multi-Tenant Environment",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/546.html",
       "id": "546"
     },
@@ -3537,6 +4321,8 @@
       "size": 18,
       "label": "Physical Destruction of Device or Component",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/547.html",
       "id": "547"
     },
@@ -3546,6 +4332,8 @@
       "size": 30,
       "label": "Obstruction",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/607.html",
       "id": "607"
     },
@@ -3555,6 +4343,8 @@
       "size": 30,
       "label": "Contaminate Resource",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/548.html",
       "id": "548"
     },
@@ -3564,6 +4354,8 @@
       "size": 10,
       "label": "Rainbow Table Password Cracking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/55.html",
       "id": "55"
     },
@@ -3573,6 +4365,8 @@
       "size": 10,
       "label": "Install New Service",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/550.html",
       "id": "550"
     },
@@ -3582,6 +4376,8 @@
       "size": 10,
       "label": "Modify Existing Service",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/551.html",
       "id": "551"
     },
@@ -3591,6 +4387,8 @@
       "size": 10,
       "label": "Install Rootkit ",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/552.html",
       "id": "552"
     },
@@ -3600,6 +4398,8 @@
       "size": 18,
       "label": "Remote Services with Stolen Credentials",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/555.html",
       "id": "555"
     },
@@ -3609,6 +4409,8 @@
       "size": 30,
       "label": "Use of Known Domain Credentials",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/560.html",
       "id": "560"
     },
@@ -3618,6 +4420,8 @@
       "size": 10,
       "label": "Replace File Extension Handlers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/556.html",
       "id": "556"
     },
@@ -3627,6 +4431,8 @@
       "size": 10,
       "label": "Replace Trusted Executable",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/558.html",
       "id": "558"
     },
@@ -3636,6 +4442,8 @@
       "size": 10,
       "label": "Orbital Jamming",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/559.html",
       "id": "559"
     },
@@ -3645,6 +4453,8 @@
       "size": 18,
       "label": "Jamming",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/601.html",
       "id": "601"
     },
@@ -3654,6 +4464,8 @@
       "size": 10,
       "label": "Windows Admin Shares with Stolen Credentials",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/561.html",
       "id": "561"
     },
@@ -3663,6 +4475,8 @@
       "size": 18,
       "label": "Use of Known Operating System Credentials",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/653.html",
       "id": "653"
     },
@@ -3672,6 +4486,8 @@
       "size": 10,
       "label": "Modify Shared File",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/562.html",
       "id": "562"
     },
@@ -3681,6 +4497,8 @@
       "size": 10,
       "label": "Add Malicious File to Shared Webroot",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/563.html",
       "id": "563"
     },
@@ -3690,6 +4508,8 @@
       "size": 10,
       "label": "Run Software at Logon",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/564.html",
       "id": "564"
     },
@@ -3699,6 +4519,8 @@
       "size": 10,
       "label": "Password Spraying",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/565.html",
       "id": "565"
     },
@@ -3708,6 +4530,8 @@
       "size": 10,
       "label": "Capture Credentials via Keylogger",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/568.html",
       "id": "568"
     },
@@ -3717,6 +4541,8 @@
       "size": 18,
       "label": "Collect Data as Provided by Users",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/569.html",
       "id": "569"
     },
@@ -3726,6 +4552,8 @@
       "size": 10,
       "label": "Utilizing REST's Trust in the System Resource to Obtain Sensitive Data",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/57.html",
       "id": "57"
     },
@@ -3735,6 +4563,8 @@
       "size": 18,
       "label": "Block Logging to Central Repository",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/571.html",
       "id": "571"
     },
@@ -3744,6 +4574,8 @@
       "size": 18,
       "label": "Artificially Inflate File Sizes",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/572.html",
       "id": "572"
     },
@@ -3753,6 +4585,8 @@
       "size": 18,
       "label": "Process Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/573.html",
       "id": "573"
     },
@@ -3762,6 +4596,8 @@
       "size": 18,
       "label": "Services Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/574.html",
       "id": "574"
     },
@@ -3771,6 +4607,8 @@
       "size": 18,
       "label": "Account Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/575.html",
       "id": "575"
     },
@@ -3780,6 +4618,8 @@
       "size": 18,
       "label": "Group Permission Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/576.html",
       "id": "576"
     },
@@ -3789,6 +4629,8 @@
       "size": 18,
       "label": "Owner Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/577.html",
       "id": "577"
     },
@@ -3798,6 +4640,8 @@
       "size": 18,
       "label": "Disable Security Software",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/578.html",
       "id": "578"
     },
@@ -3807,6 +4651,8 @@
       "size": 10,
       "label": "Replace Winlogon Helper DLL",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/579.html",
       "id": "579"
     },
@@ -3816,6 +4662,8 @@
       "size": 10,
       "label": "Restful Privilege Elevation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/58.html",
       "id": "58"
     },
@@ -3825,6 +4673,8 @@
       "size": 18,
       "label": "System Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/580.html",
       "id": "580"
     },
@@ -3834,6 +4684,8 @@
       "size": 10,
       "label": "Security Software Footprinting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/581.html",
       "id": "581"
     },
@@ -3843,6 +4695,8 @@
       "size": 18,
       "label": "Route Disabling",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/582.html",
       "id": "582"
     },
@@ -3852,6 +4706,8 @@
       "size": 10,
       "label": "Disabling Network Hardware",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/583.html",
       "id": "583"
     },
@@ -3861,6 +4717,8 @@
       "size": 10,
       "label": "BGP Route Disabling",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/584.html",
       "id": "584"
     },
@@ -3870,6 +4728,8 @@
       "size": 10,
       "label": "DNS Domain Seizure",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/585.html",
       "id": "585"
     },
@@ -3879,6 +4739,8 @@
       "size": 30,
       "label": "Object Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/586.html",
       "id": "586"
     },
@@ -3888,6 +4750,8 @@
       "size": 10,
       "label": "Cross Frame Scripting (XFS)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/587.html",
       "id": "587"
     },
@@ -3897,6 +4761,8 @@
       "size": 18,
       "label": "Cross-Site Scripting (XSS)",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/63.html",
       "id": "63"
     },
@@ -3906,6 +4772,8 @@
       "size": 10,
       "label": "DNS Blocking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/589.html",
       "id": "589"
     },
@@ -3915,6 +4783,8 @@
       "size": 18,
       "label": "Blockage",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/603.html",
       "id": "603"
     },
@@ -3924,6 +4794,8 @@
       "size": 10,
       "label": "Session Credential Falsification through Prediction",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/59.html",
       "id": "59"
     },
@@ -3933,6 +4805,8 @@
       "size": 10,
       "label": "IP Address Blocking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/590.html",
       "id": "590"
     },
@@ -3942,6 +4816,8 @@
       "size": 30,
       "label": "Traffic Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/594.html",
       "id": "594"
     },
@@ -3951,6 +4827,8 @@
       "size": 18,
       "label": "Connection Reset",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/595.html",
       "id": "595"
     },
@@ -3960,6 +4838,8 @@
       "size": 10,
       "label": "TCP RST Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/596.html",
       "id": "596"
     },
@@ -3969,6 +4849,8 @@
       "size": 10,
       "label": "Absolute Path Traversal",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/597.html",
       "id": "597"
     },
@@ -3978,6 +4860,8 @@
       "size": 10,
       "label": "DNS Spoofing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/598.html",
       "id": "598"
     },
@@ -3987,6 +4871,8 @@
       "size": 10,
       "label": "Terrestrial Jamming",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/599.html",
       "id": "599"
     },
@@ -3996,6 +4882,8 @@
       "size": 18,
       "label": "Argument Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/6.html",
       "id": "6"
     },
@@ -4005,6 +4893,8 @@
       "size": 10,
       "label": "Reusing Session IDs (aka Session Replay)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/60.html",
       "id": "60"
     },
@@ -4014,6 +4904,8 @@
       "size": 18,
       "label": "Credential Stuffing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/600.html",
       "id": "600"
     },
@@ -4023,6 +4915,8 @@
       "size": 10,
       "label": "Wi-Fi Jamming",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/604.html",
       "id": "604"
     },
@@ -4032,6 +4926,8 @@
       "size": 10,
       "label": "Cellular Jamming",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/605.html",
       "id": "605"
     },
@@ -4041,6 +4937,8 @@
       "size": 10,
       "label": "Weakening of Cellular Encryption",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/606.html",
       "id": "606"
     },
@@ -4050,6 +4948,8 @@
       "size": 18,
       "label": "Drop Encryption Level",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/620.html",
       "id": "620"
     },
@@ -4059,6 +4959,8 @@
       "size": 10,
       "label": "Cryptanalysis of Cellular Encryption",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/608.html",
       "id": "608"
     },
@@ -4068,6 +4970,8 @@
       "size": 10,
       "label": "Cellular Traffic Intercept",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/609.html",
       "id": "609"
     },
@@ -4077,6 +4981,8 @@
       "size": 10,
       "label": "Session Fixation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/61.html",
       "id": "61"
     },
@@ -4086,6 +4992,8 @@
       "size": 18,
       "label": "Cellular Data Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/610.html",
       "id": "610"
     },
@@ -4095,6 +5003,8 @@
       "size": 10,
       "label": "BitSquatting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/611.html",
       "id": "611"
     },
@@ -4104,6 +5014,8 @@
       "size": 10,
       "label": "WiFi MAC Address Tracking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/612.html",
       "id": "612"
     },
@@ -4113,6 +5025,8 @@
       "size": 10,
       "label": "WiFi SSID Tracking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/613.html",
       "id": "613"
     },
@@ -4122,6 +5036,8 @@
       "size": 10,
       "label": "Rooting SIM Cards",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/614.html",
       "id": "614"
     },
@@ -4131,6 +5047,8 @@
       "size": 10,
       "label": "Evil Twin Wi-Fi Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/615.html",
       "id": "615"
     },
@@ -4140,6 +5058,8 @@
       "size": 10,
       "label": "Cellular Rogue Base Station",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/617.html",
       "id": "617"
     },
@@ -4149,6 +5069,8 @@
       "size": 10,
       "label": "Cellular Broadcast Message Request",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/618.html",
       "id": "618"
     },
@@ -4158,6 +5080,8 @@
       "size": 10,
       "label": "Signal Strength Tracking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/619.html",
       "id": "619"
     },
@@ -4167,6 +5091,8 @@
       "size": 10,
       "label": "Analysis of Packet Timing and Sizes",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/621.html",
       "id": "621"
     },
@@ -4176,6 +5102,8 @@
       "size": 10,
       "label": "Electromagnetic Side-Channel Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/622.html",
       "id": "622"
     },
@@ -4185,6 +5113,8 @@
       "size": 10,
       "label": "Compromising Emanations Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/623.html",
       "id": "623"
     },
@@ -4194,6 +5124,8 @@
       "size": 30,
       "label": "Hardware Fault Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/624.html",
       "id": "624"
     },
@@ -4203,6 +5135,8 @@
       "size": 18,
       "label": "Mobile Device Fault Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/625.html",
       "id": "625"
     },
@@ -4212,6 +5146,8 @@
       "size": 10,
       "label": "Smudge Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/626.html",
       "id": "626"
     },
@@ -4221,6 +5157,8 @@
       "size": 18,
       "label": "Counterfeit GPS Signals",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/627.html",
       "id": "627"
     },
@@ -4230,6 +5168,8 @@
       "size": 10,
       "label": "Carry-Off GPS Attack",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/628.html",
       "id": "628"
     },
@@ -4239,6 +5179,8 @@
       "size": 10,
       "label": "TypoSquatting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/630.html",
       "id": "630"
     },
@@ -4248,6 +5190,8 @@
       "size": 10,
       "label": "SoundSquatting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/631.html",
       "id": "631"
     },
@@ -4257,6 +5201,8 @@
       "size": 10,
       "label": "Homograph Attack via Homoglyphs",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/632.html",
       "id": "632"
     },
@@ -4266,6 +5212,8 @@
       "size": 10,
       "label": "Token Impersonation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/633.html",
       "id": "633"
     },
@@ -4275,6 +5223,8 @@
       "size": 10,
       "label": "Probe Audio and Video Peripherals",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/634.html",
       "id": "634"
     },
@@ -4284,6 +5234,8 @@
       "size": 10,
       "label": "Collect Data from Clipboard",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/637.html",
       "id": "637"
     },
@@ -4293,6 +5245,8 @@
       "size": 10,
       "label": "Altered Component Firmware",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/638.html",
       "id": "638"
     },
@@ -4302,6 +5256,8 @@
       "size": 10,
       "label": "Probe System Files",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/639.html",
       "id": "639"
     },
@@ -4311,6 +5267,8 @@
       "size": 10,
       "label": "Using Slashes and URL Encoding Combined to Bypass Validation Logic",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/64.html",
       "id": "64"
     },
@@ -4320,6 +5278,8 @@
       "size": 10,
       "label": "Inclusion of Code in Existing Process",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/640.html",
       "id": "640"
     },
@@ -4329,6 +5289,8 @@
       "size": 10,
       "label": "DLL Side-Loading",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/641.html",
       "id": "641"
     },
@@ -4338,6 +5300,8 @@
       "size": 10,
       "label": "Replace Binaries",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/642.html",
       "id": "642"
     },
@@ -4347,6 +5311,8 @@
       "size": 10,
       "label": "Identify Shared Files/Directories on System",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/643.html",
       "id": "643"
     },
@@ -4356,6 +5322,8 @@
       "size": 10,
       "label": "Use of Captured Hashes (Pass The Hash)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/644.html",
       "id": "644"
     },
@@ -4365,6 +5333,8 @@
       "size": 10,
       "label": "Use of Captured Tickets (Pass The Ticket)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/645.html",
       "id": "645"
     },
@@ -4374,6 +5344,8 @@
       "size": 18,
       "label": "Peripheral Footprinting",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/646.html",
       "id": "646"
     },
@@ -4383,6 +5355,8 @@
       "size": 10,
       "label": "Collect Data from Registries",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/647.html",
       "id": "647"
     },
@@ -4392,6 +5366,8 @@
       "size": 10,
       "label": "Collect Data from Screen Capture",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/648.html",
       "id": "648"
     },
@@ -4401,6 +5377,8 @@
       "size": 10,
       "label": "Adding a Space to a File Extension",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/649.html",
       "id": "649"
     },
@@ -4410,6 +5388,8 @@
       "size": 10,
       "label": "Sniff Application Code",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/65.html",
       "id": "65"
     },
@@ -4419,6 +5399,8 @@
       "size": 10,
       "label": "Upload a Web Shell to a Web Server",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/650.html",
       "id": "650"
     },
@@ -4428,6 +5410,8 @@
       "size": 10,
       "label": "Credential Prompt Impersonation",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/654.html",
       "id": "654"
     },
@@ -4437,6 +5421,8 @@
       "size": 10,
       "label": "Avoid Security Tool Identification by Adding Data",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/655.html",
       "id": "655"
     },
@@ -4446,6 +5432,8 @@
       "size": 10,
       "label": "Voice Phishing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/656.html",
       "id": "656"
     },
@@ -4455,6 +5443,8 @@
       "size": 10,
       "label": "Malicious Automated Software Update via Spoofing",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/657.html",
       "id": "657"
     },
@@ -4464,6 +5454,8 @@
       "size": 10,
       "label": "Root/Jailbreak Detection Evasion via Hooking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/660.html",
       "id": "660"
     },
@@ -4473,6 +5465,8 @@
       "size": 10,
       "label": "Root/Jailbreak Detection Evasion via Debugging",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/661.html",
       "id": "661"
     },
@@ -4482,6 +5476,8 @@
       "size": 18,
       "label": "Adversary in the Browser (AiTB)",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/662.html",
       "id": "662"
     },
@@ -4491,6 +5487,8 @@
       "size": 18,
       "label": "Exploitation of Transient Instruction Execution",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/663.html",
       "id": "663"
     },
@@ -4500,6 +5498,8 @@
       "size": 18,
       "label": "Server Side Request Forgery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/664.html",
       "id": "664"
     },
@@ -4509,6 +5509,8 @@
       "size": 10,
       "label": "Exploitation of Thunderbolt Protection Flaws",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/665.html",
       "id": "665"
     },
@@ -4518,6 +5520,8 @@
       "size": 18,
       "label": "BlueSmacking",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/666.html",
       "id": "666"
     },
@@ -4527,6 +5531,8 @@
       "size": 10,
       "label": "Bluetooth Impersonation AttackS (BIAS)",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/667.html",
       "id": "667"
     },
@@ -4536,6 +5542,8 @@
       "size": 18,
       "label": "Key Negotiation of Bluetooth Attack (KNOB)",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/668.html",
       "id": "668"
     },
@@ -4545,6 +5553,8 @@
       "size": 18,
       "label": "Alteration of a Software Update",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/669.html",
       "id": "669"
     },
@@ -4554,6 +5564,8 @@
       "size": 10,
       "label": "String Format Overflow in syslog()",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/67.html",
       "id": "67"
     },
@@ -4563,6 +5575,8 @@
       "size": 10,
       "label": "Software Development Tools Maliciously Altered",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/670.html",
       "id": "670"
     },
@@ -4572,6 +5586,8 @@
       "size": 10,
       "label": "Requirements for ASIC Functionality Maliciously Altered",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/671.html",
       "id": "671"
     },
@@ -4581,6 +5597,8 @@
       "size": 10,
       "label": "Malicious Code Implanted During Chip Programming",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/672.html",
       "id": "672"
     },
@@ -4590,6 +5608,8 @@
       "size": 10,
       "label": "Developer Signing Maliciously Altered Software",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/673.html",
       "id": "673"
     },
@@ -4599,6 +5619,8 @@
       "size": 10,
       "label": "Design for FPGA Maliciously Altered",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/674.html",
       "id": "674"
     },
@@ -4608,6 +5630,8 @@
       "size": 18,
       "label": "Retrieve Data from Decommissioned Devices",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/675.html",
       "id": "675"
     },
@@ -4617,6 +5641,8 @@
       "size": 18,
       "label": "NoSQL Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/676.html",
       "id": "676"
     },
@@ -4626,6 +5652,8 @@
       "size": 10,
       "label": "Server Motherboard Compromise",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/677.html",
       "id": "677"
     },
@@ -4635,6 +5663,8 @@
       "size": 10,
       "label": "System Build Data Maliciously Altered",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/678.html",
       "id": "678"
     },
@@ -4644,6 +5674,8 @@
       "size": 10,
       "label": "Exploitation of Improperly Configured or Implemented Memory Protections",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/679.html",
       "id": "679"
     },
@@ -4653,6 +5685,8 @@
       "size": 18,
       "label": "Subvert Code-signing Facilities",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/68.html",
       "id": "68"
     },
@@ -4662,6 +5696,8 @@
       "size": 10,
       "label": "Exploitation of Improperly Controlled Registers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/680.html",
       "id": "680"
     },
@@ -4671,6 +5707,8 @@
       "size": 10,
       "label": "Exploitation of Improperly Controlled Hardware Security Identifiers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/681.html",
       "id": "681"
     },
@@ -4680,6 +5718,8 @@
       "size": 18,
       "label": "Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/682.html",
       "id": "682"
     },
@@ -4689,6 +5729,8 @@
       "size": 18,
       "label": "Target Programs with Elevated Privileges",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/69.html",
       "id": "69"
     },
@@ -4698,6 +5740,8 @@
       "size": 30,
       "label": "Metadata Spoofing",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/690.html",
       "id": "690"
     },
@@ -4707,6 +5751,8 @@
       "size": 18,
       "label": "Spoof Open-Source Software Metadata",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/691.html",
       "id": "691"
     },
@@ -4716,6 +5762,8 @@
       "size": 10,
       "label": "Spoof Version Control System Commit Metadata",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/692.html",
       "id": "692"
     },
@@ -4725,6 +5773,8 @@
       "size": 10,
       "label": "StarJacking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/693.html",
       "id": "693"
     },
@@ -4734,6 +5784,8 @@
       "size": 18,
       "label": "System Location Discovery",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/694.html",
       "id": "694"
     },
@@ -4743,6 +5795,8 @@
       "size": 10,
       "label": "Repo Jacking",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/695.html",
       "id": "695"
     },
@@ -4752,6 +5806,8 @@
       "size": 10,
       "label": "Load Value Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/696.html",
       "id": "696"
     },
@@ -4761,6 +5817,8 @@
       "size": 18,
       "label": "DHCP Spoofing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/697.html",
       "id": "697"
     },
@@ -4770,6 +5828,8 @@
       "size": 10,
       "label": "Install Malicious Extension",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/698.html",
       "id": "698"
     },
@@ -4779,6 +5839,8 @@
       "size": 30,
       "label": "Eavesdropping on a Monitor",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/699.html",
       "id": "699"
     },
@@ -4788,6 +5850,8 @@
       "size": 10,
       "label": "Blind SQL Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/7.html",
       "id": "7"
     },
@@ -4797,6 +5861,8 @@
       "size": 10,
       "label": "Try Common or Default Usernames and Passwords",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/70.html",
       "id": "70"
     },
@@ -4806,6 +5872,8 @@
       "size": 18,
       "label": "Network Boundary Bridging",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/700.html",
       "id": "700"
     },
@@ -4815,6 +5883,8 @@
       "size": 18,
       "label": "Browser in the Middle (BiTM)",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/701.html",
       "id": "701"
     },
@@ -4824,6 +5894,8 @@
       "size": 10,
       "label": "Exploiting Incorrect Chaining or Granularity of Hardware Debug Components",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/702.html",
       "id": "702"
     },
@@ -4833,6 +5905,8 @@
       "size": 10,
       "label": "Using Unicode Encoding to Bypass Validation Logic",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/71.html",
       "id": "71"
     },
@@ -4842,6 +5916,8 @@
       "size": 10,
       "label": "URL Encoding",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/72.html",
       "id": "72"
     },
@@ -4851,6 +5927,8 @@
       "size": 18,
       "label": "User-Controlled Filename",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/73.html",
       "id": "73"
     },
@@ -4860,6 +5938,8 @@
       "size": 18,
       "label": "Manipulating Writeable Configuration Files",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/75.html",
       "id": "75"
     },
@@ -4869,6 +5949,8 @@
       "size": 10,
       "label": "Manipulating Web Input to File System Calls",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/76.html",
       "id": "76"
     },
@@ -4878,6 +5960,8 @@
       "size": 10,
       "label": "Using Escaped Slashes in Alternate Encoding",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/78.html",
       "id": "78"
     },
@@ -4887,6 +5971,8 @@
       "size": 10,
       "label": "Using Slashes in Alternate Encoding",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/79.html",
       "id": "79"
     },
@@ -4896,6 +5982,8 @@
       "size": 10,
       "label": "Buffer Overflow in an API Call",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/8.html",
       "id": "8"
     },
@@ -4905,6 +5993,8 @@
       "size": 10,
       "label": "Using UTF-8 Encoding to Bypass Validation Logic",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/80.html",
       "id": "80"
     },
@@ -4914,6 +6004,8 @@
       "size": 10,
       "label": "Web Server Logs Tampering",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/81.html",
       "id": "81"
     },
@@ -4923,6 +6015,8 @@
       "size": 10,
       "label": "XPath Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/83.html",
       "id": "83"
     },
@@ -4932,6 +6026,8 @@
       "size": 10,
       "label": "XQuery Injection",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/84.html",
       "id": "84"
     },
@@ -4941,6 +6037,8 @@
       "size": 10,
       "label": "AJAX Footprinting",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/85.html",
       "id": "85"
     },
@@ -4950,6 +6048,8 @@
       "size": 10,
       "label": "XSS Through HTTP Headers",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/86.html",
       "id": "86"
     },
@@ -4959,6 +6059,8 @@
       "size": 18,
       "label": "Forceful Browsing",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/87.html",
       "id": "87"
     },
@@ -4968,6 +6070,8 @@
       "size": 18,
       "label": "OS Command Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/88.html",
       "id": "88"
     },
@@ -4977,6 +6081,8 @@
       "size": 18,
       "label": "Pharming",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/89.html",
       "id": "89"
     },
@@ -4986,6 +6092,8 @@
       "size": 10,
       "label": "Buffer Overflow in Local Command-Line Utilities",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/9.html",
       "id": "9"
     },
@@ -4995,6 +6103,8 @@
       "size": 18,
       "label": "Reflection Attack in Authentication Protocol",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/90.html",
       "id": "90"
     },
@@ -5004,6 +6114,8 @@
       "size": 10,
       "label": "Forced Integer Overflow",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/92.html",
       "id": "92"
     },
@@ -5013,6 +6125,8 @@
       "size": 10,
       "label": "Log Injection-Tampering-Forging",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/93.html",
       "id": "93"
     },
@@ -5022,6 +6136,8 @@
       "size": 10,
       "label": "WSDL Scanning",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/95.html",
       "id": "95"
     },
@@ -5031,6 +6147,8 @@
       "size": 10,
       "label": "Block Access to Libraries",
       "label_class": "node-label-small",
+      "type": "CAPEC",
+      "abstraction": "Detailed",
       "url": "https://capec.mitre.org/data/definitions/96.html",
       "id": "96"
     }

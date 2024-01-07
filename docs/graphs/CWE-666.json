@@ -4,49 +4,15 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-605: Multiple Binds to the Same Port</b><br>When multiple sockets are allowed to bind to the same port, other services on that port may be stolen or spoofed.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Multiple Binds to the Same Port",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/605.html",
-      "id": "605"
-    },
-    {
       "Description": "<b>CWE-324: Use of a Key Past its Expiration Date</b><br>The product uses a cryptographic key or password past its expiration date, which diminishes its safety significantly by increasing the timing window for cracking attacks against that key.",
       "color": "#ffbb00",
       "size": 10,
       "label": "Use of a Key Past its Expiration Date",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/324.html",
       "id": "324"
-    },
-    {
-      "Description": "<b>CWE-298: Improper Validation of Certificate Expiration</b><br>A certificate expiration is not validated or is incorrectly validated, so trust may be assigned to certificates that have been abandoned due to age.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Improper Validation of Certificate Expiration",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/298.html",
-      "id": "298"
-    },
-    {
-      "Description": "<b>CWE-593: Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created</b><br>The product modifies the SSL context after connection creation has begun.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/593.html",
-      "id": "593"
-    },
-    {
-      "Description": "<b>CWE-826: Premature Release of Resource During Expected Lifetime</b><br>The product releases a resource that is still intended to be used by itself or another actor.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Premature Release of Resource During Expected Lifetime",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/826.html",
-      "id": "826"
     },
     {
       "Description": "<b>CWE-666: Operation on Resource in Wrong Phase of Lifetime</b><br>The product performs an operation on a resource at the wrong phase of the resource's lifecycle, which can lead to unexpected behaviors.",
@@ -54,35 +20,10 @@
       "size": 18,
       "label": "Operation on Resource in Wrong Phase of Lifetime",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/666.html",
       "id": "666"
-    },
-    {
-      "Description": "<b>CWE-416: Use After Free</b><br>Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Use After Free",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/416.html",
-      "id": "416"
-    },
-    {
-      "Description": "<b>CWE-825: Expired Pointer Dereference</b><br>The product dereferences a pointer that contains a location for memory that was previously valid, but is no longer valid.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Expired Pointer Dereference",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/825.html",
-      "id": "825"
-    },
-    {
-      "Description": "<b>CWE-613: Insufficient Session Expiration</b><br>According to WASC, \"Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization.\"",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Insufficient Session Expiration",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/613.html",
-      "id": "613"
     },
     {
       "Description": "<b>CWE-415: Double Free</b><br>The product calls free() twice on the same memory address, potentially leading to modification of unexpected memory locations.",
@@ -90,8 +31,32 @@
       "size": 10,
       "label": "Double Free",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/415.html",
       "id": "415"
+    },
+    {
+      "Description": "<b>CWE-826: Premature Release of Resource During Expected Lifetime</b><br>The product releases a resource that is still intended to be used by itself or another actor.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Premature Release of Resource During Expected Lifetime",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/826.html",
+      "id": "826"
+    },
+    {
+      "Description": "<b>CWE-613: Insufficient Session Expiration</b><br>According to WASC, \"Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization.\"",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Insufficient Session Expiration",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/613.html",
+      "id": "613"
     },
     {
       "Description": "<b>CWE-910: Use of Expired File Descriptor</b><br>The product uses or accesses a file descriptor after it has been closed.",
@@ -99,8 +64,54 @@
       "size": 10,
       "label": "Use of Expired File Descriptor",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/910.html",
       "id": "910"
+    },
+    {
+      "Description": "<b>CWE-593: Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created</b><br>The product modifies the SSL context after connection creation has begun.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/593.html",
+      "id": "593"
+    },
+    {
+      "Description": "<b>CWE-416: Use After Free</b><br>Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Use After Free",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/416.html",
+      "id": "416"
+    },
+    {
+      "Description": "<b>CWE-298: Improper Validation of Certificate Expiration</b><br>A certificate expiration is not validated or is incorrectly validated, so trust may be assigned to certificates that have been abandoned due to age.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Improper Validation of Certificate Expiration",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/298.html",
+      "id": "298"
+    },
+    {
+      "Description": "<b>CWE-825: Expired Pointer Dereference</b><br>The product dereferences a pointer that contains a location for memory that was previously valid, but is no longer valid.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Expired Pointer Dereference",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/825.html",
+      "id": "825"
     },
     {
       "Description": "<b>CWE-672: Operation on a Resource after Expiration or Release</b><br>The product uses, accesses, or otherwise operates on a resource after that resource has been expired, released, or revoked.",
@@ -108,16 +119,24 @@
       "size": 18,
       "label": "Operation on a Resource after Expiration or Release",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/672.html",
       "id": "672"
+    },
+    {
+      "Description": "<b>CWE-605: Multiple Binds to the Same Port</b><br>When multiple sockets are allowed to bind to the same port, other services on that port may be stolen or spoofed.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Multiple Binds to the Same Port",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/605.html",
+      "id": "605"
     }
   ],
   "links": [
-    {
-      "width": 1,
-      "source": "605",
-      "target": "666"
-    },
     {
       "width": 1,
       "source": "324",
@@ -125,12 +144,17 @@
     },
     {
       "width": 1,
-      "source": "298",
+      "source": "415",
+      "target": "825"
+    },
+    {
+      "width": 1,
+      "source": "415",
       "target": "672"
     },
     {
       "width": 1,
-      "source": "593",
+      "source": "415",
       "target": "666"
     },
     {
@@ -140,12 +164,32 @@
     },
     {
       "width": 1,
+      "source": "613",
+      "target": "672"
+    },
+    {
+      "width": 1,
+      "source": "910",
+      "target": "672"
+    },
+    {
+      "width": 1,
+      "source": "593",
+      "target": "666"
+    },
+    {
+      "width": 1,
       "source": "416",
       "target": "825"
     },
     {
       "width": 1,
       "source": "416",
+      "target": "672"
+    },
+    {
+      "width": 1,
+      "source": "298",
       "target": "672"
     },
     {
@@ -155,32 +199,12 @@
     },
     {
       "width": 1,
-      "source": "613",
-      "target": "672"
-    },
-    {
-      "width": 1,
-      "source": "415",
-      "target": "825"
-    },
-    {
-      "width": 1,
-      "source": "415",
-      "target": "672"
-    },
-    {
-      "width": 1,
-      "source": "415",
+      "source": "672",
       "target": "666"
     },
     {
       "width": 1,
-      "source": "910",
-      "target": "672"
-    },
-    {
-      "width": 1,
-      "source": "672",
+      "source": "605",
       "target": "666"
     }
   ]

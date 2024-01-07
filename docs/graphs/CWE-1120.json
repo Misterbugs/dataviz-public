@@ -4,76 +4,26 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-1121: Excessive McCabe Cyclomatic Complexity</b><br>The code contains McCabe cyclomatic complexity that exceeds a\n\tdesirable maximum.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Excessive McCabe Cyclomatic Complexity",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1121.html",
-      "id": "1121"
-    },
-    {
-      "Description": "<b>CWE-1124: Excessively Deep Nesting</b><br>The code contains a callable or other code grouping in which\n\t\t\t\t\tthe nesting / branching is too deep.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Excessively Deep Nesting",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1124.html",
-      "id": "1124"
-    },
-    {
       "Description": "<b>CWE-1122: Excessive Halstead Complexity</b><br>The code is structured in a way that a Halstead complexity\n\t\t\t\t\tmeasure exceeds a desirable maximum.",
       "color": "#ffbb00",
       "size": 10,
       "label": "Excessive Halstead Complexity",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1122.html",
       "id": "1122"
     },
     {
-      "Description": "<b>CWE-1119: Excessive Use of Unconditional Branching</b><br>The code uses too many unconditional branches (such as\n\t\t\t\t\t\"goto\").",
+      "Description": "<b>CWE-1064: Invokable Control Element with Signature Containing an Excessive Number of Parameters</b><br>The product contains a function, subroutine, or method whose signature has an unnecessarily large number of\n\t\t\t\t\tparameters/arguments.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Excessive Use of Unconditional Branching",
+      "label": "Invokable Control Element with Signature Containing an Excessive Number of Parameters",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1119.html",
-      "id": "1119"
-    },
-    {
-      "Description": "<b>CWE-1125: Excessive Attack Surface</b><br>The product has an attack surface whose quantitative\n\t\t\t\t\tmeasurement exceeds a desirable maximum.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Excessive Attack Surface",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1125.html",
-      "id": "1125"
-    },
-    {
-      "Description": "<b>CWE-1060: Excessive Number of Inefficient Server-Side Data Accesses</b><br>The product performs too many data queries without using efficient data processing functionality such as stored procedures.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Excessive Number of Inefficient Server-Side Data Accesses",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1060.html",
-      "id": "1060"
-    },
-    {
-      "Description": "<b>CWE-1095: Loop Condition Value Update within the Loop</b><br>The product uses a loop with a control flow condition based on\n\t\t\t\t\ta value that is updated within the body of the loop.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Loop Condition Value Update within the Loop",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1095.html",
-      "id": "1095"
-    },
-    {
-      "Description": "<b>CWE-1123: Excessive Use of Self-Modifying Code</b><br>The product uses too much self-modifying\n\t\t\t\t\tcode.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Excessive Use of Self-Modifying Code",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1123.html",
-      "id": "1123"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1064.html",
+      "id": "1064"
     },
     {
       "Description": "<b>CWE-1080: Source Code File with Excessive Number of Lines of Code</b><br>A source code file has too many lines of\n\t\t\t\t\tcode.",
@@ -81,6 +31,8 @@
       "size": 10,
       "label": "Source Code File with Excessive Number of Lines of Code",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1080.html",
       "id": "1080"
     },
@@ -90,35 +42,65 @@
       "size": 10,
       "label": "Invokable Control Element with Variadic Parameters",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1056.html",
       "id": "1056"
     },
     {
-      "Description": "<b>CWE-1120: Excessive Code Complexity</b><br>The code is too complex, as calculated using a well-defined,\n\t\t\t\t\tquantitative measure.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Excessive Code Complexity",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/1120.html",
-      "id": "1120"
-    },
-    {
-      "Description": "<b>CWE-1064: Invokable Control Element with Signature Containing an Excessive Number of Parameters</b><br>The product contains a function, subroutine, or method whose signature has an unnecessarily large number of\n\t\t\t\t\tparameters/arguments.",
+      "Description": "<b>CWE-1095: Loop Condition Value Update within the Loop</b><br>The product uses a loop with a control flow condition based on\n\t\t\t\t\ta value that is updated within the body of the loop.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Invokable Control Element with Signature Containing an Excessive Number of Parameters",
+      "label": "Loop Condition Value Update within the Loop",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1064.html",
-      "id": "1064"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1095.html",
+      "id": "1095"
     },
     {
-      "Description": "<b>CWE-1075: Unconditional Control Flow Transfer outside of Switch Block</b><br>The product performs unconditional control transfer (such as a\n\t\t\t\t\t\"goto\") in code outside of a branching structure such as a switch\n\t\t\t\t\tblock.",
+      "Description": "<b>CWE-1124: Excessively Deep Nesting</b><br>The code contains a callable or other code grouping in which\n\t\t\t\t\tthe nesting / branching is too deep.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Unconditional Control Flow Transfer outside of Switch Block",
+      "label": "Excessively Deep Nesting",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1075.html",
-      "id": "1075"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1124.html",
+      "id": "1124"
+    },
+    {
+      "Description": "<b>CWE-1125: Excessive Attack Surface</b><br>The product has an attack surface whose quantitative\n\t\t\t\t\tmeasurement exceeds a desirable maximum.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Excessive Attack Surface",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1125.html",
+      "id": "1125"
+    },
+    {
+      "Description": "<b>CWE-1060: Excessive Number of Inefficient Server-Side Data Accesses</b><br>The product performs too many data queries without using efficient data processing functionality such as stored procedures.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Excessive Number of Inefficient Server-Side Data Accesses",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1060.html",
+      "id": "1060"
+    },
+    {
+      "Description": "<b>CWE-1119: Excessive Use of Unconditional Branching</b><br>The code uses too many unconditional branches (such as\n\t\t\t\t\t\"goto\").",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Excessive Use of Unconditional Branching",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1119.html",
+      "id": "1119"
     },
     {
       "Description": "<b>CWE-1047: Modules with Circular Dependencies</b><br>The product contains modules in which one module has references that cycle back to itself, i.e., there are circular dependencies.",
@@ -126,21 +108,57 @@
       "size": 10,
       "label": "Modules with Circular Dependencies",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1047.html",
       "id": "1047"
+    },
+    {
+      "Description": "<b>CWE-1123: Excessive Use of Self-Modifying Code</b><br>The product uses too much self-modifying\n\t\t\t\t\tcode.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Excessive Use of Self-Modifying Code",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1123.html",
+      "id": "1123"
+    },
+    {
+      "Description": "<b>CWE-1075: Unconditional Control Flow Transfer outside of Switch Block</b><br>The product performs unconditional control transfer (such as a\n\t\t\t\t\t\"goto\") in code outside of a branching structure such as a switch\n\t\t\t\t\tblock.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Unconditional Control Flow Transfer outside of Switch Block",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1075.html",
+      "id": "1075"
+    },
+    {
+      "Description": "<b>CWE-1121: Excessive McCabe Cyclomatic Complexity</b><br>The code contains McCabe cyclomatic complexity that exceeds a\n\tdesirable maximum.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Excessive McCabe Cyclomatic Complexity",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1121.html",
+      "id": "1121"
+    },
+    {
+      "Description": "<b>CWE-1120: Excessive Code Complexity</b><br>The code is too complex, as calculated using a well-defined,\n\t\t\t\t\tquantitative measure.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Excessive Code Complexity",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/1120.html",
+      "id": "1120"
     }
   ],
   "links": [
-    {
-      "width": 1,
-      "source": "1121",
-      "target": "1120"
-    },
-    {
-      "width": 1,
-      "source": "1124",
-      "target": "1120"
-    },
     {
       "width": 1,
       "source": "1122",
@@ -148,27 +166,7 @@
     },
     {
       "width": 1,
-      "source": "1119",
-      "target": "1120"
-    },
-    {
-      "width": 1,
-      "source": "1125",
-      "target": "1120"
-    },
-    {
-      "width": 1,
-      "source": "1060",
-      "target": "1120"
-    },
-    {
-      "width": 1,
-      "source": "1095",
-      "target": "1120"
-    },
-    {
-      "width": 1,
-      "source": "1123",
+      "source": "1064",
       "target": "1120"
     },
     {
@@ -183,7 +181,37 @@
     },
     {
       "width": 1,
-      "source": "1064",
+      "source": "1095",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1124",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1125",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1060",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1119",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1047",
+      "target": "1120"
+    },
+    {
+      "width": 1,
+      "source": "1123",
       "target": "1120"
     },
     {
@@ -193,7 +221,7 @@
     },
     {
       "width": 1,
-      "source": "1047",
+      "source": "1121",
       "target": "1120"
     }
   ]

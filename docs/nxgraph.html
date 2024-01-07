@@ -313,11 +313,70 @@
             globalNodeSelection.classed("highlighted", false);
         }
 
+        // Function to update the graph based on checkbox states
+        function updateGraph(originalData) {
+            let filteredNodes = originalData.nodes.filter(node => {
+                let checkbox = document.getElementById('checkbox-' + node.abstraction);
+                return checkbox && checkbox.checked;
+            });
+
+            let filteredNodeIds = new Set(filteredNodes.map(node => node.id));
+
+            let filteredLinks = originalData.links.filter(link => {
+                return filteredNodeIds.has(link.source.id || link.source) && filteredNodeIds.has(link.target.id || link.target);
+            });
+
+            // Prepare the new data for the graph
+            let filteredData = {
+                nodes: filteredNodes,
+                links: filteredLinks
+            };
+
+            // Clear the existing graph and redraw with the filtered data
+            document.querySelector('.graph-container').innerHTML = '';
+            createChart(filteredData);
+        }
+
+        // Event handler for checkbox change
+        function handleCheckboxChange(event) {
+            const abstractionValue = event.target.getAttribute('data-abstraction');
+            const isChecked = event.target.checked;
+
+            // Update node visibility based on checkbox state
+            globalNodeSelection.each(function(d) {
+                if (d.abstraction === abstractionValue) {
+                    d3.select(this).style('visibility', isChecked ? 'visible' : 'hidden');
+                }
+            });
+        }
+
+        // Function to create abstraction level checkboxes
+        function createAbstractionCheckboxes(data) {
+            let abstractions = new Set(data.nodes.map(node => node.abstraction));
+            let checkboxDiv = document.querySelector('.button-container');
+
+            abstractions.forEach(abstraction => {
+                let checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = 'checkbox-' + abstraction;
+                checkbox.checked = true;
+                checkbox.addEventListener('change', () => updateGraph(data));
+
+                let label = document.createElement('label');
+                label.htmlFor = 'checkbox-' + abstraction;
+                label.textContent = abstraction;
+
+                checkboxDiv.appendChild(checkbox);
+                checkboxDiv.appendChild(label);
+            });
+        }
+
         // Use the sanitized filename in the fetch request, with the 'graphs' subdirectory
         const jsonFilename = "graphs/" + getJsonFilenameFromUrl();
         fetch(jsonFilename)
             .then(response => response.json())
             .then(data => {
+                createAbstractionCheckboxes(data); // Call the function to create checkboxes
                 globalNodeSelection = createChart(data);
             })
             .catch(error => console.error('Error loading data:', error));

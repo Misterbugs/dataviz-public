@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/637.html",
       "id": "637"
     }

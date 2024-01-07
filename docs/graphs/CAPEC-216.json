@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Exploiting Incorrectly Configured SSL/TLS",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/217.html",
       "id": "217"
     },
@@ -18,6 +20,8 @@
       "size": 18,
       "label": "Choosing Message Identifier",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/12.html",
       "id": "12"
     },
@@ -27,6 +31,8 @@
       "size": 30,
       "label": "Communication Channel Manipulation",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/216.html",
       "id": "216"
     }

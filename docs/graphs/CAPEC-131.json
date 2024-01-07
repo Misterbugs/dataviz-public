@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Resource Leak Exposure",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/131.html",
       "id": "131"
     }

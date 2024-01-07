@@ -4,13 +4,48 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CWE-221: Information Loss or Omission</b><br>The product does not record, or improperly records, security-relevant information that leads to an incorrect decision or hampers later analysis.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Information Loss or Omission",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/221.html",
+      "id": "221"
+    },
+    {
       "Description": "<b>CWE-396: Declaration of Catch for Generic Exception</b><br>Catching overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.",
       "color": "#ffbb00",
       "size": 10,
       "label": "Declaration of Catch for Generic Exception",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/396.html",
       "id": "396"
+    },
+    {
+      "Description": "<b>CWE-224: Obscured Security-relevant Information by Alternate Name</b><br>The product records security-relevant information according to an alternate name of the affected entity, instead of the canonical name.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Obscured Security-relevant Information by Alternate Name",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/224.html",
+      "id": "224"
+    },
+    {
+      "Description": "<b>CWE-222: Truncation of Security-relevant Information</b><br>The product truncates the display, recording, or processing of security-relevant information in a way that can obscure the source or nature of an attack.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Truncation of Security-relevant Information",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/222.html",
+      "id": "222"
     },
     {
       "Description": "<b>CWE-1007: Insufficient Visual Distinction of Homoglyphs Presented to User</b><br>The product displays information or identifiers to a user, but the display mechanism does not make it easy for the user to distinguish between visually similar or identical glyphs (homoglyphs), which may cause the user to misinterpret a glyph and perform an unintended, insecure action.",
@@ -18,6 +53,8 @@
       "size": 10,
       "label": "Insufficient Visual Distinction of Homoglyphs Presented to User",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1007.html",
       "id": "1007"
     },
@@ -27,35 +64,10 @@
       "size": 10,
       "label": "Omission of Security-relevant Information",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/223.html",
       "id": "223"
-    },
-    {
-      "Description": "<b>CWE-222: Truncation of Security-relevant Information</b><br>The product truncates the display, recording, or processing of security-relevant information in a way that can obscure the source or nature of an attack.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Truncation of Security-relevant Information",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/222.html",
-      "id": "222"
-    },
-    {
-      "Description": "<b>CWE-451: User Interface (UI) Misrepresentation of Critical Information</b><br>The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "User Interface (UI) Misrepresentation of Critical Information",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/451.html",
-      "id": "451"
-    },
-    {
-      "Description": "<b>CWE-397: Declaration of Throws for Generic Exception</b><br>Throwing overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Declaration of Throws for Generic Exception",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/397.html",
-      "id": "397"
     },
     {
       "Description": "<b>CWE-356: Product UI does not Warn User of Unsafe Actions</b><br>The product's user interface does not warn the user before undertaking an unsafe action on behalf of that user. This makes it easier for attackers to trick users into inflicting damage to their system.",
@@ -63,8 +75,21 @@
       "size": 10,
       "label": "Product UI does not Warn User of Unsafe Actions",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/356.html",
       "id": "356"
+    },
+    {
+      "Description": "<b>CWE-451: User Interface (UI) Misrepresentation of Critical Information</b><br>The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "User Interface (UI) Misrepresentation of Critical Information",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/451.html",
+      "id": "451"
     },
     {
       "Description": "<b>CWE-778: Insufficient Logging</b><br>When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
@@ -72,26 +97,21 @@
       "size": 10,
       "label": "Insufficient Logging",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/778.html",
       "id": "778"
     },
     {
-      "Description": "<b>CWE-221: Information Loss or Omission</b><br>The product does not record, or improperly records, security-relevant information that leads to an incorrect decision or hampers later analysis.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Information Loss or Omission",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/221.html",
-      "id": "221"
-    },
-    {
-      "Description": "<b>CWE-224: Obscured Security-relevant Information by Alternate Name</b><br>The product records security-relevant information according to an alternate name of the affected entity, instead of the canonical name.",
+      "Description": "<b>CWE-397: Declaration of Throws for Generic Exception</b><br>Throwing overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.",
       "color": "#ffbb00",
       "size": 10,
-      "label": "Obscured Security-relevant Information by Alternate Name",
+      "label": "Declaration of Throws for Generic Exception",
       "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/224.html",
-      "id": "224"
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/397.html",
+      "id": "397"
     },
     {
       "Description": "<b>CWE-1021: Improper Restriction of Rendered UI Layers or Frames</b><br>The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with.",
@@ -99,6 +119,8 @@
       "size": 10,
       "label": "Improper Restriction of Rendered UI Layers or Frames",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1021.html",
       "id": "1021"
     }
@@ -107,6 +129,16 @@
     {
       "width": 1,
       "source": "396",
+      "target": "221"
+    },
+    {
+      "width": 1,
+      "source": "224",
+      "target": "221"
+    },
+    {
+      "width": 1,
+      "source": "222",
       "target": "221"
     },
     {
@@ -121,7 +153,7 @@
     },
     {
       "width": 1,
-      "source": "222",
+      "source": "356",
       "target": "221"
     },
     {
@@ -131,22 +163,12 @@
     },
     {
       "width": 1,
-      "source": "397",
-      "target": "221"
-    },
-    {
-      "width": 1,
-      "source": "356",
-      "target": "221"
-    },
-    {
-      "width": 1,
       "source": "778",
       "target": "223"
     },
     {
       "width": 1,
-      "source": "224",
+      "source": "397",
       "target": "221"
     },
     {

@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Object Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/586.html",
       "id": "586"
     }

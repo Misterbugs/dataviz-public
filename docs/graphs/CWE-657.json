@@ -9,44 +9,10 @@
       "size": 10,
       "label": "Direct Request ('Forced Browsing')",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/425.html",
       "id": "425"
-    },
-    {
-      "Description": "<b>CWE-308: Use of Single-factor Authentication</b><br>The use of single-factor authentication can lead to unnecessary risk of compromise when compared with the benefits of a dual-factor authentication scheme.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Single-factor Authentication",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/308.html",
-      "id": "308"
-    },
-    {
-      "Description": "<b>CWE-455: Non-exit on Failed Initialization</b><br>The product does not exit or otherwise modify its operation when security-relevant errors occur during initialization, such as when a configuration file has a format error or a hardware security module (HSM) cannot be activated, which can cause the product to execute in a less secure fashion than intended by the administrator.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Non-exit on Failed Initialization",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/455.html",
-      "id": "455"
-    },
-    {
-      "Description": "<b>CWE-798: Use of Hard-coded Credentials</b><br>The product contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Hard-coded Credentials",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/798.html",
-      "id": "798"
-    },
-    {
-      "Description": "<b>CWE-671: Lack of Administrator Control over Security</b><br>The product uses security features in a way that prevents the product's administrator from tailoring security settings to reflect the environment in which the product is being used. This introduces resultant weaknesses or prevents it from operating at a level of security that is desired by the administrator.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Lack of Administrator Control over Security",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/671.html",
-      "id": "671"
     },
     {
       "Description": "<b>CWE-654: Reliance on a Single Factor in a Security Decision</b><br>A protection mechanism relies exclusively, or to a large extent, on the evaluation of a single condition or the integrity of a single object or entity in order to make a decision about granting access to restricted resources or functionality.",
@@ -54,62 +20,21 @@
       "size": 10,
       "label": "Reliance on a Single Factor in a Security Decision",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/654.html",
       "id": "654"
     },
     {
-      "Description": "<b>CWE-656: Reliance on Security Through Obscurity</b><br>The product uses a protection mechanism whose strength depends heavily on its obscurity, such that knowledge of its algorithms or key data is sufficient to defeat the mechanism.",
+      "Description": "<b>CWE-636: Not Failing Securely ('Failing Open')</b><br>When the product encounters an error condition or failure, its design requires it to fall back to a state that is less secure than other options that are available, such as selecting the weakest encryption algorithm or using the most permissive access control restrictions.",
       "color": "#ff6200",
       "size": 18,
-      "label": "Reliance on Security Through Obscurity",
+      "label": "Not Failing Securely ('Failing Open')",
       "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/656.html",
-      "id": "656"
-    },
-    {
-      "Description": "<b>CWE-1303: Non-Transparent Sharing of Microarchitectural Resources</b><br>Hardware structures shared across execution contexts (e.g., caches and branch predictors) can violate the expected architecture isolation between contexts.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Non-Transparent Sharing of Microarchitectural Resources",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1303.html",
-      "id": "1303"
-    },
-    {
-      "Description": "<b>CWE-638: Not Using Complete Mediation</b><br>The product does not perform access checks on a resource every time the resource is accessed by an entity, which can create resultant weaknesses if that entity's rights or privileges change over time.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Not Using Complete Mediation",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/638.html",
-      "id": "638"
-    },
-    {
-      "Description": "<b>CWE-1189: Improper Isolation of Shared Resources on System-on-a-Chip (SoC)</b><br>The System-On-a-Chip (SoC) does not properly isolate shared resources between trusted and untrusted agents.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Isolation of Shared Resources on System-on-a-Chip (SoC)",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1189.html",
-      "id": "1189"
-    },
-    {
-      "Description": "<b>CWE-321: Use of Hard-coded Cryptographic Key</b><br>The use of a hard-coded cryptographic key significantly increases the possibility that encrypted data may be recovered.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Use of Hard-coded Cryptographic Key",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/321.html",
-      "id": "321"
-    },
-    {
-      "Description": "<b>CWE-1192: System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers</b><br>The System-on-Chip (SoC) does not have unique, immutable identifiers for each of its components.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1192.html",
-      "id": "1192"
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/636.html",
+      "id": "636"
     },
     {
       "Description": "<b>CWE-655: Insufficient Psychological Acceptability</b><br>The product has a protection mechanism that is too difficult or inconvenient to use, encouraging non-malicious users to disable or bypass the mechanism, whether by accident or on purpose.",
@@ -117,8 +42,87 @@
       "size": 18,
       "label": "Insufficient Psychological Acceptability",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/655.html",
       "id": "655"
+    },
+    {
+      "Description": "<b>CWE-656: Reliance on Security Through Obscurity</b><br>The product uses a protection mechanism whose strength depends heavily on its obscurity, such that knowledge of its algorithms or key data is sufficient to defeat the mechanism.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Reliance on Security Through Obscurity",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/656.html",
+      "id": "656"
+    },
+    {
+      "Description": "<b>CWE-798: Use of Hard-coded Credentials</b><br>The product contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Hard-coded Credentials",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/798.html",
+      "id": "798"
+    },
+    {
+      "Description": "<b>CWE-637: Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')</b><br>The product uses a more complex mechanism than necessary, which could lead to resultant weaknesses when the mechanism is not correctly understood, modeled, configured, implemented, or used.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/637.html",
+      "id": "637"
+    },
+    {
+      "Description": "<b>CWE-308: Use of Single-factor Authentication</b><br>The use of single-factor authentication can lead to unnecessary risk of compromise when compared with the benefits of a dual-factor authentication scheme.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Single-factor Authentication",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/308.html",
+      "id": "308"
+    },
+    {
+      "Description": "<b>CWE-657: Violation of Secure Design Principles</b><br>The product violates well-established principles for secure design.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Violation of Secure Design Principles",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/657.html",
+      "id": "657"
+    },
+    {
+      "Description": "<b>CWE-309: Use of Password System for Primary Authentication</b><br>The use of password systems as the primary means of authentication may be subject to several flaws or shortcomings, each reducing the effectiveness of the mechanism.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Password System for Primary Authentication",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/309.html",
+      "id": "309"
+    },
+    {
+      "Description": "<b>CWE-638: Not Using Complete Mediation</b><br>The product does not perform access checks on a resource every time the resource is accessed by an entity, which can create resultant weaknesses if that entity's rights or privileges change over time.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Not Using Complete Mediation",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/638.html",
+      "id": "638"
     },
     {
       "Description": "<b>CWE-447: Unimplemented or Unsupported Feature in UI</b><br>A UI function for a security feature appears to be supported and gives feedback to the user that suggests that it is supported, but the underlying functionality is not implemented.",
@@ -126,8 +130,98 @@
       "size": 10,
       "label": "Unimplemented or Unsupported Feature in UI",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/447.html",
       "id": "447"
+    },
+    {
+      "Description": "<b>CWE-1192: System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers</b><br>The System-on-Chip (SoC) does not have unique, immutable identifiers for each of its components.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1192.html",
+      "id": "1192"
+    },
+    {
+      "Description": "<b>CWE-321: Use of Hard-coded Cryptographic Key</b><br>The use of a hard-coded cryptographic key significantly increases the possibility that encrypted data may be recovered.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Use of Hard-coded Cryptographic Key",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/321.html",
+      "id": "321"
+    },
+    {
+      "Description": "<b>CWE-1303: Non-Transparent Sharing of Microarchitectural Resources</b><br>Hardware structures shared across execution contexts (e.g., caches and branch predictors) can violate the expected architecture isolation between contexts.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Non-Transparent Sharing of Microarchitectural Resources",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1303.html",
+      "id": "1303"
+    },
+    {
+      "Description": "<b>CWE-455: Non-exit on Failed Initialization</b><br>The product does not exit or otherwise modify its operation when security-relevant errors occur during initialization, such as when a configuration file has a format error or a hardware security module (HSM) cannot be activated, which can cause the product to execute in a less secure fashion than intended by the administrator.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Non-exit on Failed Initialization",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/455.html",
+      "id": "455"
+    },
+    {
+      "Description": "<b>CWE-653: Improper Isolation or Compartmentalization</b><br>The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Isolation or Compartmentalization",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/653.html",
+      "id": "653"
+    },
+    {
+      "Description": "<b>CWE-259: Use of Hard-coded Password</b><br>The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Use of Hard-coded Password",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/259.html",
+      "id": "259"
+    },
+    {
+      "Description": "<b>CWE-671: Lack of Administrator Control over Security</b><br>The product uses security features in a way that prevents the product's administrator from tailoring security settings to reflect the environment in which the product is being used. This introduces resultant weaknesses or prevents it from operating at a level of security that is desired by the administrator.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Lack of Administrator Control over Security",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/671.html",
+      "id": "671"
+    },
+    {
+      "Description": "<b>CWE-1189: Improper Isolation of Shared Resources on System-on-a-Chip (SoC)</b><br>The System-On-a-Chip (SoC) does not properly isolate shared resources between trusted and untrusted agents.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Isolation of Shared Resources on System-on-a-Chip (SoC)",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1189.html",
+      "id": "1189"
     },
     {
       "Description": "<b>CWE-424: Improper Protection of Alternate Path</b><br>The product does not sufficiently protect all possible paths that a user can take to access restricted functionality or resources.",
@@ -135,6 +229,8 @@
       "size": 18,
       "label": "Improper Protection of Alternate Path",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/424.html",
       "id": "424"
     },
@@ -144,53 +240,10 @@
       "size": 10,
       "label": "Execution with Unnecessary Privileges",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/250.html",
       "id": "250"
-    },
-    {
-      "Description": "<b>CWE-653: Improper Isolation or Compartmentalization</b><br>The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Isolation or Compartmentalization",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/653.html",
-      "id": "653"
-    },
-    {
-      "Description": "<b>CWE-637: Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')</b><br>The product uses a more complex mechanism than necessary, which could lead to resultant weaknesses when the mechanism is not correctly understood, modeled, configured, implemented, or used.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/637.html",
-      "id": "637"
-    },
-    {
-      "Description": "<b>CWE-636: Not Failing Securely ('Failing Open')</b><br>When the product encounters an error condition or failure, its design requires it to fall back to a state that is less secure than other options that are available, such as selecting the weakest encryption algorithm or using the most permissive access control restrictions.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Not Failing Securely ('Failing Open')",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/636.html",
-      "id": "636"
-    },
-    {
-      "Description": "<b>CWE-309: Use of Password System for Primary Authentication</b><br>The use of password systems as the primary means of authentication may be subject to several flaws or shortcomings, each reducing the effectiveness of the mechanism.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Password System for Primary Authentication",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/309.html",
-      "id": "309"
-    },
-    {
-      "Description": "<b>CWE-657: Violation of Secure Design Principles</b><br>The product violates well-established principles for secure design.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Violation of Secure Design Principles",
-      "label_class": "node-label-medium",
-      "url": "https://cwe.mitre.org/data/definitions/657.html",
-      "id": "657"
     },
     {
       "Description": "<b>CWE-1331: Improper Isolation of Shared Resources in Network On Chip (NoC)</b><br>The Network On Chip (NoC) does not isolate or incorrectly isolates its on-chip-fabric and internal resources such that they are shared between trusted and untrusted agents, creating timing channels.",
@@ -198,6 +251,8 @@
       "size": 10,
       "label": "Improper Isolation of Shared Resources in Network On Chip (NoC)",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1331.html",
       "id": "1331"
     },
@@ -207,17 +262,10 @@
       "size": 18,
       "label": "Dependency on Vulnerable Third-Party Component",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1395.html",
       "id": "1395"
-    },
-    {
-      "Description": "<b>CWE-259: Use of Hard-coded Password</b><br>The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Use of Hard-coded Password",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/259.html",
-      "id": "259"
     }
   ],
   "links": [
@@ -228,57 +276,12 @@
     },
     {
       "width": 1,
-      "source": "308",
-      "target": "654"
-    },
-    {
-      "width": 1,
-      "source": "455",
-      "target": "636"
-    },
-    {
-      "width": 1,
-      "source": "798",
-      "target": "671"
-    },
-    {
-      "width": 1,
-      "source": "671",
-      "target": "657"
-    },
-    {
-      "width": 1,
       "source": "654",
       "target": "657"
     },
     {
       "width": 1,
-      "source": "656",
-      "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "1303",
-      "target": "1189"
-    },
-    {
-      "width": 1,
-      "source": "638",
-      "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "1189",
-      "target": "653"
-    },
-    {
-      "width": 1,
-      "source": "321",
-      "target": "798"
-    },
-    {
-      "width": 1,
-      "source": "1192",
+      "source": "636",
       "target": "657"
     },
     {
@@ -288,8 +291,78 @@
     },
     {
       "width": 1,
+      "source": "656",
+      "target": "657"
+    },
+    {
+      "width": 1,
+      "source": "798",
+      "target": "671"
+    },
+    {
+      "width": 1,
+      "source": "637",
+      "target": "657"
+    },
+    {
+      "width": 1,
+      "source": "308",
+      "target": "654"
+    },
+    {
+      "width": 1,
+      "source": "309",
+      "target": "654"
+    },
+    {
+      "width": 1,
+      "source": "638",
+      "target": "657"
+    },
+    {
+      "width": 1,
       "source": "447",
       "target": "671"
+    },
+    {
+      "width": 1,
+      "source": "1192",
+      "target": "657"
+    },
+    {
+      "width": 1,
+      "source": "321",
+      "target": "798"
+    },
+    {
+      "width": 1,
+      "source": "1303",
+      "target": "1189"
+    },
+    {
+      "width": 1,
+      "source": "455",
+      "target": "636"
+    },
+    {
+      "width": 1,
+      "source": "653",
+      "target": "657"
+    },
+    {
+      "width": 1,
+      "source": "259",
+      "target": "798"
+    },
+    {
+      "width": 1,
+      "source": "671",
+      "target": "657"
+    },
+    {
+      "width": 1,
+      "source": "1189",
+      "target": "653"
     },
     {
       "width": 1,
@@ -303,26 +376,6 @@
     },
     {
       "width": 1,
-      "source": "653",
-      "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "637",
-      "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "636",
-      "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "309",
-      "target": "654"
-    },
-    {
-      "width": 1,
       "source": "1331",
       "target": "653"
     },
@@ -330,11 +383,6 @@
       "width": 1,
       "source": "1395",
       "target": "657"
-    },
-    {
-      "width": 1,
-      "source": "259",
-      "target": "798"
     }
   ]
 }

@@ -9,8 +9,21 @@
       "size": 18,
       "label": "Improper Encoding or Escaping of Output",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/116.html",
       "id": "116"
+    },
+    {
+      "Description": "<b>CWE-644: Improper Neutralization of HTTP Headers for Scripting Syntax</b><br>The product does not neutralize or incorrectly neutralizes web scripting syntax in HTTP headers that can be used by web browser components that can process raw headers, such as Flash.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Improper Neutralization of HTTP Headers for Scripting Syntax",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/644.html",
+      "id": "644"
     },
     {
       "Description": "<b>CWE-838: Inappropriate Encoding for Output Context</b><br>The product uses or specifies an encoding when generating output to a downstream component, but the specified encoding is not the same as the encoding that is expected by the downstream component.",
@@ -18,6 +31,8 @@
       "size": 10,
       "label": "Inappropriate Encoding for Output Context",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/838.html",
       "id": "838"
     },
@@ -27,20 +42,18 @@
       "size": 10,
       "label": "Improper Output Neutralization for Logs",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/117.html",
       "id": "117"
-    },
-    {
-      "Description": "<b>CWE-644: Improper Neutralization of HTTP Headers for Scripting Syntax</b><br>The product does not neutralize or incorrectly neutralizes web scripting syntax in HTTP headers that can be used by web browser components that can process raw headers, such as Flash.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Improper Neutralization of HTTP Headers for Scripting Syntax",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/644.html",
-      "id": "644"
     }
   ],
   "links": [
+    {
+      "width": 1,
+      "source": "644",
+      "target": "116"
+    },
     {
       "width": 1,
       "source": "838",
@@ -49,11 +62,6 @@
     {
       "width": 1,
       "source": "117",
-      "target": "116"
-    },
-    {
-      "width": 1,
-      "source": "644",
       "target": "116"
     }
   ]

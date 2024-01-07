@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Covert Channel",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/514.html",
       "id": "514"
     },
@@ -18,6 +20,8 @@
       "size": 10,
       "label": "Covert Timing Channel",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/385.html",
       "id": "385"
     },
@@ -27,6 +31,8 @@
       "size": 18,
       "label": "Creation of Emergent Resource",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1229.html",
       "id": "1229"
     },
@@ -36,6 +42,8 @@
       "size": 10,
       "label": "Covert Storage Channel",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/515.html",
       "id": "515"
     }

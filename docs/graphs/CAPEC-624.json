@@ -9,6 +9,8 @@
       "size": 30,
       "label": "Hardware Fault Injection",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/624.html",
       "id": "624"
     },
@@ -18,6 +20,8 @@
       "size": 18,
       "label": "Mobile Device Fault Injection",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/625.html",
       "id": "625"
     }

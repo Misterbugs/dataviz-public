@@ -9,6 +9,8 @@
       "size": 18,
       "label": "DEPRECATED: Authentication Bypass Issues",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/592.html",
       "id": "592"
     }

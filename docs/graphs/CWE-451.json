@@ -4,11 +4,24 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CWE-1021: Improper Restriction of Rendered UI Layers or Frames</b><br>The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Restriction of Rendered UI Layers or Frames",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1021.html",
+      "id": "1021"
+    },
+    {
       "Description": "<b>CWE-451: User Interface (UI) Misrepresentation of Critical Information</b><br>The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks.",
       "color": "#ff6200",
       "size": 18,
       "label": "User Interface (UI) Misrepresentation of Critical Information",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/451.html",
       "id": "451"
     },
@@ -18,28 +31,21 @@
       "size": 10,
       "label": "Insufficient Visual Distinction of Homoglyphs Presented to User",
       "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1007.html",
       "id": "1007"
-    },
-    {
-      "Description": "<b>CWE-1021: Improper Restriction of Rendered UI Layers or Frames</b><br>The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Improper Restriction of Rendered UI Layers or Frames",
-      "label_class": "node-label-small",
-      "url": "https://cwe.mitre.org/data/definitions/1021.html",
-      "id": "1021"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "1007",
+      "source": "1021",
       "target": "451"
     },
     {
       "width": 1,
-      "source": "1021",
+      "source": "1007",
       "target": "451"
     }
   ]

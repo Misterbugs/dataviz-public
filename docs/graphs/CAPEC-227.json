@@ -9,6 +9,8 @@
       "size": 18,
       "label": "HTTP DoS",
       "label_class": "node-label-medium",
+      "type": "CAPEC",
+      "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/469.html",
       "id": "469"
     },
@@ -18,6 +20,8 @@
       "size": 30,
       "label": "Sustained Client Engagement",
       "label_class": "node-label-big",
+      "type": "CAPEC",
+      "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/227.html",
       "id": "227"
     }

@@ -9,6 +9,8 @@
       "size": 18,
       "label": "Insufficient Control of Network Message Volume (Network Amplification)",
       "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/406.html",
       "id": "406"
     }
