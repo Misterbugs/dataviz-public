@@ -38,6 +38,17 @@
             padding: 10px;
             border-left: 1px solid #ccc; /* Optional, for visual separation */
         }
+        .type-group {
+            margin-bottom: 10px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start; /* Aligns items to the start of the container */
+            margin-bottom: 5px; /* Space between each checkbox */
+        }
+
         .node-label-big { font-size: 15px; }
         .node-label-medium { font-size: 10px; }
         .node-label-small { font-size: 7px; }
@@ -353,7 +364,6 @@
         globalNodeSelection = createChart(filteredData); // Update globalNodeSelection
     }
 
-    // Function to create abstraction level checkboxes grouped by type
     function createAbstractionCheckboxes(data) {
         let typeAbstractionMap = new Map();
 
@@ -369,11 +379,17 @@
 
         // Create checkboxes for each type and its abstractions
         typeAbstractionMap.forEach((abstractions, type) => {
+            let typeContainer = document.createElement('div');
+            typeContainer.classList.add('type-group');
+
             let typeHeader = document.createElement('h3');
             typeHeader.textContent = type;
-            checkboxDiv.appendChild(typeHeader);
+            typeContainer.appendChild(typeHeader);
 
             abstractions.forEach(abstraction => {
+                let checkboxContainer = document.createElement('div');
+                checkboxContainer.classList.add('checkbox-group');
+
                 let checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = 'checkbox-' + type + '-' + abstraction;
@@ -384,11 +400,15 @@
                 label.htmlFor = 'checkbox-' + type + '-' + abstraction;
                 label.textContent = abstraction;
 
-                checkboxDiv.appendChild(checkbox);
-                checkboxDiv.appendChild(label);
+                checkboxContainer.appendChild(checkbox);
+                checkboxContainer.appendChild(label);
+                typeContainer.appendChild(checkboxContainer);
             });
+
+            checkboxDiv.appendChild(typeContainer);
         });
     }
+
     // Use the sanitized filename in the fetch request, with the 'graphs' subdirectory
     const jsonFilename = "graphs/" + getJsonFilenameFromUrl();
     fetch(jsonFilename)
