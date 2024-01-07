@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/406.html",
-      "id": "406"
+      "id": "CWE-406"
     }
   ],
   "links": []

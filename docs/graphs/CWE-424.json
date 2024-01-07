@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/425.html",
-      "id": "425"
+      "id": "CWE-425"
     },
     {
       "Description": "<b>CWE-424: Improper Protection of Alternate Path</b><br>The product does not sufficiently protect all possible paths that a user can take to access restricted functionality or resources.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/424.html",
-      "id": "424"
+      "id": "CWE-424"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "425",
-      "target": "424"
+      "source": "CWE-425",
+      "target": "CWE-424"
     }
   ]
 }

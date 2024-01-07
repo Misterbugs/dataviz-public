@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1263.html",
-      "id": "1263"
+      "id": "CWE-1263"
     },
     {
       "Description": "<b>CWE-1243: Sensitive Non-Volatile Information Not Protected During Debug</b><br>Access to security-sensitive information stored in fuses is not limited during debug.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1243.html",
-      "id": "1243"
+      "id": "CWE-1243"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "1243",
-      "target": "1263"
+      "source": "CWE-1243",
+      "target": "CWE-1263"
     }
   ]
 }

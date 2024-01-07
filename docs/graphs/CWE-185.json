@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/185.html",
-      "id": "185"
+      "id": "CWE-185"
     },
     {
       "Description": "<b>CWE-186: Overly Restrictive Regular Expression</b><br>A regular expression is overly restrictive, which prevents dangerous values from being detected.",
@@ -23,7 +23,7 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/186.html",
-      "id": "186"
+      "id": "CWE-186"
     },
     {
       "Description": "<b>CWE-777: Regular Expression without Anchors</b><br>The product uses a regular expression to perform neutralization, but the regular expression is not anchored and may allow malicious or malformed data to slip through.",
@@ -34,7 +34,7 @@
       "type": "CWE",
       "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/777.html",
-      "id": "777"
+      "id": "CWE-777"
     },
     {
       "Description": "<b>CWE-625: Permissive Regular Expression</b><br>The product uses a regular expression that does not sufficiently restrict the set of allowed values.",
@@ -45,24 +45,24 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/625.html",
-      "id": "625"
+      "id": "CWE-625"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "186",
-      "target": "185"
+      "source": "CWE-186",
+      "target": "CWE-185"
     },
     {
       "width": 1,
-      "source": "777",
-      "target": "625"
+      "source": "CWE-777",
+      "target": "CWE-625"
     },
     {
       "width": 1,
-      "source": "625",
-      "target": "185"
+      "source": "CWE-625",
+      "target": "CWE-185"
     }
   ]
 }

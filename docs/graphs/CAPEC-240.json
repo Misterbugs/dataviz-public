@@ -12,7 +12,7 @@
       "type": "CAPEC",
       "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/610.html",
-      "id": "610"
+      "id": "CAPEC-610"
     },
     {
       "Description": "<b>CAPEC-240: Resource Injection</b><br>An adversary exploits weaknesses in input validation by manipulating resource identifiers enabling the unintended modification or specification of a resource.",
@@ -23,13 +23,13 @@
       "type": "CAPEC",
       "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/240.html",
-      "id": "240"
+      "id": "CAPEC-240"
     }
   ],
   "links": [
     {
-      "source": "610",
-      "target": "240"
+      "source": "CAPEC-610",
+      "target": "CAPEC-240"
     }
   ]
 }

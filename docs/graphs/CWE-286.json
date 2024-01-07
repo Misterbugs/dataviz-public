@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/286.html",
-      "id": "286"
+      "id": "CWE-286"
     },
     {
       "Description": "<b>CWE-842: Placement of User into Incorrect Group</b><br>The product or the administrator places a user into an incorrect group.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/842.html",
-      "id": "842"
+      "id": "CWE-842"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "842",
-      "target": "286"
+      "source": "CWE-842",
+      "target": "CWE-286"
     }
   ]
 }

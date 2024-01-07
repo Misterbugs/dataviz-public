@@ -12,29 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1177.html",
-      "id": "1177"
-    },
-    {
-      "Description": "<b>CWE-242: Use of Inherently Dangerous Function</b><br>The product calls a function that can never be guaranteed to work safely.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Inherently Dangerous Function",
-      "label_class": "node-label-small",
-      "type": "CWE",
-      "abstraction": "Base",
-      "url": "https://cwe.mitre.org/data/definitions/242.html",
-      "id": "242"
-    },
-    {
-      "Description": "<b>CWE-785: Use of Path Manipulation Function without Maximum-sized Buffer</b><br>The product invokes a function for normalizing paths or file names, but it provides an output buffer that is smaller than the maximum possible size, such as PATH_MAX.",
-      "color": "#e8e66b",
-      "size": 10,
-      "label": "Use of Path Manipulation Function without Maximum-sized Buffer",
-      "label_class": "node-label-small",
-      "type": "CWE",
-      "abstraction": "Variant",
-      "url": "https://cwe.mitre.org/data/definitions/785.html",
-      "id": "785"
+      "id": "CWE-1177"
     },
     {
       "Description": "<b>CWE-676: Use of Potentially Dangerous Function</b><br>The product invokes a potentially dangerous function that could introduce a vulnerability if it is used incorrectly, but the function can also be used safely.",
@@ -45,24 +23,46 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/676.html",
-      "id": "676"
+      "id": "CWE-676"
+    },
+    {
+      "Description": "<b>CWE-242: Use of Inherently Dangerous Function</b><br>The product calls a function that can never be guaranteed to work safely.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Inherently Dangerous Function",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/242.html",
+      "id": "CWE-242"
+    },
+    {
+      "Description": "<b>CWE-785: Use of Path Manipulation Function without Maximum-sized Buffer</b><br>The product invokes a function for normalizing paths or file names, but it provides an output buffer that is smaller than the maximum possible size, such as PATH_MAX.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Use of Path Manipulation Function without Maximum-sized Buffer",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/785.html",
+      "id": "CWE-785"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "242",
-      "target": "1177"
+      "source": "CWE-676",
+      "target": "CWE-1177"
     },
     {
       "width": 1,
-      "source": "785",
-      "target": "676"
+      "source": "CWE-242",
+      "target": "CWE-1177"
     },
     {
       "width": 1,
-      "source": "676",
-      "target": "1177"
+      "source": "CWE-785",
+      "target": "CWE-676"
     }
   ]
 }

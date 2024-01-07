@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/1037.html",
-      "id": "1037"
+      "id": "CWE-1037"
     },
     {
       "Description": "<b>CWE-14: Compiler Removal of Code to Clear Buffers</b><br>Sensitive memory is cleared according to the source code, but compiler optimizations leave the memory untouched when it is not read from again, aka \"dead store removal.\"",
@@ -23,7 +23,7 @@
       "type": "CWE",
       "abstraction": "Variant",
       "url": "https://cwe.mitre.org/data/definitions/14.html",
-      "id": "14"
+      "id": "CWE-14"
     },
     {
       "Description": "<b>CWE-1038: Insecure Automated Optimizations</b><br>The product uses a mechanism that automatically optimizes code, e.g. to improve a characteristic such as performance, but the optimizations can have an unintended side effect that might violate an intended security assumption.",
@@ -34,7 +34,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/1038.html",
-      "id": "1038"
+      "id": "CWE-1038"
     },
     {
       "Description": "<b>CWE-733: Compiler Optimization Removal or Modification of Security-critical Code</b><br>The developer builds a security-critical protection mechanism into the software, but the compiler optimizes the program such that the mechanism is removed or modified.",
@@ -45,24 +45,24 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/733.html",
-      "id": "733"
+      "id": "CWE-733"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "1037",
-      "target": "1038"
+      "source": "CWE-1037",
+      "target": "CWE-1038"
     },
     {
       "width": 1,
-      "source": "14",
-      "target": "733"
+      "source": "CWE-14",
+      "target": "CWE-733"
     },
     {
       "width": 1,
-      "source": "733",
-      "target": "1038"
+      "source": "CWE-733",
+      "target": "CWE-1038"
     }
   ]
 }

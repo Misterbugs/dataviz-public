@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/673.html",
-      "id": "673"
+      "id": "CWE-673"
     },
     {
       "Description": "<b>CWE-426: Untrusted Search Path</b><br>The product searches for critical resources using an externally-supplied search path that can point to resources that are not under the product's direct control.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/426.html",
-      "id": "426"
+      "id": "CWE-426"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "426",
-      "target": "673"
+      "source": "CWE-426",
+      "target": "CWE-673"
     }
   ]
 }

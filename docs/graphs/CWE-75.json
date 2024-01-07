@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/76.html",
-      "id": "76"
+      "id": "CWE-76"
     },
     {
       "Description": "<b>CWE-75: Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)</b><br>The product does not adequately filter user-controlled input for special elements with control implications.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/75.html",
-      "id": "75"
+      "id": "CWE-75"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "76",
-      "target": "75"
+      "source": "CWE-76",
+      "target": "CWE-75"
     }
   ]
 }

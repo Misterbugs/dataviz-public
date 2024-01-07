@@ -12,18 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/834.html",
-      "id": "834"
-    },
-    {
-      "Description": "<b>CWE-674: Uncontrolled Recursion</b><br>The product does not properly control the amount of recursion that takes place,  consuming excessive resources, such as allocated memory or the program stack.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Uncontrolled Recursion",
-      "label_class": "node-label-medium",
-      "type": "CWE",
-      "abstraction": "Class",
-      "url": "https://cwe.mitre.org/data/definitions/674.html",
-      "id": "674"
+      "id": "CWE-834"
     },
     {
       "Description": "<b>CWE-776: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')</b><br>The product uses XML documents and allows their structure to be defined with a Document Type Definition (DTD), but it does not properly control the number of recursive definitions of entities.",
@@ -34,18 +23,18 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/776.html",
-      "id": "776"
+      "id": "CWE-776"
     },
     {
-      "Description": "<b>CWE-1322: Use of Blocking Code in Single-threaded, Non-blocking Context</b><br>The product uses a non-blocking model that relies on a single threaded process\n\t\t\tfor features such as scalability, but it contains code that can block when it is invoked.",
-      "color": "#ffbb00",
-      "size": 10,
-      "label": "Use of Blocking Code in Single-threaded, Non-blocking Context",
-      "label_class": "node-label-small",
+      "Description": "<b>CWE-674: Uncontrolled Recursion</b><br>The product does not properly control the amount of recursion that takes place,  consuming excessive resources, such as allocated memory or the program stack.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Uncontrolled Recursion",
+      "label_class": "node-label-medium",
       "type": "CWE",
-      "abstraction": "Base",
-      "url": "https://cwe.mitre.org/data/definitions/1322.html",
-      "id": "1322"
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/674.html",
+      "id": "CWE-674"
     },
     {
       "Description": "<b>CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')</b><br>The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop.",
@@ -56,29 +45,40 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/835.html",
-      "id": "835"
+      "id": "CWE-835"
+    },
+    {
+      "Description": "<b>CWE-1322: Use of Blocking Code in Single-threaded, Non-blocking Context</b><br>The product uses a non-blocking model that relies on a single threaded process\n\t\t\tfor features such as scalability, but it contains code that can block when it is invoked.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Blocking Code in Single-threaded, Non-blocking Context",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1322.html",
+      "id": "CWE-1322"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "674",
-      "target": "834"
+      "source": "CWE-776",
+      "target": "CWE-674"
     },
     {
       "width": 1,
-      "source": "776",
-      "target": "674"
+      "source": "CWE-674",
+      "target": "CWE-834"
     },
     {
       "width": 1,
-      "source": "1322",
-      "target": "834"
+      "source": "CWE-835",
+      "target": "CWE-834"
     },
     {
       "width": 1,
-      "source": "835",
-      "target": "834"
+      "source": "CWE-1322",
+      "target": "CWE-834"
     }
   ]
 }

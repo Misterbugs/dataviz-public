@@ -4,17 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "Description": "<b>CWE-674: Uncontrolled Recursion</b><br>The product does not properly control the amount of recursion that takes place,  consuming excessive resources, such as allocated memory or the program stack.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Uncontrolled Recursion",
-      "label_class": "node-label-medium",
-      "type": "CWE",
-      "abstraction": "Class",
-      "url": "https://cwe.mitre.org/data/definitions/674.html",
-      "id": "674"
-    },
-    {
       "Description": "<b>CWE-776: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')</b><br>The product uses XML documents and allows their structure to be defined with a Document Type Definition (DTD), but it does not properly control the number of recursive definitions of entities.",
       "color": "#ffbb00",
       "size": 10,
@@ -23,14 +12,25 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/776.html",
-      "id": "776"
+      "id": "CWE-776"
+    },
+    {
+      "Description": "<b>CWE-674: Uncontrolled Recursion</b><br>The product does not properly control the amount of recursion that takes place,  consuming excessive resources, such as allocated memory or the program stack.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Uncontrolled Recursion",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/674.html",
+      "id": "CWE-674"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "776",
-      "target": "674"
+      "source": "CWE-776",
+      "target": "CWE-674"
     }
   ]
 }

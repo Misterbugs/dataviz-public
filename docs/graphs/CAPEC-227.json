@@ -12,7 +12,7 @@
       "type": "CAPEC",
       "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/469.html",
-      "id": "469"
+      "id": "CAPEC-469"
     },
     {
       "Description": "<b>CAPEC-227: Sustained Client Engagement</b><br>An adversary attempts to deny legitimate users access to a resource by continually engaging a specific resource in an attempt to keep the resource tied up as long as possible. The adversary's primary goal is not to crash or flood the target, which would alert defenders; rather it is to repeatedly perform actions or abuse algorithmic flaws such that a given resource is tied up and not available to a legitimate user. By carefully crafting a requests that keep the resource engaged through what is seemingly benign requests, legitimate users are limited or completely denied access to the resource.",
@@ -23,13 +23,13 @@
       "type": "CAPEC",
       "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/227.html",
-      "id": "227"
+      "id": "CAPEC-227"
     }
   ],
   "links": [
     {
-      "source": "469",
-      "target": "227"
+      "source": "CAPEC-469",
+      "target": "CAPEC-227"
     }
   ]
 }

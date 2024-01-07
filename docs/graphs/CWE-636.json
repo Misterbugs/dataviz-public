@@ -12,7 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/636.html",
-      "id": "636"
+      "id": "CWE-636"
     },
     {
       "Description": "<b>CWE-455: Non-exit on Failed Initialization</b><br>The product does not exit or otherwise modify its operation when security-relevant errors occur during initialization, such as when a configuration file has a format error or a hardware security module (HSM) cannot be activated, which can cause the product to execute in a less secure fashion than intended by the administrator.",
@@ -23,14 +23,14 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/455.html",
-      "id": "455"
+      "id": "CWE-455"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "455",
-      "target": "636"
+      "source": "CWE-455",
+      "target": "CWE-636"
     }
   ]
 }

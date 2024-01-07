@@ -12,18 +12,7 @@
       "type": "CWE",
       "abstraction": "Class",
       "url": "https://cwe.mitre.org/data/definitions/638.html",
-      "id": "638"
-    },
-    {
-      "Description": "<b>CWE-424: Improper Protection of Alternate Path</b><br>The product does not sufficiently protect all possible paths that a user can take to access restricted functionality or resources.",
-      "color": "#ff6200",
-      "size": 18,
-      "label": "Improper Protection of Alternate Path",
-      "label_class": "node-label-medium",
-      "type": "CWE",
-      "abstraction": "Class",
-      "url": "https://cwe.mitre.org/data/definitions/424.html",
-      "id": "424"
+      "id": "CWE-638"
     },
     {
       "Description": "<b>CWE-425: Direct Request ('Forced Browsing')</b><br>The web application does not adequately enforce appropriate authorization on all restricted URLs, scripts, or files.",
@@ -34,19 +23,30 @@
       "type": "CWE",
       "abstraction": "Base",
       "url": "https://cwe.mitre.org/data/definitions/425.html",
-      "id": "425"
+      "id": "CWE-425"
+    },
+    {
+      "Description": "<b>CWE-424: Improper Protection of Alternate Path</b><br>The product does not sufficiently protect all possible paths that a user can take to access restricted functionality or resources.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Improper Protection of Alternate Path",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/424.html",
+      "id": "CWE-424"
     }
   ],
   "links": [
     {
       "width": 1,
-      "source": "424",
-      "target": "638"
+      "source": "CWE-425",
+      "target": "CWE-424"
     },
     {
       "width": 1,
-      "source": "425",
-      "target": "424"
+      "source": "CWE-424",
+      "target": "CWE-638"
     }
   ]
 }

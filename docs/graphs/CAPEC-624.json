@@ -12,7 +12,7 @@
       "type": "CAPEC",
       "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/624.html",
-      "id": "624"
+      "id": "CAPEC-624"
     },
     {
       "Description": "<b>CAPEC-625: Mobile Device Fault Injection</b><br>Fault injection attacks against mobile devices use disruptive signals or events (e.g. electromagnetic pulses, laser pulses, clock glitches, etc.) to cause faulty behavior. When performed in a controlled manner on devices performing cryptographic operations, this faulty behavior can be exploited to derive secret key information. Although this attack usually requires physical control of the mobile device, it is non-destructive, and the device can be used after the attack without any indication that secret keys were compromised.",
@@ -23,13 +23,13 @@
       "type": "CAPEC",
       "abstraction": "Standard",
       "url": "https://capec.mitre.org/data/definitions/625.html",
-      "id": "625"
+      "id": "CAPEC-625"
     }
   ],
   "links": [
     {
-      "source": "625",
-      "target": "624"
+      "source": "CAPEC-625",
+      "target": "CAPEC-624"
     }
   ]
 }

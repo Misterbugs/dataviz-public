@@ -12,7 +12,7 @@
       "type": "CAPEC",
       "abstraction": "Meta",
       "url": "https://capec.mitre.org/data/definitions/25.html",
-      "id": "25"
+      "id": "CAPEC-25"
     }
   ],
   "links": []
