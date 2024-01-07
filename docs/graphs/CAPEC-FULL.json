@@ -4,6 +4,116 @@
   "graph": {},
   "nodes": [
     {
+      "Description": "<b>CWE-1004: Sensitive Cookie Without 'HttpOnly' Flag</b><br>The product uses a cookie to store sensitive information, but the cookie is not marked with the HttpOnly flag.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Sensitive Cookie Without 'HttpOnly' Flag",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/1004.html",
+      "id": "1004"
+    },
+    {
+      "Description": "<b>CWE-732: Incorrect Permission Assignment for Critical Resource</b><br>The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Incorrect Permission Assignment for Critical Resource",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/732.html",
+      "id": "732"
+    },
+    {
+      "Description": "<b>CWE-1007: Insufficient Visual Distinction of Homoglyphs Presented to User</b><br>The product displays information or identifiers to a user, but the display mechanism does not make it easy for the user to distinguish between visually similar or identical glyphs (homoglyphs), which may cause the user to misinterpret a glyph and perform an unintended, insecure action.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Insufficient Visual Distinction of Homoglyphs Presented to User",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1007.html",
+      "id": "1007"
+    },
+    {
+      "Description": "<b>CWE-451: User Interface (UI) Misrepresentation of Critical Information</b><br>The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "User Interface (UI) Misrepresentation of Critical Information",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/451.html",
+      "id": "451"
+    },
+    {
+      "Description": "<b>CWE-102: Struts: Duplicate Validation Forms</b><br>The product uses multiple validation forms with the same name, which might cause the Struts Validator to validate a form that the programmer does not expect.",
+      "color": "#e8e66b",
+      "size": 10,
+      "label": "Struts: Duplicate Validation Forms",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Variant",
+      "url": "https://cwe.mitre.org/data/definitions/102.html",
+      "id": "102"
+    },
+    {
+      "Description": "<b>CWE-694: Use of Multiple Resources with Duplicate Identifier</b><br>The product uses multiple resources that can have the same identifier, in a context in which unique identifiers are required.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Use of Multiple Resources with Duplicate Identifier",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/694.html",
+      "id": "694"
+    },
+    {
+      "Description": "<b>CWE-1173: Improper Use of Validation Framework</b><br>The product does not use, or incorrectly uses, an input validation framework that is provided by the source language or an independent library.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Use of Validation Framework",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1173.html",
+      "id": "1173"
+    },
+    {
+      "Description": "<b>CWE-20: Improper Input Validation</b><br>The product receives input or data, but it does\n        not validate or incorrectly validates that the input has the\n        properties that are required to process the data safely and\n        correctly.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Improper Input Validation",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/20.html",
+      "id": "20"
+    },
+    {
+      "Description": "<b>CWE-1021: Improper Restriction of Rendered UI Layers or Frames</b><br>The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain, which can lead to user confusion about which interface the user is interacting with.",
+      "color": "#ffbb00",
+      "size": 10,
+      "label": "Improper Restriction of Rendered UI Layers or Frames",
+      "label_class": "node-label-small",
+      "type": "CWE",
+      "abstraction": "Base",
+      "url": "https://cwe.mitre.org/data/definitions/1021.html",
+      "id": "1021"
+    },
+    {
+      "Description": "<b>CWE-441: Unintended Proxy or Intermediary ('Confused Deputy')</b><br>The product receives a request, message, or directive from an upstream component, but the product does not sufficiently preserve the original source of the request before forwarding the request to an external actor that is outside of the product's control sphere. This causes the product to appear to be the source of the request, leading it to act as a proxy or other intermediary between the upstream component and the external actor.",
+      "color": "#ff6200",
+      "size": 18,
+      "label": "Unintended Proxy or Intermediary ('Confused Deputy')",
+      "label_class": "node-label-medium",
+      "type": "CWE",
+      "abstraction": "Class",
+      "url": "https://cwe.mitre.org/data/definitions/441.html",
+      "id": "441"
+    },
+    {
       "Description": "<b>CAPEC-1: Accessing Functionality Not Properly Constrained by ACLs</b><br>In applications, particularly web applications, access to functionality is mitigated by an authorization framework. This framework maps Access Control Lists (ACLs) to elements of the application's functionality; particularly URL's for web apps. In the case that the administrator failed to specify an ACL for a particular element, an attacker may be able to access it with impunity. An attacker with the ability to access functionality not properly constrained by ACLs can obtain sensitive information and possibly compromise the entire application. Such an attacker can access resources that must be available only to users at a higher privilege level, can access management sections of the application, or can run queries for data that they otherwise not supposed to.",
       "color": "#75aaff",
       "size": 18,
