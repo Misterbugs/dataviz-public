@@ -332,7 +332,7 @@
     // Function to update the graph based on checkbox states
     function updateGraph(originalData) {
         let filteredNodes = originalData.nodes.filter(node => {
-            let checkbox = document.getElementById('checkbox-' + node.abstraction);
+            let checkbox = document.getElementById('checkbox-' + node.type + '-' + node.abstraction);
             return checkbox && checkbox.checked;
         });
 
@@ -353,40 +353,42 @@
         globalNodeSelection = createChart(filteredData); // Update globalNodeSelection
     }
 
-    // Event handler for checkbox change
-    function handleCheckboxChange(event) {
-        const abstractionValue = event.target.getAttribute('data-abstraction');
-        const isChecked = event.target.checked;
-
-        // Update node visibility based on checkbox state
-        globalNodeSelection.each(function(d) {
-            if (d.abstraction === abstractionValue) {
-                d3.select(this).style('visibility', isChecked ? 'visible' : 'hidden');
-            }
-        });
-    }
-
-    // Function to create abstraction level checkboxes
+    // Function to create abstraction level checkboxes grouped by type
     function createAbstractionCheckboxes(data) {
-        let abstractions = new Set(data.nodes.map(node => node.abstraction));
+        let typeAbstractionMap = new Map();
+
+        // Group abstractions by type
+        data.nodes.forEach(node => {
+            if (!typeAbstractionMap.has(node.type)) {
+                typeAbstractionMap.set(node.type, new Set());
+            }
+            typeAbstractionMap.get(node.type).add(node.abstraction);
+        });
+
         let checkboxDiv = document.querySelector('.checkbox-container');
 
-        abstractions.forEach(abstraction => {
-            let checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.id = 'checkbox-' + abstraction;
-            checkbox.checked = true;
-            checkbox.addEventListener('change', () => updateGraph(data));
+        // Create checkboxes for each type and its abstractions
+        typeAbstractionMap.forEach((abstractions, type) => {
+            let typeHeader = document.createElement('h3');
+            typeHeader.textContent = type;
+            checkboxDiv.appendChild(typeHeader);
 
-            let label = document.createElement('label');
-            label.htmlFor = 'checkbox-' + abstraction;
-            label.textContent = abstraction;
+            abstractions.forEach(abstraction => {
+                let checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = 'checkbox-' + type + '-' + abstraction;
+                checkbox.checked = true;
+                checkbox.addEventListener('change', () => updateGraph(data));
 
-            checkboxDiv.appendChild(checkbox);
-            checkboxDiv.appendChild(label);
+                let label = document.createElement('label');
+                label.htmlFor = 'checkbox-' + type + '-' + abstraction;
+                label.textContent = abstraction;
+
+                checkboxDiv.appendChild(checkbox);
+                checkboxDiv.appendChild(label);
+            });
         });
     }
-
     // Use the sanitized filename in the fetch request, with the 'graphs' subdirectory
     const jsonFilename = "graphs/" + getJsonFilenameFromUrl();
     fetch(jsonFilename)
