@@ -334,7 +334,7 @@
 
             // Clear the existing graph and redraw with the filtered data
             document.querySelector('.graph-container').innerHTML = '';
-            createChart(filteredData);
+            globalNodeSelection = createChart(filteredData); // Update globalNodeSelection
         }
 
         // Event handler for checkbox change
@@ -376,8 +376,8 @@
         fetch(jsonFilename)
             .then(response => response.json())
             .then(data => {
-                createAbstractionCheckboxes(data); // Call the function to create checkboxes
-                globalNodeSelection = createChart(data);
+                createAbstractionCheckboxes(data); // Create checkboxes
+                globalNodeSelection = createChart(data); // Store the initial node selection
             })
             .catch(error => console.error('Error loading data:', error));
 
